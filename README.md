@@ -2,7 +2,7 @@
 
 ## Data
 
-Data source: [graemetlloyd.com][http://www.graemetlloyd.com/matr.html] (as at 05/07/19).
+Data source: [graemetlloyd.com](http://www.graemetlloyd.com/matr.html) (as at 05/07/19).
 
 Filtering:
 
