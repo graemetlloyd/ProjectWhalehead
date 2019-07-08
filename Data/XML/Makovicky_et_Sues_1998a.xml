@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Makovicky, P. J.</List>
+			<List>Sues, H.-D.</List>
+		</Author>
+		<Year>1998</Year>
+		<Title>Anatomy and phylogenetic relationships of the theropod dinosaur <em>Microvenator celer</em> from the Lower Cretaceous of Montana</Title>
+		<Journal>American Museum Novitates</Journal>
+		<Volume>3240</Volume>
+		<Pages>1-27</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="14">
+		<List recon_name="Herrerasaurus_ischigualastensis" recon_no="55000">Herrerasaurus</List>
+		<List recon_name="Coelophysis" recon_no="38520">Coelophysis</List>
+		<List recon_name="Allosaurus" recon_no="38590">Allosaurus</List>
+		<List recon_name="Tyrannosauridae" recon_no="38606">Tyrannosauridae</List>
+		<List recon_name="Ornithomimosauria" recon_no="55491">Ornithomimosauria</List>
+		<List recon_name="Ornitholestes_hermanni" recon_no="55484">Ornitholestes</List>
+		<List recon_name="Coelurus_fragilis" recon_no="52986">Coelurus</List>
+		<List recon_name="Therizinosauroidea" recon_no="64125">Therizinosauroidea</List>
+		<List recon_name="Microvenator_celer" recon_no="65860">Microvenator</List>
+		<List recon_name="Oviraptoridae" recon_no="38557">Oviraptoridae</List>
+		<List recon_name="Caenagnathidae" recon_no="54544">Caenagnathidae</List>
+		<List recon_name="Avialae" recon_no="53211">Avialae</List>
+		<List recon_name="Dromaeosauridae" recon_no="38561">Dromaeosauridae</List>
+		<List recon_name="Troodontidae" recon_no="54468">Troodontidae</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="95">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Makovicky_et_Sues_1998a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

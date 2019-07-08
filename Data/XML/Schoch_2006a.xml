@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Schoch, R. R.</List>
+		</Author>
+		<Year>2006</Year>
+		<Title>A complete trematosaurid amphibian from the Middle Triassic of Germany</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>26</Volume>
+		<Pages>29-43</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="12">
+		<List recon_name="Lydekkerina_huxleyi" recon_no="255237">Lydekkerina_huxleyi</List>
+		<List recon_name="Benthosuchus_sushkini" recon_no="269989">Benthosuchus_sushkini</List>
+		<List recon_name="Thoosuchus_yakovlevi" recon_no="362936">Thoosuchus_yakovlevi</List>
+		<List recon_name="Trematosaurus_brauni" recon_no="248613">Trematosaurus_brauni</List>
+		<List recon_name="Platystega_depressa" recon_no="266623">Platystega_depressa</List>
+		<List recon_name="Lyrocephaliscus_euri" recon_no="266625">Lyrocephaliscus_euri</List>
+		<List recon_name="Tertrema_acuta" recon_no="266624">Tertrema_acuta</List>
+		<List recon_name="Tertremoides_madagascariensis" recon_no="266663">Tertremoides_madagascariensis</List>
+		<List recon_name="Trematolestes_hagdorni" recon_no="179389">Trematolestes_hagdorni</List>
+		<List recon_name="Wantzosaurus_elongatus" recon_no="266631">Wantzosaurus_elongatus</List>
+		<List recon_name="Cosgriffius_campi" recon_no="165271">Cosgriffius_campi</List>
+		<List recon_name="Aphaneramma_rostratum" recon_no="266522">Aphaneramma_rostratum</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="46">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Schoch_2006a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

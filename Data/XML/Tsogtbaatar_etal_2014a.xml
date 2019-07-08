@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Tsogtbaatar, K.</List>
+			<List>Weishampel, D. B.</List>
+			<List>Evans, D. C.</List>
+			<List>Watabe, M.</List>
+		</Author>
+		<Year>2014</Year>
+		<Title>A new hadrosauroid (<em>Plesiohadros djadokhtaensis</em>) from the Late Cretaceous Djadokhtan Fauna of Southern Mongolia</Title>
+		<Journal/>
+		<Volume/>
+		<Pages>108-135</Pages>
+		<Booktitle>Hadrosaurs</Booktitle>
+		<Publisher>Indiana University Press</Publisher>
+		<City>Bloomington</City>
+		<Editor>
+			<List>Eberth, D. A.</List>
+			<List>Evans, D. C.</List>
+		</Editor>
+ 	</Source>
+	<Taxa number="42">
+		<List recon_name="Hypsilophodon_foxii" recon_no="54190">Hypsilophodon_foxii</List>
+		<List recon_name="Iguanodon_bernissartensis" recon_no="58905">Iguanodon_bernissartensis</List>
+		<List recon_name="Ouranosaurus_nigeriensis" recon_no="52877">Ouranosaurus_nigeriensis</List>
+		<List recon_name="Fukuisaurus_tetoriensis" recon_no="68189">Fukuisaurus_tetoriensis</List>
+		<List recon_name="Altirhinus_kurzanovi" recon_no="58903">Altirhinus_kurzanovi</List>
+		<List recon_name="Eolambia_caroljonesa" recon_no="66500">Eolambia_caroljonesa</List>
+		<List recon_name="Probactrosaurus_gobiensis" recon_no="52878">Probactrosaurus_gobiensis</List>
+		<List recon_name="Equijubus_normani" recon_no="58927">Equijubus_normani</List>
+		<List recon_name="Jinzhousaurus_yangi" recon_no="90097">Jinzhousaurus_yangi</List>
+		<List recon_name="Protohadros_byrdi" recon_no="64527">Protohadrosaurus_byrdi</List>
+		<List recon_name="Telmatosaurus_transsylvanicus" recon_no="68154">Telfnatosaurus_transsylvanicus</List>
+		<List recon_name="Tethyshadros_insularis" recon_no="161198">Tethyshadros_insularis</List>
+		<List recon_name="Bactrosaurus_johnsoni" recon_no="57344">Bactrosaurus_johnsoni</List>
+		<List recon_name="Plesiohadros_djadokhtaensis" recon_no="318945">Plesiohadros_djadokhtaensis</List>
+		<List recon_name="Levnesovia_transoxiana" recon_no="148886">Levnesovia_transoxiana</List>
+		<List recon_name="Tanius_sinensis" recon_no="53379">Tanius_sinensis</List>
+		<List recon_name="Aralosaurus_tuberiferus" recon_no="67547">Aralosaurus_tuberiferus</List>
+		<List recon_name="Tsintaosaurus_spinorhinus" recon_no="53387">Tsintaosaurus_spinorhinus</List>
+		<List recon_name="Jaxartosaurus_aralensis" recon_no="65693">Jaxartosaurus_aralensis</List>
+		<List recon_name="Nipponosaurus_sachalinensis" recon_no="56972">Nipponosaurus_sachalinensis</List>
+		<List recon_name="Amurosaurus_riabinini" recon_no="64251">Amurosaurus_riabinini</List>
+		<List recon_name="Lambeosaurus_lambei" recon_no="56724">Lambeosaurus_lambei</List>
+		<List recon_name="Lambeosaurus_magnicristatus" recon_no="65429">Lambeosaurus_magnicristatus</List>
+		<List recon_name="Corythosaurus_casuarius" recon_no="56403">Corythosaurus_casuarius</List>
+		<List recon_name="Hypacrosaurus_altispinus" recon_no="56406">Hypacrosaurus_altispinus</List>
+		<List recon_name="Hypacrosaurus_stebingeri" recon_no="64339">Hypacrosaurus_stebingeri</List>
+		<List recon_name="Olorotitan_arharensis" recon_no="72095">0lorotitan_arharensis</List>
+		<List recon_name="Parasaurolophus_walkeri" recon_no="63256">Parasaurolophus_walkeri</List>
+		<List recon_name="Parasaurolophus_cyrtocristatus" recon_no="66260">Parasaurolophus_cyrtocristatus</List>
+		<List recon_name="Charonosaurus_jiayinensis" recon_no="64259">Charonosaurus_jiayinensis</List>
+		<List recon_name="Lophorhothon_atopus" recon_no="67215">Lophorhothon_atopus</List>
+		<List recon_name="Kritosaurus_navajovius" recon_no="53196">Kritosaurus_navajovius</List>
+		<List recon_name="Maiasaura_peeblesorum" recon_no="55574">Maiasaura_peeblesorum</List>
+		<List recon_name="Brachylophosaurus_canadensis" recon_no="65213">Brachylophosaurus_canadensis</List>
+		<List recon_name="Gryposaurus_notabilis" recon_no="63251">Gryposaurus_notabilis</List>
+		<List recon_name="Kerberosaurus_manakini" recon_no="64257">Kerberosaurus_manakini</List>
+		<List recon_name="Saurolophus_osborni" recon_no="53386">Saurolophus_osborni</List>
+		<List recon_name="Saurolophus_angustirostris" recon_no="64295">Saurolophus_angustirostris</List>
+		<List recon_name="Prosaurolophus_maximus" recon_no="53384">Prosaurolophus_maximus</List>
+		<List recon_name="Edmontosaurus_regalis" recon_no="63254">Edmontosaurus_regalis</List>
+		<List recon_name="Edmontosaurus_annectens" recon_no="64305">Edmontosaurus_annectens</List>
+		<List recon_name="Kritosaurus_australis" recon_no="66683">Kritosaurus_australis</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="138">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Tsogtbaatar_etal_2014a</Filename>
+	<Parent>Sues_et_Averianov_2009b</Parent>
+	<Sibling/>
+</SourceTree>

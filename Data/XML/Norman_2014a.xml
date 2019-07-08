@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Norman, D. B.</List>
+		</Author>
+		<Year>2014</Year>
+		<Title>lguanodonts from the Wealden of England: do they contribute to the discussion concerning hadrosaur origins?</Title>
+		<Journal/>
+		<Volume/>
+		<Pages>10-43</Pages>
+		<Booktitle>Hadrosaurs</Booktitle>
+		<Publisher>Indiana University Press</Publisher>
+		<City>Bloomington</City>
+		<Editor>
+			<List>Eberth, D. A.</List>
+			<List>Evans, D. C.</List>
+		</Editor>
+ 	</Source>
+	<Taxa number="24">
+		<List recon_name="Lesothosaurus_diagnosticus" recon_no="57574">Lesothosaurus_diagnosticus</List>
+		<List recon_name="Hypsilophodon_foxii" recon_no="54190">Hypsilophodon_foxii</List>
+		<List recon_name="Zalmoxes_robustus" recon_no="66743">Zalmoxes_robustus</List>
+		<List recon_name="Tenontosaurus_tilletti" recon_no="52887">Tenontosaurus_tilletti</List>
+		<List recon_name="Dryosaurus_altus" recon_no="54253">Dryosaurus_altus</List>
+		<List recon_name="Camptosaurus_dispar" recon_no="52880">Camptosaurus_dispar</List>
+		<List recon_name="Mantellisaurus_atherfieldensis" recon_no="104635">Mantellisaurus_atherfieldensis</List>
+		<List recon_name="Iguanodon_bernissartensis" recon_no="58905">Iguanodon_bernissartensis</List>
+		<List recon_name="Ouranosaurus_nigeriensis" recon_no="52877">Ouranosaurus_nigeriensis</List>
+		<List recon_name="Altirhinus_kurzanovi" recon_no="58903">Altirhinus_kurzanovi</List>
+		<List recon_name="Eolambia_caroljonesa" recon_no="66500">Eolambia_caroljonesa</List>
+		<List recon_name="Jinzhousaurus_yangi" recon_no="90097">Jinzhousaurus_yangi</List>
+		<List recon_name="Hypselospinus_fittoni" recon_no="167442">Hypselospinus_fittoni</List>
+		<List recon_name="Barilium_dawsoni" recon_no="167440">Barilium_dawsoni</List>
+		<List recon_name="Equijubus_normani" recon_no="58927">Equijubus_normani</List>
+		<List recon_name="Protohadros_byrdi" recon_no="64527">Protohadros_byrdi</List>
+		<List recon_name="Probactrosaurus_gobiensis" recon_no="52878">Probactrosaurus_gobiensis</List>
+		<List recon_name="Bactrosaurus_johnsoni" recon_no="57344">Bactrosaurus_johnsoni</List>
+		<List recon_name="Tethyshadros_insularis" recon_no="161198">Tethyshadros_insularis</List>
+		<List recon_name="Parasaurolophus_walkeri" recon_no="63256">Parasaurololphus_walker</List>
+		<List recon_name="Saurolophus_osborni" recon_no="53386">Saurolophus_osborni</List>
+		<List recon_name="Telmatosaurus_transsylvanicus" recon_no="68154">Telmatosaurus_transsylvanicus</List>
+		<List recon_name="Xuwulong_yueluni" recon_no="176315">Xuwulong_yueluni</List>
+		<List recon_name="Bolong_yixianensis" recon_no="173566">Bolong_yixianensis</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="92">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Norman_2014a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

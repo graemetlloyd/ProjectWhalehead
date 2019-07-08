@@ -1,0 +1,68 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Rauhut, O. W. M.</List>
+			<List>Carrano, M. T.</List>
+		</Author>
+		<Year>in press</Year>
+		<Title>The theropod dinosaur <em>Elaphrosaurus bambergi</em> Janensch, 1920, from the Late Jurassic of Tendaguru, Tanzania</Title>
+		<Journal>Zoological Journal of the Linnean Society</Journal>
+		<Volume/>
+		<Pages/>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="33">
+		<List recon_name="Herrerasaurus_ischigualastensis" recon_no="55000">Herrerasaurus</List>
+		<List recon_name="Syntarsus" recon_no="38525">Syntarsus</List>
+		<List recon_name="Dilophosaurus" recon_no="38522">Dilophosaurus</List>
+		<List recon_name="Allosaurus" recon_no="38590">Allosaurus</List>
+		<List recon_name="Abelisaurus_comahuensis" recon_no="53945">Abelisaurus</List>
+		<List recon_name="Aucasaurus_garridoi" recon_no="54524">Aucasaurus</List>
+		<List recon_name="Berberosaurus_liassicus" recon_no="109009">Berberosaurus</List>
+		<List recon_name="Carnotaurus_sastrei" recon_no="54526">Carnotaurus</List>
+		<List recon_name="Ceratosauria_indet_CCG_20011" recon_no="54164">CCG_20011</List>
+		<List recon_name="Ceratosaurus_nasicornis" recon_no="54165">Ceratosaurus</List>
+		<List recon_name="Dahalokely_tokana" recon_no="265641">Dahalokely</List>
+		<List recon_name="Deltadromeus_agilis" recon_no="65367">Deltadromeus</List>
+		<List recon_name="Ekrixinatosaurus_novasi" recon_no="65416">Ekrixinatosaurus</List>
+		<List recon_name="Elaphrosaurus_bambergi" recon_no="55481">Elaphrosaurus</List>
+		<List recon_name="Eoabelisaurus_mefi" recon_no="242130">Eoabelisaurus</List>
+		<List recon_name="Genusaurus_sisteronis" recon_no="56392">Genusaurus</List>
+		<List recon_name="Genyodectes_serus" recon_no="57033">Genyodectes</List>
+		<List recon_name="Ilokelesia_aguadagrandensis" recon_no="54532">Ilokelesia</List>
+		<List recon_name="Indosaurus_matleyi" recon_no="54099">Indosaurus</List>
+		<List recon_name="Kryptops_palaios" recon_no="123316">Kryptops</List>
+		<List recon_name="Laevisuchus_indicus" recon_no="56390">Laevisuchus</List>
+		<List recon_name="Limusaurus_inextricabilis" recon_no="148871">Limusaurus</List>
+		<List recon_name="Majungasaurus_crenatissimus" recon_no="53957">Majungasaurus</List>
+		<List recon_name="Masiakasaurus_knopfleri" recon_no="56389">Masiakasaurus</List>
+		<List recon_name="Noasaurus_leali" recon_no="54534">Noasaurus</List>
+		<List recon_name="Rahiolisaurus_gujaratensis" recon_no="172844">Rahiolisaurus</List>
+		<List recon_name="Rajasaurus_narmadensis" recon_no="54433">Rajasaurus</List>
+		<List recon_name="Rugops_primus" recon_no="71395">Rugops</List>
+		<List recon_name="Skorpiovenator_bustingorryi" recon_no="138557">Skorpiovenator</List>
+		<List recon_name="Ceratosauria_indet_MNN_tig6" recon_no="54164">MNN_tig6</List>
+		<List recon_name="Spinostropheus_gautieri" recon_no="71393">Spinostropheus_type</List>
+		<List recon_name="Velocisaurus_unicus" recon_no="64902">Velocisaurus</List>
+		<List recon_name="Ceratosauria_indet_USNM_8415" recon_no="54164">USNM_8415</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="216">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Rauhut_et_Carrano_inpressa</Filename>
+	<Parent>Pol_et_Rauhut_2012a</Parent>
+	<Sibling/>
+</SourceTree>

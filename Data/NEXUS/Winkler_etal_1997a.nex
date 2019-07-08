@@ -1,0 +1,28 @@
+#NEXUS
+
+[!File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=11 NCHAR=30 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2 3 4" MISSING=? GAP=- ;
+MATRIX
+
+Heterodontosaurus       00001?000020000?10001100??0000
+Thescelosaurus          0???11101????01001000200010000
+Orodromeus              ????01??10?001???1???2????0?00
+Parksosaurus            ??1?011010?10?1001??12?0?10000
+Hypsilophodon           001000101000011001000200000000
+Tenontosaurus_dossi     010010100101000000101301001111
+Tenontosaurus_tilletti  110010100111000000101311011111
+Dryosaurus              110110110111100010101301010000
+Camptosaurus            110110110111100010101201020000
+Iguanodon               110110110111100110112412120000
+Hadrosauridae           110110110111100110112412120000
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = ord: 21-22 24, unord: 1-20 23 25-30;
+END;
+

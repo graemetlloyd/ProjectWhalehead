@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Ekdale, E. G.</List>
+			<List>Berta, A.</List>
+			<List>Demere, T. A.</List>
+		</Author>
+		<Year>2011</Year>
+		<Title>The comparative osteology of the petrotympanic complex (ear region) of extant baleen whales (Cetacea: Mysticeti)</Title>
+		<Journal>PLOS ONE</Journal>
+		<Volume>6</Volume>
+		<Pages>e21311</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="14">
+		<List recon_name="Mammalodon_colliveri" recon_no="63222">Mammalodon_colliveri</List>
+		<List recon_name="Eomysticetus_whitmorei" recon_no="63469">Eomysticetus_whitmorei</List>
+		<List recon_name="Balaenoptera_acutorostrata" recon_no="68469">Balaenoptera_acutorostrata</List>
+		<List recon_name="Balaenoptera_bonaerensis" recon_no="81901">Balaenoptera_bonaerensis</List>
+		<List recon_name="Balaenoptera_borealis" recon_no="70692">Balaenoptera_borealis</List>
+		<List recon_name="Balaenoptera_edeni" recon_no="81902">Balaenoptera_edeni</List>
+		<List recon_name="Balaenoptera_musculus" recon_no="70697">Balaenoptera_musculus</List>
+		<List recon_name="Balaenoptera_omurai" recon_no="104742">Balaenoptera_omurai</List>
+		<List recon_name="Balaenoptera_physalus" recon_no="64490">Balaenoptera_physalus</List>
+		<List recon_name="Megaptera_novaeangliae" recon_no="70685">Megaptera_novaeangliae</List>
+		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
+		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
+		<List recon_name="Balaena_mysticetus" recon_no="64683">Balaena_mysticetus</List>
+		<List recon_name="Eubalaena" recon_no="36715">Eubalaena_sp</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="48">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Ekdale_etal_2011a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

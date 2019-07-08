@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Butler, R. J.</List>
+			<List>Smith, R. M. H.</List>
+			<List>Norman, D. B.</List>
+		</Author>
+		<Year>2007</Year>
+		<Title>A primitive ornithischian dinosaur from the Late Triassic of South Africa, and the early evolution and diversification of Ornithischia</Title>
+		<Journal>Proceedings of the Royal Society of London B</Journal>
+		<Volume>274</Volume>
+		<Pages>2041-2046</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="27">
+		<List recon_name="Marasuchus_lilloensis" recon_no="66342">Marasuchus_lilloensis</List>
+		<List recon_name="Herrerasaurus_ischigualastensis" recon_no="55000">Herrerasaurus_ischigualastensis</List>
+		<List recon_name="Pisanosaurus_mertii" recon_no="64409">Pisanosaurus_mertii</List>
+		<List recon_name="Abrictosaurus_consors" recon_no="52903">Abrictosaurus_consors</List>
+		<List recon_name="Heterodontosauridae_indet_NHMUK_RU_A100" recon_no="38722">BMNH_A100</List>
+		<List recon_name="Heterodontosaurus_tucki" recon_no="52902">Heterodontosaurus_tucki</List>
+		<List recon_name="Eocursor_parvus" recon_no="104624">Eocursor_parvus</List>
+		<List recon_name="Lesothosaurus_diagnosticus" recon_no="57574">Lesothosaurus_diagnosticus</List>
+		<List recon_name="Stormbergia_dangershoeki" recon_no="68157">Stormbergia_dangershoeki</List>
+		<List recon_name="Agilisaurus_louderbacki" recon_no="57223">Agilisaurus_louderbacki</List>
+		<List recon_name="Hexinlusaurus_multidens" recon_no="71337">Hexinlusaurus_multidens</List>
+		<List recon_name="Nanosaurus_rex" recon_no="52896">Othnieliosaurus_celer</List>
+		<List recon_name="Psittacosaurus" recon_no="38844">Psittacosaurus</List>
+		<List recon_name="Yinlong_downsi" recon_no="90118">Yinlong_downsi</List>
+		<List recon_name="Chaoyangsaurus_youngi" recon_no="55580">Chaoyangsaurus_youngi</List>
+		<List recon_name="Archaeoceratops_oshimai" recon_no="55576">Archaeoceratops_oshimai</List>
+		<List recon_name="Liaoceratops_yanzigouensis" recon_no="55582">Liaoceratops_yanzigouensis</List>
+		<List recon_name="Stenopelix_valdensis" recon_no="65431">Stenopelix_valdensis</List>
+		<List recon_name="Wannanosaurus_yansiensis" recon_no="52840">Wannanosaurus_yansiensis</List>
+		<List recon_name="Goyocephale_lattimorei" recon_no="52838">Goyocephale_lattimorei</List>
+		<List recon_name="Homalocephale_calathocercos" recon_no="52836">Homalocephale_calathocercos</List>
+		<List recon_name="Orodromeus_makelai" recon_no="64338">Orodromeus_makelai</List>
+		<List recon_name="Hypsilophodon_foxii" recon_no="54190">Hypsilophodon_foxii</List>
+		<List recon_name="Jeholosaurus_shangyuanensis" recon_no="68237">Jeholosaurus_shangyuanensis</List>
+		<List recon_name="Emausaurus_ernsti" recon_no="64406">Emausaurus_ernsti</List>
+		<List recon_name="Scelidosaurus_harrisonii" recon_no="53042">Scelidosaurus_harrisonii</List>
+		<List recon_name="Scutellosaurus_lawleri" recon_no="67088">Scutellosaurus_lawleri</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="150">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Butler_etal_2007a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Wu, X.-C.</List>
+			<List>Brinkman, D. B.</List>
+			<List>Russell, A. P.</List>
+		</Author>
+		<Year>1996</Year>
+		<Title>A new alligator from the Upper Cretaceous of Canada and the relationships of early eusuchians</Title>
+		<Journal>Palaeontology</Journal>
+		<Volume>39</Volume>
+		<Pages>351-375</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="20">
+		<List recon_name="Goniopholis" recon_no="38360">Goniopholis</List>
+		<List recon_name="Sunosuchus" recon_no="36611">Sunosuchus</List>
+		<List recon_name="Shamosuchus" recon_no="38376">Shamosuchus</List>
+		<List recon_name="Bernissartia" recon_no="38381">Bernissartia</List>
+		<List recon_name="Hylaeochampsa_vectiana" recon_no="190781">Hylaeochampsa</List>
+		<List recon_name="Leidyosuchus_canadensis" recon_no="65784">Leidyosuchus</List>
+		<List recon_name="Prodiplocynodon_langi" recon_no="54257">Prodiplocynodon</List>
+		<List recon_name="Albertochampsa_langstoni" recon_no="173378">Albertochampsa</List>
+		<List recon_name="Brachychampsa" recon_no="53185">Brachychampsa</List>
+		<List recon_name="Stangerochampsa_mccabei" recon_no="190763">Stangerochampsa</List>
+		<List recon_name="Wannaganosuchus_brachymanus" recon_no="110907">Wannaganosuchus</List>
+		<List recon_name="Allognathosuchus" recon_no="38424">Allognathosuchus</List>
+		<List recon_name="Ceratosuchus_burdoshi" recon_no="96542">Ceratosuchus</List>
+		<List recon_name="Procaimanoidea" recon_no="38432">Procaimanoidea</List>
+		<List recon_name="Alligator_mcgrewi" recon_no="172980">Alligator_mcgrewi</List>
+		<List recon_name="Alligator_prenasalis" recon_no="172984">Alligator_prenasalis</List>
+		<List recon_name="Alligator_thomsoni" recon_no="96548">Alligator_thomsoni</List>
+		<List recon_name="Alligator_mefferdi" recon_no="96549">Alligator_mefferdi</List>
+		<List recon_name="Alligator_mississippiensis" recon_no="110824">Alligator_mississippiensis</List>
+		<List recon_name="Crocodylinae" recon_no="63119">Crocodylinae</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="46">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Wu_etal_1996a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

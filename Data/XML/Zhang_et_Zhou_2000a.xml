@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Zhang, F.-C.</List>
+			<List>Zhou, Z.-H.</List>
+		</Author>
+		<Year>2000</Year>
+		<Title>A primitive enantiornithine bird and the origin of feathers</Title>
+		<Journal>Science</Journal>
+		<Volume>290</Volume>
+		<Pages>1955-1959</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="11">
+		<List recon_name="Dromaeosauridae" recon_no="38561">Dromaeosauridae</List>
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">Archaeopteryx</List>
+		<List recon_name="Confuciusornis" recon_no="67260">Confuciusornis</List>
+		<List recon_name="Chaoyangia_beishanensis" recon_no="137355">Chaoyangia</List>
+		<List recon_name="Hesperornithiformes" recon_no="36617">Hesperomithiformes</List>
+		<List recon_name="Ichthyornithiformes" recon_no="36622">Ichthyornithiformes</List>
+		<List recon_name="Neornithes" recon_no="39241">Modern_birds</List>
+		<List recon_name="Protopteryx_fengningensis" recon_no="91349">Protopteryx</List>
+		<List recon_name="Cathayornis_yandica" recon_no="137353">Cathayornis</List>
+		<List recon_name="Concornis_lacustris" recon_no="100984">Concornis</List>
+		<List recon_name="Enantiornis" recon_no="39258">Enantiornis</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="86">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Zhang_et_Zhou_2000a</Filename>
+	<Parent>Sanz_etal_1995aa</Parent>
+	<Sibling/>
+</SourceTree>

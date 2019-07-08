@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Chatterjee, S.</List>
+		</Author>
+		<Year>2002</Year>
+		<Title>The morphology and systematics of <em>Polarornis</em>, a Cretaceous loon (Aves: Gaviidae) from Antarctica</Title>
+		<Journal/>
+		<Volume/>
+		<Pages>125-155</Pages>
+		<Booktitle>Proceedings of the 5th Symposium of the Society of Avian Paleontology and Evolution</Booktitle>
+		<Publisher>Science Press</Publisher>
+		<City>Beijing</City>
+		<Editor>
+			<List>Zhou, Z.-H.</List>
+			<List>Zhang, F.-C.</List>
+		</Editor>
+	</Source>
+	<Taxa number="10">
+		<List recon_name="Velociraptor" recon_no="38564">Velociraptor</List>
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">Archaeopteryx</List>
+		<List recon_name="Enantiornithes" recon_no="53286">Enantiornithes</List>
+		<List recon_name="Hesperornis_regalis" recon_no="96488">Hesperornis</List>
+		<List recon_name="Lithornis" recon_no="39264">Lithornis</List>
+		<List recon_name="Galliformes" recon_no="39330">Galliformes</List>
+		<List recon_name="Polarornis_gregorii" recon_no="243339">Polarornis</List>
+		<List recon_name="Gavia" recon_no="39709">Gavia</List>
+		<List recon_name="Sphenisciformes" recon_no="36626">Sphenisciformes</List>
+		<List recon_name="Procellariiformes" recon_no="36628">Procellariformes</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="52">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Chatterjee_2002a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

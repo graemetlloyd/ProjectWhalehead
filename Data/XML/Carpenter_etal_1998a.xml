@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Carpenter, K.</List>
+			<List>Miles, C. A.</List>
+			<List>Cloward, K.</List>
+		</Author>
+		<Year>1998</Year>
+		<Title>Skull of a Jurassic ankylosaur (Dinosauria)</Title>
+		<Journal>Nature</Journal>
+		<Volume>393</Volume>
+		<Pages>782-783</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="4">
+		<List recon_name="Scelidosaurus_harrisonii" recon_no="53042">Scelidosaurus</List>
+		<List recon_name="Nodosauridae" recon_no="38817">Nodosauridae</List>
+		<List recon_name="Gargoyleosaurus_parkpinorum" recon_no="82609">Gargoyleosaurus</List>
+		<List recon_name="Ankylosauridae" recon_no="38831">Ankylosauridae</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="26">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Carpenter_etal_1998a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

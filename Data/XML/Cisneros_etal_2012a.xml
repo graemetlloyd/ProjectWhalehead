@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Cisneros, J. C.</List>
+			<List>Abdala, F.</List>
+			<List>Atayman-Guven, S.</List>
+			<List>Rubidge, B. S.</List>
+			<List>Sengor, A. M. C.</List>
+			<List>Schultz, C. L.</List>
+		</Author>
+		<Year>2012</Year>
+		<Title>Carnivorous dinocephalian from the Middle Permian of Brazil and tetrapod dispersal in Pangaea</Title>
+		<Journal>Proceedings of the National Academy of Sciences USA</Journal>
+		<Volume>109</Volume>
+		<Pages>1584-1588</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="14">
+		<List recon_name="Biarmosuchus_tener" recon_no="335875">Biarmosuchus_tener</List>
+		<List recon_name="Estemmenosuchus_uralensis" recon_no="361883">Estemmenosuchus_uralensis</List>
+		<List recon_name="Ulemosaurus_svijagensis" recon_no="139388">Ulemosaurus_svijagensis</List>
+		<List recon_name="Tapinocaninus_pamelae" recon_no="367365">Tapinocaninus_pamelae</List>
+		<List recon_name="Archaeosyodon_praeventor" recon_no="358606">Archaeosyodon_praeventor</List>
+		<List recon_name="Sinophoneus_yumenensis" recon_no="137801">Sinophoneus_yumenensis</List>
+		<List recon_name="Anteosaurus_magnificus" recon_no="362285">Anteosaurus_magnificus</List>
+		<List recon_name="Titanophoneus_adamanteus" recon_no="358627">Titanophoneus_adamanteus</List>
+		<List recon_name="Titanophoneus_potens" recon_no="139331">Titanophoneus_potens</List>
+		<List recon_name="Pampaphoneus_biccai" recon_no="356255">Pampaphoneus_biccai</List>
+		<List recon_name="Notosyodon_gusevi" recon_no="345409">Notosyodon_gusevi</List>
+		<List recon_name="Syodon_biarmicum" recon_no="357010">Syodon_biarmicum</List>
+		<List recon_name="Australosyodon_nyaphuli" recon_no="109362">Australosyodon_nyaphuli</List>
+		<List recon_name="Microsyodon_orlovi" recon_no="358605">Microsyodon_orlovi</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="41">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Cisneros_etal_2012a</Filename>
+	<Parent>Kammerer_2011ab</Parent>
+	<Sibling/>
+</SourceTree>

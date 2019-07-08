@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Milner, A. C.</List>
+			<List>Milner, A. R.</List>
+			<List>Walsh, S. A.</List>
+		</Author>
+		<Year>2009</Year>
+		<Title>A new specimen of <em>Baphetes</em> from Nyrany, Czech Republic and the intrinsic relationships of the Baphetidae</Title>
+		<Journal>Acta Zoologica</Journal>
+		<Volume>90</Volume>
+		<Pages>318-334</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="13">
+		<List recon_name="Acanthostega_gunnari" recon_no="227000">Acanthostega</List>
+		<List recon_name="Crassigyrinus_scoticus" recon_no="229317">Crassigyrinus</List>
+		<List recon_name="Baphetes_kirkbyi" recon_no="229310">Baphetes_kirkbyi</List>
+		<List recon_name="Baphetes_orientalis" recon_no="335018">Baphetes_orientalis</List>
+		<List recon_name="Baphetes_orientalis" recon_no="335018">Baphetes_orientalis_juv</List>
+		<List recon_name="Eucritta_melanolimnetes" recon_no="229324">Eucritta_melanolimnetes</List>
+		<List recon_name="Kyrinion_martilli" recon_no="335217">Kyrinion_martilli</List>
+		<List recon_name="Loxomma_acutirhinus" recon_no="334684">Loxomma_acutirhinus</List>
+		<List recon_name="Loxomma_allmanni" recon_no="334683">Loxomma_allmanni</List>
+		<List recon_name="Loxomma_lintonensis" recon_no="334978">Loxomma_lintonensis</List>
+		<List recon_name="Megalocephalus_lineolatus" recon_no="335653">Megalocephalus_lineolatus</List>
+		<List recon_name="Megalocephalus_pachycephalus" recon_no="345306">Megalocephalus_pachycephalus</List>
+		<List recon_name="Spathicephalus_mirus" recon_no="332435">Spathicephalus_mirus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="24">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Milner_etal_2009a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

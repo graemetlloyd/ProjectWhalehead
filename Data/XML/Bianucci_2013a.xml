@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Bianucci, G.</List>
+		</Author>
+		<Year>2013</Year>
+		<Title><em>Septidelphis morii</em>, n. gen. et sp., from the Pliocene of Italy: new evidence of the explosive radiation of true dolphins (Odontoceti, Delphinidae)</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>33</Volume>
+		<Pages>722-740</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="15">
+		<List recon_name="Kentriodon_pernix" recon_no="64433">Kentriodon_pernix</List>
+		<List recon_name="Sotalia_fluviatilis" recon_no="63569">Sotalia_fluviatilis</List>
+		<List recon_name="Sousa_chinensis" recon_no="63566">Sousa_chinensis</List>
+		<List recon_name="Astadelphis_gastaldii" recon_no="95850">Astadelphis_gastaldii</List>
+		<List recon_name="Septidelphis_morii" recon_no="267872">Septidelphis_morii</List>
+		<List recon_name="Etruridelphis_giulii" recon_no="161692">Etruridelphis_giulii</List>
+		<List recon_name="Delphinus_delphis" recon_no="64534">Delphinus_delphis</List>
+		<List recon_name="Lagenodelphis_hosei" recon_no="63574">Lagenodelphis_hosei</List>
+		<List recon_name="Stenella_attenuata" recon_no="64533">Stenella_attenuata</List>
+		<List recon_name="Stenella_clymene" recon_no="82060">Stenella_clymene</List>
+		<List recon_name="Stenella_coeruleoalba" recon_no="82063">Stenella_coeruleoalba</List>
+		<List recon_name="Stenella_frontalis" recon_no="82056">Stenella_frontalis</List>
+		<List recon_name="Stenella_longirostris" recon_no="82057">Stenella_longirostris</List>
+		<List recon_name="Steno_bredanensis" recon_no="64536">Steno_bredanensis</List>
+		<List recon_name="Tursiops_truncatus" recon_no="64472">Tursiops_truncatus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="14">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Bianucci_2013a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

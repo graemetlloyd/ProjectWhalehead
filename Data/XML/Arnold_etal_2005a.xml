@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Arnold, P. W.</List>
+			<List>Birtles, R.</List>
+			<List>Dunstan, A.</List>
+			<List>Lukoschek, V.</List>
+			<List>Matthews, M.</List>
+		</Author>
+		<Year>2005</Year>
+		<Title>Colour patterns of the Dwarf Minke Whale <em>Balaenoptera acutorostrata</em> sensu lato: description, cladistic analysis and taxonomic implications</Title>
+		<Journal>Memoirs of the Queensland Museum</Journal>
+		<Volume>51</Volume>
+		<Pages>277-307</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="12">
+		<List recon_name="Physeter" recon_no="36807">Physeter</List>
+		<List recon_name="Balaena" recon_no="36676">Balaena</List>
+		<List recon_name="Eubalaena" recon_no="36715">Eubalaena</List>
+		<List recon_name="Caperea" recon_no="63684">Caperea</List>
+		<List recon_name="Eschrichtius" recon_no="36714">Eschrichtius</List>
+		<List recon_name="Megaptera" recon_no="36760">Megaptera</List>
+		<List recon_name="Balaenoptera_musculus" recon_no="70697">Balaenoptera_musculus</List>
+		<List recon_name="Balaenoptera_physalus" recon_no="64490">Balaenoptera_physalus</List>
+		<List recon_name="Balaenoptera_borealis" recon_no="70692">Balaenoptera_borealis</List>
+		<List recon_name="Balaenoptera_bonaerensis" recon_no="81901">Balaenoptera_bonaerensis</List>
+		<List recon_name="Balaenoptera_acutorostrata" recon_no="68469">Dwarf_minke</List>
+		<List recon_name="Balaenoptera_acutorostrata" recon_no="68469">Balaenoptera_acutorostrata</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="13">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Arnold_etal_2005a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Chiappe, L. M.</List>
+			<List>Calvo, J. O.</List>
+		</Author>
+		<Year>1994</Year>
+		<Title><em>Neuquenornis volans</em>, a new Late Cretaceous bird (Enantiornithes: Avisauridae) from Patagonia, Argentina</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>14</Volume>
+		<Pages>230-246</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="8">
+		<List recon_name="Dromaeosauridae" recon_no="38561">Dromaeosauridae</List>
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">A_lithographica</List>
+		<List recon_name="Iberomesornis_romerali" recon_no="65831">I_romerali</List>
+		<List recon_name="Enantiornithes" recon_no="53286">Enantiornithes</List>
+		<List recon_name="Patagopteryx_deferrariisi" recon_no="68529">P_deferrariisi</List>
+		<List recon_name="Hesperornithiformes" recon_no="36617">Hesperornithiformes</List>
+		<List recon_name="Ichthyornis" recon_no="36624">Ichthyornis</List>
+		<List recon_name="Neornithes" recon_no="39241">Neornithes</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="73">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Chiappe_et_Calvo_1994a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

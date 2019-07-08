@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Sues, H.-D.</List>
+		</Author>
+		<Year>1997</Year>
+		<Title>On <em>Chirostenotes</em>, a Late Cretaceous oviraptorosaur (Dinosauria: Theropoda) from western North America</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>17</Volume>
+		<Pages>698-716</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="8">
+		<List recon_name="Coelophysis" recon_no="38520">Coelophysis</List>
+		<List recon_name="Allosaurus" recon_no="38590">Allosaurus</List>
+		<List recon_name="Tyrannosauridae" recon_no="38606">Tyrannosauridae</List>
+		<List recon_name="Ornithomimidae" recon_no="38539">Ornithomimidae</List>
+		<List recon_name="Dromaeosauridae" recon_no="38561">Dromaeosauridae</List>
+		<List recon_name="Troodontidae" recon_no="54468">Troodontidae</List>
+		<List recon_name="Oviraptorosauria" recon_no="54546">Oviraptorosauria</List>
+		<List recon_name="Therizinosauroidea" recon_no="64125">Therizinosauroidea</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="47">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Sues_1997a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

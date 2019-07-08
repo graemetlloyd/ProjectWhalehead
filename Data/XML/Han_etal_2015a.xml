@@ -1,0 +1,74 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Han, F.-L.</List>
+			<List>Forster, C. A.</List>
+			<List>Clark, J. M.</List>
+			<List>Xu, X.</List>
+		</Author>
+		<Year>2015</Year>
+		<Title>A new taxon of basal ceratopsian from China and the early evolution of Ceratopsia</Title>
+		<Journal>PLOS ONE</Journal>
+		<Volume>10</Volume>
+		<Pages>e0143369</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="37">
+		<List recon_name="Lesothosaurus_diagnosticus" recon_no="57574">Lesothosaurus</List>
+		<List recon_name="Heterodontosaurus_tucki" recon_no="52902">Heterodontosaurus</List>
+		<List recon_name="Agilisaurus_louderbacki" recon_no="57223">Agilisaurus</List>
+		<List recon_name="Orodromeus_makelai" recon_no="64338">Orodromeus</List>
+		<List recon_name="Haya_griva" recon_no="186990">Haya</List>
+		<List recon_name="Jeholosaurus_shangyuanensis" recon_no="68237">Jeholosaurus</List>
+		<List recon_name="Wannanosaurus_yansiensis" recon_no="52840">Wannanosaurus</List>
+		<List recon_name="Goyocephale_lattimorei" recon_no="52838">Goyocephale</List>
+		<List recon_name="Homalocephale_calathocercos" recon_no="52836">Homalocephale</List>
+		<List recon_name="Stegoceras" recon_no="38787">Stegoceras</List>
+		<List recon_name="Archaeoceratops_oshimai" recon_no="55576">Archaeoceratops</List>
+		<List recon_name="Asiaceratops_salsopaludalis" recon_no="66589">Asiaceratops</List>
+		<List recon_name="Bagaceratops_rozhdestvenskyi" recon_no="52826">Bagaceratops</List>
+		<List recon_name="Centrosaurus_apertus" recon_no="63911">Centrosaurus</List>
+		<List recon_name="Leptoceratops_gracilis" recon_no="52827">Leptoceratops</List>
+		<List recon_name="Graciliceratops_mongoliensis" recon_no="67674">Graciliceratops</List>
+		<List recon_name="Montanoceratops_cerorhynchus" recon_no="52830">Montanoceratops</List>
+		<List recon_name="Protoceratops_andrewsi" recon_no="52824">Protoceratops</List>
+		<List recon_name="Hualianceratops_wucaiwanensis" recon_no="333389">Hualianceratops</List>
+		<List recon_name="Yinlong_downsi" recon_no="90118">Yinlong_downsi</List>
+		<List recon_name="Chaoyangsaurus_youngi" recon_no="55580">Chaoyangsaurus</List>
+		<List recon_name="Xuanhuaceratops_niei" recon_no="153950">Xuanhuaceratops</List>
+		<List recon_name="Psittacosaurus_mongoliensis" recon_no="52831">Psittacosaurus_mongoliensis</List>
+		<List recon_name="Psittacosaurus_sinensis" recon_no="65705">Psittacosaurus_sinensis</List>
+		<List recon_name="Psittacosaurus_lujiatunensis" recon_no="109454">Psittacosaurus_lujiatunensis</List>
+		<List recon_name="Liaoceratops_yanzigouensis" recon_no="55582">Liaoceratops</List>
+		<List recon_name="Triceratops_horridus" recon_no="63759">Triceratops</List>
+		<List recon_name="Udanoceratops_tschizhovi" recon_no="66585">Udanoceratops</List>
+		<List recon_name="Zuniceratops_christopheri" recon_no="66591">Zuniceratops</List>
+		<List recon_name="Yamaceratops_dorngobiensis" recon_no="85968">Yamaceratops</List>
+		<List recon_name="Prenoceratops_pieganensis" recon_no="96089">Prenoceratops</List>
+		<List recon_name="Cerasinops_hodgskissi" recon_no="110947">Cerasinops</List>
+		<List recon_name="Koreaceratops_hwaseongensis" recon_no="176310">Koreaceratops</List>
+		<List recon_name="Zhuchengceratops_inexpectus" recon_no="172380">Zhuchengceratops</List>
+		<List recon_name="Unescoceratops_koppelhusae" recon_no="228690">Unescoceratops</List>
+		<List recon_name="Auroraceratops_rugosus" recon_no="94032">Auroraceratops</List>
+		<List recon_name="Aquilops_americanus" recon_no="310996">Aquilops</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="210">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Han_etal_2015a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

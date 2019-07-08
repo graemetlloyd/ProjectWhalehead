@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>You, H.-L.</List>
+			<List>Dodson, P.</List>
+		</Author>
+		<Year>2004</Year>
+		<Title>Basal Ceratopsia</Title>
+		<Journal/>
+		<Volume/>
+		<Pages>478-493</Pages>
+		<Booktitle>The Dinosauria (Second Edition)</Booktitle>
+		<Publisher>University of California Press</Publisher>
+		<City>Berkeley</City>
+		<Editor>
+			<List>Weishampel, D. B.</List>
+			<List>Dodson, P.</List>
+			<List>Osmolska, H.</List>
+		</Editor>
+	</Source>
+	<Taxa number="11">
+		<List recon_name="Hypsilophodon_foxii" recon_no="54190">Hypsilophodon_foxii</List>
+		<List recon_name="Stegoceras_validum" recon_no="56570">Stegoceras_validum</List>
+		<List recon_name="Psittacosaurus_mongoliensis" recon_no="52831">Psittacosaurus_mongoliensis</List>
+		<List recon_name="Chaoyangsaurus_youngi" recon_no="55580">Chaoyangsaurus_youngi</List>
+		<List recon_name="Archaeoceratops_oshimai" recon_no="55576">Archaeoceratops_oshimai</List>
+		<List recon_name="Leptoceratops_gracilis" recon_no="52827">Leptoceratops_gracilis</List>
+		<List recon_name="Montanoceratops_cerorhynchus" recon_no="52830">Montanoceratops_cerorhynchus</List>
+		<List recon_name="Triceratops_horridus" recon_no="63759">Triceratops_horridus</List>
+		<List recon_name="Centrosaurus_apertus" recon_no="63911">Centrosaurus_apertus</List>
+		<List recon_name="Bagaceratops_rozhdestvenskyi" recon_no="52826">Bagaceratops_rozhdestvenskyi</List>
+		<List recon_name="Protoceratops_andrewsi" recon_no="52824">Protoceratops_andrews</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="148">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>You_et_Dodson_2004a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

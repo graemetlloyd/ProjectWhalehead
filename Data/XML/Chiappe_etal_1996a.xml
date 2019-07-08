@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Chiappe, L. M.</List>
+			<List>Norell, M. A.</List>
+			<List>Clark, J. M.</List>
+		</Author>
+		<Year>1996</Year>
+		<Title>Phylogenetic position of <em>Mononykus</em> (Aves: Alvarezsauridae) from the Late Cretaceous of the Gobi Desert</Title>
+		<Journal>Memoirs of the Queensland Museum</Journal>
+		<Volume>39</Volume>
+		<Pages>557-582</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="11">
+		<List recon_name="Velociraptorinae" recon_no="54553">Velociraptorinae</List>
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">Archaeopteryx</List>
+		<List recon_name="Alvarezsaurus_calvoi" recon_no="64775">Alvarezsaurus</List>
+		<List recon_name="Mononykus_olecranus" recon_no="67288">Mononykus</List>
+		<List recon_name="Patagonykus_puertai" recon_no="64773">Patagonikus</List>
+		<List recon_name="Iberomesornis_romerali" recon_no="65831">Iberomesornis</List>
+		<List recon_name="Enantiornithes" recon_no="53286">Enantiornithes</List>
+		<List recon_name="Patagopteryx_deferrariisi" recon_no="68529">Patagopteryx</List>
+		<List recon_name="Hesperornithiformes" recon_no="36617">Hesperornithiformes</List>
+		<List recon_name="Ichthyornithiformes" recon_no="36622">Ichthyornithiformes</List>
+		<List recon_name="Neornithes" recon_no="39241">Neornithes</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="99">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Chiappe_etal_1996a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,33 @@
+#NEXUS
+
+[!File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=16 NCHAR=18 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2 3" MISSING=? GAP=- ;
+MATRIX
+
+P_grangeri              000010001100110???
+CMN_0210                ??1??2?????2????1?
+ROM_784                 ?1????000?1???????
+TMP_1991_dot_127_dot_1  10111211???20?1011
+UALVP_31                10111111?????11011
+CMN_8530                00?11110????11101?
+NHMUK_R4947             10?11210????1??000
+ROM_1930                0100011000111?2000
+AMNH_5337               010001100011200000
+AMNH_5403               010001100011100000
+AMNH_5404               010?011001011?2000
+AMNH_5405               010001100011102000
+AMNH_5238               01?00110001???2?0?
+TMP_1997_dot_132_dot_1  010001100011102000
+USNM_11892              01?00?10110?0?3100
+MOR_433                 ???00010??????3100
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = unord: 1-18;
+END;
+

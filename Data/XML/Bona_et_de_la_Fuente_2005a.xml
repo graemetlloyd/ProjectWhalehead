@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Bona, P.</List>
+			<List>de la Fuente, M. S.</List>
+		</Author>
+		<Year>2005</Year>
+		<Title>Phylogenetic and paleobiogeographic implications of <em>Yaminuechelys maior</em> (Staesche, 1929) new comb., a large long-necked chelid turtle from the early Paleocene of Patagonia, Argentina</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>25</Volume>
+		<Pages>569-582</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="13">
+		<List recon_name="Pelomedusa_subrufa" recon_no="373846">Pelomedusa_subrufa</List>
+		<List recon_name="Podocnemis_sextuberculata" recon_no="344503">Podocnemis_sextuberculata</List>
+		<List recon_name="Elseya_dentata" recon_no="373842">Elseya_dentata</List>
+		<List recon_name="Acanthochelys_macrocephala" recon_no="375069">Acanthochelys_macrocephala</List>
+		<List recon_name="Platemys_platycephala" recon_no="375074">Platemys_platycephala</List>
+		<List recon_name="Phrynops_hilarii" recon_no="364027">Phrynops_hilarii</List>
+		<List recon_name="Batrachemys_nasuta" recon_no="377724">Batrachemys_nasuta</List>
+		<List recon_name="Chelus_fimbriata" recon_no="373851">Chelus_fimbriatus</List>
+		<List recon_name="Chelodina_oblonga" recon_no="373855">Chelodina_oblonga</List>
+		<List recon_name="Hydromedusa_tectifera" recon_no="361305">Hydromedusa_tectifera</List>
+		<List recon_name="Hydromedusa_maximiliani" recon_no="375081">Hydromedusa_maximilliani</List>
+		<List recon_name="Yaminuechelys_maior" recon_no="203002">Yaminuechelys_maior</List>
+		<List recon_name="Yaminuechelys_gasparinii" recon_no="56736">Yaminuechelys_gasparinii</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="37">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Bona_et_de_la_Fuente_2005a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

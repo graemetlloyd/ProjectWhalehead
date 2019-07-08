@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Chiappe, L. M.</List>
+		</Author>
+		<Year>1995</Year>
+		<Title>The phylogenetic position of the Cretaceous birds of Argentina: Enantiornithes and <em>Patagopteryx deferrariisi</em></Title>
+		<Journal>Courier Forschungsinstitut Senckenberg</Journal>
+		<Volume>181</Volume>
+		<Pages>55-63</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="8">
+		<List recon_name="Dromaeosauridae" recon_no="38561">Dromaeosauridae</List>
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">Archaeopteryx</List>
+		<List recon_name="Iberomesornis_romerali" recon_no="65831">Iberomesornis</List>
+		<List recon_name="Enantiornithes" recon_no="53286">Enantiornithes</List>
+		<List recon_name="Patagopteryx_deferrariisi" recon_no="68529">Patagopteryx</List>
+		<List recon_name="Hesperornithiformes" recon_no="36617">Hesperornithiformes</List>
+		<List recon_name="Ichthyornis" recon_no="36624">Ichthyornis</List>
+		<List recon_name="Neornithes" recon_no="39241">Neornithes</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="73">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Chiappe_1995a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

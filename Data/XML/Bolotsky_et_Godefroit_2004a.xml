@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Bolotsky, Y. L.</List>
+			<List>Godefroit, P.</List>
+		</Author>
+		<Year>2004</Year>
+		<Title>A new hadrosaurine dinosaur from the Late Cretaceous of Far Eastern Russia</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>24</Volume>
+		<Pages>351-365</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="10">
+		<List recon_name="Bactrosaurus_johnsoni" recon_no="57344">Bactrosaurus</List>
+		<List recon_name="Lambeosaurinae" recon_no="53394">Lambeosaurinae</List>
+		<List recon_name="Gryposaurus" recon_no="53014">Gryposaurus</List>
+		<List recon_name="Kerberosaurus_manakini" recon_no="64257">Kerberosaurus</List>
+		<List recon_name="Saurolophus" recon_no="38768">Saurolophus</List>
+		<List recon_name="Prosaurolophus" recon_no="38767">Prosaurolophus</List>
+		<List recon_name="Edmontosaurus" recon_no="38761">Edmontosaurus</List>
+		<List recon_name="Anatotitan_copei" recon_no="64302">Anatotitan</List>
+		<List recon_name="Maiasaura_peeblesorum" recon_no="55574">Maiasaura</List>
+		<List recon_name="Brachylophosaurus_canadensis" recon_no="65213">Brachylophosaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="21">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Bolotsky_et_Godefroit_2004a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

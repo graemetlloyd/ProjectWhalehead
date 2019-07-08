@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Harper, E. M.</List>
+			<List>Hide, E. A.</List>
+			<List>Morton, B.</List>
+		</Author>
+		<Year>2000</Year>
+		<Title>Relationships between the extant Anomalodesmata: a cladistic test</Title>
+		<Journal>Geological Society Special Publications</Journal>
+		<Volume>177</Volume>
+		<Pages>129-143</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="16">
+		<List recon_name="Brechites" recon_no="59403">Brechites</List>
+		<List recon_name="Clavagella" recon_no="18718">Clavagella</List>
+		<List recon_name="Cleidothaeridae" recon_no="59751">Cleidothaeridae</List>
+		<List recon_name="Cuspidariidae" recon_no="59984">Cuspidariidae</List>
+		<List recon_name="Laternulidae" recon_no="60794">Laternulidae</List>
+		<List recon_name="Lyonsiellidae" recon_no="60993">Lyonsiellidae</List>
+		<List recon_name="Lyonsiidae" recon_no="60994">Lyonsiidae</List>
+		<List recon_name="Myadora" recon_no="18765">Myadora</List>
+		<List recon_name="Myochama" recon_no="18767">Myochama</List>
+		<List recon_name="Pandoridae" recon_no="61581">Pandoridae</List>
+		<List recon_name="Parilimyidae" recon_no="61617">Parilimyidae</List>
+		<List recon_name="Periplomatidae" recon_no="61680">Periplomatidae</List>
+		<List recon_name="Pholadomyidae" recon_no="61725">Pholadomyidae</List>
+		<List recon_name="Poromyidae" recon_no="61890">Poromyidae</List>
+		<List recon_name="Thraciidae" recon_no="62521">Thraciidae</List>
+		<List recon_name="Verticordiidae" recon_no="62796">Verticordiidae</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="43">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Harper_etal_2000a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

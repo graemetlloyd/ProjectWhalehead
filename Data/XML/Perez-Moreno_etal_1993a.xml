@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Perez-Moreno, B. P.</List>
+			<List>Sanz, J. L.</List>
+			<List>Sudre, J.</List>
+			<List>Sige, B.</List>
+		</Author>
+		<Year>1993</Year>
+		<Title>A theropod dinosaur from the Lower Cretaceous of Southern France</Title>
+		<Journal>Revue de Paleobiologie, Volume Speciale</Journal>
+		<Volume>7</Volume>
+		<Pages>173-188</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="11">
+		<List recon_name="Herrerasaurus_ischigualastensis" recon_no="55000">Herrerasaurus</List>
+		<List recon_name="Dilophosaurus" recon_no="38522">Dilophosaurus</List>
+		<List recon_name="Eustreptospondylus_oxoniensis" recon_no="53377">Eustreptospondylus</List>
+		<List recon_name="Piatnitzkysaurus_floresi" recon_no="54827">Piatnizkysaurus</List>
+		<List recon_name="Tetanurae_indet_MM_2and8to9and11to21" recon_no="53374">Montmirat_theropod</List>
+		<List recon_name="Allosaurus" recon_no="38590">Allosaurus</List>
+		<List recon_name="Deinonychus_antirrhopus" recon_no="54555">Deinonychus</List>
+		<List recon_name="Albertosaurus_sarcophagus" recon_no="56319">Albertosaurus</List>
+		<List recon_name="Gallimimus_bullatus" recon_no="57265">Gallimimus</List>
+		<List recon_name="Ceratosaurus_nasicornis" recon_no="54165">Ceratosaurus</List>
+		<List recon_name="Carnotaurus_sastrei" recon_no="54526">Carnotaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="52">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Perez-Moreno_etal_1993a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

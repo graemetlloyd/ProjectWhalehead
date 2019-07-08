@@ -1,0 +1,24 @@
+#NEXUS
+
+[!File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=7 NCHAR=14 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1" MISSING=? GAP=- ;
+MATRIX
+
+Ornithomimosauria   1111101(01)00000?
+Therizinosauroidea  11111101110000
+Oviraptoridae       11111111011111
+Caenagnathidae      1111?1??1111??
+Archaeopteryx       111?11(01)0000000
+Gobipteryx          111111?111111?
+Hesperornis         11010111111111
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = unord: 1-14;
+END;
+

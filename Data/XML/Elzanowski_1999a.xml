@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Elzanowski, A.</List>
+		</Author>
+		<Year>1999</Year>
+		<Title>A comparison of the jaw skeleton in theropods and birds, with a description of the palate in the Oviraptoridae</Title>
+		<Journal>Smithsonian Contributions to Paleontology</Journal>
+		<Volume>89</Volume>
+		<Pages>311-323</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="7">
+		<List recon_name="Ornithomimosauria" recon_no="55491">Ornithomimosauria</List>
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">Archaeopteryx</List>
+		<List recon_name="Therizinosauroidea" recon_no="64125">Therizinosauroidea</List>
+		<List recon_name="Oviraptoridae" recon_no="38557">Oviraptoridae</List>
+		<List recon_name="Caenagnathidae" recon_no="54544">Caenagnathidae</List>
+		<List recon_name="Gobipteryx_minuta" recon_no="57334">Gobipteryx</List>
+		<List recon_name="Hesperornis_regalis" recon_no="96488">Hesperornis</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="14">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Elzanowski_1999a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

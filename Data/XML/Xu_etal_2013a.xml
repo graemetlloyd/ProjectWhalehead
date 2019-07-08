@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Xu, X.</List>
+			<List>Upchurch, P.</List>
+			<List>Ma, Q.</List>
+			<List>Pittman, M.</List>
+			<List>Choiniere, J.</List>
+			<List>Sullivan, C.</List>
+			<List>Hone, D. W. E.</List>
+			<List>Tan, Q.</List>
+			<List>Tan, L.</List>
+			<List>Xiao, D.</List>
+			<List>Han, F.</List>
+		</Author>
+		<Year>2013</Year>
+		<Title>Osteology of the Late Cretaceous alvarezsauroid <em>Linhenykus monodactylus</em> from China and comments on alvarezsauroid biogeography</Title>
+		<Journal>Acta Palaeontologica Polonica</Journal>
+		<Volume>58</Volume>
+		<Pages>25-46</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="14">
+		<List recon_name="Tyrannosauridae" recon_no="38606">Tyrannosauridae</List>
+		<List recon_name="Dromaeosauridae" recon_no="38561">Dromaeosauridae</List>
+		<List recon_name="Achillesaurus_manazzonei" recon_no="133926">Achillesaurus_manazzonei</List>
+		<List recon_name="Alvarezsaurus_calvoi" recon_no="64775">Alvarezsaurus_calvoi</List>
+		<List recon_name="Patagonykus_puertai" recon_no="64773">Patagonykus_puertai</List>
+		<List recon_name="Albertonykus_borealis" recon_no="140788">Albertonykus_borealis</List>
+		<List recon_name="Mononykus_olecranus" recon_no="67288">Mononykus_olecranus</List>
+		<List recon_name="Shuvuuia_deserti" recon_no="66044">Shuvuuia_deserti</List>
+		<List recon_name="Parvicursor_remotus" recon_no="68183">Parvicursor_remotus</List>
+		<List recon_name="Alvarezsauridae_indet_YPM_1049" recon_no="64116">YPM_1049</List>
+		<List recon_name="Alvarezsauridae_indet_MPC_100_99and120" recon_no="64116">Tugriken_Shireh_alvarezsaur</List>
+		<List recon_name="Xixianykus_zhangi" recon_no="165128">Xixianykus_zhangi</List>
+		<List recon_name="Haplocheirus_sollers" recon_no="162353">Haplocheirus</List>
+		<List recon_name="Linhenykus_monodactylus" recon_no="175494">Linhenykus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="77">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Xu_etal_2013a</Filename>
+	<Parent>Xu_etal_2011d</Parent>
+	<Sibling/>
+</SourceTree>

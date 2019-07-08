@@ -1,0 +1,23 @@
+#NEXUS
+
+[File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=6 NCHAR=16 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2" MISSING=? GAP=- ;
+MATRIX
+
+Ursidae                0000000000000000
+Enaliarctos_mealsi     10000000000000?1
+Enaliarctos_barnesi    00?0000000?1?111
+Enaliarctos_tedfordi   100111??0???00??
+Enaliarctos_emlongi    101121110?000200
+Enaliarctos_mitchelli  111101??111110??
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = unord: 1-16;
+END;
+

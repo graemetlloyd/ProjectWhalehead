@@ -1,0 +1,68 @@
+#NEXUS
+
+[File downloaded from graemetlloyd.com]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX=17;
+	TAXLABELS
+		Biarmosuchus_tener Hipposaurus_boonstrai Bullacephalus_jacksoni Pachydectes_elsi Herpetoskylax_hopsoni Lycaenodon_longiceps RC_20 Ictidorhinus_martinsi Lemurosaurus_pricei Lobalopex_mordax Lophorhinus_willodenensis BP_1_7098 Proburnetia_viatkensis Paraburnetia_sneeubergensis Lende_chiweta Niuksenitia_sukhonensis Burnetia_mirabilis
+;
+END;
+
+BEGIN CHARACTERS;
+	TITLE  Continuous_characters;
+	DIMENSIONS  NCHAR=3;
+	FORMAT  DATATYPE=CONTINUOUS MISSING=? GAP=- ;
+MATRIX
+
+Biarmosuchus_tener           0.65 9.0 0.51
+Hipposaurus_boonstrai        0.55 6.0 0.65
+Bullacephalus_jacksoni       ? ? ?
+Pachydectes_elsi             0.65 8.0 ?
+Herpetoskylax_hopsoni        0.59 6.0 0.44
+Lycaenodon_longiceps         ? 6.0 0.5
+RC_20                        ? 6.0 0.51
+Ictidorhinus_martinsi        0.44 ? 0.56
+Lemurosaurus_pricei          0.63 5.0 0.5
+Lobalopex_mordax             0.61 3.0 ?
+Lophorhinus_willodenensis    ? 9.0 0.53
+BP_1_7098                    ? ? ?
+Proburnetia_viatkensis       0.62 8.0 0.56
+Paraburnetia_sneeubergensis  0.59 5.0 0.56
+Lende_chiweta                0.56 6.0 0.61
+Niuksenitia_sukhonensis      ? ? ?
+Burnetia_mirabilis           0.53 5.0 ?
+;
+END;
+
+BEGIN CHARACTERS;
+	TITLE  Character_Matrix;
+	DIMENSIONS  NCHAR=34;
+	FORMAT  DATATYPE=STANDARD SYMBOLS=" 0 1 2 3 4 5" MISSING=? GAP=- ;
+MATRIX
+
+Biarmosuchus_tener           1000-00000000000000000000000022000
+Hipposaurus_boonstrai        1001??0010000110000100001000010110
+Bullacephalus_jacksoni       ?110-0210?001?11011111201001?11110
+Pachydectes_elsi             ?01(12)???111??1?20?1(12)?????10000????0
+Herpetoskylax_hopsoni        0000-10001000120000000012111011000
+Lycaenodon_longiceps         0000-?000?000????????????????????0
+RC_20                        0000-10001000(01)10????????3110?11?0?
+Ictidorhinus_martinsi        ?000-00?0100???000000??0?1???????0
+Lemurosaurus_pricei          ?10100012?100??00?2000002110011000
+Lobalopex_mordax             ??01??0?111?0??01?101111201201100?
+Lophorhinus_willodenensis    010200011?????20???0????20?01?????
+BP_1_7098                    1?0300?1????????????????201111100?
+Proburnetia_viatkensis       01031?0031100??21?2012103010011?10
+Paraburnetia_sneeubergensis  ?0031?113?110??21021111?(13)0110110?1
+Lende_chiweta                0?021?11311101?3??201110?01?011001
+Niuksenitia_sukhonensis      ????????????????1????11?2??111001?
+Burnetia_mirabilis           01?31?213?200??21?21111031?001100?
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	TYPESET * UNTITLED  (CHARACTERS = Continuous_characters)  =  Squared: 1-3;
+	TYPESET * UNTITLED  (CHARACTERS = Character_Matrix)  =  ord: 4 9 16 19 30, unord: 1-3 5-8 10-15 17-18 20-29 31-34;
+END;
+

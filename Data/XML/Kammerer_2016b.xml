@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Kammerer, C. E.</List>
+		</Author>
+		<Year>2016</Year>
+		<Title>Two unrecognized burnetiamorph specimens from historical Karoo collections</Title>
+		<Journal>Palaeontologia Africana</Journal>
+		<Volume>50</Volume>
+		<Pages>64-75</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="17">
+		<List recon_name="Biarmosuchus_tener" recon_no="335875">Biarmosuchus_tener</List>
+		<List recon_name="Hipposaurus_boonstrai" recon_no="96179">Hipposaurus_boonstrai</List>
+		<List recon_name="Herpetoskylax_hopsoni" recon_no="335888">Herpetoskylax_hopsoni</List>
+		<List recon_name="Lycaenodon_longiceps" recon_no="335890">Lycaenodon_longiceps</List>
+		<List recon_name="Ictidorhinus_martinsi" recon_no="335891">Ictidorhinus_martinsi</List>
+		<List recon_name="Lemurosaurus_pricei" recon_no="96182">Lemurosaurus_pricei</List>
+		<List recon_name="Lobalopex_mordax" recon_no="140412">Lobalopex_mordax</List>
+		<List recon_name="Lophorhinus_willodenensis" recon_no="140414">Lophorhinus_willodenensis</List>
+		<List recon_name="Lende_chiweta" recon_no="335788">Lende_chiweta</List>
+		<List recon_name="Proburnetia_viatkensis" recon_no="140409">Proburnetia_viatkensis</List>
+		<List recon_name="Paraburnetia_sneeubergensis" recon_no="321649">Paraburnetia_sneeubergensis</List>
+		<List recon_name="Burnetia_mirabilis" recon_no="140408">Burnetia_mirabilis</List>
+		<List recon_name="Niuksenitia_sukhonensis" recon_no="341036">Niuksenitia_sukhonesis</List>
+		<List recon_name="Bullacephalus_jacksoni" recon_no="335886">Bullacephalus_jacksoni</List>
+		<List recon_name="Pachydectes_elsi" recon_no="109355">Pachydectes_elsi</List>
+		<List recon_name="Burnetiamorpha_indet_TM_4305" recon_no="140410">TM_4305</List>
+		<List recon_name="Burnetiamorpha_indet_NHMUK_R871" recon_no="140410">NHMUK_R871</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="30">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Kammerer_2016b</Filename>
+	<Parent>Kruger_etal_2015a</Parent>
+	<Sibling/>
+</SourceTree>

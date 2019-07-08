@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Bhullar, B.-A. S.</List>
+		</Author>
+		<Year>2011</Year>
+		<Title>The power and utility Of morphological characters in systematics: a fully resolved phylogeny of <em>Xenosaurus</em> and its fossil relatives (Squamata: Anguimorpha)</Title>
+		<Journal>Bulletin of the Museum of Comparative Zoology</Journal>
+		<Volume>160</Volume>
+		<Pages>65-181</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="20">
+		<List recon_name="Pristidactylus_torquatus" recon_no="375929">Pristidactylus_torquatus</List>
+		<List recon_name="Exostinus_serratus" recon_no="82849">Exostinus_serratus</List>
+		<List recon_name="Restes_rugosus" recon_no="68049">Restes_rugosus</List>
+		<List recon_name="Exostinus_lancensis" recon_no="63648">Exostinus_lancensis</List>
+		<List recon_name="Xenosaurus_newmanorum" recon_no="373929">Xenosaurus_newmanorum</List>
+		<List recon_name="Xenosaurus_platyceps" recon_no="373930">Xenosaurus_platyceps</List>
+		<List recon_name="Xenosaurus_agrenon" recon_no="375853">Xenosaurus_agrenon</List>
+		<List recon_name="Xenosaurus_rectocollaris" recon_no="373932">Xenosaurus_rectocollaris</List>
+		<List recon_name="Xenosaurus_rackhami" recon_no="373931">Xenosaurus_rackhami</List>
+		<List recon_name="Xenosaurus_grandis" recon_no="373928">Xenosaurus_grandis</List>
+		<List recon_name="Merkurosaurus_ornatus" recon_no="269481">Merkurosaurus_ornatus</List>
+		<List recon_name="Bahndwivici_ammoskius" recon_no="136567">Bahndwivici_ammoskius</List>
+		<List recon_name="Shinisaurus_crocodilurus" recon_no="373758">Shinisaurus_crocodilurus</List>
+		<List recon_name="Elgaria_multicarinata" recon_no="137139">Elgaria_multicarinata</List>
+		<List recon_name="Ophisaurus_ventralis" recon_no="291366">Ophisaurus_ventralis</List>
+		<List recon_name="Celestus_enneagrammus" recon_no="374959">Celestus_enneagrammus</List>
+		<List recon_name="Heloderma_suspectum" recon_no="374759">Heloderma_suspectum</List>
+		<List recon_name="Lanthanotus_borneensis" recon_no="374189">Lanthanotus_borneensis</List>
+		<List recon_name="Varanus_niloticus" recon_no="135845">Varanus_niloticus</List>
+		<List recon_name="Varanus_exanthematicus" recon_no="135849">Varanus_exanthematicus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="274">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Bhullar_2011a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Thewissen, J. G. M.</List>
+		</Author>
+		<Year>1992</Year>
+		<Title>Temporal data in phylogenetic systematics: an example from the mammalian fossil record</Title>
+		<Journal>Journal of Paleontology</Journal>
+		<Volume>66</Volume>
+		<Pages>1-8</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="8">
+		<List recon_name="Tetraclaenodon" recon_no="42289">Tetraclaenodon</List>
+		<List recon_name="Ectocion_collinus" recon_no="45966">E_collinus</List>
+		<List recon_name="Ectocion_cedrus" recon_no="45965">E_cedrus</List>
+		<List recon_name="Ectocion_mediotuber" recon_no="45969">E_mediotuber</List>
+		<List recon_name="Ectocion_osbornianus" recon_no="45971">E_osbornianus</List>
+		<List recon_name="Ectocion_parvus" recon_no="45972">E_parvus</List>
+		<List recon_name="Ectocion_major" recon_no="45968">E_major</List>
+		<List recon_name="Ectocion_superstes" recon_no="45974">E_superstes</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="10">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Thewissen_1992a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

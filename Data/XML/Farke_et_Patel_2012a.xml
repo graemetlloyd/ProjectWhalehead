@@ -1,0 +1,71 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Farke, A. A.</List>
+			<List>Patel, P. P.</List>
+		</Author>
+		<Year>2012</Year>
+		<Title>An enantiornithine bird from the Campanian Kaiparowits Formation of Utah, USA</Title>
+		<Journal>Cretaceous Research</Journal>
+		<Volume>37</Volume>
+		<Pages>227-230</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="36">
+		<List recon_name="Dromaeosauridae" recon_no="38561">Dromaeosauridae</List>
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">Archaeopteryx</List>
+		<List recon_name="Zhongornis_haoae" recon_no="130180">Zhongornis</List>
+		<List recon_name="Jeholornis_prima" recon_no="119247">Jeholornis</List>
+		<List recon_name="Sapeornis_chaoyangensis" recon_no="119249">Sapeornis</List>
+		<List recon_name="Confuciusornis" recon_no="67260">Confuciusornis</List>
+		<List recon_name="Changchengornis_hengdaoziensis" recon_no="134755">Changchengornis</List>
+		<List recon_name="Longipteryx_chaoyangensis" recon_no="137361">Longipteryx</List>
+		<List recon_name="Eoenantiornis_buhleri" recon_no="119311">Eoenantiornis</List>
+		<List recon_name="Concornis_lacustris" recon_no="100984">Concornis</List>
+		<List recon_name="Longirostravis_hani" recon_no="119305">Longirostravis</List>
+		<List recon_name="Eoalulavis_hoyasi" recon_no="65829">Eoalulavis</List>
+		<List recon_name="Gobipteryx_minuta" recon_no="57334">Gobipteryx</List>
+		<List recon_name="Neuquenornis_volans" recon_no="100989">Neuquenornis</List>
+		<List recon_name="Vescornis_hebeiensis" recon_no="119301">Vescornis</List>
+		<List recon_name="Iberomesornis_romerali" recon_no="65831">Iberomesornis</List>
+		<List recon_name="Shanweiniao_cooperorum" recon_no="146357">DNHM_D1878</List>
+		<List recon_name="Qiliania_graffini" recon_no="186992">Qiliania</List>
+		<List recon_name="Soroavisaurus_australis" recon_no="100991">Soravisaurus</List>
+		<List recon_name="Enantiornithes_indet_FRDC_07_CM_001" recon_no="53286">CAGS_07_001</List>
+		<List recon_name="Enantiornithes_indet_FRDC_06_CM_012" recon_no="53286">CAGS_06_012</List>
+		<List recon_name="Enantiornithes_indet_FRDC_05_CM_004" recon_no="53286">CAGS_05_004</List>
+		<List recon_name="Rapaxavis_pani" recon_no="148717">Rapaxavis</List>
+		<List recon_name="Enantiornithes_indet_RAM_14306" recon_no="53286">RAM14306</List>
+		<List recon_name="Archaeorhynchus_spathula" recon_no="137384">Archaeorhynchus</List>
+		<List recon_name="Patagopteryx_deferrariisi" recon_no="68529">Patagopteryx</List>
+		<List recon_name="Apsaravis_ukhaana" recon_no="58898">Apsaravis</List>
+		<List recon_name="Hongshanornis_longicresta" recon_no="119299">Hongshanornis</List>
+		<List recon_name="Yanornis_martini" recon_no="119337">Yanornis</List>
+		<List recon_name="Yixianornis_grabaui" recon_no="119340">Yixianornis</List>
+		<List recon_name="Gansus_yumenensis" recon_no="82617">Gansus</List>
+		<List recon_name="Longicrusavis_houi" recon_no="166852">Longicrusavis</List>
+		<List recon_name="Ichthyornis" recon_no="36624">Icthyornis</List>
+		<List recon_name="Hesperornis_regalis" recon_no="96488">Hesperornis</List>
+		<List recon_name="Anas" recon_no="67686">Anas</List>
+		<List recon_name="Gallus" recon_no="99150">Gallus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="242">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Farke_et_Patel_2012a</Filename>
+	<Parent>Ji_etal_2011a</Parent>
+	<Sibling/>
+</SourceTree>

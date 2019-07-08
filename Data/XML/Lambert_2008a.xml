@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Lambert, O.</List>
+		</Author>
+		<Year>2008</Year>
+		<Title>A new porpoise (Cetacea, Odontoceti, Phocoenidae) from the Pliocene of the North Sea</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>28</Volume>
+		<Pages>863-872</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="16">
+		<List recon_name="Kentriodon_pernix" recon_no="64433">Kentriodon_pernix</List>
+		<List recon_name="Delphinodon_dividum" recon_no="68939">Delphinodon_dividum</List>
+		<List recon_name="Salumiphocaena_stocktoni" recon_no="63899">Salumiphocaena</List>
+		<List recon_name="Piscolithax_tedfordi" recon_no="90875">Piscolithax_tedfordi</List>
+		<List recon_name="Piscolithax_boreios" recon_no="90874">Piscolithax_boreios</List>
+		<List recon_name="Piscolithax_longirostris" recon_no="64568">Piscolithax_longirostris</List>
+		<List recon_name="Lomacetus_ginsburgi" recon_no="64584">Lomacetus</List>
+		<List recon_name="Australithax_intermedia" recon_no="62930">Australithax</List>
+		<List recon_name="Haborophocoena_toyoshimai" recon_no="68162">Haborophocoena</List>
+		<List recon_name="Septemtriocetus_bosselaersi" recon_no="133842">Septemtriocetus</List>
+		<List recon_name="Phocoena_sinus" recon_no="82072">Phocoena_sinus</List>
+		<List recon_name="Phocoena_dioptrica" recon_no="63545">Phocoena_dioptrica</List>
+		<List recon_name="Phocoena_phocoena" recon_no="63544">Phocoena_phocoena</List>
+		<List recon_name="Phocoenoides_dalli" recon_no="63554">Phocoenoides_dalli</List>
+		<List recon_name="Neophocaena_phocaenoides" recon_no="64883">Neophocaena_phocaenoides</List>
+		<List recon_name="Phocoena_spinipinnis" recon_no="82073">Phocoena_spinipinnis</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="27">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Lambert_2008a</Filename>
+	<Parent>Fajardo-Mellor_etal_2006a</Parent>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Gallina, P. A.</List>
+			<List>Otero, A.</List>
+		</Author>
+		<Year>2015</Year>
+		<Title>Reassessment of <em>Laplatasaurus araukanicus</em> (Sauropoda: Titanosauria) from the Upper Cretaceous of Patagonia, Argentina</Title>
+		<Journal>Ameghiniana</Journal>
+		<Volume>52</Volume>
+		<Pages>487-501</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="26">
+		<List recon_name="Camarasaurus_grandis" recon_no="67181">Camarasaurus</List>
+		<List recon_name="Giraffatitan_brancai" recon_no="92308">Giraffatitan</List>
+		<List recon_name="Chubutisaurus_insignis" recon_no="53963">Chubutisaurus</List>
+		<List recon_name="Andesaurus_delgadoi" recon_no="58918">Andesaurus</List>
+		<List recon_name="Malawisaurus_dixeyi" recon_no="57458">Malawisaurus</List>
+		<List recon_name="Ligabuesaurus_leanzai" recon_no="81715">Ligabuesaurus</List>
+		<List recon_name="Mendozasaurus_neguyelap" recon_no="55584">Mendozasaurus</List>
+		<List recon_name="Futalognkosaurus_dukei" recon_no="109005">Futalognkosaurus</List>
+		<List recon_name="Epachthosaurus_sciuttoi" recon_no="57467">Epachthosaurus</List>
+		<List recon_name="Nemegtosaurus_mongoliensis" recon_no="54841">Nemegtosaurus</List>
+		<List recon_name="Lirainosaurus_astibiae" recon_no="65827">Lirainosaurus</List>
+		<List recon_name="Rinconsaurus_caudamirus" recon_no="68592">Rinconsaurus</List>
+		<List recon_name="Muyelensaurus_pecheni" recon_no="122472">Muyelensaurus</List>
+		<List recon_name="Gondwanatitan_faustoi" recon_no="66574">Gondwanatitan</List>
+		<List recon_name="Aeolosaurus" recon_no="53964">Aeolosaurus</List>
+		<List recon_name="Opisthocoelicaudia_skarzynskii" recon_no="57335">Opisthocoelicaudia</List>
+		<List recon_name="Alamosaurus_sanjuanensis" recon_no="63399">Alamosaurus</List>
+		<List recon_name="Rocasaurus_muniozi" recon_no="66613">Rocasaurus</List>
+		<List recon_name="Neuquensaurus_australis" recon_no="64315">Neuquensaurus</List>
+		<List recon_name="Saltasaurus_loricatus" recon_no="58838">Saltasaurus</List>
+		<List recon_name="Bonitasaura_salgadoi" recon_no="58913">Bonitasaura</List>
+		<List recon_name="Bonatitan_reigi" recon_no="65535">Bonatitan</List>
+		<List recon_name="Rapetosaurus_krausei" recon_no="57533">Rapetosaurus</List>
+		<List recon_name="Laplatasaurus_araukanicus" recon_no="64322">Laplatasaurus</List>
+		<List recon_name="Uberabatitan_ribeiroi" recon_no="130182">Uberabatitan</List>
+		<List recon_name="Overosaurus_paradasorum" recon_no="273093">Overosaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="88">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Gallina_et_Otero_2015a</Filename>
+	<Parent>Salgado_etal_2015a</Parent>
+	<Sibling/>
+</SourceTree>

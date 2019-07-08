@@ -1,0 +1,33 @@
+#NEXUS
+
+[File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=16 NCHAR=27 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2 3" MISSING=? GAP=- ;
+MATRIX
+
+Kentriodon_pernix         00000?0000000000000000?????
+Delphinodon_dividum       10000?0000?00?20?00?0000???
+Salumiphocaena            110210002010??11?0?????????
+Piscolithax_tedfordi      1012101112011?1?00???0?????
+Piscolithax_boreios       0002100122010?00???????????
+Piscolithax_longirostris  0002100112001(01)00101000?????
+Lomacetus                 010210012000000??0????00???
+Australithax              ?1021001200011?????????????
+Haborophocoena            ?011101?2011?0?0???????????
+Septemtriocetus           ?011101?200111?????????????
+Phocoena_sinus            2002110121011?3111100110001
+Phocoena_dioptrica        200211012(12)1111311(23)2(01)0011110
+Phocoena_phocoena         20(01)2110(01)2(01)1111211(23)(12)11001101
+Phocoenoides_dalli        20021(01)01(12)(12)11112(01)13211100010
+Neophocaena_phocaenoides  2112110(01)2(12)11(01)131111100(01)0000
+Phocoena_spinipinnis      2(01)0211012101113111100100000
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = unord: 1-27;
+END;
+

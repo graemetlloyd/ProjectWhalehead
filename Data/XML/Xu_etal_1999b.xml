@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Xu, X.</List>
+			<List>Wang, X.-L.</List>
+			<List>Wu, X.-C.</List>
+		</Author>
+		<Year>1999</Year>
+		<Title>A dromaeosaurid dinosaur with a filamentous integument from the Yixian Formation of China</Title>
+		<Journal>Nature</Journal>
+		<Volume>401</Volume>
+		<Pages>262-266</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="8">
+		<List recon_name="Coelophysis" recon_no="38520">Coelophysis</List>
+		<List recon_name="Ornithomimidae" recon_no="38539">Ornithomimidae</List>
+		<List recon_name="Dromaeosauridae" recon_no="38561">Dromaeosauridae</List>
+		<List recon_name="Troodontidae" recon_no="54468">Troodontidae</List>
+		<List recon_name="Oviraptorosauria" recon_no="54546">Oviraptorosauria</List>
+		<List recon_name="Beipiaosaurus_inexpectus" recon_no="68241">Beipiaosaurus</List>
+		<List recon_name="Alxasaurus_elesitaiensis" recon_no="64126">Alxasaurus</List>
+		<List recon_name="Therizinosauridae" recon_no="38552">Therizinosauridae</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="84">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Xu_etal_1999b</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Lu, J.-C.</List>
+			<List>Dong, Z.-M.</List>
+			<List>Azuma, Y.</List>
+			<List>Barsbold, R.</List>
+			<List>Tomida, Y.</List>
+		</Author>
+		<Year>2002</Year>
+		<Title>Oviraptorosaurs compared to birds</Title>
+		<Journal/>
+		<Volume/>
+		<Pages>175-189</Pages>
+		<Booktitle>Proceedings of the 5th Symposium of the Society of Avian Paleontology and Evolution</Booktitle>
+		<Publisher>Science Press</Publisher>
+		<City>Beijing</City>
+		<Editor>
+			<List>Zhou, Z.-H.</List>
+			<List>Zhang, F.-C.</List>
+		</Editor>
+	</Source>
+	<Taxa number="14">
+		<List recon_name="Velociraptorinae" recon_no="54553">Velociraptorinae</List>
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">Archaeopteryx</List>
+		<List recon_name="Caudipteryx_zoui" recon_no="66066">Caudipteryx</List>
+		<List recon_name="Alvarezsaurus_calvoi" recon_no="64775">Alvarezsaurus</List>
+		<List recon_name="Mononykus_olecranus" recon_no="67288">Mononykus</List>
+		<List recon_name="Patagonykus_puertai" recon_no="64773">Patagonykus</List>
+		<List recon_name="Oviraptorosauria" recon_no="54546">Oviraptorosaurs</List>
+		<List recon_name="Iberomesornis_romerali" recon_no="65831">Iberomesornis</List>
+		<List recon_name="Confuciusornis" recon_no="67260">Confucisornis</List>
+		<List recon_name="Enantiornithes" recon_no="53286">Enantiornithes</List>
+		<List recon_name="Patagopteryx_deferrariisi" recon_no="68529">Patagopteryx</List>
+		<List recon_name="Hesperornithiformes" recon_no="36617">Hesperornithiformes</List>
+		<List recon_name="Ichthyornithiformes" recon_no="36622">Ichthyornithiformes</List>
+		<List recon_name="Neornithes" recon_no="39241">Neornithes</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="75">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Lu_etal_2002a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

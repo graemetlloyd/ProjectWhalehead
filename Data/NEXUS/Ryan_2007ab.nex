@@ -1,0 +1,32 @@
+#NEXUS
+
+[!File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=15 NCHAR=36 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2 3 4" MISSING=? GAP=- ;
+MATRIX
+
+Protoceratops                   0???000001000?0????00??1000??????000
+Centrosaurus                    00?0011001011111101111010023230?1111
+Styracosaurus                   00?001100101111110??110100222(12)111111
+Achelousaurus                   00?001101301122?10?111010020?2111111
+Einiosaurus                     00?001100101121210??11010020?1101111
+Pachyrhinosaurus                00?001101301122?10?111010020?3121111
+Zuniceratops                    ?????01??0???010011???????????????00
+Anchiceratops                   1101201001100?1000000011001414310011
+Arrhinoceratops                 1101201001100?10000000?1001?????0011
+Chasmosaurus                    1111100101001?10(01)11000121111110?0011
+Pentaceratops                   1111100101100?1001000012111414300011
+Torosaurus                      1101101001100?10000000?10011010?0011
+Triceratops                     110110100110001000000110??11010?0011
+TMP_2001_dot_26_dot_1_material  ?????1??1???1?100011110?0020?0221111
+Montana_bone_bed                1????1?01201?0100011?10???10?0220???
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = unord: 1-36;
+END;
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Godefroit, P.</List>
+			<List>Dong, Z.-M.</List>
+			<List>Bultynck, P.</List>
+			<List>Li, H.</List>
+			<List>Feng, L.</List>
+			<List>Shang, C.-Y.</List>
+			<List>Guo, D.-Y.</List>
+			<List>Dong, Y.-L.</List>
+			<List>Sun, Y.</List>
+			<List>Zhang, Z.-M.</List>
+			<List>De Potter, H.</List>
+			<List>Lenglet, G.</List>
+			<List>Smith, T.</List>
+			<List>Dermience, E.</List>
+		</Author>
+		<Year>1998</Year>
+		<Title>Sino-Belgian Cooperation Program - Cretaceous Dinosaurs and Mammals from Inner Mongolia. 1. New <em>Bactrosaurus</em> (Dinosauria: Hadrosauroidea) material from Iren Dabasu (Inner Mongolia, P. R. China)</Title>
+		<Journal>Bulletin Institut royal des sciences naturelles de Belgique: Sciences de la terre</Journal>
+		<Volume>68</Volume>
+		<Pages>3-70</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="8">
+		<List recon_name="Hypsilophodon_foxii" recon_no="54190">Hypsilophodon</List>
+		<List recon_name="Camptosaurus" recon_no="38748">Camptosaurus</List>
+		<List recon_name="Iguanodon_bernissartensis" recon_no="58905">Iguanodon</List>
+		<List recon_name="Ouranosaurus_nigeriensis" recon_no="52877">Ouranosaurus</List>
+		<List recon_name="Bactrosaurus_johnsoni" recon_no="57344">Bactrosaurus</List>
+		<List recon_name="Telmatosaurus_transsylvanicus" recon_no="68154">Telmatosaurus</List>
+		<List recon_name="Hadrosaurinae" recon_no="53382">Hadrosaurinae</List>
+		<List recon_name="Lambeosaurinae" recon_no="53394">Lambeosaurinae</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="56">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Godefroit_etal_1998a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

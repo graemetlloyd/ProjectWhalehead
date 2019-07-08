@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Perez-Moreno, B. P.</List>
+			<List>Sanz, J.-L.</List>
+			<List>Buscalioni, A. D.</List>
+			<List>Moratalla, J. J.</List>
+			<List>Ortega, F.</List>
+			<List>Rasskin-Gutman, D.</List>
+		</Author>
+		<Year>1994</Year>
+		<Title>A unique multitoothed ornithomimosaur dinosaur from the Lower Cretaceous of Spain</Title>
+		<Journal>Nature</Journal>
+		<Volume>370</Volume>
+		<Pages>363-367</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="7">
+		<List recon_name="Allosaurus" recon_no="38590">Allosaurus</List>
+		<List recon_name="Albertosaurus_sarcophagus" recon_no="56319">Albertosaurus</List>
+		<List recon_name="Deinonychus_antirrhopus" recon_no="54555">Deinonychus</List>
+		<List recon_name="Troodontidae" recon_no="54468">Troodontidae</List>
+		<List recon_name="Pelecanimimus_polyodon" recon_no="64118">Pelecanimimus</List>
+		<List recon_name="Garudimimus_brevipes" recon_no="57267">Garudimimus</List>
+		<List recon_name="Gallimimus_bullatus" recon_no="57265">Gallimimus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="22">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Perez-Moreno_etal_1994a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

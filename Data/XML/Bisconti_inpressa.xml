@@ -1,0 +1,84 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Bisconti, M.</List>
+		</Author>
+		<Year>in press</Year>
+		<Title>Anatomy of a new cetotheriid genus and species from the Miocene of Herentals, Belgium, and the phylogenetic and palaeobiogeographical relationships of Cetotheriidae s.s. (Mammalia, Cetacea, Mysticeti)</Title>
+		<Journal>Journal of Systematic Palaeontology</Journal>
+		<Volume/>
+		<Pages/>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="50">
+		<List recon_name="Protocetus_atavus" recon_no="62989">Protocetus_atavus</List>
+		<List recon_name="Georgiacetus_vogtlensis" recon_no="63123">Georgiacetus_vogtlensis</List>
+		<List recon_name="Dorudon_atrox" recon_no="53288">Dorudon_atrox</List>
+		<List recon_name="Zygorhiza_kochii" recon_no="53292">Zygorhyza_kochii_USNM_11962</List>
+		<List recon_name="Mammalodon_colliveri" recon_no="63222">Mammalodon_colliveri</List>
+		<List recon_name="Aetiocetus_weltoni" recon_no="63483">Aetiocetus_weltoni</List>
+		<List recon_name="Micromysticetus_rothauseni" recon_no="63465">Micromysticetus_rothauseni</List>
+		<List recon_name="Eomysticetus_whitmorei" recon_no="63469">Eomysticetus_whitmorei</List>
+		<List recon_name="Caperea_marginata" recon_no="77391">Caperea_marginata</List>
+		<List recon_name="Balaenula_astensis" recon_no="65855">Balaenula_astensis</List>
+		<List recon_name="Eubalaena_glacialis" recon_no="80716">Eubalaena_glacialis</List>
+		<List recon_name="Balaena_mysticetus" recon_no="64683">Balena_mysticetus</List>
+		<List recon_name="Balaenella_brachyrhynus" recon_no="69993">Balaenella_brachyrhynus</List>
+		<List recon_name="Pelocetus_calvertensis" recon_no="62945">Pelocetus_calvertensis</List>
+		<List recon_name="Aglaocetus_patulus" recon_no="62952">Aglaocetus_patulus</List>
+		<List recon_name="Isanacetus_laticephalus" recon_no="64147">Isanacetus_laticephalus</List>
+		<List recon_name="Uranocetus_gramensis" recon_no="64429">Uranocetus_gramensis</List>
+		<List recon_name="Parietobalaena_palmeri" recon_no="62938">Parietobalaena_palmeri</List>
+		<List recon_name="Aglaocetus_moreni" recon_no="69155">Aglaocetus_moreni</List>
+		<List recon_name="Titanocetus_sammarinensis" recon_no="319669">Titanocetus_sammarinensis</List>
+		<List recon_name="Cophocetus_oregonensis" recon_no="64528">Cophocetus_oregonensis</List>
+		<List recon_name="Diorocetus_hiatus" recon_no="62951">Diorocetus_hiatus</List>
+		<List recon_name="Joumocetus_shimizui" recon_no="169830">Joumocetus_shimitzui</List>
+		<List recon_name="Cetotherium_rathkii" recon_no="64469">Cetotherium_rathkii</List>
+		<List recon_name="Piscobalaena_nana" recon_no="63933">Piscobalaena_nana</List>
+		<List recon_name="Mixocetus_elysius" recon_no="64432">Mixocetus_elysius</List>
+		<List recon_name="Metopocetus_durinasus" recon_no="63977">Metopocetus_durinasus</List>
+		<List recon_name="Herentalia_nigra" recon_no="291236">Herentalia_nigra</List>
+		<List recon_name="Herpetocetus_transatlanticus" recon_no="114673">Herpetocetus_transatlanticus</List>
+		<List recon_name="Herpetocetus_bramblei" recon_no="114675">Herpetocetus_bramblei</List>
+		<List recon_name="Herpetocetus_scaldiensis" recon_no="64450">Herpetocetus_scaldiensis</List>
+		<List recon_name="Herpetocetus_sp_NMNS_PV19540" recon_no="36725">Herpetocetus_sp_Japan</List>
+		<List recon_name="Nannocetus_eremus" recon_no="62941">Nannocetus_eremus</List>
+		<List recon_name="Thalassotherii_indet_USNM_187416" recon_no="256071">USNM_187416</List>
+		<List recon_name="Eschrichtius_robustus" recon_no="81900">Eschrichtius_robustus</List>
+		<List recon_name="Eschrichtioides_gastaldii" recon_no="122147">Eschrichtioides_gastaldii</List>
+		<List recon_name="Archaeschrichtius_ruggieroi" recon_no="114365">Archaeschrichtius_ruggieroi</List>
+		<List recon_name="Archaebalaenoptera_castriarquati" recon_no="106910">Archaebalaenoptera_castriarquati</List>
+		<List recon_name="Parabalaenoptera_baulinensis" recon_no="64140">Parabalaenoptera_baulinensis</List>
+		<List recon_name="Megaptera_novaeangliae" recon_no="70685">Megaptera_novaeangliae</List>
+		<List recon_name="Balaenoptera_physalus" recon_no="64490">Balaenoptera_physalus</List>
+		<List recon_name="Balaenoptera_acutorostrata" recon_no="68469">Balaenoptera_acutorostrata</List>
+		<List recon_name="Balaenoptera_edeni" recon_no="81902">Balaenoptera_edeni</List>
+		<List recon_name="Balaenoptera_borealis" recon_no="70692">Balaenoptera_borealis</List>
+		<List recon_name="Balaenoptera_musculus" recon_no="70697">Balaenoptera_musculus</List>
+		<List recon_name="Balaenoptera_siberi" recon_no="69078">Balaenoptera_siberi</List>
+		<List recon_name="Protororqualus_cuvieri" recon_no="114372">Protororqualus_cuvieri</List>
+		<List recon_name="Plesiobalaenoptera_quarantellii" recon_no="169828">Plesiobalaenoptera_quarantellii</List>
+		<List recon_name="Megaptera_hubachi" recon_no="68703">Megaptera_hubachi</List>
+		<List recon_name="Diunatans_luctoretemergo" recon_no="170128">Diunatans_luctoretemergo</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="249">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Bisconti_inpressa</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

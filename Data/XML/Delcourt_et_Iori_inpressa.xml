@@ -1,0 +1,80 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Delcourt, R.</List>
+			<List>Iori, F. V.</List>
+		</Author>
+		<Year>in press</Year>
+		<Title>A new Abelisauridae (Dinosauria: Theropoda) from Sao Jose do Rio Preto Formation, Upper Cretaceous of Brazil and comments on the Bauru Group fauna</Title>
+		<Journal>Historical Biology</Journal>
+		<Volume/>
+		<Pages/>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="45">
+		<List recon_name="Herrerasaurus_ischigualastensis" recon_no="55000">Herrerasaurus</List>
+		<List recon_name="Coelophysis" recon_no="38520">Coelophysis</List>
+		<List recon_name="Allosaurus" recon_no="38590">Allosaurus</List>
+		<List recon_name="Abelisauridae_indet_unreferred_Pourcieux" recon_no="53942">Pourcieux_taxon</List>
+		<List recon_name="Deltadromeus_agilis" recon_no="65367">Deltabromeus</List>
+		<List recon_name="Spinostropheus_gautieri" recon_no="71393">Spinostropheus</List>
+		<List recon_name="Elaphrosaurus_bambergi" recon_no="55481">Elaphrosaurus</List>
+		<List recon_name="Limusaurus_inextricabilis" recon_no="148871">Limusaurus</List>
+		<List recon_name="Camarillasaurus_cirugedae" recon_no="249476">Caramillasaurus</List>
+		<List recon_name="Genyodectes_serus" recon_no="57033">Genyodectes</List>
+		<List recon_name="Ceratosaurus_nasicornis" recon_no="54165">Ceratosaurus</List>
+		<List recon_name="Berberosaurus_liassicus" recon_no="109009">Berberosaurus</List>
+		<List recon_name="Eoabelisaurus_mefi" recon_no="242130">Eoabelisaurus</List>
+		<List recon_name="Dahalokely_tokana" recon_no="265641">Dahalokely</List>
+		<List recon_name="Ligabueino_andesi" recon_no="54537">Ligabueino</List>
+		<List recon_name="Velocisaurus_unicus" recon_no="64902">Velocisaurus</List>
+		<List recon_name="Austrocheirus_isasii" recon_no="167087">Austrocheirus</List>
+		<List recon_name="Noasaurus_leali" recon_no="54534">Noasaurus</List>
+		<List recon_name="Masiakasaurus_knopfleri" recon_no="56389">Masiakasaurus</List>
+		<List recon_name="Laevisuchus_indicus" recon_no="56390">Laevisuchus</List>
+		<List recon_name="Tetanurae_indet_MNN_GAD1_dash_2" recon_no="53374">Gadoufaoua_taxon</List>
+		<List recon_name="Kryptops_palaios" recon_no="123316">Kryptops_cranium</List>
+		<List recon_name="Xenotarsosaurus_bonapartei" recon_no="56394">Xenotarsosaurus</List>
+		<List recon_name="Rugops_primus" recon_no="71395">Rugops</List>
+		<List recon_name="Genusaurus_sisteronis" recon_no="56392">Genusaurus</List>
+		<List recon_name="Abelisauridae_indet_MCF_dash_PVPH_dash_237" recon_no="53942">Cerro_Bayo_Mesa_Taxon</List>
+		<List recon_name="Tarascosaurus_salluvicus" recon_no="65138">Tarascosaurus</List>
+		<List recon_name="Abelisauridae_indet_unreferred_La_Boucharde" recon_no="53942">La_Boucharde_taxon</List>
+		<List recon_name="Arcovenator_escotae" recon_no="285749">Arcovenator</List>
+		<List recon_name="Majungasaurus_crenatissimus" recon_no="53957">Majungasaurus</List>
+		<List recon_name="Indosaurus_matleyi" recon_no="54099">Indosaurus</List>
+		<List recon_name="Rahiolisaurus_gujaratensis" recon_no="172844">Rahiolisaurus</List>
+		<List recon_name="Rajasaurus_narmadensis" recon_no="54433">Rajasaurus</List>
+		<List recon_name="Ilokelesia_aguadagrandensis" recon_no="54532">Ilokelesia</List>
+		<List recon_name="Ekrixinatosaurus_novasi" recon_no="65416">Ekrixinatosaurus</List>
+		<List recon_name="Skorpiovenator_bustingorryi" recon_no="138557">Skorpiovenator</List>
+		<List recon_name="Pycnonemosaurus" recon_no="53941">Pycnonemosaurus</List>
+		<List recon_name="Abelisauroidea_indet_MCT_1783_dash_R" recon_no="54528">Cambara_taxon</List>
+		<List recon_name="Quilmesaurus_curriei" recon_no="54539">Quilmesaurus</List>
+		<List recon_name="Abelisaurus_comahuensis" recon_no="53945">Abelisaurus</List>
+		<List recon_name="Aucasaurus_garridoi" recon_no="54524">Aucasaurus</List>
+		<List recon_name="Carnotaurus_sastrei" recon_no="54526">Carnotaurus</List>
+		<List recon_name="Viavenator_exxoni" recon_no="336875">Viavenator</List>
+		<List recon_name="Chenanisaurus_barbaricus" recon_no="378709">Chenanisaurus</List>
+		<List recon_name="Thanos_simonattoi" recon_no="379318">Thanos</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="426">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Delcourt_et_Iori_inpressa</Filename>
+	<Parent>Longrich_etal_2017a</Parent>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Gerlach, J.</List>
+		</Author>
+		<Year>2001</Year>
+		<Title>Tortoise phylogeny and the ‘<em>Geochelone</em>’ problem</Title>
+		<Journal>Phelsuma</Journal>
+		<Volume>9 (Supplement A)</Volume>
+		<Pages>1-24</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="24">
+		<List recon_name="Batagur_baska" recon_no="373870">Batagur</List>
+		<List recon_name="Heosemys" recon_no="373900">Heosemys</List>
+		<List recon_name="Manouria" recon_no="132781">Manouria</List>
+		<List recon_name="Centrochelys" recon_no="347903">Centrochelys</List>
+		<List recon_name="Stigmochelys" recon_no="364851">Stigmochelys</List>
+		<List recon_name="Dipsochelys" recon_no="158506">Dipsochelys</List>
+		<List recon_name="Pyxis_planicauda" recon_no="373906">Acinyxis</List>
+		<List recon_name="Pyxis_arachnoides" recon_no="373905">Pyxis</List>
+		<List recon_name="Astrochelys_yniphora" recon_no="377483">Astrochelys_yniphora</List>
+		<List recon_name="Astrochelys_radiata" recon_no="377482">Astrochelys_radiata</List>
+		<List recon_name="Cylindraspis" recon_no="364846">Cylindraspis</List>
+		<List recon_name="Geochelone" recon_no="37740">Geochelone</List>
+		<List recon_name="Gopherus" recon_no="37741">Gopherus</List>
+		<List recon_name="Xerobates" recon_no="67307">Xerobates</List>
+		<List recon_name="Chelonoidis" recon_no="242700">Chelonoidis</List>
+		<List recon_name="Indotestudo" recon_no="132804">Indotestudo</List>
+		<List recon_name="Kinixys" recon_no="37742">Kinyxis</List>
+		<List recon_name="Chersina" recon_no="67985">Chersina</List>
+		<List recon_name="Psammobates" recon_no="203534">Psammobates</List>
+		<List recon_name="Homopus" recon_no="203533">Homopus</List>
+		<List recon_name="Malacochersus" recon_no="364848">Malacochersus</List>
+		<List recon_name="Testudo" recon_no="37744">Testudo</List>
+		<List recon_name="Pseudotestudo" recon_no="377730">Pseudotestudo</List>
+		<List recon_name="Agrionemys" recon_no="364844">Agrionemys</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="66">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Gerlach_2001a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

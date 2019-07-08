@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Gatesy, J.</List>
+			<List>DeSalle, R.</List>
+			<List>Wheeler, W.</List>
+		</Author>
+		<Year>1993 </Year>
+		<Title>Alignment-ambiguous nucleotide sites and the exclusion of systematic data</Title>
+		<Journal>Molecular Phylogenetics and Evolution</Journal>
+		<Volume>2</Volume>
+		<Pages>152-157</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="10">
+		<List recon_name="Alligator_sinensis" recon_no="173237">Alligator_sinensis</List>
+		<List recon_name="Melanosuchus_niger" recon_no="190756">Melanosuchus_niger</List>
+		<List recon_name="Paleosuchus_trigonatus" recon_no="190759">Poleosuchus_trigonatus</List>
+		<List recon_name="Alligator_mississippiensis" recon_no="110824">Alligator_mississippiensis</List>
+		<List recon_name="Caiman_latirostris" recon_no="190757">Caiman_latirostris</List>
+		<List recon_name="Paleosuchus_palpebrosus" recon_no="317103">Paleosuchus_palpebrosus</List>
+		<List recon_name="Caiman_crocodilus" recon_no="321259">Caiman_crocodilus</List>
+		<List recon_name="Crocodylus_rhombifer" recon_no="266712">Crocodylus_rhombifer</List>
+		<List recon_name="Gavialis_gangeticus" recon_no="190776">Gavialis_gangeticus</List>
+		<List recon_name="Tomistoma_schlegelii" recon_no="190748">Tomistama_schlegelit</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="266">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Gatesy_etal_1993a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

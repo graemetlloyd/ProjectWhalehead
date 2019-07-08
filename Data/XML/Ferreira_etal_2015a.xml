@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Ferreira, G. S.</List>
+			<List>Rincon, A. D.</List>
+			<List>Solorzano, A.</List>
+			<List>Langer, M. C.</List>
+		</Author>
+		<Year>2015</Year>
+		<Title>The last marine pelomedusoids (Testudines: Pleurodira): a new species of <em>Bairdemys</em> and the paleoecology of Stereogenyina</Title>
+		<Journal>PeerJ</Journal>
+		<Volume>3</Volume>
+		<Pages>e1063</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="16">
+		<List recon_name="Podocnemis_unifilis" recon_no="344504">Podocnemis_unifilis</List>
+		<List recon_name="Peltocephalus_dumerilianus" recon_no="373848">Peltocephalus_dumerilianus</List>
+		<List recon_name="Erymnochelys_madagascariensis" recon_no="239573">Erymnochelys_madagascariensis</List>
+		<List recon_name="Mogharemys_blanckenhorni" recon_no="344518">Mogharemys_blackenhorni</List>
+		<List recon_name="Brontochelys_gaffneyi" recon_no="344520">Brontochelys_gaffneyi</List>
+		<List recon_name="Lemurchelys_diasphax" recon_no="344498">Lemurchelys_diasphax</List>
+		<List recon_name="Shweboemys_pilgrimi" recon_no="344529">Shweboemys_pilgrimi</List>
+		<List recon_name="Stereogenys_cromeri" recon_no="86279">Stereogenys_cromeri</List>
+		<List recon_name="Cordichelys_antiqua" recon_no="344525">Cordichelys_antiqua</List>
+		<List recon_name="Latentemys_plowdeni" recon_no="344495">Latentemys_plowdeni</List>
+		<List recon_name="Bairdemys_thalassica" recon_no="365525">Bairdemys_thalassica</List>
+		<List recon_name="Bairdemys_healeyorum" recon_no="255001">Bairdemys_healeyorum</List>
+		<List recon_name="Bairdemys_venezuelensis" recon_no="255005">Bairdemys_venezuelensis</List>
+		<List recon_name="Bairdemys_hartsteini" recon_no="255002">Bairdemys_hartsteini</List>
+		<List recon_name="Bairdemys_sanchezi" recon_no="255006">Bairdemys_sanchezi</List>
+		<List recon_name="Bairdemys_winklerae" recon_no="255007">Bairdemys_winklerae</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="57">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Ferreira_etal_2015a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

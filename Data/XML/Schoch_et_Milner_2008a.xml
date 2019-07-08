@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Schoch, R. R.</List>
+			<List>Milner, A. R.</List>
+		</Author>
+		<Year>2008</Year>
+		<Title>The intrarelationships and evolutionary history of the temnospondyl family Branchiosauridae</Title>
+		<Journal>Journal of Systematic Palaeontology</Journal>
+		<Volume>6</Volume>
+		<Pages>409-431</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="19">
+		<List recon_name="Balanerpeton_woodi" recon_no="227178">Balanerpeton_woodi</List>
+		<List recon_name="Sclerocephalus_haeuseri" recon_no="255233">Sclerocephalus_haeuseri</List>
+		<List recon_name="Ecolsonia_cutlerensis" recon_no="229320">Ecolsonia_cutlerensis</List>
+		<List recon_name="Micromelerpeton_credneri" recon_no="341560">Micromelerpeton_credneri</List>
+		<List recon_name="Platyrhinops_lyelli" recon_no="345482">Platyrhinops_lyelli</List>
+		<List recon_name="Amphibamus_grandiceps" recon_no="229305">Amphibamus_grandiceps</List>
+		<List recon_name="Micropholis_stowi" recon_no="255226">Micropholis_stowii</List>
+		<List recon_name="Branchiosaurus_salamandroides" recon_no="255222">Branchiosaurus_salamandroides</List>
+		<List recon_name="Apateon_pedestris" recon_no="229308">Apateon_pedestris</List>
+		<List recon_name="Apateon_gracilis" recon_no="362797">Apateon_gracilis</List>
+		<List recon_name="Apateon_caducus" recon_no="345825">Apateon_caducus</List>
+		<List recon_name="Apateon_kontheri" recon_no="345812">Apateon_kontheri</List>
+		<List recon_name="Apateon_flagrifer" recon_no="345821">Apateon_flagrifer</List>
+		<List recon_name="Apateon_dracyi" recon_no="345823">Apateon_dracyiensis</List>
+		<List recon_name="Melanerpeton_humbergense" recon_no="345808">Melanerpeton_humbergense</List>
+		<List recon_name="Leptorophus_tener" recon_no="341668">Leptorophus_tener</List>
+		<List recon_name="Schoenfelderpeton_prescheri" recon_no="230693">Schoenfelderpeton_prescheri</List>
+		<List recon_name="Melanerpeton_sembachense" recon_no="345779">Melanerpeton_sembachense</List>
+		<List recon_name="Melanerpeton_eisfeldi" recon_no="345780">Melanerpeton_eisfeldi</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="40">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Schoch_et_Milner_2008a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

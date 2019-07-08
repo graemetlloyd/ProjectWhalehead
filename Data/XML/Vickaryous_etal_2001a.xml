@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Vickaryous, M. K.</List>
+			<List>Russell, A. P.</List>
+			<List>Currie, P. J.</List>
+			<List>Zhao, X.-J.</List>
+		</Author>
+		<Year>2001</Year>
+		<Title>A new ankylosaurid (Dinosauria: Ankylosauria) from the Lower Cretaceous of China, with comments on ankylosaurian relationships</Title>
+		<Journal>Canadian Journal of Earth Sciences</Journal>
+		<Volume>38</Volume>
+		<Pages>1767-1780</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="24">
+		<List recon_name="Lesothosaurus_diagnosticus" recon_no="57574">Lesothosaurus</List>
+		<List recon_name="Huayangosaurus_taibaii" recon_no="54858">Huayangosaurus</List>
+		<List recon_name="Gargoyleosaurus_parkpinorum" recon_no="82609">Gargoyleosaurus</List>
+		<List recon_name="Minmi_paravertebrata" recon_no="64270">Minmi</List>
+		<List recon_name="Tsagantegia_longicranialis" recon_no="68199">Tsagantegia</List>
+		<List recon_name="Ankylosaurus_magniventris" recon_no="52793">Ankylosaurus</List>
+		<List recon_name="Euoplocephalus_tutus" recon_no="63917">Euoplocephalus</List>
+		<List recon_name="Saichania_chulsanensis" recon_no="52910">Saichania</List>
+		<List recon_name="Tarchia_gigantea" recon_no="52905">Tarchia</List>
+		<List recon_name="Pinacosaurus" recon_no="38833">Pinacosaurus</List>
+		<List recon_name="Nodocephalosaurus_kirtlandensis" recon_no="68008">Nodocephalosaurus</List>
+		<List recon_name="Talarurus_plicatospineus" recon_no="52797">Talarurus</List>
+		<List recon_name="Tianzhenosaurus_youngi" recon_no="66504">Tianzhenosaurus</List>
+		<List recon_name="Shanxia" recon_no="66501">Shanxia</List>
+		<List recon_name="Shamosaurus_scutatus" recon_no="52795">Shamosaurus</List>
+		<List recon_name="Gobisaurus_domoculus" recon_no="84235">Gobisaurus</List>
+		<List recon_name="Gastonia_burgei" recon_no="63701">Gastonia</List>
+		<List recon_name="Animantarx_ramaljonesi" recon_no="63699">Animantarx</List>
+		<List recon_name="Struthiosaurus_languedocensis" recon_no="64793">Struthiosaurus</List>
+		<List recon_name="Silvisaurus_condrayi" recon_no="52791">Silvisaurus</List>
+		<List recon_name="Sauropelta_edwardsorum" recon_no="81248">Sauropelta</List>
+		<List recon_name="Pawpawsaurus_campbelli" recon_no="55999">Pawpawsaurus</List>
+		<List recon_name="Edmontonia" recon_no="63919">Edmontonia</List>
+		<List recon_name="Panoplosaurus_mirus" recon_no="52788">Panoplosaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="41">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Vickaryous_etal_2001a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

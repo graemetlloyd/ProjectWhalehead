@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Ezcurra, M. D.</List>
+			<List>Montefeltro, F.</List>
+			<List>Butler, R. J.</List>
+		</Author>
+		<Year>2016</Year>
+		<Title>The early evolution of rhynchosaurs</Title>
+		<Journal>Frontiers in Ecology and Evolution</Journal>
+		<Volume>3</Volume>
+		<Pages>142</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="15">
+		<List recon_name="Protorosaurus_speneri" recon_no="95836">Protorosaurus_speneri</List>
+		<List recon_name="Prolacerta_broomi" recon_no="138933">Prolacerta_broomi</List>
+		<List recon_name="Noteosuchus_colletti" recon_no="139802">Noteosuchus_colletti</List>
+		<List recon_name="Mesosuchus_browni" recon_no="139820">Mesosuchus_browni</List>
+		<List recon_name="Howesia_browni" recon_no="141597">Howesia_browni</List>
+		<List recon_name="Eohyosaurus_wolvaardti" recon_no="323657">Eohyosaurus_wolvaardti</List>
+		<List recon_name="Rhynchosaurus_articeps" recon_no="95808">Rhynchosaurus_articeps</List>
+		<List recon_name="Langeronyx_brodiei" recon_no="347430">Langeronyx_brodiei</List>
+		<List recon_name="Stenaulorhynchus_stockleyi" recon_no="68498">Stenaulorhynchus_stockleyi</List>
+		<List recon_name="Brasinorhynchus_mariantensis" recon_no="347228">Mariante_rhynchosaur</List>
+		<List recon_name="Bentonyx_sidensis" recon_no="173529">Bentonyx_sidensis</List>
+		<List recon_name="Fodonyx_spenceri" recon_no="139037">Fodonyx_spenceri</List>
+		<List recon_name="Isalorhynchus_genovefae" recon_no="167018">Isalorhynchus_genovefae</List>
+		<List recon_name="Teyumbaita_sulcognathus" recon_no="174835">Teyumbaita_sulcognathus</List>
+		<List recon_name="Hyperodapedon" recon_no="38210">Hyperodapedon_spp</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="96">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Ezcurra_etal_2016a</Filename>
+	<Parent>Butler_etal_2015a</Parent>
+	<Sibling/>
+</SourceTree>

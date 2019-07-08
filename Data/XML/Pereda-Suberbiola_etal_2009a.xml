@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Pereda-Suberbiola, X.</List>
+			<List>Canudo, J. I.</List>
+			<List>Cruzado-Caballero, P.</List>
+			<List>Barco, J. L.</List>
+			<List>Lopez-Martinez, N.</List>
+			<List>Oms, O.</List>
+			<List>Ruiz-Omenaca, J. I.</List>
+		</Author>
+		<Year>2009</Year>
+		<Title>The last hadrosaurid dinosaurs of Europe: A new lambeosaurine from the Uppermost Cretaceous of Aren (Huesca, Spain)</Title>
+		<Journal>Comptes Rendus Palevol</Journal>
+		<Volume>8</Volume>
+		<Pages>559-572</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="22">
+		<List recon_name="Bactrosaurus_johnsoni" recon_no="57344">Bactrosaurus</List>
+		<List recon_name="Telmatosaurus_transsylvanicus" recon_no="68154">Telmatosaurus</List>
+		<List recon_name="Aralosaurus_tuberiferus" recon_no="67547">Aralosaurus</List>
+		<List recon_name="Tsintaosaurus_spinorhinus" recon_no="53387">Tsintaosaurus</List>
+		<List recon_name="Jaxartosaurus_aralensis" recon_no="65693">Jaxartosaurus</List>
+		<List recon_name="Arenysaurus_ardevoli" recon_no="161196">Arenysaurus</List>
+		<List recon_name="Amurosaurus_riabinini" recon_no="64251">Amurosaurus</List>
+		<List recon_name="Lambeosaurus" recon_no="38763">Lambeosaurus</List>
+		<List recon_name="Corythosaurus_casuarius" recon_no="56403">Corythosaurus</List>
+		<List recon_name="Hypacrosaurus" recon_no="56405">Hypacrosaurus</List>
+		<List recon_name="Olorotitan_arharensis" recon_no="72095">Olorotitan</List>
+		<List recon_name="Parasaurolophus" recon_no="38766">Parasaurolophus</List>
+		<List recon_name="Charonosaurus_jiayinensis" recon_no="64259">Charonosaurus</List>
+		<List recon_name="Wulagasaurus_dongi" recon_no="118313">Wulagasaurus</List>
+		<List recon_name="Maiasaura_peeblesorum" recon_no="55574">Maiasaura</List>
+		<List recon_name="Brachylophosaurus_canadensis" recon_no="65213">Brachylophosaurus</List>
+		<List recon_name="Gryposaurus" recon_no="53014">Gryposaurus</List>
+		<List recon_name="Kerberosaurus_manakini" recon_no="64257">Kerberosaurus</List>
+		<List recon_name="Saurolophus" recon_no="38768">Saurolophus</List>
+		<List recon_name="Prosaurolophus" recon_no="38767">Prosaurolophus</List>
+		<List recon_name="Anatotitan_copei" recon_no="64302">Anatotitan</List>
+		<List recon_name="Edmontosaurus" recon_no="38761">Edmontosaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="57">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Pereda-Suberbiola_etal_2009a</Filename>
+	<Parent>Godefroit_etal_2008a</Parent>
+	<Sibling/>
+</SourceTree>

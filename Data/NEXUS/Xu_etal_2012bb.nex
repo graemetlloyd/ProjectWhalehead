@@ -1,0 +1,27 @@
+#NEXUS
+
+[!File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=10 NCHAR=20 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2" MISSING=? GAP=- ;
+MATRIX
+
+Archaeopteryx_lithographica   000000000000?0000?00
+Abchiornis_huxleyi            ????0000000000000?00
+Linhevenator_tani             1?111111121121111??1
+Philovenator                  11112111221120111111
+Sinusonasus                   01001001110010001000
+Sinovenator                   00001001000010000000
+Mei_long                      00?00??100?11?000010
+Sinornithoides_youngi         000?1??1?0?11?000?00
+Troodon_formosus              111011111201?100?111
+Saurornithoides_mongoliensis  101?1?111?011110?0?1
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=ord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = ord: 1-20;
+END;
+

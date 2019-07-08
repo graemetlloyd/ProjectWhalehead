@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Russell, D. A.</List>
+			<List>Dong, Z.-M.</List>
+		</Author>
+		<Year>1993</Year>
+		<Title>The affinities of a new theropod from the Alxa Desert, Inner Mongolia, People's Republic of China</Title>
+		<Journal>Canadian Journal of Earth Sciences</Journal>
+		<Volume> 10-11</Volume>
+		<Pages>2101-2127</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="11">
+		<List recon_name="Plateosaurus" recon_no="38644">Plateosaurus</List>
+		<List recon_name="Coelophysis" recon_no="38520">Coelophysis</List>
+		<List recon_name="Baryonyx" recon_no="58891">Baryonyx</List>
+		<List recon_name="Yangchuanosaurus_shangyouensis" recon_no="54826">Yangchuanosaurus</List>
+		<List recon_name="Allosaurus" recon_no="38590">Allosaurus</List>
+		<List recon_name="Dromaeosauridae" recon_no="38561">Dromaeosaurs</List>
+		<List recon_name="Tyrannosauridae" recon_no="38606">Tyrannosaurids</List>
+		<List recon_name="Ornithomimidae" recon_no="38539">Ornithomimids</List>
+		<List recon_name="Therizinosauroidea" recon_no="64125">Therizinosauroids</List>
+		<List recon_name="Oviraptorosauria" recon_no="54546">Oviraptorosaurs</List>
+		<List recon_name="Troodontidae" recon_no="54468">Troodontids</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="59">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Russell_et_Dong_1993a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

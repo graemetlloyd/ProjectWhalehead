@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Penkalski, P.</List>
+			<List>Dodson, P.</List>
+		</Author>
+		<Year>1999</Year>
+		<Title>The morphology and systematics of <em>Avaceratops</em>, a primitive horned dinosaur from the Judith River Formation (late Campanian) of Montana, with the description of a second skull</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>19</Volume>
+		<Pages>692-711</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="11">
+		<List recon_name="Bagaceratops_rozhdestvenskyi" recon_no="52826">Bagaceratops</List>
+		<List recon_name="Montanoceratops_cerorhynchus" recon_no="52830">Montanoceratops</List>
+		<List recon_name="Chasmosaurinae" recon_no="52773">Chasmosaurinae</List>
+		<List recon_name="Monoclonius_crassus" recon_no="54486">Monoclonius</List>
+		<List recon_name="Centrosaurus" recon_no="38854">Centrosaurus</List>
+		<List recon_name="Styracosaurus_albertensis" recon_no="56144">Styracosaurus</List>
+		<List recon_name="Einiosaurus_procurvicornis" recon_no="53954">Einiosaurus</List>
+		<List recon_name="Achelousaurus_horneri" recon_no="53955">Achelousaurus</List>
+		<List recon_name="Pachyrhinosaurus" recon_no="38858">Pachyrhinosaurus</List>
+		<List recon_name="Avaceratops_lammersi" recon_no="55539">Avaceratops</List>
+		<List recon_name="Avaceratops_lammersi" recon_no="55539">MOR_692</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="25">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Penkalski_et_Dodson_1999a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

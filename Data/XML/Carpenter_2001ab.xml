@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Carpenter, K.</List>
+		</Author>
+		<Year>2001 </Year>
+		<Title>Phylogenetic analysis of the Ankylosauria</Title>
+		<Journal/>
+		<Volume/>
+		<Pages>455-483</Pages>
+		<Booktitle>The Armored Dinosaurs</Booktitle>
+		<Publisher>Indiana University Press</Publisher>
+		<City>Bloomington</City>
+		<Editor>
+			<List>Carpenter, K.</List>
+		</Editor>
+	</Source>
+	<Taxa number="7">
+		<List recon_name="Scelidosaurus_harrisonii" recon_no="53042">Scelidosaurus</List>
+		<List recon_name="Gargoyleosaurus_parkpinorum" recon_no="82609">Gargoyleosaurus</List>
+		<List recon_name="Gastonia_burgei" recon_no="63701">Gastonia</List>
+		<List recon_name="Hoplitosaurus_marshi" recon_no="57577">Hoplitosaurus</List>
+		<List recon_name="Hylaeosaurus_armatus" recon_no="52782">Hyaleosaurus</List>
+		<List recon_name="Mymoorapelta_maysi" recon_no="57683">Mymoorapelta</List>
+		<List recon_name="Polacanthus" recon_no="52784">Polacanthus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="10">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Carpenter_2001ab</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>You, H.-L.</List>
+			<List>Dodson, P.</List>
+		</Author>
+		<Year>2003</Year>
+		<Title>Redescription of neoceratopsian dinosaur <em>Archaeoceratops</em> and early evolution of Neoceratopsia</Title>
+		<Journal>Acta Palaeontologica Polonica</Journal>
+		<Volume>48</Volume>
+		<Pages>261-272</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="12">
+		<List recon_name="Hypsilophodon_foxii" recon_no="54190">Hypsilophodon</List>
+		<List recon_name="Stegoceras" recon_no="38787">Stegoceras</List>
+		<List recon_name="Psittacosaurus" recon_no="38844">Psittacosaurus</List>
+		<List recon_name="Chaoyangsaurus_youngi" recon_no="55580">Chaoyangsaurus</List>
+		<List recon_name="Liaoceratops_yanzigouensis" recon_no="55582">Liaoceratops</List>
+		<List recon_name="Archaeoceratops_oshimai" recon_no="55576">Archaeoceratops</List>
+		<List recon_name="Bagaceratops_rozhdestvenskyi" recon_no="52826">Bagaceratops</List>
+		<List recon_name="Protoceratops_andrewsi" recon_no="52824">Protoceratops</List>
+		<List recon_name="Leptoceratops_gracilis" recon_no="52827">Leptoceratops</List>
+		<List recon_name="Montanoceratops_cerorhynchus" recon_no="52830">Montanoceratops</List>
+		<List recon_name="Centrosaurus" recon_no="38854">Centrosaurus</List>
+		<List recon_name="Triceratops" recon_no="38862">Triceratops</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="148">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>You_et_Dodson_2003a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

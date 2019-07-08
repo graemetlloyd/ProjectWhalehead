@@ -1,0 +1,7 @@
+(Zygorhiza,((Xenorophid,Squalodontoid,(Tursiops,(Physeter,Mesoplodon))),(Balaenids,((Pelocetus,(Herpetocetus,Parietobalaen)),(Balaenopterid,Eschrichtius)))));
+(Zygorhiza,((Physeter,Mesoplodon,(Tursiops,(Xenorophid,Squalodontoid))),(Balaenids,((Pelocetus,(Herpetocetus,Parietobalaen)),(Balaenopterid,Eschrichtius)))));
+(Zygorhiza,((Physeter,Mesoplodon,(Tursiops,(Xenorophid,Squalodontoid))),((Balaenids,(Herpetocetus,(Parietobalaen,Pelocetus))),(Balaenopterid,Eschrichtius))));
+(Zygorhiza,((Physeter,Mesoplodon,(Tursiops,(Xenorophid,Squalodontoid))),((Balaenids,(Pelocetus,(Herpetocetus,Parietobalaen))),(Balaenopterid,Eschrichtius))));
+(Zygorhiza,(((Xenorophid,Squalodontoid),(Tursiops,(Physeter,Mesoplodon))),((Balaenids,(Herpetocetus,(Parietobalaen,Pelocetus))),(Balaenopterid,Eschrichtius))));
+(Zygorhiza,(((Xenorophid,Squalodontoid),(Tursiops,(Physeter,Mesoplodon))),((Balaenids,(Pelocetus,(Herpetocetus,Parietobalaen))),(Balaenopterid,Eschrichtius))));
+(Zygorhiza,((Xenorophid,Squalodontoid,(Tursiops,(Physeter,Mesoplodon))),(Herpetocetus,(Parietobalaen,(Pelocetus,(Balaenids,(Balaenopterid,Eschrichtius)))))));

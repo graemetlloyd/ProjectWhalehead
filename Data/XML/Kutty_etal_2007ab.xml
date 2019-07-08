@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Kutty, T. S.</List>
+			<List>Chatterjee, S.</List>
+			<List>Galton, P. M.</List>
+			<List>Upchurch, P.</List>
+		</Author>
+		<Year>2007</Year>
+		<Title>Basal sauropodomorphs (Dinosauria: Saurischia) from the Lower Jurassic of India: their anatomy and relationships</Title>
+		<Journal>Journal of Paleontology</Journal>
+		<Volume>81</Volume>
+		<Pages>1218-1240</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="24">
+		<List recon_name="Herrerasaurus_ischigualastensis" recon_no="55000">Herrerasaurus</List>
+		<List recon_name="Neotheropoda" recon_no="56397">Neotheropoda</List>
+		<List recon_name="Saturnalia_tupiniquim" recon_no="68124">Saturnalia</List>
+		<List recon_name="Lamplughsaura_dharmaramensis" recon_no="110384">Lamplusaura</List>
+		<List recon_name="Pradhania_gracilis" recon_no="110386">Pradhania</List>
+		<List recon_name="Sauropodomorpha_indet_ISI_R260" recon_no="91972">ISIR260specimen</List>
+		<List recon_name="Thecodontosaurus_antiquus" recon_no="56627">Thecondontosaurus</List>
+		<List recon_name="Efraasia_minor" recon_no="91403">Efraasia</List>
+		<List recon_name="Riojasaurus_incertus" recon_no="56585">Riojasaurus</List>
+		<List recon_name="Plateosaurus" recon_no="38644">Plateosaurus</List>
+		<List recon_name="Anchisaurus_polyzelus" recon_no="64382">Anchisaurus</List>
+		<List recon_name="Melanorosaurus_readi" recon_no="54980">Melanorosaurus</List>
+		<List recon_name="Blikanasaurus_cromptoni" recon_no="55644">Blikanasaurus</List>
+		<List recon_name="Antetonitrus_ingenipes" recon_no="57754">Antetonitrus</List>
+		<List recon_name="Isanosaurus_attavipachi" recon_no="65148">Isanosaurus</List>
+		<List recon_name="Coloradisaurus_brevis" recon_no="68584">Coloradisaurus</List>
+		<List recon_name="Massospondylus_carinatus" recon_no="56595">Massospondylus</List>
+		<List recon_name="Lufengosaurus_huenei" recon_no="56597">Lufengosaurus</List>
+		<List recon_name="Kotasaurus_yamanpalliensis" recon_no="66498">Kotasaurus</List>
+		<List recon_name="Vulcanodon_karibaensis" recon_no="54979">Vulcanodon</List>
+		<List recon_name="Shunosaurus_lii" recon_no="56457">Shunosaurus</List>
+		<List recon_name="Barapasaurus_tagorei" recon_no="55547">Barapasaurus</List>
+		<List recon_name="Omeisaurus" recon_no="38702">Omeisaurus</List>
+		<List recon_name="Neosauropoda" recon_no="57439">Neosauropoda</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="212">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Kutty_etal_2007ab</Filename>
+	<Parent>Yates_et_Kitching_2003a</Parent>
+	<Sibling/>
+</SourceTree>

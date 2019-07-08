@@ -1,0 +1,3 @@
+(Protoceratops,(Liaoceratops,Yinlong,P_mongoliensis,((P_meileyingensis,(P_lujiatunensis,P_major)),(P_sibiricus,(Psittacosaurus_sp,P_xinjiangensis,(P_neimongoliensis,P_sinensis))))));
+(Protoceratops,(Liaoceratops,Yinlong,P_mongoliensis,((P_meileyingensis,(P_lujiatunensis,P_major)),(P_sibiricus,(Psittacosaurus_sp,P_xinjiangensis,P_neimongoliensis,P_sinensis)))));
+(Protoceratops,(Liaoceratops,Yinlong,P_mongoliensis,((P_meileyingensis,(P_lujiatunensis,P_major)),(P_sibiricus,(Psittacosaurus_sp,(P_xinjiangensis,P_neimongoliensis,P_sinensis))))));

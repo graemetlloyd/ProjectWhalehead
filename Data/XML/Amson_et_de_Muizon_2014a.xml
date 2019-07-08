@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Amson, E.</List>
+			<List>de Muizon, C.</List>
+		</Author>
+		<Year>2014</Year>
+		<Title>A new durophagous phocid (Mammalia: Carnivora) from the late Neogene of Peru and considerations on monachine seals phylogeny</Title>
+		<Journal>Journal of Systematic Palaeontology</Journal>
+		<Volume>12</Volume>
+		<Pages>523-548</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="19">
+		<List recon_name="Potamotherium" recon_no="41157">Potamotherium</List>
+		<List recon_name="Otaria_byronia" recon_no="72200">Otaria_byronia</List>
+		<List recon_name="Arctocephalus_pusillus" recon_no="71843">Arctocephalus_pusillus</List>
+		<List recon_name="Odobenus_rosmarus" recon_no="72172">Odobenus_rosmarus</List>
+		<List recon_name="Phoca_vitulina" recon_no="72268">Phoca_vitulina</List>
+		<List recon_name="Halichoerus_grypus" recon_no="80725">Halichoerus_grypus</List>
+		<List recon_name="Erignathus_barbatus" recon_no="80719">Erignathus_barbatus</List>
+		<List recon_name="Monachus_monachus" recon_no="80789">Monachus_monachus</List>
+		<List recon_name="Pliophoca_etrusca" recon_no="72204">Pliophoca_etrusca</List>
+		<List recon_name="Mirounga_leonina" recon_no="80793">Mirounga_leonina</List>
+		<List recon_name="Callophoca_obscura" recon_no="72135">Callophoca_obscura</List>
+		<List recon_name="Hadrokirus_martini" recon_no="278864">Hadrokirus_martini</List>
+		<List recon_name="Piscophoca_pacifica" recon_no="72218">Piscophoca_pacifica</List>
+		<List recon_name="Acrophoca_longirostris" recon_no="72219">Acrophoca_longirostris</List>
+		<List recon_name="Homiphoca_capensis" recon_no="72217">Homiphoca_capensis</List>
+		<List recon_name="Leptonychotes_weddelli" recon_no="81244">Leptonychotes_wedellii</List>
+		<List recon_name="Lobodon_carcinophaga" recon_no="94091">Lobodon_carcinophaga</List>
+		<List recon_name="Hydrurga_leptonyx" recon_no="80800">Hydrurga_leptonyx</List>
+		<List recon_name="Ommatophoca_rossii" recon_no="80797">Ommatophoca_rossii</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="91">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Amson_et_de_Muizon_2014a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

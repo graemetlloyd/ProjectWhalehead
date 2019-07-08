@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Casanovas, M. L.</List>
+			<List>Santafe, J. V.</List>
+			<List>Sanz, J. L.</List>
+		</Author>
+		<Year>2001</Year>
+		<Title><em>Losillasaurus giganteus</em>, un nuevo sauropodo del transito Jurasico - Cretacico de la cuenca de &quot;Los Serranos&quot; (Valencia, Espana)</Title>
+		<Journal>Paleontologia i Evolucio</Journal>
+		<Volume>1</Volume>
+		<Pages>99-122</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="10">
+		<List recon_name="Shunosaurus_lii" recon_no="56457">Shunosaurus</List>
+		<List recon_name="Cetiosaurus_oxoniensis" recon_no="66688">Cetiosaurus</List>
+		<List recon_name="Patagosaurus_fariasi" recon_no="66448">Patagosaurus</List>
+		<List recon_name="Losillasaurus_giganteus" recon_no="57685">Losillasaurus</List>
+		<List recon_name="Dicraeosaurus" recon_no="38668">Dicraeosaurus</List>
+		<List recon_name="Barosaurus_lentus" recon_no="54166">Barosaurus</List>
+		<List recon_name="Diplodocus_longus" recon_no="52920">Diplodocus</List>
+		<List recon_name="Haplocanthosaurus" recon_no="38658">Haplocanthosaurus</List>
+		<List recon_name="Brachiosaurus_altithorax" recon_no="54864">Brachiosaurus</List>
+		<List recon_name="Camarasaurus_grandis" recon_no="67181">Camarasaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="48">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Casanovas_etal_2001a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

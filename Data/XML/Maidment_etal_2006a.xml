@@ -1,0 +1,46 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Maidment, S. C. R.</List>
+			<List>Weiz, G. B.</List>
+			<List>Norman, D. B.</List>
+		</Author>
+		<Year>2006</Year>
+		<Title>Re-description of the postcranial skeleton of the Middle Jurassic stegosaur <em>Huayangosaurus taibaii</em></Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>26</Volume>
+		<Pages>944-956</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="10">
+		<List recon_name="Scutellosaurus_lawleri" recon_no="67088">Scutellosaurus</List>
+		<List recon_name="Scelidosaurus_harrisonii" recon_no="53042">Scelidosaurus</List>
+		<List recon_name="Huayangosaurus_taibaii" recon_no="54858">Huayangosaurus</List>
+		<List recon_name="Tuojiangosaurus_multispinus" recon_no="54854">Tuojiangosaurus</List>
+		<List recon_name="Dacentrurus_armatus" recon_no="56505">Dacentrurus</List>
+		<List recon_name="Kentrosaurus_aethiopicus" recon_no="56490">Kentrosaurus</List>
+		<List recon_name="Hesperosaurus_mjosi" recon_no="68159">Hesperosaurus</List>
+		<List recon_name="Stegosaurus" recon_no="38814">Stegosaurus</List>
+		<List recon_name="Euoplocephalus_tutus" recon_no="63917">Euoplocephalus</List>
+		<List recon_name="Sauropelta_edwardsorum" recon_no="81248">Sauropelta</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="80">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Maidment_etal_2006a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

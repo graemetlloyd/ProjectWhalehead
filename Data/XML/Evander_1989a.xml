@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Evander, R. L.</List>
+		</Author>
+		<Year>1989</Year>
+		<Title>Phylogeny of the family Equidae</Title>
+		<Journal/>
+		<Volume/>
+		<Pages>109-127</Pages>
+		<Booktitle>The Evolution of Perissodactyls</Booktitle>
+		<Publisher>Oxford University Press</Publisher>
+		<City>Oxford</City>
+		<Editor>
+			<List>Prothero, D. R.</List>
+			<List>Schoch, R. M.</List>
+		</Editor>
+ 	</Source>
+	<Taxa number="19">
+		<List recon_name="Hyracotherium" recon_no="43004">Hyracotherium</List>
+		<List recon_name="Orohippus" recon_no="43015">Orohippus</List>
+		<List recon_name="Epihippus" recon_no="42995">Epihippus</List>
+		<List recon_name="Mesohippus" recon_no="43010">Mesohippus</List>
+		<List recon_name="Miohippus" recon_no="43011">Miohippus</List>
+		<List recon_name="Anchitherium" recon_no="42987">Anchitherium</List>
+		<List recon_name="Hypohippus" recon_no="43003">Hypohippus</List>
+		<List recon_name="Megahippus" recon_no="43008">Megahippus</List>
+		<List recon_name="Kalobatippus" recon_no="43005">Kalobatippus</List>
+		<List recon_name="Archaeohippus" recon_no="42988">Archaeohippus</List>
+		<List recon_name="Parahippus" recon_no="43016">Parahippus</List>
+		<List recon_name="Merychippus" recon_no="43009">Merychippus</List>
+		<List recon_name="Protohippus" recon_no="43020">Protohippus</List>
+		<List recon_name="Pliohippus" recon_no="43019">Pliohippus</List>
+		<List recon_name="Dinohippus" recon_no="42992">Dinohippus</List>
+		<List recon_name="Equus" recon_no="42996">Equus</List>
+		<List recon_name="Hipparion" recon_no="43000">Hipparion</List>
+		<List recon_name="Neohipparion" recon_no="43013">Neohipparion</List>
+		<List recon_name="Pseudhipparion" recon_no="43022">Pseudhipparion</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="33">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Evander_1989a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

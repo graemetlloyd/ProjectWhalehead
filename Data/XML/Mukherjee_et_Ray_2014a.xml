@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Mukherjee, D.</List>
+			<List>Ray, S.</List>
+		</Author>
+		<Year>2014</Year>
+		<Title>A new <em>Hyperodapedon</em> (Archosauromorpha, Rhynchosauria) from the Upper Triassic of India: implications for rhynchosaur phylogeny</Title>
+		<Journal>Palaeontology</Journal>
+		<Volume>57</Volume>
+		<Pages>1241-1276</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="26">
+		<List recon_name="Proterosuchus" recon_no="80904">Proterosuchus</List>
+		<List recon_name="Trilophosaurus" recon_no="38204">Trilophosaurus</List>
+		<List recon_name="Mesosuchus_browni" recon_no="139820">Mesosuchus</List>
+		<List recon_name="Howesia_browni" recon_no="141597">Howesia</List>
+		<List recon_name="Rhynchosaurus_articeps" recon_no="95808">Articeps</List>
+		<List recon_name="Langeronyx_brodiei" recon_no="347430">Brodiei</List>
+		<List recon_name="Stenaulorhynchus" recon_no="38214">Stenaulorhynchus</List>
+		<List recon_name="Mesodapedon_kuttyi" recon_no="251717">Mesodapedon</List>
+		<List recon_name="Fodonyx_spenceri" recon_no="139037">Fodonyx</List>
+		<List recon_name="Bentonyx_sidensis" recon_no="173529">Bentonyx</List>
+		<List recon_name="Otischalkia_elderae" recon_no="159207">Otischalkia</List>
+		<List recon_name="Ammorhynchus_navajoi" recon_no="65741">Ammorhynchus</List>
+		<List recon_name="Isalorhynchus_genovefae" recon_no="167018">Igenovefae</List>
+		<List recon_name="Teyumbaita_sulcognathus" recon_no="174835">Teyumbaita</List>
+		<List recon_name="Hyperodapedon_huenei" recon_no="178410">Hhuenei</List>
+		<List recon_name="Hyperodapedon_gordoni" recon_no="146404">Hgordoni</List>
+		<List recon_name="Hyperodapedon_huxleyi" recon_no="100723">Hhuxleyi</List>
+		<List recon_name="Hyperodapedon_tikiensis" recon_no="330494">Htikiensis</List>
+		<List recon_name="Hyperodapedon_mariensis" recon_no="178418">Hmariensis</List>
+		<List recon_name="Hyperodapedon_sanjuanensis" recon_no="178420">Hsanjuanensis</List>
+		<List recon_name="Rhynchosauria_indet_unreferred_Nova_Scotia" recon_no="159212">WolfvilleHyp</List>
+		<List recon_name="Hyperodapedon_stockleyi" recon_no="171980">Hstockleyi</List>
+		<List recon_name="Brasinorhynchus_mariantensis" recon_no="347228">Mariante</List>
+		<List recon_name="Hyperodapedon_sp_GSI_Unreferred" recon_no="38210">GSIHyderabad</List>
+		<List recon_name="Hyperodapedon_sp_Z_53_slash_3" recon_no="38210">ZimbabweHyp</List>
+		<List recon_name="Hyperodapedon_sp_USNM_494329" recon_no="38210">WyomingHyp</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="75">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Mukherjee_et_Ray_2014a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

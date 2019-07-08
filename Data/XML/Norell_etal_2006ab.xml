@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Norell, M. A.</List>
+			<List>Clark, J. M.</List>
+			<List>Turner, A. H.</List>
+			<List>Makovicky, P. J.</List>
+			<List>Barsbold, R.</List>
+			<List>Rowe, T.</List>
+		</Author>
+		<Year>2006</Year>
+		<Title>A new dromaeosaurid theropod from Ukhaa Tolgod (Omnogov, Mongolia)</Title>
+		<Journal>American Museum Novitates</Journal>
+		<Volume>3545</Volume>
+		<Pages>1-51</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="12">
+		<List recon_name="Coelophysis_bauri" recon_no="55477">Coelophysis_bauri</List>
+		<List recon_name="Allosaurus_fragilis" recon_no="52962">Allosaurus_fragilis</List>
+		<List recon_name="Troodontidae" recon_no="54468">Troodontidae</List>
+		<List recon_name="Microraptor_zhaoianus" recon_no="68239">Microraptor_zhaoianus</List>
+		<List recon_name="Tsaagan_mangas" recon_no="90550">Tsaagan_mangas</List>
+		<List recon_name="Dromaeosaurus_albertensis" recon_no="54550">Dromaeosaurus_albertensis</List>
+		<List recon_name="Sinornithosaurus_millenii" recon_no="68205">Sinorhithosaurus_milleni</List>
+		<List recon_name="Saurornitholestes_langstoni" recon_no="54556">Saurornitholestes_langstoni</List>
+		<List recon_name="Velociraptor_mongoliensis" recon_no="54554">Velociraptor_mongoliensis</List>
+		<List recon_name="Bambiraptor_feinbergi" recon_no="82048">Bambiraptor_feinbergorum</List>
+		<List recon_name="Atrociraptor_marshalli" recon_no="132126">Atrociraptor_marshalli</List>
+		<List recon_name="Deinonychus_antirrhopus" recon_no="54555">Deinonychus_antirrhopus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="41">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Norell_etal_2006ab</Filename>
+	<Parent>Currie_et_Varricchio_2004a</Parent>
+	<Sibling/>
+</SourceTree>

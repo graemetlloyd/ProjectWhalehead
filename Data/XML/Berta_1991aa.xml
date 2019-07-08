@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Berta, A.</List>
+		</Author>
+		<Year>1991</Year>
+		<Title>New <em>Enaliarctos</em> (Pinnipedimorpha) from the Oligocene and Miocene of Oregon and the role of &quot;enaliarctids&quot; in pinniped phylogeny</Title>
+		<Journal>Smithsonian Contributions to Paleobiology</Journal>
+		<Volume>69</Volume>
+		<Pages>1-33</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="6">
+		<List recon_name="Ursidae" recon_no="41301">Ursidae</List>
+		<List recon_name="Enaliarctos_mealsi" recon_no="71871">Enaliarctos_mealsi</List>
+		<List recon_name="Enaliarctos_barnesi" recon_no="71881">Enaliarctos_barnesi</List>
+		<List recon_name="Enaliarctos_tedfordi" recon_no="71882">Enaliarctos_tedfordi</List>
+		<List recon_name="Enaliarctos_emlongi" recon_no="71880">Enaliarctos_emlongi</List>
+		<List recon_name="Enaliarctos_mitchelli" recon_no="71883">Enaliarctos_mitchelli</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="16">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Berta_1991aa</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

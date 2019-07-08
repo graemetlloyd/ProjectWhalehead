@@ -1,0 +1,74 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Fischer, V.</List>
+			<List>Bardet, N.</List>
+			<List>Benson, R. B. J.</List>
+			<List>Arkhangelsky, M. S.</List>
+			<List>Friedman, M.</List>
+		</Author>
+		<Year>2016</Year>
+		<Title>Extinction of fish-shaped marine reptiles associated with reduced evolutionary rates and global environmental volatility</Title>
+		<Journal>Nature Communications</Journal>
+		<Volume>7</Volume>
+		<Pages>10825</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="36">
+		<List recon_name="Mikadocephalus_gracilirostris" recon_no="170847">Mikadocephalus_gracilirostris</List>
+		<List recon_name="Hudsonelpidia_brevirostris" recon_no="170866">Hudsonelpidia_brevirostris</List>
+		<List recon_name="Macgowania_janiceps" recon_no="170865">Macgowania_janiceps</List>
+		<List recon_name="Leptonectes_tenuirostris" recon_no="170705">Leptonectes_tenuirostris</List>
+		<List recon_name="Excalibosaurus_costini" recon_no="170892">Excalibosaurus_costini</List>
+		<List recon_name="Eurhinosaurus_longirostris" recon_no="170893">Eurhinosaurus_longirostris</List>
+		<List recon_name="Suevoleviathan_disinteger" recon_no="170868">Suevoleviathan_disinteger</List>
+		<List recon_name="Temnodontosaurus" recon_no="36576">Temnodontosaurus_spp</List>
+		<List recon_name="Hauffiopteryx_typicus" recon_no="263091">Hauffiopteryx_typicus</List>
+		<List recon_name="Malawania_anachronus" recon_no="268077">Malawania_anachronus</List>
+		<List recon_name="Ichthyosaurus_communis" recon_no="95786">Ichthyosaurus_communis</List>
+		<List recon_name="Stenopterygius_quadriscissus" recon_no="170897">Stenopterygius_quadriscissus</List>
+		<List recon_name="Chacaicosaurus_cayi" recon_no="170896">Chacaicosaurus_cayi</List>
+		<List recon_name="Stenopterygius_aaleniensis" recon_no="244597">Stenopterygius_aalensis</List>
+		<List recon_name="Ophthalmosaurus_icenicus" recon_no="170921">Ophthalmosaurus_icenicus</List>
+		<List recon_name="Ophthalmosaurus_natans" recon_no="173198">Ophthalmosaurus_natans</List>
+		<List recon_name="Mollesaurus_periallus" recon_no="173207">Mollesaurus_perialus</List>
+		<List recon_name="Acamptonectes_densus" recon_no="212187">Acamptonectes_densus</List>
+		<List recon_name="Leninia_stellans" recon_no="260282">Leninia_stellans</List>
+		<List recon_name="Brachypterygius_extremus" recon_no="170918">Brachypterygius_extremus</List>
+		<List recon_name="Arthropterygius_chrisorum" recon_no="168511">Arthropterygius_chrisorum</List>
+		<List recon_name="Caypullisaurus_bonapartei" recon_no="149989">Caypullisaurus_bonapartei</List>
+		<List recon_name="Aegirosaurus_leptospondylus" recon_no="173196">Aegirosaurus_leptospondylus</List>
+		<List recon_name="Athabascasaurus_bitumineus" recon_no="203467">Athabascasaurus_bitumineus</List>
+		<List recon_name="Sveltonectes_insolitus" recon_no="202541">Sveltonectes_insolitus</List>
+		<List recon_name="Simbirskiasaurus_birjukovi" recon_no="170910">Simbirskiasaurus_birjukovi</List>
+		<List recon_name="Platypterygius_australis" recon_no="186984">Platypterygius_australis</List>
+		<List recon_name="Pervushovisaurus_bannovkensis" recon_no="300574">Pervushovisaurus_bannovkensis</List>
+		<List recon_name="Platypterygius_hercynicus" recon_no="170925">Platypterygius_hercynicus</List>
+		<List recon_name="Platypterygius_americanus" recon_no="170927">Platypterygius_americanus</List>
+		<List recon_name="Platypterygius_platydactylus" recon_no="170923">Platypterygius_platydactylus</List>
+		<List recon_name="Platypterygius_sachicarum" recon_no="263109">Platypterygius_sachicarum</List>
+		<List recon_name="Palvennia_hoybergeti" recon_no="248883">Palvennia_hoybergeti</List>
+		<List recon_name="Cryopterygius_kristiansenae" recon_no="248881">Cryopterygius_kristiansenae</List>
+		<List recon_name="Janusaurus_lundi" recon_no="301635">Janusaurus_lundi</List>
+		<List recon_name="Sisteronia_seeleyi" recon_no="287945">Sisteronia_seeleyi</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="88">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Fischer_etal_2016a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

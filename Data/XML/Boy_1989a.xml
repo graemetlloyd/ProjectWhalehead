@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Boy, J. A.</List>
+		</Author>
+		<Year>1989</Year>
+		<Title>On some representatives of the Eryopoidea (Amphibia: Temnospondyli) from the European Rotliegend (?uppermost Carboniferous - Permian) 2. <em>Acanthostomatops</em></Title>
+		<Journal>Palaontologische Zeitschrift</Journal>
+		<Volume>63</Volume>
+		<Pages>133-151</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="4">
+		<List recon_name="Acanthostomatops_vorax" recon_no="345489">Acanthostomatops_vorax</List>
+		<List recon_name="Zatrachys_serratus" recon_no="255221">Zatrachys_serratus</List>
+		<List recon_name="Dasyceps_microphthalmus" recon_no="345491">Dasyceps_microphthalmus</List>
+		<List recon_name="Dasyceps_bucklandi" recon_no="333240">Dasyceps_bucklandi</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="24">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Boy_1989a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

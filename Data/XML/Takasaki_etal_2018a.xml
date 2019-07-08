@@ -1,0 +1,100 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Takasaki, R.</List>
+			<List>Chiba, K.</List>
+			<List>Kobayashi, Y.</List>
+			<List>Currie, P. J.</List>
+			<List>Fiorillo, A. R.</List>
+		</Author>
+		<Year>2018</Year>
+		<Title>Reanalysis of the phylogenetic status of <em>Nipponosaurus sachalinensis</em> (Ornithopoda: Dinosauria) from the Late Cretaceous of Southern Sakhalin</Title>
+		<Journal>Historical Biology</Journal>
+		<Volume>30</Volume>
+		<Pages>694-711</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="62">
+		<List recon_name="Ouranosaurus_nigeriensis" recon_no="52877">Ouranosaurus_nigeriensis</List>
+		<List recon_name="Acristavus_gagslarsoni" recon_no="205435">Acristavus_gagslarsoni</List>
+		<List recon_name="Amurosaurus_riabinini" recon_no="64251">Amurosaurus_riabinini</List>
+		<List recon_name="Aralosaurus_tuberiferus" recon_no="67547">Aralosaurus_tuberiferus</List>
+		<List recon_name="Arenysaurus_ardevoli" recon_no="161196">Arenysaurus_ardevoli</List>
+		<List recon_name="Bactrosaurus_johnsoni" recon_no="57344">Bactrosaurus_johnsoni</List>
+		<List recon_name="Blasisaurus_canudoi" recon_no="243258">Blasisaurus_canudoi</List>
+		<List recon_name="Brachylophosaurus_canadensis" recon_no="65213">Brachylophosaurus_canadensis</List>
+		<List recon_name="Canardia_garonnensis" recon_no="274521">Canardia_garonnensis</List>
+		<List recon_name="Charonosaurus_jiayinensis" recon_no="64259">Charonosaurus_jiayinensis</List>
+		<List recon_name="Claosaurus_agilis" recon_no="63264">Claosaurus_agilis</List>
+		<List recon_name="Corythosaurus_casuarius" recon_no="56403">Corythosaurus_csuarius</List>
+		<List recon_name="Corythosaurus_intermedius" recon_no="63255">Corythosaurus_intermedius</List>
+		<List recon_name="Edmontosaurus_annectens" recon_no="64305">Edmontosaurus_annectens</List>
+		<List recon_name="Edmontosaurus_regalis" recon_no="63254">Edmontosaurus_regalis</List>
+		<List recon_name="Eolambia_caroljonesa" recon_no="66500">Eolambia_caroljonesa</List>
+		<List recon_name="Equijubus_normani" recon_no="58927">Equijubus_normani</List>
+		<List recon_name="Gilmoreosaurus_mongoliensis" recon_no="64067">Gilmoreosaurus_mongoliensis</List>
+		<List recon_name="Gryposaurus_latidens" recon_no="57630">Gryposaurus_latidens</List>
+		<List recon_name="Gryposaurus_monumentensis" recon_no="109448">Gryposaurus_monumentensis</List>
+		<List recon_name="Gryposaurus_notabilis" recon_no="63251">Gryposaurus_notabilis</List>
+		<List recon_name="Hadrosaurus_foulkii" recon_no="52812">Hadrosaurus_foulkii</List>
+		<List recon_name="Hypacrosaurus_altispinus" recon_no="56406">Hypacrosaurus_altispinus</List>
+		<List recon_name="Hypacrosaurus_stebingeri" recon_no="64339">Hypacrosaurus_stebingeri</List>
+		<List recon_name="Iguanodon_bernissartensis" recon_no="58905">Iguanodon_bernissartensis</List>
+		<List recon_name="Jaxartosaurus_aralensis" recon_no="65693">Jaxartosaurus_aralensis</List>
+		<List recon_name="Jintasaurus_meniscus" recon_no="176312">Jintasaurus_meniscus</List>
+		<List recon_name="Jinzhousaurus_yangi" recon_no="90097">Jinzhousaurus_yangi</List>
+		<List recon_name="Kerberosaurus_manakini" recon_no="64257">Kerberosaurus_manakini</List>
+		<List recon_name="Kritosaurus_navajovius" recon_no="53196">Kritosaurus_navajovius</List>
+		<List recon_name="Lambeosaurus_lambei" recon_no="56724">Lambeosaurus_lambei</List>
+		<List recon_name="Lambeosaurus_magnicristatus" recon_no="65429">Lambeosaurus_magnicristatus</List>
+		<List recon_name="Levnesovia_transoxiana" recon_no="148886">Levnesovia_transoxiana</List>
+		<List recon_name="Lophorhothon_atopus" recon_no="67215">Lophorhothon_atopus</List>
+		<List recon_name="Magnapaulia_laticaudus" recon_no="238547">Magnapaulia_laticaudus</List>
+		<List recon_name="Maiasaura_peeblesorum" recon_no="55574">Maiasaura_peeblesorum</List>
+		<List recon_name="Mantellisaurus_atherfieldensis" recon_no="104635">Mantellisaurus_atherfieldensis</List>
+		<List recon_name="Nanningosaurus_dashiensis" recon_no="153947">Nanningosaurus_dashiensis</List>
+		<List recon_name="Nanyangosaurus_zhugeii" recon_no="68243">Nanyangosaurus_zhugeii</List>
+		<List recon_name="Nipponosaurus_sachalinensis" recon_no="56972">Nipponosaurus_sachalinensis</List>
+		<List recon_name="Olorotitan_arharensis" recon_no="72095">Olorotitan_arhensis</List>
+		<List recon_name="Pararhabdodon_isonensis" recon_no="89226">Pararhabdodon_isonensis</List>
+		<List recon_name="Parasaurolophus_tubicen" recon_no="64355">Parasaurolophus_tubicen</List>
+		<List recon_name="Parasaurolophus_walkeri" recon_no="63256">Parasaurolophus_walkeri</List>
+		<List recon_name="Parasaurolophus_cyrtocristatus" recon_no="66260">Parasaurolophus_yrtocristatus</List>
+		<List recon_name="Probactrosaurus_gobiensis" recon_no="52878">Probactrosaurus_gobiensis</List>
+		<List recon_name="Prosaurolophus_maximus" recon_no="53384">Prosaurolophus_maximus</List>
+		<List recon_name="Protohadros_byrdi" recon_no="64527">Protohadros_byrdi</List>
+		<List recon_name="Saurolophus_angustirostris" recon_no="64295">Saurolophus_angustirostris</List>
+		<List recon_name="Saurolophus_osborni" recon_no="53386">Saurolophus_osborni</List>
+		<List recon_name="Secernosaurus_koerneri" recon_no="64065">Secernosaurus_koerneri</List>
+		<List recon_name="Shantungosaurus_giganteus" recon_no="69513">Shantungosaurus_giganteus</List>
+		<List recon_name="Shantungosaurus_giganteus" recon_no="69513">Shuangmiaosaurus_giganteus</List>
+		<List recon_name="Tanius_sinensis" recon_no="53379">Tanius_sinensis</List>
+		<List recon_name="Telmatosaurus_transsylvanicus" recon_no="68154">Telmatosaurus_transsylvanicus</List>
+		<List recon_name="Tethyshadros_insularis" recon_no="161198">Tethyshadros_insularis</List>
+		<List recon_name="Tsintaosaurus_spinorhinus" recon_no="53387">Tsintaosaurus_spinorhinus</List>
+		<List recon_name="Ugrunaaluk_kuukpikensis" recon_no="330233">Ugrunaaluk_kuukpikensis_ontoge</List>
+		<List recon_name="Velafrons_coahuilensis" recon_no="113862">Velafrons_coahuilensis</List>
+		<List recon_name="Wulagasaurus_dongi" recon_no="118313">Wulagasaurus_dongi</List>
+		<List recon_name="Xuwulong_yueluni" recon_no="176315">Xuwulong_yueluni</List>
+		<List recon_name="Zhanghenglong_yangchengensis" recon_no="296575">Zhanghenglong_yangchengensis</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="350">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Takasaki_etal_2018a</Filename>
+	<Parent>Mori_etal_2016aa</Parent>
+	<Sibling/>
+</SourceTree>

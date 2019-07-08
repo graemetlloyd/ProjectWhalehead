@@ -1,0 +1,56 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Schoch, R. R.</List>
+			<List>Fastnacht, M.</List>
+			<List>Fichter, J.</List>
+			<List>Keller, T.</List>
+		</Author>
+		<Year>2007</Year>
+		<Title>Anatomy and relationships of the Triassic temnospondyl <em>Sclerothorax</em></Title>
+		<Journal>Acta Palaeontologica Polonica</Journal>
+		<Volume>52</Volume>
+		<Pages>117-136</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="19">
+		<List recon_name="Dendrerpeton_acadianum" recon_no="164775">Dendrerpeton_acadianum</List>
+		<List recon_name="Balanerpeton_woodi" recon_no="227178">Balanerpeton_woodi</List>
+		<List recon_name="Dissorophidae" recon_no="37017">Dissorophidae</List>
+		<List recon_name="Acanthostomatops_vorax" recon_no="345489">Zatrachydidae</List>
+		<List recon_name="Eryops_megacephalus" recon_no="70397">Eryopidae</List>
+		<List recon_name="Sclerocephalus_haeuseri" recon_no="255233">Sclerocephalus_haeuseri</List>
+		<List recon_name="Peltobatrachus_pustulatus" recon_no="367348">Peltobatrachus_pustulatus</List>
+		<List recon_name="Australerpeton_cosgriffi" recon_no="255235">Australerpeton_cosgriffi</List>
+		<List recon_name="Uranocentrodon_senekalensis" recon_no="255236">Uranocentrodon_senekalensis</List>
+		<List recon_name="Lydekkerina_huxleyi" recon_no="255237">Lydekkerina_huxleyi</List>
+		<List recon_name="Laidleria_gracilis" recon_no="251506">Laidleria_gracilis</List>
+		<List recon_name="Siderops_kehli" recon_no="251254">Siderops_kehli</List>
+		<List recon_name="Gerrothorax_pulcherrimus" recon_no="180698">Gerrothorax_pustuloglomeratus</List>
+		<List recon_name="Sclerothorax_hypselonotus" recon_no="248239">Sclerothorax_hypselonotus</List>
+		<List recon_name="Paracyclotosaurus_davidi" recon_no="57042">Paracyclotosaurus_davidi</List>
+		<List recon_name="Mastodonsaurus_giganteus" recon_no="150365">Mastodonsaurus_giganteus</List>
+		<List recon_name="Benthosuchus" recon_no="37087">Benthosuchus</List>
+		<List recon_name="Trematolestes_hagdorni" recon_no="179389">Trematolestes_hagdorni</List>
+		<List recon_name="Metoposauridae" recon_no="37162">Metoposauridae</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="70">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Schoch_etal_2007a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

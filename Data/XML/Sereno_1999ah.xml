@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Sereno, P. C.</List>
+		</Author>
+		<Year>1999</Year>
+		<Title>The evolution of dinosaurs</Title>
+		<Journal>Science</Journal>
+		<Volume>284</Volume>
+		<Pages>2137-2147</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="19">
+		<List recon_name="Herrerasauridae" recon_no="38510">HERRERASAURIDAE</List>
+		<List recon_name="Ceratosauria" recon_no="54164">CERATOSAURIA</List>
+		<List recon_name="Torvosauridae" recon_no="53376">TORVOSAURIDAE</List>
+		<List recon_name="Spinosauridae" recon_no="38595">SPINOSAURIDAE</List>
+		<List recon_name="Allosauridae" recon_no="38589">ALLOSAURIDAE</List>
+		<List recon_name="Sinraptoridae" recon_no="54822">SINRAPTORIDAE</List>
+		<List recon_name="Compsognathidae" recon_no="38537">COMPSOGNATHIDAE</List>
+		<List recon_name="Ornitholestes_hermanni" recon_no="55484">Ornitholestes</List>
+		<List recon_name="Deltadromeus_agilis" recon_no="65367">Deltadromeus</List>
+		<List recon_name="Therizinosauridae" recon_no="38552">THERIZINOSAURIDAE</List>
+		<List recon_name="Alvarezsauridae" recon_no="64116">ALVAREZSAURIDAE</List>
+		<List recon_name="Ornithomimidae" recon_no="38539">ORNITHOMIMIDAE</List>
+		<List recon_name="Tyrannosauroidea" recon_no="58837">TYRANNOSAUROIDEA</List>
+		<List recon_name="Caudipteryx_zoui" recon_no="66066">Caudipteryx</List>
+		<List recon_name="Caenagnathidae" recon_no="54544">CAENAGNATHIDAE</List>
+		<List recon_name="Oviraptoridae" recon_no="38557">OVIRAPTORIDAE</List>
+		<List recon_name="Aves" recon_no="36616">AVES</List>
+		<List recon_name="Troodontidae" recon_no="54468">TROODONTIDAE</List>
+		<List recon_name="Dromaeosauridae" recon_no="38561">DROMAEOSAURIDAE</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="204">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Sereno_1999ah</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

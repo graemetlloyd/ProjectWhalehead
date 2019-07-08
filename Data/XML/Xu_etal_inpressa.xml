@@ -1,0 +1,82 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Xu, X.</List>
+			<List>Tan, Q.-W.</List>
+			<List>Gao, Y.-L.</List>
+			<List>Bao, Z.-Q.</List>
+			<List>Yin, Z.-G.</List>
+			<List>Guo, B.</List>
+			<List>Wang, J.-Y.</List>
+			<List>Tan, L.</List>
+			<List>Zhang, Y.-G.</List>
+		</Author>
+		<Year>in press</Year>
+		<Title>A large-sized basal ankylopollexian from East Asia, shedding light on early biogeographic history of Iguanodontia</Title>
+		<Journal>Science Bulletin</Journal>
+		<Volume/>
+		<Pages/>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="40">
+		<List recon_name="Lesothosaurus_diagnosticus" recon_no="57574">Lesothosaurus_diagnosticus</List>
+		<List recon_name="Hypsilophodon_foxii" recon_no="54190">Hypsilophodon_foxii</List>
+		<List recon_name="Zalmoxes_robustus" recon_no="66743">Zalmoxes_robustus</List>
+		<List recon_name="Zalmoxes_shqiperorum" recon_no="66744">Zalmoxes_shqiperorum</List>
+		<List recon_name="Rhabdodon" recon_no="38753">Rhabdodon_spp</List>
+		<List recon_name="Tenontosaurus_tilletti" recon_no="52887">Tenontosaurus_tilletti</List>
+		<List recon_name="Dryosaurus_altus" recon_no="54253">Dryosaurus_altus</List>
+		<List recon_name="Dysalotosaurus_lettowvorbecki" recon_no="56514">Dysalotosaurus_lettowvorbecki</List>
+		<List recon_name="Valdosaurus_canaliculatus" recon_no="52886">Valdosaurus_canaliculatus</List>
+		<List recon_name="Camptosaurus_dispar" recon_no="52880">Camptosaurus_dispar</List>
+		<List recon_name="Uteodon_aphanoecetes" recon_no="261766">Uteodon_aphanoecetes</List>
+		<List recon_name="Dakotadon_lakotaensis" recon_no="163550">Dakotadon_lakotaensis</List>
+		<List recon_name="Hippodraco_scutodens" recon_no="178209">Hippodraco_scutodens</List>
+		<List recon_name="Iguanacolossus_fortis" recon_no="178207">Iguanacolossus_fortis</List>
+		<List recon_name="Proa_valdearinnoensis" recon_no="253832">Proa_valdearinnoensis</List>
+		<List recon_name="Lanzhousaurus_magnidens" recon_no="131335">Lanzhousaurus_magnidens</List>
+		<List recon_name="Hypselospinus_fittoni" recon_no="167442">Hypselospinus_fittoni</List>
+		<List recon_name="Bayannurosaurus_perfectus" recon_no="378707">Bayannurosaurus_perfectus</List>
+		<List recon_name="Ouranosaurus_nigeriensis" recon_no="52877">Ouranosaurus_nigeriensis</List>
+		<List recon_name="Barilium_dawsoni" recon_no="167440">Barilium_dawsoni</List>
+		<List recon_name="Mantellisaurus_atherfieldensis" recon_no="104635">Mantellisaurus_atherfieldensis</List>
+		<List recon_name="Iguanodon_bernissartensis" recon_no="58905">Iguanodon_bernissartensis</List>
+		<List recon_name="Altirhinus_kurzanovi" recon_no="58903">Altirhinus_kurzanovi</List>
+		<List recon_name="Bolong_yixianensis" recon_no="173566">Bolong_yixianensis</List>
+		<List recon_name="Jinzhousaurus_yangi" recon_no="90097">Jinzhousaurus_yangi</List>
+		<List recon_name="Equijubus_normani" recon_no="58927">Equijubus_normani</List>
+		<List recon_name="Sirindhorna_khoratensis" recon_no="372269">Sirinthorna_khoratensis</List>
+		<List recon_name="Batyrosaurus_rozhdestvenskyi" recon_no="245644">Batyrosaurus_rozhdestvenskyi</List>
+		<List recon_name="Penelopognathus_weishampeli" recon_no="137367">Penelopognathus_weishampeli</List>
+		<List recon_name="Probactrosaurus_gobiensis" recon_no="52878">Probactrosaurus_gobiensis</List>
+		<List recon_name="Eolambia_caroljonesa" recon_no="66500">Eolambia_caroljonesa</List>
+		<List recon_name="Levnesovia_transoxiana" recon_no="148886">Levnesovia_transoxiana</List>
+		<List recon_name="Bactrosaurus_johnsoni" recon_no="57344">Bactrosaurus_johnsoni</List>
+		<List recon_name="Gilmoreosaurus_mongoliensis" recon_no="64067">Gilmoreosaurus_mongoliensis</List>
+		<List recon_name="Tethyshadros_insularis" recon_no="161198">Tethyshadros_insularis</List>
+		<List recon_name="Telmatosaurus_transsylvanicus" recon_no="68154">Telmatosaurus_transsylvanicus</List>
+		<List recon_name="Hypacrosaurus_altispinus" recon_no="56406">Hypacrosaurus_altispinus</List>
+		<List recon_name="Lambeosaurus_lambei" recon_no="56724">Lambeosaurus_lambei</List>
+		<List recon_name="Saurolophus_osborni" recon_no="53386">Saurolophus_osborni</List>
+		<List recon_name="Edmontosaurus_regalis" recon_no="63254">Edmontosaurus_regalis</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="123">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Xu_etal_inpressa</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

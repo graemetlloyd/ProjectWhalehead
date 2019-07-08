@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Liu, J.</List>
+			<List>Zhao, L.-J.</List>
+			<List>Li, C.</List>
+			<List>He, T.</List>
+		</Author>
+		<Year>2013</Year>
+		<Title>Osteology of <em>Concavispina biseridens</em> (Reptilia, Thalattosauria) from the Xiaowa Formation (Carnian), Guanling, Guizhou, China</Title>
+		<Journal>Journal of Paleontology</Journal>
+		<Volume>87</Volume>
+		<Pages>341-350</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="17">
+		<List recon_name="Petrolacosaurus_kansensis" recon_no="138231">Petrolacosaurus_kansensis</List>
+		<List recon_name="Youngina_capensis" recon_no="77037">Youngina_capensis</List>
+		<List recon_name="Prolacerta_broomi" recon_no="138933">Prolacerta_broomi</List>
+		<List recon_name="Agkistrognathus_campbelli" recon_no="282742">Agkistrognathus_campebelli</List>
+		<List recon_name="Anshunsaurus_huangguoshuensis" recon_no="170734">Anshunsaurus_huangguoshuensis</List>
+		<List recon_name="Anshunsaurus_wushaensis" recon_no="172076">Anshunsaurus_wushaensis</List>
+		<List recon_name="Askeptosaurus_italicus" recon_no="372938">Askeptosaurus_italicus</List>
+		<List recon_name="Concavispina_biseridens" recon_no="257391">Convavispina_biseridens</List>
+		<List recon_name="Clarazia_schinzi" recon_no="376099">Clarazia_schinzi</List>
+		<List recon_name="Endennasaurus_acutirostris" recon_no="307747">Endennasaurus_acutirostris</List>
+		<List recon_name="Hescheleria_rubeli" recon_no="376100">Hescheleria_ruebeli</List>
+		<List recon_name="Miodentosaurus_brevis" recon_no="171413">Miodentosaurus_brevis</List>
+		<List recon_name="Nectosaurus_halius" recon_no="282735">Nectosaurus_halius</List>
+		<List recon_name="Paralonectes_merriami" recon_no="282740">Paralonectes_merriami</List>
+		<List recon_name="Thalattosaurus_alexandrae" recon_no="282732">Thalattosaurus_alexandrae</List>
+		<List recon_name="Thalattosaurus_borealis" recon_no="282741">Thalattosaurus_borealis</List>
+		<List recon_name="Xinpusaurus_suni" recon_no="375111">Xinpusaurus_suni</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="40">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Liu_etal_2013a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

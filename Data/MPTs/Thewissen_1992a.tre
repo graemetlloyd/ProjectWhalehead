@@ -1,0 +1,4 @@
+(Tetraclaenodon,(E_collinus,(E_cedrus,((E_mediotuber,(E_osbornianus,E_parvus)),(E_major,E_superstes)))));
+(Tetraclaenodon,(E_collinus,(E_cedrus,(E_major,(E_mediotuber,(E_superstes,(E_osbornianus,E_parvus)))))));
+(Tetraclaenodon,(E_collinus,(E_cedrus,(E_major,((E_mediotuber,E_superstes),(E_osbornianus,E_parvus))))));
+(Tetraclaenodon,(E_collinus,(E_cedrus,(E_major,(E_mediotuber,(E_osbornianus,(E_parvus,E_superstes)))))));

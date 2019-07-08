@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Sereno, P. C.</List>
+			<List>Beck, A. L.</List>
+			<List>Dutheil, D. B.</List>
+			<List>Gado, B.</List>
+			<List>Larsson, H. C. E.</List>
+			<List>Marcot, J. D.</List>
+			<List>Rauhut, O. W. M.</List>
+			<List>Sadleir, R. W.</List>
+			<List>Sidor, C. A.</List>
+			<List>Varricchio, D. J.</List>
+			<List>Wilson, G. P.</List>
+			<List>Wilson, J. A.</List>
+		</Author>
+		<Year>1998</Year>
+		<Title>A long-snouted predatory dinosaur from Africa and the evolution of spinosaurids</Title>
+		<Journal>Science</Journal>
+		<Volume>282</Volume>
+		<Pages>1298-1302</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="8">
+		<List recon_name="Ceratosauria" recon_no="54164">Ceratosauria</List>
+		<List recon_name="Neotetanurae" recon_no="56400">Neotetanurae</List>
+		<List recon_name="Eustreptospondylus_oxoniensis" recon_no="53377">Eustreptospondylus</List>
+		<List recon_name="Torvosaurus_tanneri" recon_no="53375">Torvosaurus</List>
+		<List recon_name="Baryonyx" recon_no="58891">Baryonyx</List>
+		<List recon_name="Suchomimus_tenerensis" recon_no="53368">Suchomimus</List>
+		<List recon_name="Irritator_challengeri" recon_no="64273">Irritator</List>
+		<List recon_name="Spinosaurus" recon_no="38598">Spinosaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="45">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Sereno_etal_1998a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

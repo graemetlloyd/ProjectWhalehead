@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Brinkman, D. B.</List>
+			<List>Nicholls, E. L.</List>
+		</Author>
+		<Year>1991</Year>
+		<Title>Anatomy and relationships of the turtle <em>Boremys pulchra</em> (Testudines: Baenidae)</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>11</Volume>
+		<Pages>302-315</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="4">
+		<List recon_name="Plesiobaena_antiqua" recon_no="67312">Plesiobaena</List>
+		<List recon_name="Boremys" recon_no="37638">Boremys</List>
+		<List recon_name="Stygiochelys_estesi" recon_no="67759">Stygiochelys</List>
+		<List recon_name="Eubaena" recon_no="37631">Eubaena</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="20">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Brinkman_et_Nicholls_1991a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

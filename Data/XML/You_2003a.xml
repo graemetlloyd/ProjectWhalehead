@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>You, H.-L.</List>
+		</Author>
+		<Year>2003</Year>
+		<Title>A new genus of Psittacosauridae (Dinosauria: Ornithopoda) and the origin and early evolution of marginocephalian dinosaurs</Title>
+		<Journal>Acta Geologica Sinica</Journal>
+		<Volume>77</Volume>
+		<Pages>15-20</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="7">
+		<List recon_name="Lesothosaurus_diagnosticus" recon_no="57574">Lesothosaurus</List>
+		<List recon_name="Hypsilophodon_foxii" recon_no="54190">Hypsilophodon</List>
+		<List recon_name="Heterodontosaurus_tucki" recon_no="52902">Heterodontosaurus</List>
+		<List recon_name="Stegoceras" recon_no="38787">Stegoceras</List>
+		<List recon_name="Archaeoceratops_oshimai" recon_no="55576">Archaeoceratops</List>
+		<List recon_name="Hongshanosaurus" recon_no="68369">Hongshanosaurus</List>
+		<List recon_name="Psittacosaurus" recon_no="38844">Psittacosaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="44">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>You_2003a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

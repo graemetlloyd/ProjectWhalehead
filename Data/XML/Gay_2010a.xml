@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Gay, R.</List>
+		</Author>
+		<Year>2010</Year>
+		<Title><em>Kayentavenator elysiae</em>, a new tetanuran from the Early Jurassic of Arizona</Title>
+		<Journal/>
+		<Volume/>
+		<Pages>27-43</Pages>
+		<Booktitle>Notes on Early Mesozoic Theropods</Booktitle>
+		<Publisher>Lulu Press</Publisher>
+		<City>Page</City>
+		<Editor>
+			<List>Gay, R. J.</List>
+		</Editor>
+	</Source>
+	<Taxa number="11">
+		<List recon_name="Rauisuchidae" recon_no="184610">Rauisuchidae</List>
+		<List recon_name="Kayentavenator_elysiae" recon_no="243334">Kayentavenator</List>
+		<List recon_name="Allosaurus" recon_no="38590">Allosaurus</List>
+		<List recon_name="Tyrannosauridae" recon_no="38606">Tyrannosauridae</List>
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">Archaeopteryx</List>
+		<List recon_name="Dromaeosauridae" recon_no="38561">Dromeosauridae</List>
+		<List recon_name="Carnotaurus_sastrei" recon_no="54526">Carnotaurus</List>
+		<List recon_name="Ceratosaurus_nasicornis" recon_no="54165">Ceratosaurus</List>
+		<List recon_name="Dilophosaurus" recon_no="38522">Dilophosaurus</List>
+		<List recon_name="Coelophysidae" recon_no="55478">Coelophysisidae</List>
+		<List recon_name="Herrerasaurus_ischigualastensis" recon_no="55000">Herresaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="28">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Gay_2010a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

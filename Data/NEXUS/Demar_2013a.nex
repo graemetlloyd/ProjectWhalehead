@@ -1,0 +1,30 @@
+#NEXUS
+
+[!File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=13 NCHAR=23 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2" MISSING=? GAP=- ;
+MATRIX
+
+Cryptobranchus_alleganiensis  00000000000000000000000
+Proteus_anguinus              01001100001110001002201
+Necturus_maculosus            010000000(01)1110000001(01)01
+Necturus_krausei              ?????????????0000001001
+Paranecturus_garbanii         0101????0100000000011?1
+Opisthotriton_kayi            10(12)1(01)101(12)(01)0001102000010
+Prodesmodon_copei             12210101210002102002210
+Scapherpeton_tectum           01011010000000002111000
+Lisserpeton_bairdi            01010110000000001111000
+Piceoerpeton_willwoodense     1111?000200000001111000
+Piceoerpeton_naylori          1111????200000000?110?0
+Habrosaurus_dilatus           0100????000100010022210
+Proamphiuma_cretacea          10010102000000010022210
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = unord: 1-23;
+END;
+

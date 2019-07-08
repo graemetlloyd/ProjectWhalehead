@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Monks, N.</List>
+			<List>Owen, E.</List>
+		</Author>
+		<Year>2000</Year>
+		<Title>Phylogeny of <em>Orbirhynchia</em> Pettitt, 1954 (Brachiopoda: Rhynchonellida)</Title>
+		<Journal>Palaeontology</Journal>
+		<Volume>43</Volume>
+		<Pages>871-880</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="17">
+		<List recon_name="Lacunosella" recon_no="28628">Lacunosella</List>
+		<List recon_name="Orbirhynchia_parkinsoni" recon_no="296542">O_parkinsoni</List>
+		<List recon_name="Orbirhynchia_mantelliana" recon_no="287536">O_mantelliana</List>
+		<List recon_name="Orbirhynchia_obscura" recon_no="301899">O_obscura</List>
+		<List recon_name="Orbirhynchia_wilmingtonensis" recon_no="287540">O_wilmingtonensis</List>
+		<List recon_name="Orbirhynchia_boussensis" recon_no="287541">O_boussensis</List>
+		<List recon_name="Orbirhynchia_multicostata" recon_no="287539">O_multicostata</List>
+		<List recon_name="Orbirhynchia_wiesti" recon_no="287538">O_wisti</List>
+		<List recon_name="Orbirhynchia_cuvieri" recon_no="301902">O_cuvieri</List>
+		<List recon_name="Orbirhynchia_compta" recon_no="301904">O_compta</List>
+		<List recon_name="Orbirhynchia_orbignyi" recon_no="301905">O_orbignyi</List>
+		<List recon_name="Orbirhynchia_praedispansa" recon_no="245474">O_praedispansa</List>
+		<List recon_name="Orbirhynchia_dispansa" recon_no="301909">O_dispansa</List>
+		<List recon_name="Orbirhynchia_reedensis" recon_no="301908">O_reedensis</List>
+		<List recon_name="Orbirhynchia_pisiformis" recon_no="301910">O_pisiformis</List>
+		<List recon_name="Orbirhynchia_bella" recon_no="301911">O_bella</List>
+		<List recon_name="Orbirhynchia_granum" recon_no="301912">O_granum</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="22">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Monks_et_Owen_2000a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

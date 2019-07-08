@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Sanz, J. L.</List>
+			<List>Buscalioni, A. D.</List>
+		</Author>
+		<Year>1992</Year>
+		<Title>A new bird from the Early Cretaceous of Los Hoyas, Spain, and the early radiation of birds</Title>
+		<Journal>Palaeontology</Journal>
+		<Volume>35</Volume>
+		<Pages>829-845</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="8">
+		<List recon_name="Dromaeosauridae" recon_no="38561">Non_avian_theropods</List>
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">Archaeopteryx</List>
+		<List recon_name="Iberomesornis_romerali" recon_no="65831">Iberomesornis</List>
+		<List recon_name="Concornis_lacustris" recon_no="100984">Concornis</List>
+		<List recon_name="Hesperornithiformes" recon_no="36617">Hesperornithiformes</List>
+		<List recon_name="Carinatae" recon_no="82615">Carinatae</List>
+		<List recon_name="Ambiortus_dementjevi" recon_no="137395">Ambiortus</List>
+		<List recon_name="Enantiornithes" recon_no="53286">Enantiornithes</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="14">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Sanz_et_Buscalioni_1992a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

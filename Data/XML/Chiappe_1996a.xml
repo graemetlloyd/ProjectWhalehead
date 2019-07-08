@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Chiappe, L. M.</List>
+		</Author>
+		<Year>1996</Year>
+		<Title>Late Cretaceous birds of southern South America</Title>
+		<Journal>Munchner Geowissenschaftliche Abhandlungen Reihe A: Geologie und Palaontologie</Journal>
+		<Volume>30</Volume>
+		<Pages>203-244</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="8">
+		<List recon_name="Dromaeosauridae" recon_no="38561">Dromaeosauridae</List>
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">Archaeopteryx_lithographica</List>
+		<List recon_name="Iberomesornis_romerali" recon_no="65831">Iberomesornis_romerali</List>
+		<List recon_name="Enantiornithes" recon_no="53286">Enantiornithes</List>
+		<List recon_name="Patagopteryx_deferrariisi" recon_no="68529">Patagopteryx_deferrariisi</List>
+		<List recon_name="Hesperornithiformes" recon_no="36617">Hesperornithiformes</List>
+		<List recon_name="Ichthyornithiformes" recon_no="36622">Ichthyornithiformes</List>
+		<List recon_name="Neornithes" recon_no="39241">Neornithes</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="67">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Chiappe_1996a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Dalla Vecchia, F. M.</List>
+		</Author>
+		<Year>2009</Year>
+		<Title><em>Tethyshadros insularis</em>, a new hadrosauroid dinoaur (Ornithischia) from the Upper Cretaceous of Italy</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>29</Volume>
+		<Pages>1100-1116</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="25">
+		<List recon_name="Iguanodon_bernissartensis" recon_no="58905">Iguanodon_bernissartensis</List>
+		<List recon_name="Mantellisaurus_atherfieldensis" recon_no="104635">Mantellisaurus_atherfileldensis</List>
+		<List recon_name="Dollodon_bampingi" recon_no="167049">Dollodon_bampingi</List>
+		<List recon_name="Ouranosaurus_nigeriensis" recon_no="52877">Ouranosaurus_nigeriensis</List>
+		<List recon_name="Probactrosaurus_gobiensis" recon_no="52878">Probactrosaurus_gobiensis</List>
+		<List recon_name="Protohadros_byrdi" recon_no="64527">Protohadros_byrdi</List>
+		<List recon_name="Tanius_sinensis" recon_no="53379">Tanius_sinensis</List>
+		<List recon_name="Bactrosaurus_johnsoni" recon_no="57344">Bactrosaurus_johnsoni</List>
+		<List recon_name="Gilmoreosaurus_mongoliensis" recon_no="64067">Gilmoreosaurus_mongoliensis</List>
+		<List recon_name="Tethyshadros_insularis" recon_no="161198">Tethyshadros_insularis</List>
+		<List recon_name="Telmatosaurus_transsylvanicus" recon_no="68154">Telmatosaurus_transsylvanicus</List>
+		<List recon_name="Pararhabdodon_isonensis" recon_no="89226">Pararhabdodon_isonensis</List>
+		<List recon_name="Brachylophosaurus_canadensis" recon_no="65213">Brachylophosaurus_canadensis</List>
+		<List recon_name="Maiasaura_peeblesorum" recon_no="55574">Maiasaura_peeblesorum</List>
+		<List recon_name="Gryposaurus" recon_no="53014">Gryposaurus_spp</List>
+		<List recon_name="Edmontosaurus" recon_no="38761">Edmontosaurus_spp</List>
+		<List recon_name="Prosaurolophus" recon_no="38767">Prosaurolophus_spp</List>
+		<List recon_name="Saurolophus" recon_no="38768">Saurolophus_spp</List>
+		<List recon_name="Hypacrosaurus_altispinus" recon_no="56406">Hypacrosaurus_altispinus</List>
+		<List recon_name="Parasaurolophus" recon_no="38766">Parasaurolophus_spp</List>
+		<List recon_name="Olorotitan_arharensis" recon_no="72095">Olorotitan_arharensis</List>
+		<List recon_name="Hypacrosaurus_stebingeri" recon_no="64339">Hypacrosaurus_stebingeri</List>
+		<List recon_name="Amurosaurus_riabinini" recon_no="64251">Amurosaurus_riabinini</List>
+		<List recon_name="Lambeosaurus" recon_no="38763">Lambeosaurus_spp</List>
+		<List recon_name="Corythosaurus_casuarius" recon_no="56403">Corythosaurus_casuarius</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="121">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Dalla_Vecchia_2009a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,72 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Stocker, M. R.</List>
+			<List>Nesbitt, S. J.</List>
+			<List>Criswell, K. E.</List>
+			<List>Parker, W. G.</List>
+			<List>Witmer, L. M.</List>
+			<List>Rowe, T. B.</List>
+			<List>Ridgely, R.</List>
+			<List>Brown, M. A.</List>
+		</Author>
+		<Year>in press</Year>
+		<Title>A dome-headed stem archosaur exemplifies convergence among dinosaurs and their distant relatives</Title>
+		<Journal>Current Biology</Journal>
+		<Volume/>
+		<Pages/>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="31">
+		<List recon_name="Petrolacosaurus_kansensis" recon_no="138231">Petrolacosaurus_kansensis</List>
+		<List recon_name="Youngina_capensis" recon_no="77037">Youngina_capensis</List>
+		<List recon_name="Gephyrosaurus_bridensis" recon_no="64136">Gephyrosaurus_bridensis</List>
+		<List recon_name="Shinisaurus_crocodilurus" recon_no="373758">Shinisaurus_crocodilurus</List>
+		<List recon_name="Uromastyx_aegypticus" recon_no="373760">Uromastyx_sp</List>
+		<List recon_name="Protorosaurus_speneri" recon_no="95836">Protorosaurus_speneri</List>
+		<List recon_name="Langobardisaurus_pandolfii" recon_no="176500">Langobardisaurus_pandolfii</List>
+		<List recon_name="Tanystropheus_longobardicus" recon_no="180927">Tanystropheus_longobardicus</List>
+		<List recon_name="Tanytrachelos_ahynis" recon_no="138947">Tanytrachelos_ahynis</List>
+		<List recon_name="Macrocnemus_bassanii" recon_no="141599">Macrocnemus_bassanii</List>
+		<List recon_name="Amotosaurus_rotfeldensis" recon_no="248293">Amotosaurus_rotfeldensis</List>
+		<List recon_name="Mesosuchus_browni" recon_no="139820">Mesosuchus_browni</List>
+		<List recon_name="Rhynchosaurus_articeps" recon_no="95808">Rhynchosaurus_articeps</List>
+		<List recon_name="Teyumbaita_sulcognathus" recon_no="174835">Teyumbaita_sulcognathus</List>
+		<List recon_name="Pamelaria_dolichotrachela" recon_no="148345">Pamelaria_dolichotrachela</List>
+		<List recon_name="Azendohsaurus_madagaskarensis" recon_no="167012">Azendohsaurus_madagaskarensis</List>
+		<List recon_name="Azendohsaurus_laaroussii" recon_no="64678">Azendohsaurus_laaroussii</List>
+		<List recon_name="Trilophosaurus_buettneri" recon_no="64922">Trilophosaurus_buettneri</List>
+		<List recon_name="Trilophosaurus_jacobsi" recon_no="69041">Trilophosaurus_jacobsi</List>
+		<List recon_name="Spinosuchus_caseanus" recon_no="65106">Spinosuchus_caseanus</List>
+		<List recon_name="Teraterpeton_hrynewichorum" recon_no="182034">Teraterpeton_hrynewichorum</List>
+		<List recon_name="Prolacerta_broomi" recon_no="138933">Prolacerta_broomi</List>
+		<List recon_name="Chasmatosaurus_yuani" recon_no="173991">Chasmatosaurus_yuani</List>
+		<List recon_name="Proterosuchus" recon_no="80904">Proterosuchus</List>
+		<List recon_name="Erythrosuchus_africanus" recon_no="163009">Erythrosuchus_africanus</List>
+		<List recon_name="Chanaresuchus_bonapartei" recon_no="80890">Chanaresuchus_bonapartei</List>
+		<List recon_name="Euparkeria_capensis" recon_no="99170">Euparkeria_capensis</List>
+		<List recon_name="Batrachotomus_kupferzellensis" recon_no="174468">Batrachotomus_kupferzellensis</List>
+		<List recon_name="Coelophysis_bauri" recon_no="55477">Coelophysis_bauri</List>
+		<List recon_name="Plateosaurus_engelhardti" recon_no="56683">Plateosaurus_engelhardti</List>
+		<List recon_name="Triopticus_primus" recon_no="347562">Triopticus_primus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="247">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Stocker_etal_inpressa</Filename>
+	<Parent>Nesbitt_etal_2015a</Parent>
+	<Sibling/>
+</SourceTree>

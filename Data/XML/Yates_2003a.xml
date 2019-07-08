@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Yates, A. M.</List>
+		</Author>
+		<Year>2003</Year>
+		<Title>The species taxonomy of the sauropodomorph dinosaurs from the Lowenstein Formation (Norian, Late Triassic) of Germany</Title>
+		<Journal>Palaeontology</Journal>
+		<Volume>46</Volume>
+		<Pages>317-338</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="18">
+		<List recon_name="Neotheropoda" recon_no="56397">Neotheropoda</List>
+		<List recon_name="Saturnalia_tupiniquim" recon_no="68124">Saturnalia</List>
+		<List recon_name="Thecodontosaurus_antiquus" recon_no="56627">Thecodontosaurus</List>
+		<List recon_name="Plateosaurus_gracilis" recon_no="56596">GPIT_18318a</List>
+		<List recon_name="Plateosaurus_sp_GPIT_18392" recon_no="38644">GPIT_18392</List>
+		<List recon_name="Plateosaurus_gracilis" recon_no="56596">GPIT_Aixheim</List>
+		<List recon_name="Plateosaurus_gracilis" recon_no="56596">SMNS_5715</List>
+		<List recon_name="Efraasia_minor" recon_no="91403">SMNS_11838</List>
+		<List recon_name="Efraasia_minor" recon_no="91403">SMNS_12188_dash_92</List>
+		<List recon_name="Sauropodomorpha_indet_SMNS_12216" recon_no="91972">SMNS_12216</List>
+		<List recon_name="Efraasia_minor" recon_no="91403">SMNS_12354</List>
+		<List recon_name="Efraasia_minor" recon_no="91403">SMNS_12667</List>
+		<List recon_name="Efraasia_minor" recon_no="91403">SMNS_12668</List>
+		<List recon_name="Efraasia_minor" recon_no="91403">SMNS_12684</List>
+		<List recon_name="Efraasia_minor" recon_no="91403">SMNS_14881</List>
+		<List recon_name="Efraasia_minor" recon_no="91403">SMNS_17928</List>
+		<List recon_name="Plateosaurus_engelhardti" recon_no="56683">GPIT_1</List>
+		<List recon_name="Plateosaurus_engelhardti" recon_no="56683">SMNS_13200</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="31">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Yates_2003a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

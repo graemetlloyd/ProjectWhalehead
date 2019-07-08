@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Ryan, M. J.</List>
+		</Author>
+		<Year>2007</Year>
+		<Title>A new basal centrosaurine ceratopsid from the Oldman Formation, Southeastern Alberta</Title>
+		<Journal>Journal of Paleontology</Journal>
+		<Volume>81</Volume>
+		<Pages>376-396</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="15">
+		<List recon_name="Protoceratops_andrewsi" recon_no="52824">Protoceratops</List>
+		<List recon_name="Zuniceratops_christopheri" recon_no="66591">Zuniceratops</List>
+		<List recon_name="Centrosaurus" recon_no="38854">Centrosaurus</List>
+		<List recon_name="Styracosaurus_albertensis" recon_no="56144">Styracosaurus</List>
+		<List recon_name="Einiosaurus_procurvicornis" recon_no="53954">Einiosaurus</List>
+		<List recon_name="Achelousaurus_horneri" recon_no="53955">Achelousaurus</List>
+		<List recon_name="Pachyrhinosaurus" recon_no="38858">Pachyrhinosaurus</List>
+		<List recon_name="Albertaceratops_nesmoi" recon_no="94776">TMP_2001_dot_26_dot_1_material</List>
+		<List recon_name="Albertaceratops_nesmoi" recon_no="94776">Montana_bone_bed</List>
+		<List recon_name="Triceratops" recon_no="38862">Triceratops</List>
+		<List recon_name="Torosaurus" recon_no="38861">Torosaurus</List>
+		<List recon_name="Anchiceratops_ornatus" recon_no="63447">Anchiceratops</List>
+		<List recon_name="Arrhinoceratops_brachyops" recon_no="63401">Arrhinoceratops</List>
+		<List recon_name="Chasmosaurus" recon_no="38855">Chasmosaurus</List>
+		<List recon_name="Pentaceratops_sternbergii" recon_no="55033">Pentaceratops</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="36">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Ryan_2007ab</Filename>
+	<Parent/>
+	<Sibling>Ryan_2007aa</Sibling>
+</SourceTree>

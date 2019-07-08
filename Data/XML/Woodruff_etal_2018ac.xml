@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Woodruff, D. C.</List>
+			<List>Carr, T. D.</List>
+			<List>Stoors, G. W.</List>
+			<List>Waskow, K.</List>
+			<List>Scannella, J. B.</List>
+			<List>Norden, K. K.</List>
+			<List>Wilson, J. P.</List>
+		</Author>
+		<Year>2018</Year>
+		<Title>The smallest diplodocid skull reveals cranial ontogeny and growth-related dietary changes in the largest dinosaurs</Title>
+		<Journal>Scientific Reports</Journal>
+		<Volume>8</Volume>
+		<Pages>14341</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="12">
+		<List recon_name="Omeisaurus" recon_no="38702">Omeisaurus</List>
+		<List recon_name="Jobaria_tiguidensis" recon_no="57436">Jobaria_tiguidensis</List>
+		<List recon_name="Losillasaurus_giganteus" recon_no="57685">Losillasaurus_giganteus_type</List>
+		<List recon_name="Camarasaurus_grandis" recon_no="67181">Camarasaurus</List>
+		<List recon_name="Brachiosaurus_altithorax" recon_no="54864">Brachiosaurus_altithorax</List>
+		<List recon_name="Limaysaurus_tessonei" recon_no="63874">Limaysaurus_tessonei</List>
+		<List recon_name="Nigersaurus_taqueti" recon_no="57367">Nigersaurus_taqueti</List>
+		<List recon_name="Dicraeosaurus_hansemanni" recon_no="65941">Dicraeosaurus_hansemanni</List>
+		<List recon_name="Amargasaurus_cazaui" recon_no="53962">Amargasaurus_cazaui</List>
+		<List recon_name="Apatosaurus_louisae" recon_no="57752">Apatosaurus_louisae_type</List>
+		<List recon_name="Diplodocus_sp_CM_11161" recon_no="38669">Diplodocus_sp_CM_11161</List>
+		<List recon_name="Diplodocus_sp_CMC_VP14128" recon_no="38669">CMC_VP14128</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="540">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Woodruff_etal_2018ac</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

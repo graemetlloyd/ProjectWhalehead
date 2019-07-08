@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Vincent, P.</List>
+			<List>Bardet, N.</List>
+			<List>Mattioli, E.</List>
+		</Author>
+		<Year>2012</Year>
+		<Title>A new pliosaurid from the Pliensbachian (Early Jurassic) of Normandy (Northern France)</Title>
+		<Journal>Acta Palaeontologica Polonica</Journal>
+		<Volume>58</Volume>
+		<Pages>471-485</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="15">
+		<List recon_name="Simosaurus_gaillardoti" recon_no="95793">Simosaurus_gaillardoti</List>
+		<List recon_name="Serpianosaurus_mirigiolensis" recon_no="142015">Serpianosaurus_mirigiolensis</List>
+		<List recon_name="Thalassiodracon_hawkinsii" recon_no="203157">Thalassiodracon_hawkinsii</List>
+		<List recon_name="Hauffiosaurus_tomistomimus" recon_no="186136">Hauffiosaurus_tomistomimus</List>
+		<List recon_name="Dolichorhynchops_osborni" recon_no="100117">Dolichorhynchops_osborni</List>
+		<List recon_name="Nichollssaura_borealis" recon_no="168667">Nichollssaura_borealis</List>
+		<List recon_name="Hauffiosaurus_longirostris" recon_no="186137">Hauffiosaurus_longirostris</List>
+		<List recon_name="Archaeonectrus_rostratus" recon_no="203790">Archaeonectrus_rostratus</List>
+		<List recon_name="Rhomaleosaurus_cramptoni" recon_no="100062">Rhomaleosaurus_cramptoni</List>
+		<List recon_name="Meyerasaurus_victor" recon_no="175193">Meyerasaurus_victor</List>
+		<List recon_name="Cryonectes_neustriacus" recon_no="242786">Cryonectes_neustriacus</List>
+		<List recon_name="Pliosaurus_brachyspondylus" recon_no="204473">Pliosaurus_brachyspondylus</List>
+		<List recon_name="Peloneustes_philarchus" recon_no="100092">Peloneustes_philarchus</List>
+		<List recon_name="Liopleurodon_ferox" recon_no="100097">Liopleurodon_ferox</List>
+		<List recon_name="Simolestes_vorax" recon_no="100068">Simolestes_vorax</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="66">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Vincent_etal_2012a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

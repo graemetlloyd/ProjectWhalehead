@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Zanno, L. E.</List>
+			<List>Makovicky, P. J.</List>
+		</Author>
+		<Year>2011 </Year>
+		<Title>On the earliest record of Cretaceous tyrannosauroids in western North America: implications for an Early Cretaceous Laurasian interchange event</Title>
+		<Journal>Historical Biology</Journal>
+		<Volume>23</Volume>
+		<Pages>317-325</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="16">
+		<List recon_name="Maniraptora" recon_no="55486">MANIRAPTORA</List>
+		<List recon_name="Ornithomimosauria" recon_no="55491">ORNITHOMIMOSAURIA</List>
+		<List recon_name="Ornitholestes_hermanni" recon_no="55484">Ornitholestes</List>
+		<List recon_name="Compsognathidae" recon_no="38537">COMPSOGNATHIDAE</List>
+		<List recon_name="Guanlong_wucaii" recon_no="71191">Guanlong</List>
+		<List recon_name="Dilong_paradoxus" recon_no="58836">Dilong</List>
+		<List recon_name="Eotyrannus_lengi" recon_no="68317">Eotyrannus</List>
+		<List recon_name="Stokesosaurus_clevelandi" recon_no="64493">Stokesosaurus</List>
+		<List recon_name="Xiongguanlong_baimoensis" recon_no="146100">Xiongguanlong</List>
+		<List recon_name="Raptorex_kriegsteini" recon_no="154175">Raptorex</List>
+		<List recon_name="Gorgosaurus_libratus" recon_no="53194">Gorgosaurus</List>
+		<List recon_name="Albertosaurus_sarcophagus" recon_no="56319">Albertosaurus</List>
+		<List recon_name="Daspletosaurus" recon_no="38608">Daspletosaurus</List>
+		<List recon_name="Tarbosaurus_bataar" recon_no="57254">Tarbosaurus</List>
+		<List recon_name="Tyrannosaurus_rex" recon_no="54833">Tyrannosaurus</List>
+		<List recon_name="Tyrannosauroidea_indet_FMNH_PR_2750" recon_no="58837">FMNH_PR_2750</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="106">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Zanno_et_Makovicky_2011ab</Filename>
+	<Parent>Sereno_etal_2009a</Parent>
+	<Sibling/>
+</SourceTree>

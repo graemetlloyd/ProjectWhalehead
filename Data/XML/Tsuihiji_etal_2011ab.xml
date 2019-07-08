@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Tsuihiji, T.</List>
+			<List>Watabe, M.</List>
+			<List>Tsogtbaatar, K.</List>
+			<List>Tsubamoto, T.</List>
+			<List>Barsbold, R.</List>
+			<List>Suzuki, S.</List>
+			<List>Lee, A. H.</List>
+			<List>Ridgely, R. C.</List>
+			<List>Kawahara, Y.</List>
+			<List>Witmer, L. M.</List>
+		</Author>
+		<Year>2011</Year>
+		<Title>Cranial osteology of a juvenile specimen of <em>Tarbosaurus bataar</em> (Theropoda, Tyrannosauridae) from the Nemegt Formation (Upper Cretaceous) of Bugin Tsav, Mongolia</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>31</Volume>
+		<Pages>497-517</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="16">
+		<List recon_name="Maniraptora" recon_no="55486">MANIRAPTORA</List>
+		<List recon_name="Ornithomimosauria" recon_no="55491">ORNITHOMIMOSAURIA</List>
+		<List recon_name="Ornitholestes_hermanni" recon_no="55484">Ornitholestes</List>
+		<List recon_name="Compsognathidae" recon_no="38537">COMPSOGNATHIDAE</List>
+		<List recon_name="Guanlong_wucaii" recon_no="71191">Guanlong</List>
+		<List recon_name="Dilong_paradoxus" recon_no="58836">Dilong</List>
+		<List recon_name="Eotyrannus_lengi" recon_no="68317">Eotyrannus</List>
+		<List recon_name="Stokesosaurus_clevelandi" recon_no="64493">Stokesosaurus</List>
+		<List recon_name="Xiongguanlong_baimoensis" recon_no="146100">Xiongguanlong</List>
+		<List recon_name="Raptorex_kriegsteini" recon_no="154175">Raptorex</List>
+		<List recon_name="Tarbosaurus_bataar" recon_no="57254">MPC_dash_D107_slash_7</List>
+		<List recon_name="Gorgosaurus_libratus" recon_no="53194">Gorgosaurus</List>
+		<List recon_name="Albertosaurus_sarcophagus" recon_no="56319">Albertosaurus</List>
+		<List recon_name="Daspletosaurus" recon_no="38608">Daspletosaurus</List>
+		<List recon_name="Tarbosaurus_bataar" recon_no="57254">Tarbosaurus</List>
+		<List recon_name="Tyrannosaurus_rex" recon_no="54833">Tyrannosaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="101">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Tsuihiji_etal_2011ab</Filename>
+	<Parent>Sereno_etal_2009a</Parent>
+	<Sibling/>
+</SourceTree>

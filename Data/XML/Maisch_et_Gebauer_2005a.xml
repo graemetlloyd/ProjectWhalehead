@@ -1,0 +1,41 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Maisch, M. W.</List>
+			<List>Gebauer, E. V. I.</List>
+		</Author>
+		<Year>2005</Year>
+		<Title>Reappraisal of <em>Geikia locusticeps</em> (Therapsida: Dicynodontia) from the Upper Permian of Tanzania</Title>
+		<Journal>Palaeontology</Journal>
+		<Volume>48</Volume>
+		<Pages>309-324</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="6">
+		<List recon_name="Pristerodon_mackayi" recon_no="56843">Pristerodon</List>
+		<List recon_name="Oudenodon" recon_no="39052">Oudenodon</List>
+		<List recon_name="Aulacephalodon_bainii" recon_no="333234">Aulacephalodon</List>
+		<List recon_name="Pelanomodon_moschops" recon_no="338976">Pelanomodon</List>
+		<List recon_name="Geikia_locusticeps" recon_no="343951">Geikia_locusticeps</List>
+		<List recon_name="Geikia_elginensis" recon_no="157044">Geikia_elginensis</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="18">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Maisch_et_Gebauer_2005a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

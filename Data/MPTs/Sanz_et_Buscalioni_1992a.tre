@@ -1,0 +1,3 @@
+(Non_avian_theropods,(Archaeopteryx,(Ambiortus,(Iberomesornis,(Concornis,Enantiornithes,(Hesperornithiformes,Carinatae))))));
+(Non_avian_theropods,(Archaeopteryx,(Iberomesornis,((Concornis,(Hesperornithiformes,Carinatae)),(Ambiortus,Enantiornithes)))));
+(Non_avian_theropods,(Archaeopteryx,(Ambiortus,(Iberomesornis,(Concornis,(Hesperornithiformes,(Carinatae,Enantiornithes)))))));

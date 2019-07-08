@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Cullen, T. M.</List>
+			<List>Ryan, M. J.</List>
+			<List>Schroder-Adams, C.</List>
+			<List>Currie, P. J.</List>
+			<List>Kobayahsi, Y.</List>
+		</Author>
+		<Year>2013</Year>
+		<Title>An ornithomimid (Dinosauria) bonebed from the Late Cretaceous of Alberta, with implications for the behavior, classification, and stratigraphy of North American ornithomimids</Title>
+		<Journal>PLOS One</Journal>
+		<Volume>8</Volume>
+		<Pages>e58853</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="15">
+		<List recon_name="Allosaurus_fragilis" recon_no="52962">Allosaurus_fragilis</List>
+		<List recon_name="Tyrannosauridae" recon_no="38606">Tyrannosaurids</List>
+		<List recon_name="Pelecanimimus_polyodon" recon_no="64118">Pelecanimimus_polyodon</List>
+		<List recon_name="Harpymimus_okladnikovi" recon_no="66670">Harpymimus_okladnikovi</List>
+		<List recon_name="Shenzhousaurus_orientalis" recon_no="68334">Shenzousaurus_orientalis</List>
+		<List recon_name="Beishanlong_grandis" recon_no="146118">Beishanlong_grandis</List>
+		<List recon_name="Garudimimus_brevipes" recon_no="57267">Garudimimus_brevipes</List>
+		<List recon_name="Archaeornithomimus_asiaticus" recon_no="57276">Archaeornithomimus_asiaticus</List>
+		<List recon_name="Sinornithomimus_dongi" recon_no="68342">Sinornithomimus_dongi</List>
+		<List recon_name="Gallimimus_bullatus" recon_no="57265">Gallimimus_bullatus</List>
+		<List recon_name="Anserimimus_planinychus" recon_no="66672">Anserimimus_planinychus</List>
+		<List recon_name="Qiupalong_henanensis" recon_no="176038">Qiupalong_henanensis</List>
+		<List recon_name="Struthiomimus_altus" recon_no="57266">Struthiomimus_altus</List>
+		<List recon_name="Ornithomimus_edmontonicus" recon_no="63438">Ornithomimus_edmontonicus</List>
+		<List recon_name="Ornithomimidae_indet_CMN_12068_and_12069_and_12070" recon_no="38539">Dry_Island_bonebed_specimens</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="48">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Cullen_etal_2013a</Filename>
+	<Parent>Xu_etal_2011a</Parent>
+	<Sibling/>
+</SourceTree>

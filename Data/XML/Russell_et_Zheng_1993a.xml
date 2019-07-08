@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Russell, D. A.</List>
+			<List>Zheng, Z.</List>
+		</Author>
+		<Year>1993</Year>
+		<Title>A large mamenchisaurid from the Junggar Basin, Xinjiang, People's Republic of China</Title>
+		<Journal>Canadian Journal of Earth Sciences</Journal>
+		<Volume> 10-11</Volume>
+		<Pages>2082-2095</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="9">
+		<List recon_name="Plateosaurus" recon_no="38644">Plateosaurus</List>
+		<List recon_name="Shunosaurus_lii" recon_no="56457">Shunosaurus</List>
+		<List recon_name="Mamenchisaurus" recon_no="38670">Mamenchisaurus</List>
+		<List recon_name="Omeisaurus" recon_no="38702">Omeisaurus</List>
+		<List recon_name="Dicraeosaurus" recon_no="38668">Dicraeosaurus</List>
+		<List recon_name="Apatosaurus" recon_no="38665">Apatosaurus</List>
+		<List recon_name="Camarasaurus_grandis" recon_no="67181">Camarasaurus</List>
+		<List recon_name="Euhelopus_zdanskyi" recon_no="54868">Euhelopus</List>
+		<List recon_name="Brachiosaurus_altithorax" recon_no="54864">Brachiosaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="21">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Russell_et_Zheng_1993a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

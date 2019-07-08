@@ -1,0 +1,28 @@
+#NEXUS
+
+[!File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=11 NCHAR=18 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2" MISSING=? GAP=- ;
+MATRIX
+
+Scelidosaurus      000000000000000000
+Ankylosaurus       110101000010100?10
+Cedarpelta         000010000000????0?
+Euoplocephalus     112110010011111111
+Nodocephalosaurus  ?11?110?10100?????
+Pinacosaurus       111111110010110111
+Saichania          112100100112111210
+Shamosaurus        010000100110000210
+Talarurus          ???10?0?0010????21
+Tarchia            1111000010121102??
+Tsagantegia        111110100111??????
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = unord: 1-18;
+END;
+

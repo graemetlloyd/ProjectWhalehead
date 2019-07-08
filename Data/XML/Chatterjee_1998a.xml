@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Chatterjee, S.</List>
+		</Author>
+		<Year>1998 </Year>
+		<Title>The avian status of <em>Protoavis</em></Title>
+		<Journal>Archaeopteryx</Journal>
+		<Volume>16</Volume>
+		<Pages>99-122</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="5">
+		<List recon_name="Velociraptor_mongoliensis" recon_no="54554">Velociraptor</List>
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">Archaeopteryx</List>
+		<List recon_name="Protoavis_texensis" recon_no="192929">Protoavis</List>
+		<List recon_name="Enantiornithes" recon_no="53286">Enantiornithes</List>
+		<List recon_name="Ornithurae" recon_no="137276">Ornithurae</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="66">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Chatterjee_1998a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

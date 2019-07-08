@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Penkalski, P.</List>
+		</Author>
+		<Year>2014</Year>
+		<Title>A new ankylosaurid from the late Cretaceous Two Medicine Formation of Montana, USA</Title>
+		<Journal>Acta Palaeontologica Polonica</Journal>
+		<Volume>59</Volume>
+		<Pages>617-634</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="16">
+		<List recon_name="Pinacosaurus_grangeri" recon_no="52911">P_grangeri</List>
+		<List recon_name="Euoplocephalus_tutus" recon_no="63917">CMN_0210</List>
+		<List recon_name="Dyoplosaurus_acutosquameus" recon_no="63898">ROM_784</List>
+		<List recon_name="Euoplocephalus_tutus" recon_no="63917">TMP_1991_dot_127_dot_1</List>
+		<List recon_name="Euoplocephalus_tutus" recon_no="63917">UALVP_31</List>
+		<List recon_name="Anodontosaurus_lambei" recon_no="63440">CMN_8530</List>
+		<List recon_name="Anodontosaurus_lambei" recon_no="63440">NHMUK_R4947</List>
+		<List recon_name="Euoplocephalus_tutus" recon_no="63917">ROM_1930</List>
+		<List recon_name="Euoplocephalus_tutus" recon_no="63917">AMNH_5337</List>
+		<List recon_name="Euoplocephalus_tutus" recon_no="63917">AMNH_5403</List>
+		<List recon_name="Euoplocephalus_tutus" recon_no="63917">AMNH_5404</List>
+		<List recon_name="Euoplocephalus_tutus" recon_no="63917">AMNH_5405</List>
+		<List recon_name="Anodontosaurus_lambei" recon_no="63440">AMNH_5238</List>
+		<List recon_name="Anodontosaurus_lambei" recon_no="63440">TMP_1997_dot_132_dot_1</List>
+		<List recon_name="Oohkotokia_horneri" recon_no="257758">USNM_11892</List>
+		<List recon_name="Oohkotokia_horneri" recon_no="257758">MOR_433</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="18">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Penkalski_2014a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,125 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Carballido, J. L.</List>
+			<List>Holwerda, F. M.</List>
+			<List>Pol, D.</List>
+			<List>Rauhut, O. W. M.</List>
+		</Author>
+		<Year>2017</Year>
+		<Title>An Early Jurassic sauropod tooth from Patagonia (Canadon Asfalto Formation): implications for sauropod diversity</Title>
+		<Journal>Publicacion Electronica de la Asociacion Paleontologica Argentina</Journal>
+		<Volume>17</Volume>
+		<Pages>50-57</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="88">
+		<List recon_name="Plateosaurus_engelhardti" recon_no="56683">Plateosaurus_engelhardti</List>
+		<List recon_name="Chinshakiangosaurus_chunghoensis" recon_no="68152">Chinshakiangosaurus_chunghoensis</List>
+		<List recon_name="Mussaurus_patagonicus" recon_no="66682">Mussaurus_patagonicus</List>
+		<List recon_name="Antetonitrus_ingenipes" recon_no="57754">Antetonitrus_ingenipes</List>
+		<List recon_name="Lessemsaurus_sauropoides" recon_no="68588">Lessemsaurus_sauropoides</List>
+		<List recon_name="Gongxianosaurus_shibeiensis" recon_no="66644">Gongxianosaurus_shibeiensis</List>
+		<List recon_name="Amygdalodon_patagonicus" recon_no="66447">Amygdalodon_patagonicus</List>
+		<List recon_name="Isanosaurus_attavipachi" recon_no="65148">Isanosaurus_attavipachi</List>
+		<List recon_name="Vulcanodon_karibaensis" recon_no="54979">Vulcanodon_karibaensis</List>
+		<List recon_name="Tazoudasaurus_naimi" recon_no="68536">Tazoudasaurus_naimi</List>
+		<List recon_name="Shunosaurus_lii" recon_no="56457">Shunosaurus_lii</List>
+		<List recon_name="Barapasaurus_tagorei" recon_no="55547">Barapasaurus_tagorei</List>
+		<List recon_name="Cetiosaurus_oxoniensis" recon_no="66688">Cetiosaurus_oxoniensis</List>
+		<List recon_name="Patagosaurus_fariasi" recon_no="66448">Patagosaurus_fariasi</List>
+		<List recon_name="Omeisaurus" recon_no="38702">Omeisaurus</List>
+		<List recon_name="Mamenchisaurus" recon_no="38670">Mamenchisaurus</List>
+		<List recon_name="Turiasaurus_riodevensis" recon_no="91330">Turiasaurus_riodevensis</List>
+		<List recon_name="Losillasaurus_giganteus" recon_no="57685">Losillasaurus_giganteus</List>
+		<List recon_name="Jobaria_tiguidensis" recon_no="57436">Jobaria_tiguidensis</List>
+		<List recon_name="Haplocanthosaurus_priscus" recon_no="64504">Haplocanthosaurus_priscus</List>
+		<List recon_name="Camarasaurus_grandis" recon_no="67181">Camarasaurus</List>
+		<List recon_name="Bellusaurus_sui" recon_no="54862">Bellusaurus_sui</List>
+		<List recon_name="Galveosaurus_herreroi" recon_no="67716">Galvesaurus_herreroi</List>
+		<List recon_name="Tehuelchesaurus_benitezii" recon_no="66569">Tehuelchesaurus_benitezii</List>
+		<List recon_name="Europasaurus_holgeri" recon_no="81697">Europasaurus_holgeri</List>
+		<List recon_name="Tastavinsaurus_sanzi" recon_no="138440">Tastavinsaurus_sanzi</List>
+		<List recon_name="Euhelopus_zdanskyi" recon_no="54868">Euhelopus_zdanskyi</List>
+		<List recon_name="Brachiosaurus_altithorax" recon_no="54864">Brachiosaurus_altithorax</List>
+		<List recon_name="Giraffatitan_brancai" recon_no="92308">Giraffatitan_brancai</List>
+		<List recon_name="Abydosaurus_mcintoshi" recon_no="163942">Abydosaurus_mcintoshi</List>
+		<List recon_name="Padillasaurus_leivaensis" recon_no="327237">Padillasaurus_leivaensis</List>
+		<List recon_name="Sauroposeidon_proteles" recon_no="66617">Sauroposeidon_proteles</List>
+		<List recon_name="Venenosaurus_dicrocei" recon_no="66516">Venenosaurus_dicrocei</List>
+		<List recon_name="Cedarosaurus_weiskopfae" recon_no="64906">Cedarosaurus_weiskopfe</List>
+		<List recon_name="Lusotitan_atalaiensis" recon_no="65350">Lusotitan</List>
+		<List recon_name="Erketu_ellisoni" recon_no="72377">Erketu_ellisoni</List>
+		<List recon_name="Qiaowanlong_kangxii" recon_no="153670">Qiaowanlong_kangxii</List>
+		<List recon_name="Phuwiangosaurus_sirindhornae" recon_no="56410">Phuwiangosaurus_sirindhornae</List>
+		<List recon_name="Chubutisaurus_insignis" recon_no="53963">Chubutisaurus_insignis</List>
+		<List recon_name="Ligabuesaurus_leanzai" recon_no="81715">Ligabuesaurus_lenzai</List>
+		<List recon_name="Wintonotitan_wattsi" recon_no="148971">Wintonotitan_wattsi</List>
+		<List recon_name="Malarguesaurus_florenciae" recon_no="140854">Malarguesaurus_florenciae</List>
+		<List recon_name="Andesaurus_delgadoi" recon_no="58918">Andesaurus_delgadoi</List>
+		<List recon_name="Dreadnoughtus_schrani" recon_no="304824">Dreadnoughtus</List>
+		<List recon_name="Epachthosaurus_sciuttoi" recon_no="57467">Epachthosaurus_sciuttoi</List>
+		<List recon_name="Malawisaurus_dixeyi" recon_no="57458">Malawisaurus_dixeyi</List>
+		<List recon_name="Isisaurus_colberti" recon_no="64312">Isisaurus_colberti</List>
+		<List recon_name="Nemegtosaurus_mongoliensis" recon_no="54841">Nemegtosaurus_mongoliensis</List>
+		<List recon_name="Rapetosaurus_krausei" recon_no="57533">Rapetosaurus_krausei</List>
+		<List recon_name="Tapuiasaurus_macedoi" recon_no="176784">Tapuiasaurus_macedoi</List>
+		<List recon_name="Trigonosaurus_pricei" recon_no="85461">Trigonosaurus_pricei</List>
+		<List recon_name="Alamosaurus_sanjuanensis" recon_no="63399">Alamosaurus_sanjuanensis</List>
+		<List recon_name="Opisthocoelicaudia_skarzynskii" recon_no="57335">Opisthocoelicaudia_skarzynskii</List>
+		<List recon_name="Neuquensaurus_australis" recon_no="64315">Neuquensaurus_australis</List>
+		<List recon_name="Saltasaurus_loricatus" recon_no="58838">Saltasaurus_loricatus</List>
+		<List recon_name="Notocolossus_gonzalezparejasi" recon_no="334674">Notocolossus</List>
+		<List recon_name="Baurutitan_britoi" recon_no="85463">Baurutitan</List>
+		<List recon_name="Rinconsaurus_caudamirus" recon_no="68592">Rinconsaurus</List>
+		<List recon_name="Muyelensaurus_pecheni" recon_no="122472">Muyelensaurus</List>
+		<List recon_name="Aeolosaurus_maximus" recon_no="205609">Aeolosaurus_maximus</List>
+		<List recon_name="Overosaurus_paradasorum" recon_no="273093">Overosaurus</List>
+		<List recon_name="Mendozasaurus_neguyelap" recon_no="55584">Mendozasaurus_neguyelap</List>
+		<List recon_name="Ruyangosaurus_giganteus" recon_no="166381">Ruyangosaurus_giganteus</List>
+		<List recon_name="Futalognkosaurus_dukei" recon_no="109005">Futalongkosaurus</List>
+		<List recon_name="Quetecsaurus_rusconii" recon_no="287943">Quetecsaurus_rusconii</List>
+		<List recon_name="Puertasaurus_reuili" recon_no="83420">Puertasaurus</List>
+		<List recon_name="Drusilasaura_deseadensis" recon_no="184916">Drusilasaura</List>
+		<List recon_name="Bonitasaura_salgadoi" recon_no="58913">Bonitasaura_salgadoi</List>
+		<List recon_name="Patagotitan_mayorum" recon_no="358624">Patagotitan_mayoi</List>
+		<List recon_name="Argentinosaurus_huinculensis" recon_no="66646">Argentinosaurus_hunculensis</List>
+		<List recon_name="Amazonsaurus_maranhensis" recon_no="89459">Amazonsaurus_maranhensis</List>
+		<List recon_name="Zapalasaurus_bonapartei" recon_no="89457">Zapalasaurus_bonapartei</List>
+		<List recon_name="Histriasaurus_boscarollii" recon_no="68180">Histriasaurus_bocardeli</List>
+		<List recon_name="Comahuesaurus_windhauseni" recon_no="251280">Comahuesaurus_windhanseni</List>
+		<List recon_name="Rayososaurus_agrioensis" recon_no="71351">Rayososaurus_agrioensis</List>
+		<List recon_name="Rebbachisaurus_garasbae" recon_no="65368">Rebbachisaurus_garasbae</List>
+		<List recon_name="Cathartesaura_anaerobica" recon_no="89495">Cathartesaura_anaerobica</List>
+		<List recon_name="Limaysaurus_tessonei" recon_no="63874">Limaysaurus_tessonei</List>
+		<List recon_name="Demandasaurus_darwini" recon_no="202270">Demandasaurus_darwini</List>
+		<List recon_name="Nigersaurus_taqueti" recon_no="57367">Nigersaurus_taqueti</List>
+		<List recon_name="Suuwassea_emilieae" recon_no="57364">Suwassea_emiliae</List>
+		<List recon_name="Amargasaurus_cazaui" recon_no="53962">Amargasaurus_cazaui</List>
+		<List recon_name="Dicraeosaurus_hansemanni" recon_no="65941">Dicraeosaurus_hansemanni</List>
+		<List recon_name="Brachytrachelopan_mesai" recon_no="66115">Brachytrachelopan_messai</List>
+		<List recon_name="Apatosaurus" recon_no="38665">Apatosaurus</List>
+		<List recon_name="Diplodocus_longus" recon_no="52920">Diplodocus</List>
+		<List recon_name="Barosaurus_lentus" recon_no="54166">Barosaurus_lentus</List>
+		<List recon_name="Titanosauriformes_indet_MPEF_dash_PV_10606" recon_no="57468">MPEF_dash_PV_10606</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="405">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Carballido_etal_2017bb</Filename>
+	<Parent>Carballido_etal_2017a</Parent>
+	<Sibling/>
+</SourceTree>

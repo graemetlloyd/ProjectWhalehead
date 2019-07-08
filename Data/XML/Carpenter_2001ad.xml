@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Carpenter, K.</List>
+		</Author>
+		<Year>2001</Year>
+		<Title>Phylogenetic analysis of the Ankylosauria</Title>
+		<Journal/>
+		<Volume/>
+		<Pages>455-483</Pages>
+		<Booktitle>The Armored Dinosaurs</Booktitle>
+		<Publisher>Indiana University Press</Publisher>
+		<City>Bloomington</City>
+		<Editor>
+			<List>Carpenter, K.</List>
+		</Editor>
+	</Source>
+	<Taxa number="13">
+		<List recon_name="Scelidosaurus_harrisonii" recon_no="53042">Scelidosaurus</List>
+		<List recon_name="Animantarx_ramaljonesi" recon_no="63699">Animantarx</List>
+		<List recon_name="Anoplosaurus_curtonotus" recon_no="56558">Anoplosaurus</List>
+		<List recon_name="Edmontonia" recon_no="63919">Edmontonia</List>
+		<List recon_name="Niobrarasaurus_coleii" recon_no="65208">Niobrarasaurus</List>
+		<List recon_name="Nodosaurus_textilis" recon_no="52780">Nodosaurus</List>
+		<List recon_name="Panoplosaurus_mirus" recon_no="52788">Panoplosaurus</List>
+		<List recon_name="Pawpawsaurus_campbelli" recon_no="55999">Pawpawsaurus</List>
+		<List recon_name="Sauropelta_edwardsorum" recon_no="81248">Sauropelta</List>
+		<List recon_name="Silvisaurus_condrayi" recon_no="52791">Silvisaurus</List>
+		<List recon_name="Stegopelta_landerensis" recon_no="63886">Stegopelta</List>
+		<List recon_name="Struthiosaurus_languedocensis" recon_no="64793">Struthiosaurus</List>
+		<List recon_name="Texasetes_pleurohalio" recon_no="66852">Texasetes</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="17">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Carpenter_2001ad</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

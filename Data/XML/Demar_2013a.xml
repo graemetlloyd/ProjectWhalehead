@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Demar, D. G.</List>
+		</Author>
+		<Year>2013</Year>
+		<Title>A new fossil salamander (Caudata, Proteidae) from the Upper Cretaceous (Maastrichtian) Hell Creek Formation, Montana, U.S.A</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>33</Volume>
+		<Pages>588-598</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="13">
+		<List recon_name="Cryptobranchus_alleganiensis" recon_no="110601">Cryptobranchus_alleganiensis</List>
+		<List recon_name="Proteus_anguinus" recon_no="376111">Proteus_anguinus</List>
+		<List recon_name="Necturus_maculosus" recon_no="376115">Necturus_maculosus</List>
+		<List recon_name="Necturus_krausei" recon_no="110706">Necturus_krausei</List>
+		<List recon_name="Paranecturus_garbanii" recon_no="267480">Paranecturus_garbanii</List>
+		<List recon_name="Opisthotriton_kayi" recon_no="63051">Opisthotriton_kayi</List>
+		<List recon_name="Prodesmodon_copei" recon_no="67754">Prodesmodon_copei</List>
+		<List recon_name="Scapherpeton_tectum" recon_no="63049">Scapherpeton_tectum</List>
+		<List recon_name="Lisserpeton_bairdi" recon_no="67756">Lisserpeton_bairdi</List>
+		<List recon_name="Piceoerpeton_willwoodense" recon_no="136760">Piceoerpeton_willwoodense</List>
+		<List recon_name="Piceoerpeton_naylori" recon_no="255643">Piceoerpeton_naylori</List>
+		<List recon_name="Habrosaurus_dilatus" recon_no="67757">Habrosaurus_dilatus</List>
+		<List recon_name="Proamphiuma_cretacea" recon_no="67755">Proamphiuma_cretacea</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="23">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Demar_2013a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

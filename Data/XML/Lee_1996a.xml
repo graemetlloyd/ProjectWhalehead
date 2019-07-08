@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Lee, Y. N.</List>
+		</Author>
+		<Year>1996</Year>
+		<Title>A new nodosaurid ankylosaur (Dinosauria, Ornithischia) from the Paw Paw Formation (late Albian) of Texas</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>16</Volume>
+		<Pages>232-245</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="9">
+		<List recon_name="Scelidosaurus_harrisonii" recon_no="53042">Scelidosaurus</List>
+		<List recon_name="Ankylosauridae" recon_no="38831">Ankylosauridae</List>
+		<List recon_name="Pawpawsaurus_campbelli" recon_no="55999">Pawpawsaurus</List>
+		<List recon_name="Sauropelta_edwardsorum" recon_no="81248">Sauropelta</List>
+		<List recon_name="Silvisaurus_condrayi" recon_no="52791">Silvisaurus</List>
+		<List recon_name="Edmontonia_longiceps" recon_no="63920">Edmontonia_longiceps</List>
+		<List recon_name="Edmontonia_rugosidens" recon_no="66027">E_rugosidens</List>
+		<List recon_name="Panoplosaurus_mirus" recon_no="52788">Panoplosaurus_mirus_NMC_2759</List>
+		<List recon_name="Panoplosaurus_mirus" recon_no="52788">P_mirus_ROM_1215</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="25">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Lee_1996a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

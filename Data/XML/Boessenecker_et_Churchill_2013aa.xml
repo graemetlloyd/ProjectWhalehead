@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Boessenecker, R. W.</List>
+			<List>Churchill, M.</List>
+		</Author>
+		<Year>2013</Year>
+		<Title>A reevaluation of the morphology, paleoecology, and phylogenetic relationships of the enigmatic walrus <em>Pelagiarctos</em></Title>
+		<Journal>PLoS One</Journal>
+		<Volume>8</Volume>
+		<Pages>e54311</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="20">
+		<List recon_name="Enaliarctos_emlongi" recon_no="71880">Enaliarctos_emlongi</List>
+		<List recon_name="Pteronarctos_goedertae" recon_no="71885">Pteronarctos_goedertae</List>
+		<List recon_name="Desmatophoca_oregonensis" recon_no="72008">Desmatophoca_oregonensis</List>
+		<List recon_name="Allodesmus_gracilis" recon_no="72291">Allodesmus_gracilis</List>
+		<List recon_name="Monachus_monachus" recon_no="80789">Monachus_monachus</List>
+		<List recon_name="Erignathus_barbatus" recon_no="80719">Erignathus_barbatus</List>
+		<List recon_name="Callorhinus_ursinus" recon_no="72012">Callorhinus_ursinus</List>
+		<List recon_name="Proneotherium_repenningi" recon_no="72193">Proneotherium_repenningi</List>
+		<List recon_name="Kamtschatarctos_sinelnikovae" recon_no="72004">Kamtschatarctos_sinelnikovae</List>
+		<List recon_name="Neotherium_mirum" recon_no="72018">Neotherium_mirum</List>
+		<List recon_name="Imagotaria_downsi" recon_no="71875">Imagotaria_downsi</List>
+		<List recon_name="Pelagiarctos_sp_SDNHM_131041" recon_no="36935">Pelagiarctos_sp</List>
+		<List recon_name="Pontolis_magnus" recon_no="72019">Pontolis_magnus</List>
+		<List recon_name="Gomphotaria_pugnax" recon_no="72010">Gomphotaria_pugnax</List>
+		<List recon_name="Dusignathus_santacruzensis" recon_no="71857">Dusignathus_santacruzensis</List>
+		<List recon_name="Dusignathus_seftoni" recon_no="71858">Dusignathus_seftoni</List>
+		<List recon_name="Protodobenus_japonicus" recon_no="72282">Protodobenus_japonicus</List>
+		<List recon_name="Ontocetus_emmonsi" recon_no="62927">Ontocetus_emmonsi</List>
+		<List recon_name="Valenictus_chulavistensis" recon_no="71856">Valenictus_chulavistensis</List>
+		<List recon_name="Odobenus_rosmarus" recon_no="72172">Odobenus_rosmarus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="39">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Boessenecker_et_Churchill_2013aa</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

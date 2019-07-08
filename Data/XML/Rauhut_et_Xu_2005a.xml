@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Rauhut, O. W. M.</List>
+			<List>Xu, X.</List>
+		</Author>
+		<Year>2005</Year>
+		<Title>The small theropod dinosaurs <em>Tugulusaurus</em> and <em>Phaedrolosaurus</em> from the Early Cretaceous of Xinjiang, China</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>25</Volume>
+		<Pages>107-118</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="17">
+		<List recon_name="Allosaurus" recon_no="38590">Allosaurus</List>
+		<List recon_name="Tugulusaurus_faciles" recon_no="65209">Tugulusaurus</List>
+		<List recon_name="Coelurus_fragilis" recon_no="52986">Coelurus</List>
+		<List recon_name="Compsognathidae" recon_no="38537">Compsognathidae</List>
+		<List recon_name="Nqwebasaurus_thwazi" recon_no="66506">Nqwebasaurus</List>
+		<List recon_name="Ornitholestes_hermanni" recon_no="55484">Ornitholestes</List>
+		<List recon_name="Ornithomimosauria" recon_no="55491">Ornithomimosauria</List>
+		<List recon_name="Tyrannosauridae" recon_no="38606">Tyrannosauridae</List>
+		<List recon_name="Aves" recon_no="36616">Aves</List>
+		<List recon_name="Dromaeosauridae" recon_no="38561">Dromaeosauridae</List>
+		<List recon_name="Troodontidae" recon_no="54468">Troodontidae</List>
+		<List recon_name="Bagaraatan_ostromi" recon_no="57249">Bagaraatan</List>
+		<List recon_name="Xinjiangovenator_parvus" recon_no="65211">Xinjiangovenator</List>
+		<List recon_name="Oviraptorosauria" recon_no="54546">Oviraptorosauria</List>
+		<List recon_name="Therizinosauroidea" recon_no="64125">Therizinosauroidea</List>
+		<List recon_name="Ceratosaurus_nasicornis" recon_no="54165">Ceratosaurus</List>
+		<List recon_name="Dilophosaurus" recon_no="38522">Dilophosaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="136">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Rauhut_et_Xu_2005a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

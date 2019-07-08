@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Clos, L. M.</List>
+		</Author>
+		<Year>1995</Year>
+		<Title>A new species of <em>Varanus</em> (Reptilia: Sauria) from the Miocene of Kenya</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>15</Volume>
+		<Pages>254-267</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="10">
+		<List recon_name="Heloderma" recon_no="38033">Heloderma</List>
+		<List recon_name="Cherminotus_longifrons" recon_no="57287">Cherminotus</List>
+		<List recon_name="Lanthanotus_borneensis" recon_no="374189">Lanthanotus</List>
+		<List recon_name="Saniwides_mongoliensis" recon_no="57285">Saniwides</List>
+		<List recon_name="Telmasaurus_grangeri" recon_no="57286">Telmasaurus</List>
+		<List recon_name="Saniwa" recon_no="38041">Saniwa</List>
+		<List recon_name="Varanus_bengalensis" recon_no="135847">Varanus_bengalensis</List>
+		<List recon_name="Varanus_rusingensis" recon_no="135842">Varanus_rusingensis</List>
+		<List recon_name="Varanus_niloticus" recon_no="135845">Varanus_niloticus</List>
+		<List recon_name="Varanus_exanthematicus" recon_no="135849">Varanus_exanthematicus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="11">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Clos_1995a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

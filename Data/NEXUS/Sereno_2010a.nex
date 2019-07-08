@@ -1,0 +1,29 @@
+#NEXUS
+
+[!File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=12 NCHAR=10 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2" MISSING=? GAP=- ;
+MATRIX
+
+Protoceratops      0000000000
+Liaoceratops       0000000000
+Yinlong            0000000000
+P_mongoliensis     0001000000
+P_meileyingensis   1112000000
+P_lujiatunensis    1112100000
+P_major            1112100000
+P_sibiricus        1111010?00
+Psittacosaurus_sp  1110011100
+P_xinjiangensis    1?????1???
+P_neimongoliensis  1110011011
+P_sinensis         1110011111
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = unord: 1-10;
+END;
+

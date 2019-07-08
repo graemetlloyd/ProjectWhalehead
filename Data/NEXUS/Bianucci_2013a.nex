@@ -1,0 +1,32 @@
+#NEXUS
+
+[File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=15 NCHAR=14 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2" MISSING=? GAP=- ;
+MATRIX
+
+Kentriodon_pernix      0000000?000000
+Sotalia_fluviatilis    01011111000010
+Sousa_chinensis        10001111000100
+Astadelphis_gastaldii  101011???00111
+Septidelphis_morii     10101110?01?21
+Etruridelphis_giulii   101011???12121
+Delphinus_delphis      00111110112021
+Lagenodelphis_hosei    11111110110021
+Stenella_attenuata     01111110111021
+Stenella_clymene       00111110112021
+Stenella_coeruleoalba  00111110112021
+Stenella_frontalis     01111110000021
+Stenella_longirostris  00111110112021
+Steno_bredanensis      1000111000000(01)
+Tursiops_truncatus     11111110000021
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = ord: 11 13, unord: 1-10 12 14;
+END;
+

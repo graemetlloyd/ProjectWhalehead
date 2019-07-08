@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Parker, W. G.</List>
+		</Author>
+		<Year>2018</Year>
+		<Title>Anatomical notes and discussion of the first described aetosaur <em>Stagonolepis robertsoni</em> (Archosauria: Suchia) from the Upper Triassic of Europe, and the use of plesiomorphies in aetosaur biochronology</Title>
+		<Journal>PeerJ</Journal>
+		<Volume>6</Volume>
+		<Pages>e5455</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="28">
+		<List recon_name="Postosuchus_kirkpatricki" recon_no="69074">Postosuchus_kirkpatricki</List>
+		<List recon_name="Revueltosaurus_callenderi" recon_no="64950">Revueltosaurus_callenderi</List>
+		<List recon_name="Adamanasuchus_eisenhardtae" recon_no="161895">Adamanasuchus_eisenhardtae</List>
+		<List recon_name="Aetosaurus_ferratus" recon_no="156403">Aetosaurus_ferratus</List>
+		<List recon_name="Apachesuchus_heckerti" recon_no="347477">Apachesuchus_heckerti</List>
+		<List recon_name="Stagonolepis_robertsoni" recon_no="119075">Stagonolepis_robertsoni</List>
+		<List recon_name="Stagonolepis_olenkae" recon_no="165244">Stagonolepis_olenkae</List>
+		<List recon_name="Calyptosuchus_wellesi" recon_no="69072">Calyptosuchus_wellesi</List>
+		<List recon_name="Scutarx_deltatylus" recon_no="347479">Scutarx_deltatylus</List>
+		<List recon_name="Aetosauroides_scagliai" recon_no="157037">Aetosauroides_scagliai</List>
+		<List recon_name="Coahomasuchus_kahleorum" recon_no="156415">Coahomasuchus_kahleorum</List>
+		<List recon_name="Desmatosuchus_spurensis" recon_no="100584">Desmatosuchus_spurensis</List>
+		<List recon_name="Desmatosuchus_smalli" recon_no="71646">Desmatosuchus_smalli</List>
+		<List recon_name="Rioarribasuchus_chamaensis" recon_no="163005">Rioarribasuchus_chamaensis</List>
+		<List recon_name="Longosuchus_meadei" recon_no="159292">Longosuchus_meadei</List>
+		<List recon_name="Lucasuchus_hunti" recon_no="159293">Lucasuchus_hunti</List>
+		<List recon_name="Gorgetosuchus_pekinensis" recon_no="347465">NCSM_21723</List>
+		<List recon_name="Neoaetosauroides_engaeus" recon_no="66676">Neoaetosauroides_engaeus</List>
+		<List recon_name="Typothorax_coccinarum" recon_no="64940">Typothorax_coccinarum</List>
+		<List recon_name="Redondasuchus_rineharti" recon_no="162261">Redondasuchus_rineharti</List>
+		<List recon_name="Paratypothorax_andressorum" recon_no="281435">Paratypothorax_andressorum</List>
+		<List recon_name="Paratypothorax_sp_PEFO_3004" recon_no="64939">Paratypothorax_sp</List>
+		<List recon_name="Tecovasuchus_chatterjeei" recon_no="163810">Tecovasuchus_chatterjeei</List>
+		<List recon_name="Sierritasuchus_macalpini" recon_no="138438">Sierritasuchus_macalpini</List>
+		<List recon_name="Paratypothoracisini_indet_SMNS_19003" recon_no="163804">SMNS_19003</List>
+		<List recon_name="Aetobarbakinoides_brasiliensis" recon_no="215133">Aetobarbakinoides_brasiliensis</List>
+		<List recon_name="Stenomyti_huangae" recon_no="347475">Stenomyti_huangae</List>
+		<List recon_name="Polesinesuchus_aurelioi" recon_no="333723">Polesinesuchus_aurelioi</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="83">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Parker_2018a</Filename>
+	<Parent>Parker_2016a</Parent>
+	<Sibling/>
+</SourceTree>

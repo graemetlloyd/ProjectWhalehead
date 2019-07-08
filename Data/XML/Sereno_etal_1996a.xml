@@ -1,0 +1,57 @@
+œ<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Sereno, P. C.</List>
+			<List>Dutheil, D. B.</List>
+			<List>Iarochene, M.</List>
+			<List>Larsson, H. C. E.</List>
+			<List>Lyon, G. H.</List>
+			<List>Magwene, P. M.</List>
+			<List>Sidor, C. A.</List>
+			<List>Varricchio, D. J.</List>
+			<List>Wilson, J. A.</List>
+		</Author>
+		<Year>1996</Year>
+		<Title>Predatory dinosaurs from the Sahara and Late Cretaceous faunal differentiation</Title>
+		<Journal>Science</Journal>
+		<Volume>272</Volume>
+		<Pages>986-991</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="15">
+		<List recon_name="Eoraptor_lunensis,Herrerasauridae" recon_no="57454;38510">Outgroup__Eoraptor__plus__Herrerasauridae_</List>
+		<List recon_name="Ceratosauria" recon_no="54164">Ceratosauria</List>
+		<List recon_name="Afrovenator_abakensis" recon_no="56399">Afrovenator</List>
+		<List recon_name="Torvosauridae" recon_no="53376">Torvosauridae</List>
+		<List recon_name="Spinosauridae" recon_no="38595">Splnosauridae</List>
+		<List recon_name="Sinraptoridae" recon_no="54822">Sinraptoridae</List>
+		<List recon_name="Cryolophosaurus_ellioti" recon_no="64372">Cryolophosaurus</List>
+		<List recon_name="Monolophosaurus_jiangi" recon_no="64122">Monolophosaurus</List>
+		<List recon_name="Allosaurus" recon_no="38590">Allosaurus</List>
+		<List recon_name="Giganotosaurus_carolinii" recon_no="54541">Giganotosaurus</List>
+		<List recon_name="Acrocanthosaurus_atokensis" recon_no="55482">Acrocanthosaur</List>
+		<List recon_name="Carcharodontosaurus" recon_no="38576">Carcharodontosaurus</List>
+		<List recon_name="Ornitholestes_hermanni" recon_no="55484">Ornitholestes</List>
+		<List recon_name="Deltadromeus_agilis" recon_no="65367">Deltadromeus</List>
+		<List recon_name="Maniraptoriformes" recon_no="57429">Other_coelurosaurs</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="63">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Sereno_etal_1996a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

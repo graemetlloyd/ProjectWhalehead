@@ -1,0 +1,47 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Winkler, D. A.</List>
+			<List>Murry, P. A.</List>
+			<List>Jacobs, L. L.</List>
+		</Author>
+		<Year>1997</Year>
+		<Title>A new species of <em>Tenontosaurus</em> (Dinosauria; Ornithopoda) from the Early Cretaceous of Texas</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>17</Volume>
+		<Pages>330-348</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="11">
+		<List recon_name="Heterodontosaurus_tucki" recon_no="52902">Heterodontosaurus</List>
+		<List recon_name="Thescelosaurus" recon_no="38742">Thescelosaurus</List>
+		<List recon_name="Orodromeus_makelai" recon_no="64338">Orodromeus</List>
+		<List recon_name="Parksosaurus_warreni" recon_no="52894">Parksosaurus</List>
+		<List recon_name="Hypsilophodon_foxii" recon_no="54190">Hypsilophodon</List>
+		<List recon_name="Tenontosaurus_dossi" recon_no="67272">Tenontosaurus_dossi</List>
+		<List recon_name="Tenontosaurus_tilletti" recon_no="52887">Tenontosaurus_tilletti</List>
+		<List recon_name="Dryosaurus" recon_no="38731">Dryosaurus</List>
+		<List recon_name="Camptosaurus" recon_no="38748">Camptosaurus</List>
+		<List recon_name="Iguanodon_bernissartensis" recon_no="58905">Iguanodon</List>
+		<List recon_name="Hadrosauridae" recon_no="38755">Hadrosauridae</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="30">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Winkler_etal_1997a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Schott, R. K.</List>
+			<List>Evans, D. C.</List>
+		</Author>
+		<Year>in press</Year>
+		<Title>Cranial variation and systematics of <em>Foraminacephale brevis</em> gen. nov. and the diversity of pachycephalosaurid dinosaurs (Ornithischia: Cerapoda) in the Belly River Group of Alberta, Canada</Title>
+		<Journal>Zoological Journal of the Linnean Society</Journal>
+		<Volume/>
+		<Pages/>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="20">
+		<List recon_name="Psittacosaurus" recon_no="38844">Psittacosaurus</List>
+		<List recon_name="Yinlong_downsi" recon_no="90118">Yinlong</List>
+		<List recon_name="Wannanosaurus_yansiensis" recon_no="52840">Wannanosaurus</List>
+		<List recon_name="Goyocephale_lattimorei" recon_no="52838">Goyocephale</List>
+		<List recon_name="Homalocephale_calathocercos" recon_no="52836">Homalocephale</List>
+		<List recon_name="Tylocephale_gilmorei" recon_no="66451">Tylocephale_gilmorei</List>
+		<List recon_name="Prenocephale_prenes" recon_no="52833">Prenocephale_prenes</List>
+		<List recon_name="Sphaerotholus_brevis" recon_no="164057">Foraminocephale_brevis</List>
+		<List recon_name="Hanssuesia_sternbergi" recon_no="67705">Hanssuesia_sternbergi</List>
+		<List recon_name="Colepiocephale_lambei" recon_no="67691">Colepiocephale_lambei</List>
+		<List recon_name="Stegoceras_validum" recon_no="56570">Stegoceras_validum</List>
+		<List recon_name="Dracorex_hogwartsia" recon_no="90169">Dracorex_hogwartsia</List>
+		<List recon_name="Stygimoloch_spinifer" recon_no="56577">Stygimoloch_spinifer</List>
+		<List recon_name="Pachycephalosaurus_wyomingensis" recon_no="52835">Pachycephalosaurus</List>
+		<List recon_name="Alaskacephale_gangloffi" recon_no="137134">Alaskacephale_gongloffi</List>
+		<List recon_name="Sphaerotholus_goodwini" recon_no="67682">Sphaerotholus_goodwini</List>
+		<List recon_name="Sphaerotholus_buchholtzae" recon_no="67683">Sphaerotholus_buchholtzae</List>
+		<List recon_name="Acrotholus_audeti" recon_no="267729">Acrotholus_audeti</List>
+		<List recon_name="Stegoceras_novomexicanum" recon_no="267681">Stegoceras_novomexicanum</List>
+		<List recon_name="Amtocephale_gobiensis" recon_no="267680">Amtocephale_gobienses</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="50">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Schott_et_Evans_inpressa</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

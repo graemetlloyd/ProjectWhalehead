@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Godefroit, P.</List>
+			<List>Alifanov, V.</List>
+			<List>Bolotsky, Y.</List>
+		</Author>
+		<Year>2004</Year>
+		<Title>A re-appraisal of <em>Aralosaurus tuberiferus</em> (Dinosauria, Hadrosauridae) from the Late Cretaceous of Kazakhstan</Title>
+		<Journal>Bulletin Institut royal des sciences naturelles de Belgique: Sciences de la terre</Journal>
+		<Volume> 74 (supp)</Volume>
+		<Pages>139-154</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="19">
+		<List recon_name="Bactrosaurus_johnsoni" recon_no="57344">Bactrosaurus</List>
+		<List recon_name="Aralosaurus_tuberiferus" recon_no="67547">Aralosaurus</List>
+		<List recon_name="Tsintaosaurus_spinorhinus" recon_no="53387">Tsintaosaurus</List>
+		<List recon_name="Jaxartosaurus_aralensis" recon_no="65693">Jaxartosaurus</List>
+		<List recon_name="Amurosaurus_riabinini" recon_no="64251">Amurosaurus</List>
+		<List recon_name="Parasaurolophus" recon_no="38766">Parasaurolophus</List>
+		<List recon_name="Charonosaurus_jiayinensis" recon_no="64259">Charonosaurus</List>
+		<List recon_name="Lambeosaurus" recon_no="38763">Lambeosaurus</List>
+		<List recon_name="Olorotitan_arharensis" recon_no="72095">Olorotitan</List>
+		<List recon_name="Corythosaurus_casuarius" recon_no="56403">Corythosaurus</List>
+		<List recon_name="Hypacrosaurus" recon_no="56405">Hypacrosaurus</List>
+		<List recon_name="Maiasaura_peeblesorum" recon_no="55574">Maiasaura</List>
+		<List recon_name="Brachylophosaurus_canadensis" recon_no="65213">Brachylophosaurus</List>
+		<List recon_name="Gryposaurus" recon_no="53014">Gryposaurus</List>
+		<List recon_name="Kerberosaurus_manakini" recon_no="64257">Kerberosaurus</List>
+		<List recon_name="Saurolophus" recon_no="38768">Saurolophus</List>
+		<List recon_name="Prosaurolophus" recon_no="38767">Prosaurolophus</List>
+		<List recon_name="Edmontosaurus" recon_no="38761">Edmontosaurus</List>
+		<List recon_name="Anatotitan_copei" recon_no="64302">Anatotitan</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="36">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Godefroit_etal_2004b</Filename>
+	<Parent>Godefroit_etal_2003a</Parent>
+	<Sibling/>
+</SourceTree>

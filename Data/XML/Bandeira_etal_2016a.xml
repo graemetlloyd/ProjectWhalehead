@@ -1,0 +1,78 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Bandeira, K. L. N.</List>
+			<List>Simbras, F. M.</List>
+			<List>Machado, E. B.</List>
+			<List>Campos, D. A.</List>
+			<List>Oliveira, G. R.</List>
+			<List>Kellner, A. W. A.</List>
+		</Author>
+		<Year>2016</Year>
+		<Title>A new giant Titanosauria (Dinosauria: Sauropoda) from the Late Cretaceous Bauru Group, Brazil</Title>
+		<Journal>PLOS ONE</Journal>
+		<Volume>11</Volume>
+		<Pages>e0163373</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="39">
+		<List recon_name="Camarasaurus_grandis" recon_no="67181">Camarasaurus</List>
+		<List recon_name="Giraffatitan_brancai" recon_no="92308">Giraffatitan</List>
+		<List recon_name="Chubutisaurus_insignis" recon_no="53963">Chubutisaurus</List>
+		<List recon_name="Andesaurus_delgadoi" recon_no="58918">Andesaurus</List>
+		<List recon_name="Ligabuesaurus_leanzai" recon_no="81715">Ligabuesaurus</List>
+		<List recon_name="Malawisaurus_dixeyi" recon_no="57458">Malawisaurus</List>
+		<List recon_name="Rukwatitan_bisepultus" recon_no="320811">Rukwatitan</List>
+		<List recon_name="Quetecsaurus_rusconii" recon_no="287943">Quetecsaurus</List>
+		<List recon_name="Mendozasaurus_neguyelap" recon_no="55584">Mendozasaurus</List>
+		<List recon_name="Futalognkosaurus_dukei" recon_no="109005">Futalognkosaurus</List>
+		<List recon_name="Austroposeidon_magnificus" recon_no="346949">Austroposeidon</List>
+		<List recon_name="Puertasaurus_reuili" recon_no="83420">Puertasaurus</List>
+		<List recon_name="Dreadnoughtus_schrani" recon_no="304824">Dreadnougthus</List>
+		<List recon_name="Isisaurus_colberti" recon_no="64312">Isisaurus</List>
+		<List recon_name="Bonitasaura_salgadoi" recon_no="58913">Bonitasauria</List>
+		<List recon_name="Pellegrinisaurus_powelli" recon_no="66269">Pellegrinisaurus</List>
+		<List recon_name="Epachthosaurus_sciuttoi" recon_no="57467">Epachthosaurus</List>
+		<List recon_name="Rapetosaurus_krausei" recon_no="57533">Rapetosaurus</List>
+		<List recon_name="Ampelosaurus_atacis" recon_no="65140">Ampelosaurus</List>
+		<List recon_name="Lirainosaurus_astibiae" recon_no="65827">Lirainosaurus</List>
+		<List recon_name="Rinconsaurus_caudamirus" recon_no="68592">Rinconsaurus</List>
+		<List recon_name="Muyelensaurus_pecheni" recon_no="122472">Muyelensaurus</List>
+		<List recon_name="Gondwanatitan_faustoi" recon_no="66574">Gondwanatitan</List>
+		<List recon_name="Aeolosaurus_colhuehuapensis" recon_no="100435">Aeolosaurus_colhuehuapensis</List>
+		<List recon_name="Aeolosaurus_maximus" recon_no="205609">Aeolosaurus_maximus</List>
+		<List recon_name="Aeolosaurus_rionegrinus" recon_no="58847">Aeolosaurus_rionegrinus</List>
+		<List recon_name="Overosaurus_paradasorum" recon_no="273093">Overosaurus</List>
+		<List recon_name="Opisthocoelicaudia_skarzynskii" recon_no="57335">Opisthocoelicaudia</List>
+		<List recon_name="Alamosaurus_sanjuanensis" recon_no="63399">Alamosaurus</List>
+		<List recon_name="Neuquensaurus_australis" recon_no="64315">Neuquensaurus</List>
+		<List recon_name="Saltasaurus_loricatus" recon_no="58838">Saltasaurus</List>
+		<List recon_name="Rocasaurus_muniozi" recon_no="66613">Rocasaurus</List>
+		<List recon_name="Maxakalisaurus_topai" recon_no="89500">Maxakalisaurus</List>
+		<List recon_name="Tapuiasaurus_macedoi" recon_no="176784">Tapuiasaurus</List>
+		<List recon_name="Trigonosaurus_pricei" recon_no="85461">Trigonosaurus</List>
+		<List recon_name="Uberabatitan_ribeiroi" recon_no="130182">Uberabatitan</List>
+		<List recon_name="Drusilasaura_deseadensis" recon_no="184916">Drusilasauria</List>
+		<List recon_name="Baurutitan_britoi" recon_no="85463">Baurutitan</List>
+		<List recon_name="Brasilotitan_nemophagus" recon_no="276171">Brasilotitan</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="88">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Bandeira_etal_2016a</Filename>
+	<Parent>Gonzalez_Riga_et_David_2014a</Parent>
+	<Sibling/>
+</SourceTree>

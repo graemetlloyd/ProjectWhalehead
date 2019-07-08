@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Xu, X.</List>
+			<List>Zhao, Q.</List>
+			<List>Sullivan, C.</List>
+			<List>Tan, Q.-W.</List>
+			<List>Sander, M.</List>
+			<List>Ma, Q.-Y.</List>
+		</Author>
+		<Year>2012</Year>
+		<Title>The taxonomy of the troodontid IVPP V 10597 reconsidered</Title>
+		<Journal>Vertebrata Palasiatica</Journal>
+		<Volume>50</Volume>
+		<Pages>140-150</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="10">
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">Archaeopteryx_lithographica</List>
+		<List recon_name="Anchiornis_huxleyi" recon_no="155059">Abchiornis_huxleyi</List>
+		<List recon_name="Sinovenator_changii" recon_no="64889">Sinovenator</List>
+		<List recon_name="Mei_long" recon_no="68250">Mei_long</List>
+		<List recon_name="Sinornithoides_youngi" recon_no="64145">Sinornithoides_youngi</List>
+		<List recon_name="Sinusonasus_magnodens" recon_no="84668">Sinusonasus</List>
+		<List recon_name="Troodon_formosus" recon_no="54818">Troodon_formosus</List>
+		<List recon_name="Saurornithoides_mongoliensis" recon_no="54470">Saurornithoides_mongoliensis</List>
+		<List recon_name="Linhevenator_tani" recon_no="243256">Linhevenator_tani</List>
+		<List recon_name="Philovenator_curriei" recon_no="243347">Philovenator</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="20">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Xu_etal_2012bb</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

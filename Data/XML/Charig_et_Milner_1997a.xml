@@ -1,0 +1,55 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Charig, A. J.</List>
+			<List>Milner, A. C.</List>
+		</Author>
+		<Year>1997</Year>
+		<Title><em>Baryonyx walkeri</em>, a fish-eating dinosaur from the Wealden of Surrey</Title>
+		<Journal>Bulletin of the Natural History Museum London (Geology)</Journal>
+		<Volume>53</Volume>
+		<Pages>11-70</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="20">
+		<List recon_name="Coelophysis" recon_no="38520">Coelophysis</List>
+		<List recon_name="Dilophosaurus" recon_no="38522">Dilophosaurus</List>
+		<List recon_name="Ceratosaurus_nasicornis" recon_no="54165">Ceratosaurus</List>
+		<List recon_name="Abelisaurus_comahuensis" recon_no="53945">Abelisaurus</List>
+		<List recon_name="Elaphrosaurus_bambergi" recon_no="55481">Elaphrosaurus</List>
+		<List recon_name="Torvosaurus_tanneri" recon_no="53375">Torvosaurus</List>
+		<List recon_name="Megalosaurus_bucklandii" recon_no="53025">Megalosaurus</List>
+		<List recon_name="Baryonyx" recon_no="58891">Baryonyx</List>
+		<List recon_name="Allosaurus" recon_no="38590">Allosaurus</List>
+		<List recon_name="Acrocanthosaurus_atokensis" recon_no="55482">Acrocanthosaurus</List>
+		<List recon_name="Compsognathus_longipes" recon_no="53007">Compsognathus</List>
+		<List recon_name="Ornitholestes_hermanni" recon_no="55484">Ornitholestes</List>
+		<List recon_name="Oviraptor_philoceratops" recon_no="55488">Oviraptor</List>
+		<List recon_name="Elmisaurus_rarus" recon_no="54560">Elmisaurus</List>
+		<List recon_name="Avimimus_portentosus" recon_no="55489">Avimimus</List>
+		<List recon_name="Tyrannosaurus_rex" recon_no="54833">Tyrannosaurus</List>
+		<List recon_name="Troodon_formosus" recon_no="54818">Troodon</List>
+		<List recon_name="Ornithomimus_edmontonicus" recon_no="63438">Ornithomimus</List>
+		<List recon_name="Dromaeosaurus_albertensis" recon_no="54550">Dromaeosaurus</List>
+		<List recon_name="Archaeopteryx_lithographica" recon_no="55487">Archaeopteryx</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="118">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Charig_et_Milner_1997a</Filename>
+	<Parent>Holtz_1994a</Parent>
+	<Sibling/>
+</SourceTree>

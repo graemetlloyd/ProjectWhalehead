@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Sereno, P. C.</List>
+		</Author>
+		<Year>2010</Year>
+		<Title>Taxonomy, cranial morphology, and relationships of parrot-beaked dinosaurs</Title>
+		<Journal/>
+		<Volume/>
+		<Pages>21-58</Pages>
+		<Booktitle>New Perspectives on Horned Dinosaurs</Booktitle>
+		<Publisher>Indiana University Press</Publisher>
+		<City>Bloomington</City>
+		<Editor>
+			<List>Ryan, M. J.</List>
+			<List>Chinnery-Allgeier, B. J.</List>
+			<List>Eberth, D. A.</List>
+		</Editor>
+	</Source>
+	<Taxa number="12">
+		<List recon_name="Protoceratops_andrewsi" recon_no="52824">Protoceratops</List>
+		<List recon_name="Liaoceratops_yanzigouensis" recon_no="55582">Liaoceratops</List>
+		<List recon_name="Yinlong_downsi" recon_no="90118">Yinlong</List>
+		<List recon_name="Psittacosaurus_mongoliensis" recon_no="52831">P_mongoliensis</List>
+		<List recon_name="Psittacosaurus_meileyingensis" recon_no="65708">P_meileyingensis</List>
+		<List recon_name="Psittacosaurus_lujiatunensis" recon_no="109454">P_lujiatunensis</List>
+		<List recon_name="Psittacosaurus_major" recon_no="103803">P_major</List>
+		<List recon_name="Psittacosaurus_sibiricus" recon_no="89029">P_sibiricus</List>
+		<List recon_name="Psittacosaurus_gobiensis" recon_no="176565">Psittacosaurus_sp</List>
+		<List recon_name="Psittacosaurus_xinjiangensis" recon_no="65707">P_xinjiangensis</List>
+		<List recon_name="Psittacosaurus_neimongoliensis" recon_no="64142">P_neimongoliensis</List>
+		<List recon_name="Psittacosaurus_sinensis" recon_no="65705">P_sinensis</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="10">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Sereno_2010a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,27 @@
+#NEXUS
+
+[File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=10 NCHAR=21 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2" MISSING=? GAP=- ;
+MATRIX
+
+Kentriodon_pernix           000000000000000000000
+Orcinus_orca                211112011111121000000
+Peponocephala_electra       211111001111110110000
+Globicephala_macrorhynchus  211212111111121000000
+Pseudorca_crassidens        211212011111121000000
+Tursiops_truncatus          100111000111111001111
+Delphinus_delphis           000011000011100111111
+Stenella_frontalis          100011000111100111111
+Stenella_attenuata          000011000011100111111
+Protoglobicephala_mexicana  11021211111112100????
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=ord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = ord: 1-21;
+END;
+

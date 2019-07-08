@@ -1,0 +1,4 @@
+(Shunosaurus,(Patagosaurus,(Cetiosaurus,((Losillasaurus,(Dicraeosaurus,(Barosaurus,Diplodocus))),(Haplocanthosaurus,(Brachiosaurus,Camarasaurus))))));
+(Shunosaurus,(((Losillasaurus,(Dicraeosaurus,(Barosaurus,Diplodocus))),(Haplocanthosaurus,(Brachiosaurus,Camarasaurus))),(Cetiosaurus,Patagosaurus)));
+(Shunosaurus,((Dicraeosaurus,(Barosaurus,Diplodocus)),((Losillasaurus,(Haplocanthosaurus,(Brachiosaurus,Camarasaurus))),(Cetiosaurus,Patagosaurus))));
+(Shunosaurus,((Dicraeosaurus,(Barosaurus,Diplodocus)),(Losillasaurus,((Haplocanthosaurus,(Brachiosaurus,Camarasaurus)),(Cetiosaurus,Patagosaurus)))));

@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Martinez, R. D. F.</List>
+			<List>Lamanna, M. C.</List>
+			<List>Novas, F. E.</List>
+			<List>Ridgely, R. C.</List>
+			<List>Casal, G. A.</List>
+			<List>Martinez, J. E.</List>
+			<List>Vita, J. R.</List>
+			<List>Witmer, L. M.</List>
+		</Author>
+		<Year>2016</Year>
+		<Title>A basal lithostrotian titanosaur (Dinosauria: Sauropoda) with a complete skull: implications for the evolution and paleobiology of Titanosauria</Title>
+		<Journal>PLOS ONE</Journal>
+		<Volume>11</Volume>
+		<Pages>e0151661</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="25">
+		<List recon_name="Shunosaurus_lii" recon_no="56457">Shunosaurus</List>
+		<List recon_name="Omeisaurus" recon_no="38702">Omeisaurus</List>
+		<List recon_name="Apatosaurus" recon_no="38665">Apatosaurus</List>
+		<List recon_name="Diplodocus" recon_no="38669">Diplodocus</List>
+		<List recon_name="Nigersaurus_taqueti" recon_no="57367">Nigersaurus</List>
+		<List recon_name="Jobaria_tiguidensis" recon_no="57436">Jobaria</List>
+		<List recon_name="Euhelopus_zdanskyi" recon_no="54868">Euhelopus</List>
+		<List recon_name="Camarasaurus" recon_no="38697">Camarasaurus</List>
+		<List recon_name="Brachiosaurus_altithorax" recon_no="54864">Brachiosaurus</List>
+		<List recon_name="Abydosaurus_mcintoshi" recon_no="163942">Abydosaurus</List>
+		<List recon_name="Malawisaurus_dixeyi" recon_no="57458">Malawisaurus</List>
+		<List recon_name="Nemegtosaurus_mongoliensis" recon_no="54841">Nemegtosaurus</List>
+		<List recon_name="Rapetosaurus_krausei" recon_no="57533">Rapetosaurus</List>
+		<List recon_name="Neuquensaurus_australis" recon_no="64315">Neuquensaurus</List>
+		<List recon_name="Tapuiasaurus_macedoi" recon_no="176784">Tapuiasaurus</List>
+		<List recon_name="Saltasaurus_loricatus" recon_no="58838">Saltasaurus</List>
+		<List recon_name="Bonitasaura_salgadoi" recon_no="58913">Bonitasaura</List>
+		<List recon_name="Sarmientosaurus_musacchioi" recon_no="340069">Sarmientosaurus</List>
+		<List recon_name="Phuwiangosaurus_sirindhornae" recon_no="56410">Phuwiangosaurus</List>
+		<List recon_name="Epachthosaurus_sciuttoi" recon_no="57467">Epachthosaurus</List>
+		<List recon_name="Alamosaurus_sanjuanensis" recon_no="63399">Alamosaurus</List>
+		<List recon_name="Opisthocoelicaudia_skarzynskii" recon_no="57335">Opisthocoelicaudia</List>
+		<List recon_name="Trigonosaurus_pricei" recon_no="85461">Trigonosaurus</List>
+		<List recon_name="Baurutitan_britoi" recon_no="85463">Baurutitan</List>
+		<List recon_name="Rocasaurus_muniozi" recon_no="66613">Rocasaurus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="337">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Martinez_etal_2016aa</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

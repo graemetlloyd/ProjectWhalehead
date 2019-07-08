@@ -1,0 +1,44 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Gower, D. J.</List>
+			<List>Sennikov, A. G.</List>
+		</Author>
+		<Year>1997 </Year>
+		<Title><em>Sarmatosuchus</em> and the early history of the Archosauria</Title>
+		<Journal>Journal of Vertebrate Paleontology</Journal>
+		<Volume>17</Volume>
+		<Pages>60-73</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="9">
+		<List recon_name="Prolacerta_broomi" recon_no="138933">Prolacerta</List>
+		<List recon_name="Proterosuchus" recon_no="80904">Proterosuchus</List>
+		<List recon_name="Fugusuchus_hejiapanensis" recon_no="174042">Fugusuchus</List>
+		<List recon_name="Sarmatosuchus_otschevi" recon_no="169945">Sarmatosuchus</List>
+		<List recon_name="Xilousuchus_sapingensis" recon_no="171897">Xilousuchus</List>
+		<List recon_name="Vjushkovia_triplicostata" recon_no="96153">Vjushkovia_triplicostata</List>
+		<List recon_name="Erythrosuchus_africanus" recon_no="163009">Erythrosuchus</List>
+		<List recon_name="Euparkeria_capensis" recon_no="99170">Euparkeria</List>
+		<List recon_name="Sphenosuchus_acutus" recon_no="56653">Sphenosuchus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="35">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Gower_et_Sennikov_1997a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

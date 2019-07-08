@@ -1,0 +1,48 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Maganuco, S.</List>
+			<List>Cau, A.</List>
+			<List>Dal Sasso, C.</List>
+			<List>Pasini, G.</List>
+		</Author>
+		<Year>2007</Year>
+		<Title>Evidence of large theropods from the Middle Jurassic of the Mahajanga Basin, NW Madagascar, with implications for ceratosaurian pedal ungual evolution</Title>
+		<Journal>Atti della Societa Italiana di Scienze Naturali e del Museo Civico di Storia Naturale in Milano</Journal>
+		<Volume>148</Volume>
+		<Pages>261-271</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="11">
+		<List recon_name="Plateosaurus" recon_no="38644">Plateosaurus_MSNM_V2555</List>
+		<List recon_name="Allosaurus_fragilis" recon_no="52962">Allosaurus_MSNM_V435</List>
+		<List recon_name="Tyrannosaurus_rex" recon_no="54833">Tyrannosaurus_MSNM_V3902</List>
+		<List recon_name="Patagonykus_puertai" recon_no="64773">Patagonykus_Novas_1997</List>
+		<List recon_name="Troodon_formosus" recon_no="54818">Troodon_Russell_1969</List>
+		<List recon_name="Deinonychus_antirrhopus" recon_no="54555">Deinonychus_Ostrom_1969</List>
+		<List recon_name="Ceratosauria_indet_MSMN_V6235" recon_no="54164">MSMN_V6235_this_study</List>
+		<List recon_name="Ilokelesia_aguadagrandensis" recon_no="54532">Ilokelesia_Coria_et_Salgado_2000</List>
+		<List recon_name="Abelisauroidea_indet_MPCM_13573" recon_no="54528">MPCM_13573_Novas_et_al_2005_cast_in_MSNM</List>
+		<List recon_name="Masiakasaurus_knopfleri" recon_no="56389">Masiakasaurus_Carrano_et_al_2002_MSMN_V5267_V5276</List>
+		<List recon_name="Abelisauridae_indet_MPCA_56" recon_no="53942">MPCA_56_Novas_et_Bandyopadhyay_2001</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="8">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Maganuco_etal_2007a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

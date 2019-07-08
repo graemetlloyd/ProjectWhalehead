@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Parsons, W. L.</List>
+			<List>Parsons, K. M.</List>
+		</Author>
+		<Year>2009</Year>
+		<Title>A new ankylosaur (Dinosauria: Ankylosauria) from the Lower Cretaceous Cloverly Formation of central Montana</Title>
+		<Journal>Canadian Journal of Earth Sciences</Journal>
+		<Volume>46</Volume>
+		<Pages>721-738</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="26">
+		<List recon_name="Huayangosaurus_taibaii" recon_no="54858">Huayangosaurus</List>
+		<List recon_name="Scelidosaurus_harrisonii" recon_no="53042">Scelidosaurus</List>
+		<List recon_name="Gargoyleosaurus_parkpinorum" recon_no="82609">Gargoyleosaurus</List>
+		<List recon_name="Hungarosaurus_tormai" recon_no="66856">Hungarosaurus</List>
+		<List recon_name="Struthiosaurus_languedocensis" recon_no="64793">Struthiosaurus</List>
+		<List recon_name="Cedarpelta_bilbeyhallorum" recon_no="81294">Cedarpelta</List>
+		<List recon_name="Minmi_paravertebrata" recon_no="64270">Minmi</List>
+		<List recon_name="Gobisaurus_domoculus" recon_no="84235">Gobisaurus</List>
+		<List recon_name="Shamosaurus_scutatus" recon_no="52795">Shamosaurus</List>
+		<List recon_name="Tsagantegia_longicranialis" recon_no="68199">Tsagantegia</List>
+		<List recon_name="Tatankacephalus_cooneyorum" recon_no="156242">Tatankacephalus</List>
+		<List recon_name="Gastonia_burgei" recon_no="63701">Gastonia</List>
+		<List recon_name="Pinacosaurus_grangeri" recon_no="52911">Pinacosaurus_grangeri</List>
+		<List recon_name="Saichania_chulsanensis" recon_no="52910">Saichania</List>
+		<List recon_name="Tarchia_gigantea" recon_no="52905">Tarchia</List>
+		<List recon_name="Talarurus_plicatospineus" recon_no="52797">Talarurus</List>
+		<List recon_name="Tianzhenosaurus_youngi" recon_no="66504">Tianzhenosaurus</List>
+		<List recon_name="Pinacosaurus_mephistocephalus" recon_no="57343">Pinacosaurus_mesphistoce</List>
+		<List recon_name="Euoplocephalus_tutus" recon_no="63917">Euoplocephalus</List>
+		<List recon_name="Ankylosaurus_magniventris" recon_no="52793">Ankylosaurus</List>
+		<List recon_name="Silvisaurus_condrayi" recon_no="52791">Silvisaurus</List>
+		<List recon_name="Sauropelta_edwardsorum" recon_no="81248">Sauropelta</List>
+		<List recon_name="Pawpawsaurus_campbelli" recon_no="55999">Pawpawsaurus</List>
+		<List recon_name="Panoplosaurus_mirus" recon_no="52788">Panoplosaurus</List>
+		<List recon_name="Edmontonia_rugosidens" recon_no="66027">Edmontonia_rugosidens</List>
+		<List recon_name="Edmontonia_longiceps" recon_no="63920">Edmontonia_longiceps</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="63">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Parsons_et_Parsons_2009a</Filename>
+	<Parent>Osi_2005a</Parent>
+	<Sibling/>
+</SourceTree>

@@ -1,0 +1,64 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+ 		<Author>
+			<List>Marek, R. D.</List>
+			<List>Moon, B. C.</List>
+			<List>Williams, M.</List>
+			<List>Benton, M. J.</List>
+		</Author>
+		<Year>2015</Year>
+		<Title>The skull and endocranium of a Lower Jurassic ichthyosaur based on digital reconstructions</Title>
+		<Journal>Palaeontology</Journal>
+		<Volume>58</Volume>
+		<Pages>723-742</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+ 	</Source>
+	<Taxa number="27">
+		<List recon_name="Mikadocephalus_gracilirostris" recon_no="170847">Mikadocephalus_gracilirostris</List>
+		<List recon_name="Hudsonelpidia_brevirostris" recon_no="170866">Hudsonelpidia_brevirostris</List>
+		<List recon_name="Macgowania_janiceps" recon_no="170865">Macgowania_janiceps</List>
+		<List recon_name="Leptonectes_tenuirostris" recon_no="170705">Leptonectes_tenuirostris</List>
+		<List recon_name="Excalibosaurus_costini" recon_no="170892">Excalibosaurus_costini</List>
+		<List recon_name="Eurhinosaurus_longirostris" recon_no="170893">Eurhinosaurus_longirostris</List>
+		<List recon_name="Temnodontosaurus" recon_no="36576">Temnodontosaurus_spp</List>
+		<List recon_name="Suevoleviathan_disinteger" recon_no="170868">Suevoleviathan_disinteger</List>
+		<List recon_name="Ichthyosaurus_communis" recon_no="95786">Ichthyosaurus_communis</List>
+		<List recon_name="Hauffiopteryx_typicus" recon_no="263091">Hauffiopteryx_typicus</List>
+		<List recon_name="Stenopterygius_quadriscissus" recon_no="170897">Stenopterygius_quadriscissus</List>
+		<List recon_name="Chacaicosaurus_cayi" recon_no="170896">Chacaicosaurus_cayi</List>
+		<List recon_name="Ophthalmosaurus_icenicus" recon_no="170921">Ophthalmosaurus_icenicus</List>
+		<List recon_name="Ophthalmosaurus_natans" recon_no="173198">Ophthalmosaurus_natans</List>
+		<List recon_name="Mollesaurus_periallus" recon_no="173207">Mollesaurus_perialus</List>
+		<List recon_name="Acamptonectes_densus" recon_no="212187">Acamptonectes_densus</List>
+		<List recon_name="Brachypterygius_extremus" recon_no="170918">Brachypterygius_extremus</List>
+		<List recon_name="Arthropterygius_chrisorum" recon_no="168511">Arthropterygius_chrisorum</List>
+		<List recon_name="Caypullisaurus_bonapartei" recon_no="149989">Caypullisaurus_bonapartei</List>
+		<List recon_name="Aegirosaurus_leptospondylus" recon_no="173196">Aegirosaurus_leptospondylus</List>
+		<List recon_name="Platypterygius_australis" recon_no="186984">Platypterygius_australis</List>
+		<List recon_name="Platypterygius_hercynicus" recon_no="170925">Platypterygius_hercynicus</List>
+		<List recon_name="Maiaspondylus_lindoei" recon_no="176522">Maiaspondylus_lindoei</List>
+		<List recon_name="Athabascasaurus_bitumineus" recon_no="203467">Athabascasaurus_bitumineus</List>
+		<List recon_name="Sveltonectes_insolitus" recon_no="202541">Sveltonectes_insolitus</List>
+		<List recon_name="Malawania_anachronus" recon_no="268077">Malawania_anachronus</List>
+		<List recon_name="Hauffiopteryx_typicus" recon_no="263091">BRLSI_M1399</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="66">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Marek_etal_2015a</Filename>
+	<Parent>Fischer_etal_2013aa</Parent>
+	<Sibling/>
+</SourceTree>

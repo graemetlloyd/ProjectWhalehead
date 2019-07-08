@@ -1,0 +1,50 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Barbosa, J. A.</List>
+			<List>Kellner, A. W. A.</List>
+			<List>Viana, M. S. S.</List>
+		</Author>
+		<Year>2008</Year>
+		<Title>New dyrosaurid crocodylomorph and evidences for faunal turnover at the K-P transition in Brazil</Title>
+		<Journal>Proceedings of the Royal Society of London B</Journal>
+		<Volume>275</Volume>
+		<Pages>1385-1391</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="14">
+		<List recon_name="Eutretauranosuchus" recon_no="80959">Eutretauranosuchus</List>
+		<List recon_name="Elosuchus" recon_no="173484">Elosuchus</List>
+		<List recon_name="Sarcosuchus" recon_no="36607">Sarcosuchus</List>
+		<List recon_name="Terminonaris_robusta" recon_no="202533">Terminonaris_robusta</List>
+		<List recon_name="Chenanisuchus_lateroculi" recon_no="114398">Chenanisuchus_lateroculi</List>
+		<List recon_name="Sokotosuchus_ianwilsoni" recon_no="191812">Sokotosuchus_ianwilsoni</List>
+		<List recon_name="Phosphatosaurus_gavialoides" recon_no="252447">Phosphatosaurus_gavialoides</List>
+		<List recon_name="Dyrosaurus_phosphaticus" recon_no="251951">Dyrosaurus_phosphaticus</List>
+		<List recon_name="Hyposaurus_rogersii" recon_no="212368">Hyposaurus_rogersii</List>
+		<List recon_name="Arambourgisuchus_khouribgaensis" recon_no="192923">Arambourgisuchus_khouribgaensis</List>
+		<List recon_name="Rhabdognathus_aslerensis" recon_no="195086">Rhabdognathus_aslerensis</List>
+		<List recon_name="Rhabdognathus_keiniensis" recon_no="195085">Rhabdognathus_keiniensis</List>
+		<List recon_name="Guarinisuchus_munizi" recon_no="194872">Guarinisuchus_munizi</List>
+		<List recon_name="Congosaurus_bequaerti" recon_no="193954">Congosaurus_bequaerti</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="30">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Barbosa_etal_2008a</Filename>
+	<Parent/>
+	<Sibling/>
+</SourceTree>

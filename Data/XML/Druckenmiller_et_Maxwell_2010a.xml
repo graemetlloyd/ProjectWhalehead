@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<SourceTree>
+	<Source>
+		<Author>
+			<List>Druckenmiller, P. S.</List>
+			<List>Maxwell, E. E.</List>
+		</Author>
+		<Year>2010</Year>
+		<Title>A new Lower Cretaceous (lower Albian) ichthyosaur genus from the Clearwater Formation, Alberta, Canada</Title>
+		<Journal>Canadian Journal of Earth Sciences</Journal>
+		<Volume>47</Volume>
+		<Pages>1037-1053</Pages>
+		<Booktitle/>
+		<Publisher/>
+		<City/>
+		<Editor/>
+	</Source>
+	<Taxa number="16">
+		<List recon_name="Cymbospondylus_petrinus" recon_no="170850">Cymbospondylus_petrinus</List>
+		<List recon_name="Stenopterygius" recon_no="36574">Stenopterygius</List>
+		<List recon_name="Ichthyosaurus" recon_no="36558">Ichthyosaurus</List>
+		<List recon_name="Mollesaurus_periallus" recon_no="173207">Mollesaurus_periallus</List>
+		<List recon_name="Brachypterygius_extremus" recon_no="170918">Brachypterygius_extremus</List>
+		<List recon_name="Aegirosaurus_leptospondylus" recon_no="173196">Aegirosaurus_leptospondylus</List>
+		<List recon_name="Ophthalmosaurus_icenicus" recon_no="170921">Ophthalmosaurus_icenicus</List>
+		<List recon_name="Ophthalmosaurus_natans" recon_no="173198">Ophthalmosaurus_natans</List>
+		<List recon_name="Arthropterygius_chrisorum" recon_no="168511">Arthropterygius_chrisorum</List>
+		<List recon_name="Caypullisaurus_bonapartei" recon_no="149989">Caypullisaurus_bonapartei</List>
+		<List recon_name="Maiaspondylus_lindoei" recon_no="176522">Maiaspondylus_lindoei</List>
+		<List recon_name="Platypterygius_americanus" recon_no="170927">Platypterygius_americanus</List>
+		<List recon_name="Platypterygius_hercynicus" recon_no="170925">Platypterygius_hercynicus</List>
+		<List recon_name="Platypterygius_platydactylus" recon_no="170923">Platypterygius_platydactylus</List>
+		<List recon_name="Platypterygius_australis" recon_no="186984">Platypterygius_australis</List>
+		<List recon_name="Athabascasaurus_bitumineus" recon_no="203467">Athabascasaurus_bitumineus</List>
+	</Taxa>
+	<Characters>
+		<Molecular/>
+		<Morphological number="49">
+			<Type>Osteology</Type>
+		</Morphological>
+		<Behavioural/>
+		<Other/>
+	</Characters>
+	<Analysis>
+		<Type>Maximum Parsimony</Type>
+	</Analysis>
+	<Notes>Based on reanalysis of the original matrix.</Notes>
+	<Filename>Druckenmiller_et_Maxwell_2010a</Filename>
+	<Parent>Fernandez_2007a</Parent>
+	<Sibling/>
+</SourceTree>
