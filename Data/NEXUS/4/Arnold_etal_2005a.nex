@@ -1,0 +1,23 @@
+#NEXUS
+
+[File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=12 NCHAR=13 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2 3" MISSING=? GAP=- ;
+MATRIX
+
+Physeter                    0000000000000
+Balaena                     0000000000000
+Eubalaena                   0000000000000
+Caperea                     1011000001000
+Eschrichtius                0000000000000
+Megaptera                   0000000001000
+Balaenoptera_musculus       0020001100000
+Balaenoptera_physalus       2111111112102
+Balaenoptera_borealis       1111010012001
+Balaenoptera_bonaerensis    0211113113211
+Dwarf_minke                 2112012223221
+Balaenoptera_acutorostrata  1112013213221
+;
+END;

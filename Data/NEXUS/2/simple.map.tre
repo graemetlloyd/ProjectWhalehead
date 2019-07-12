@@ -1,0 +1,15 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=4;
+	Taxlabels
+		Acanthostomatops_vorax
+		Dasyceps_bucklandi
+		Dasyceps_microphthalmus
+		Zatrachys_serratus
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U]((Dasyceps_bucklandi[&index=4]:0.426978[&brlen_95%_HPD={0.00016,1.35231}],Dasyceps_microphthalmus[&index=3]:0.289592[&brlen_95%_HPD={2e-06,0.867494}])[&index=5,posterior=0.854669]:0.510650[&brlen_95%_HPD={9e-05,1.70381}],Acanthostomatops_vorax[&index=1]:0.627614[&brlen_95%_HPD={5.1e-05,2.14515}],Zatrachys_serratus[&index=2]:0.536519[&brlen_95%_HPD={6.7e-05,1.82916}])[&index=6,posterior=1.000000]:0.000000;
+End;

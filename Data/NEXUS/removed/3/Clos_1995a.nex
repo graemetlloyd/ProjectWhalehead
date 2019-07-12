@@ -1,0 +1,27 @@
+#NEXUS
+
+[File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=10 NCHAR=11 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2" MISSING=? GAP=- ;
+MATRIX
+
+Heloderma               0000000?000
+Cherminotus             ????00??201
+Lanthanotus             010000(01)?011
+Saniwides               0???00??201
+Telmasaurus             01?10???1?1
+Saniwa                  01010000111
+Varanus_bengalensis     12000011011
+Varanus_rusingensis     ?2?01110??1
+Varanus_niloticus       12102111011
+Varanus_exanthematicus  1?10111?011
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=ord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = ord: 1-11;
+END;
+

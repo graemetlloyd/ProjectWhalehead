@@ -1,0 +1,29 @@
+#NEXUS
+
+[!File downloaded from graemetlloyd.com]
+
+BEGIN DATA;
+	DIMENSIONS  NTAX=12 NCHAR=41 ;
+	FORMAT DATATYPE=STANDARD SYMBOLS=" 0 1 2" MISSING=? GAP=- ;
+MATRIX
+
+Coelophysis_bauri            0000001000000?00000000100000001001000000?
+Allosaurus_fragilis          01020010000000001001021000000010021020000
+Atrociraptor_marshalli       ?????1????????1????1?21?????110????1?111?
+Bambiraptor_feinbergorum     101011(12)??111111101111101??11100110?111101
+Deinonychus_antirrhopus      1???1111111??11111111101?1?11101101111101
+Dromaeosaurus_albertensis    111011211100111101101?0011?11?01121110000
+Saurornitholestes_langstoni  1?1?112??1111111???21101????1001121111001
+Velociraptor_mongoliensis    101?11211111111111121101?1111001101111001
+Troodontidae                 001200210001002101001201111110100(012)0100010
+Tsaagan_mangas               10101121010111?1012?1201??11100112?111000
+Sinorhithosaurus_milleni     1?1?11?1??10?1(12)1?1??11011?11101111?111000
+Microraptor_zhaoianus        ????01?????????1?????(12)????????1????1?101?
+;
+END;
+
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE=unord PolyTcount=MINSTEPS ;
+ 	TYPESET * UNTITLED  = unord: 1-41;
+END;
+
