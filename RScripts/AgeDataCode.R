@@ -41,10 +41,7 @@ for(i in DataSets) {
   UpdatedReconNumbers <- unname(unlist(lapply(as.list(ReconNumbers), function(x) {y <- PaleobiologyDBTaxaQuerier(x, original = FALSE)[, c("OriginalTaxonNo", "ResolvedTaxonNo")]; gsub("txn:|var:", "", y[!is.na(y)][1])})))
   
   # Build ages matrix:
-  AgesMatrix <- do.call(rbind, lapply(as.list(ReconNumbers), function(x) {y <- PaleobiologyDBOccurrenceQuerier(x); z <- matrix(nrow = 0, ncol = 3); if(sum(!is.na(y[, "MaxMa"])) > 0) z <- cbind(rep(x, sum(!is.na(y[, "MaxMa"]))), y[!is.na(y[, "MaxMa"]), c("MaxMa", "MinMa"), drop = FALSE]); z}))
-  
-  # Replace recon numbers with names in ages matrix:
-  for(j in 1:length(UpdatedReconNumbers)) AgesMatrix[AgesMatrix[, 1] == UpdatedReconNumbers[j], 1] <- OTUNames[j]
+  AgesMatrix <- do.call(rbind, lapply(lapply(apply(cbind(UpdatedReconNumbers, OTUNames), 1, as.list), unlist), function(x) {y <- PaleobiologyDBOccurrenceQuerier(x[1]); z <- matrix(nrow = 0, ncol = 3); if(sum(!is.na(y[, "MaxMa"])) > 0) z <- cbind(rep(x[2], sum(!is.na(y[, "MaxMa"]))), y[!is.na(y[, "MaxMa"]), c("MaxMa", "MinMa"), drop = FALSE]); z}))
   
   # For each OTU name:
   for(j in OTUNames) {
