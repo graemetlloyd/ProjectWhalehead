@@ -53,12 +53,15 @@ for(i in DataSets) {
     TaxonMatrix <- cbind(as.numeric(TaxonMatrix[, 1]), as.numeric(TaxonMatrix[, 2]))
     
     # Prune out anything that is too young to possibly be the true FAD (younger or equal in age to top of oldest occurrence):
-    TaxonMatrix <- TaxonMatrix[!max(TaxonMatrix[, 2]) >= TaxonMatrix[, 1], , drop = FALSE]
+    TaxonMatrix <- TaxonMatrix[!max(TaxonMatrix[, 2]) > TaxonMatrix[, 1], , drop = FALSE]
     
     # Add abck to ages matrix with original jth taxon occurrences removed:
     AgesMatrix <- rbind(AgesMatrix[-which(AgesMatrix[, 1] == j), ], cbind(rep(j, nrow(TaxonMatrix)), TaxonMatrix))
     
   }
+  
+  # Check for missing taxa:
+  if(length(setdiff(OTUNames, unique(AgesMatrix[, 1]))) > 0) stop("Taxa missing!")
   
   # Add column name for taxon:
   colnames(AgesMatrix)[1] <- "Taxon"
