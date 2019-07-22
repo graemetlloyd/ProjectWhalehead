@@ -1,0 +1,6 @@
+"Taxon" "MaxMa" "MinMa"
+"Acanthostomatops_vorax" "295.5" "290.1"
+"Zatrachys_serratus" "303.4" "298.9"
+"Zatrachys_serratus" "303.4" "268"
+"Dasyceps_microphthalmus" "279.3" "272.3"
+"Dasyceps_bucklandi" "298.9" "295.5"
