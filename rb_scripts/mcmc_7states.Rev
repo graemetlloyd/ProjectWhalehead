@@ -1,0 +1,32 @@
+morpho <- readDiscreteCharacterData("Data/NEXUS/Dalla_Vecchia_2009a.nex")
+
+## helpers
+mvi = 1
+mni = 1
+taxa <- morpho.names()
+n_taxa <- taxa.size()
+n_branches <- 2 * n_taxa - 2
+# Load the model files
+
+source("rb_scripts/mk_7states.Rev")
+# initialize the model object #
+mymodel = model(tree)
+# Create a vector of monitors #
+# 1. for the full model #
+monitors[mni++] = mnModel(filename="FILE.log", printgen=10)
+# 2. the tree #
+monitors[mni++] = mnFile(filename="FILE.trees", printgen=10, tree)
+# 3. and a few select parameters to be printed to the screen #
+monitors[mni++] = mnScreen(printgen=10)
+# Initialize the MCMC object #
+monitors[mni++] = mnStochasticVariable(filename="mcmc-test-stoch.log", printgen=10)
+mymcmc = mcmc(mymodel, monitors, moves)
+#trace = readStochasticVariableTrace(file="mcmc-test-stoch.log")
+#mymcmc.initializeFromTrace(trace)
+# Run the MCMC #
+
+# Run the MCMC #
+mymcmc.run(generations=300000)
+q()
+
+
