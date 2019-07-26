@@ -29,7 +29,7 @@ setwd("~/Documents/Publications/in prep/Strat congruence - April/ProjectWhalehea
 #}
 
 # Build data sets from all NEXUS files instead of just the April ones:
-DaatSets <- gsub(".nex", "", setdiff(list.files(), gsub("\\.|/", "", list.dirs())), fixed = TRUE)
+DataSets <- gsub(".nex", "", setdiff(list.files(), gsub("\\.|/", "", list.dirs())), fixed = TRUE)
 
 # For each independent data set:
 for(i in DataSets) {
