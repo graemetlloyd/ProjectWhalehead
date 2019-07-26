@@ -12,21 +12,24 @@ SpecimenLevelOccurrences <- matrix(c("Hadrosaurinae_indet_LACM_CIT_2852", "Maast
 setwd("~/Documents/Publications/in prep/Strat congruence - April/ProjectWhalehead/Data/NEXUS")
 
 # Get N states folder names (contains data sets used for Bayesian searches):
-NStatesFolders <- unique(unlist(lapply(as.list(list.dirs()), function(x) {y <- strsplit(x, "/")[[1]][2]; y <- y[!is.na(y)]; y[grep("[:0-9:]{1}", y)]})))
+#NStatesFolders <- unique(unlist(lapply(as.list(list.dirs()), function(x) {y <- strsplit(x, "/")[[1]][2]; y <- y[!is.na(y)]; y[grep("[:0-9:]{1}", y)]})))
 
 # Create empty data sets vector:
-DataSets <- vector(mode = "character")
+#DataSets <- vector(mode = "character")
 
 # For each folder:
-for(i in NStatesFolders) {
+#for(i in NStatesFolders) {
   
   # Set working directory to ith folder:
-  setwd(paste("~/Documents/Publications/in prep/Strat congruence - April/ProjectWhalehead/Data/NEXUS", "/", i, sep = ""))
+  #setwd(paste("~/Documents/Publications/in prep/Strat congruence - April/ProjectWhalehead/Data/NEXUS", "/", i, sep = ""))
   
   # Add data sets found to vector:
-  DataSets <- sort(c(DataSets, unlist(lapply(as.list(list.files()), function(x) x[grep(".nex", x, fixed = TRUE)]))))
+  #DataSets <- sort(c(DataSets, unlist(lapply(as.list(list.files()), function(x) x[grep(".nex", x, fixed = TRUE)]))))
   
-}
+#}
+
+# Build data sets from all NEXUS files instead of just the April ones:
+DaatSets <- gsub(".nex", "", setdiff(list.files(), gsub("\\.|/", "", list.dirs())), fixed = TRUE)
 
 # For each independent data set:
 for(i in DataSets) {
