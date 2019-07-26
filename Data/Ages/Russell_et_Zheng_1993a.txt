@@ -58,6 +58,7 @@
 "Apatosaurus" "157.3" "152.1"
 "Apatosaurus" "157.3" "145"
 "Apatosaurus" "157.3" "152.1"
+"Apatosaurus" "157.3" "152.1"
 "Camarasaurus" "157.3" "145"
 "Camarasaurus" "157.3" "145"
 "Camarasaurus" "157.3" "145"
