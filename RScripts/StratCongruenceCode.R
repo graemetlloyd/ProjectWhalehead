@@ -9,43 +9,19 @@ library(strap)
 TopDirectory <- "~/Documents/Publications/in prep/Strat congruence - April/ProjectWhalehead"
 
 # Set as Rev Bayes directory:
-setwd(paste(TopDirectory, "/Data/RevBayesOutput", sep = ""))
+setwd(paste(TopDirectory, "/Data/BayesianTopologies", sep = ""))
 
 # Find all Rev bayes files there:
-RevBayesFiles <- list.files()
+BayesianFiles <- list.files()
 
 # For each Rev Bayes file:
-for(i in RevBayesFiles) {
+for(i in BayesianFiles) {
   
-  # (Re)set to Rev Bayes directory:
-  setwd(paste(TopDirectory, "/Data/RevBayesOutput", sep = ""))
+  # Set workibg directory to Bayesian topology directory:
+  setwd(paste(TopDirectory, "/Data/BayesianTopologies", sep = ""))
   
-  # Read in Rev bayes output:
-  RevBayesOutput <- read.table(i, header = TRUE, stringsAsFactors=FALSE)
-  
-  # Set working directory as NEXUS data:
-  setwd(paste(TopDirectory, "/Data/NEXUS", sep = ""))
-  
-  # Read in outgroup taxon:
-  OutgroupTaxon <- rownames(Claddis::ReadMorphNexus(gsub(".trees", "", i, fixed = TRUE))$Matrix_1$Matrix)[1]
-  
-  # Get just the trees in ape format:
-  BayesianTrees <- ape::read.tree(text = RevBayesOutput[, "tree"])
-  
-  # Remove branch lengths (allows collapsing to unique topologies below):
-  BayesianTrees <- lapply(BayesianTrees, function(x) {x$edge.length <- NULL; x})
-  
-  # Reformat as a multiPhylo object:
-  class(BayesianTrees) <- "multiPhylo"
-  
-  # Collapse to just unique topologies:
-  BayesianTrees <- ape::read.tree(text = hypRspace::UniqueNewickStrings(ape::write.tree(BayesianTrees)))
-  
-  # Reroot trees on outgroup taxon:
-  BayesianTrees <- root(BayesianTrees, outgroup = OutgroupTaxon)
-  
-  # Now reroot properly because ape is useless:
-  BayesianTrees <- ape::read.tree(text = paste("(", OutgroupTaxon, ",", gsub(";", ");", ape::write.tree(drop.tip(BayesianTrees, tip = OutgroupTaxon))), sep = ""))
+  # Read in Bayesian trees:
+  BayesianTrees <- ape::read.tree(i)
   
   # Set working directory as NEXUS data:
   setwd(paste(TopDirectory, "/Data/MPTs", sep = ""))
