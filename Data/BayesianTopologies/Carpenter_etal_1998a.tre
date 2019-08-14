@@ -1,1 +1,3 @@
+(Scelidosaurus,((Nodosauridae,Ankylosauridae),Gargoyleosaurus));
+(Scelidosaurus,((Ankylosauridae,Gargoyleosaurus),Nodosauridae));
 (Scelidosaurus,((Nodosauridae,Gargoyleosaurus),Ankylosauridae));

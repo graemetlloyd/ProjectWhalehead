@@ -1,1 +1,6 @@
-(Velociraptor,((Protoavis,Archaeopteryx),(Enantiornithes,Ornithurae)));
+(Velociraptor,((Ornithurae,Archaeopteryx),(Protoavis,Enantiornithes)));
+(Velociraptor,(((Protoavis,Ornithurae),Enantiornithes),Archaeopteryx));
+(Velociraptor,((Protoavis,(Enantiornithes,Ornithurae)),Archaeopteryx));
+(Velociraptor,((Ornithurae,(Protoavis,Enantiornithes)),Archaeopteryx));
+(Velociraptor,((Archaeopteryx,Enantiornithes),(Protoavis,Ornithurae)));
+(Velociraptor,((Archaeopteryx,(Enantiornithes,Ornithurae)),Protoavis));
