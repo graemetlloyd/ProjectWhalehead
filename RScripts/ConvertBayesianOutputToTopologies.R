@@ -45,10 +45,13 @@ for(i in RevBayesFiles) {
   BayesianTrees <- root(BayesianTrees, outgroup = OutgroupTaxon)
   
   # Now reroot properly because ape is useless:
-  BayesianTrees <- ape::read.tree(text = paste("(", OutgroupTaxon, ",", gsub(";", ");", ape::write.tree(drop.tip(BayesianTrees, tip = OutgroupTaxon))), sep = ""))
+  BayesianTrees <- ape::read.tree(text = unlist(lapply(BayesianTrees, function(x) paste("(", OutgroupTaxon, ",", gsub(";", ");", ape::write.tree(drop.tip(x, tip = OutgroupTaxon))), sep = ""))))
   
-  # Set working directory as NEXUS data:
+  # Set working directory as Bayesian topologies:
   setwd(paste(TopDirectory, "/Data/BayesianTopologies", sep = ""))
+  
+  # If over 1000 trees randomly downsample to 1000:
+  if(length(BayesianTrees) > 1000) BayesianTrees <- BayesianTrees[sample(1:length(BayesianTrees), size = 1000)]
   
   # Write out Bayesian topologies to folder:
   ape::write.tree(BayesianTrees, gsub(".nex.trees", ".tre", i, fixed = TRUE))
