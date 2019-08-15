@@ -1,0 +1,4 @@
+(Tetraclaenodon:0,(E_collinus:0,(E_cedrus:0,((E_mediotuber:0,(E_osbornianus:0,E_parvus:1):1.9):0,(E_major:0,E_superstes:6.5):1.9):0):3):0);
+(Tetraclaenodon:0,(E_collinus:0,(E_cedrus:0,(E_major:1.9,(E_mediotuber:0,(E_superstes:6.5,(E_osbornianus:0,E_parvus:1):0):1.9):0):0):3):0);
+(Tetraclaenodon:0,(E_collinus:0,(E_cedrus:0,(E_major:1.9,((E_mediotuber:0,E_superstes:8.4):0,(E_osbornianus:0,E_parvus:1):1.9):0):0):3):0);
+(Tetraclaenodon:0,(E_collinus:0,(E_cedrus:0,(E_major:1.9,(E_mediotuber:0,(E_osbornianus:0,(E_parvus:0,E_superstes:5.5):1):1.9):0):0):3):0);

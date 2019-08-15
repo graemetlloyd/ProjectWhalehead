@@ -1,0 +1,4 @@
+(Shunosaurus:16.6,(Patagosaurus:0,(Cetiosaurus:0,((Losillasaurus:0,(Dicraeosaurus:0,(Barosaurus:0,Diplodocus:0):1.3):5.2):0,(Haplocanthosaurus:0,(Brachiosaurus:0,Camarasaurus:1.6):0):0):10.4):12.4):0);
+(Shunosaurus:16.6,(((Losillasaurus:0,(Dicraeosaurus:0,(Barosaurus:0,Diplodocus:0):1.3):5.2):0,(Haplocanthosaurus:0,(Brachiosaurus:0,Camarasaurus:1.6):0):0):22.8,(Cetiosaurus:12.4,Patagosaurus:0):0):0);
+(Shunosaurus:16.6,((Dicraeosaurus:0,(Barosaurus:0,Diplodocus:0):1.3):28,((Losillasaurus:0,(Haplocanthosaurus:0,(Brachiosaurus:0,Camarasaurus:1.6):0):0):22.8,(Cetiosaurus:12.4,Patagosaurus:0):0):0):0);
+(Shunosaurus:16.6,((Dicraeosaurus:0,(Barosaurus:0,Diplodocus:0):1.3):28,(Losillasaurus:22.8,((Haplocanthosaurus:0,(Brachiosaurus:0,Camarasaurus:1.6):0):22.8,(Cetiosaurus:12.4,Patagosaurus:0):0):0):0):0);
