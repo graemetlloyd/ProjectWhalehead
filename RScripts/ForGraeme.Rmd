@@ -53,7 +53,9 @@ custom_treespace <- function (chains, n.points = 100, burnin = 0, fill.color = N
   points$chain = ptable$chain
   points$sample = ptable$sample
   points$generation = ptable$generation
-  points$bayes = ptable$X1
+  points$bayes = ptable$Bayes
+  points$MIG = ptable$MIG
+
   if (!is.na(fill.color)) 
     points[, fill.color] = as.numeric(ptable[[fill.color]])
   return(points)
@@ -65,33 +67,77 @@ Then This:
 library(tools)
 library(ggplot2)
 
-custom_plots <- function (x, y) {
-  
-  trees <- ape::read.tree(y)
-  new_filename <- paste0(y, ".nex")
-  ape::write.nexus(trees,file = new_filename)
-  rwty_obj <- rwty::load.trees(file = new_filename, logfile = x)  
-points = custom_treespace(rwty_obj, length(trees))
+custom_plots <- function (CombinedTrees, StratFile ) {
+  rwty_obj <- rwty::load.trees(file = CombinedTrees, logfile = StratFile, skip = 0)  
+points = custom_treespace(rwty_obj, 1000)
 pp <- ggplot(points %>%
              arrange(bayes),
-aes(x = x, y = y, color = rwty_obj$ptable$X32))
+aes(x = x, y = y, color = points$MIG))
 
 final <- pp + geom_point(aes(size=bayes)) + scale_size(range = c(5,1)) + guides(size = guide_legend(reverse=TRUE)) + scale_colour_gradient(low = "blue", high = "yellow")
-just_file <-file_path_sans_ext(y)
+just_file <-file_path_sans_ext(CombinedTrees)
 new_filename <- paste0(just_file, '.pdf')
 ggsave(new_filename, final)
 }
 ```
+
 ```{r}
 library(rwty)
 library(dplyr)
 #Make the list of strat files
-files <- list.files(path="Data/StratCongruenceResults/InputTreeResults", pattern="*.txt", full.names=TRUE, recursive=FALSE)
+files <- list.files(path="Data/StratCongruenceResults/InputTreeResults", pattern="*.log", full.names=TRUE, recursive=FALSE)
 #And the list of treefiles
-tre_files <- list.files(path="Data/BayesianTopologies", pattern="*.tre", full.names=TRUE, recursive=FALSE)
-
+tre_files <-  list.files(path="Data/BayesianTopologies", pattern="*.trees", full.names=TRUE, recursive=FALSE)
+mat_files <-  list.files(path="Data/NEXUS", pattern="*.nex", full.names=TRUE, recursive=FALSE)
+parsimony_files <- list.files(path="Data/MPTs", pattern="*.tre", full.names=TRUE, recursive=FALSE)
+ages_files <- list.files(path="Data/Ages", pattern="*.txt", full.names=TRUE, recursive=FALSE)
 #Now make the plots
-
-mapply(custom_plots, files, tre_files)
-
+mapply(congruify, ages_files, parsimony_files, tre_files)
+mapply(custom_plots, files, mat_files, tre_files, parsimony_files)
 ```
+
+This is my function to make the tip labels between the parsimony trees and the Bayesian trees congruent. I borrowed heavily from your code, obivously. 
+
+```{r}
+congruify <- function (AgeFilePath, ParsimonyTreePath, BayesianTreesPath) {
+ParsimonyTrees <- ape::read.tree(ParsimonyTrees)
+
+RawAges <- read.table(ages, header = TRUE, stringsAsFactors = FALSE)
+
+TipAges <- do.call(rbind, lapply(as.list(unique(RawAges[, "Taxon"])), function(x) {y <- unique(apply(RawAges[RawAges[, "Taxon"] == x, c("MaxMa", "MinMa"), drop = FALSE], 1, paste, collapse = "-")); y <- do.call(rbind, strsplit(y, "-")); LAD <- max(as.numeric(y[, 2])); FADs <- as.numeric(y[, 1]); FAD <- min(FADs[FADs >= LAD]); c(FAD, LAD)}))
+
+
+rownames(TipAges) <- unique(RawAges[, "Taxon"])
+if(class(ParsimonyTrees) == "phylo") {
+    
+    # Form into list:
+    ParsimonyTrees <- list(ParsimonyTrees)
+    
+    class(ParsimonyTrees) <- "multiPhylo"
+    }
+if(length(setdiff(sort(rownames(TipAges)), sort(ParsimonyTrees[[1]]$tip.label))) > 0) {
+  NameMatches <- do.call(rbind, lapply(apply(cbind(sort(rownames(TipAges)), sort(ParsimonyTrees[[1]]$tip.label)), 1, as.list), function(x) unlist(x)))
+      NameMatches <- NameMatches[NameMatches[, 1] != NameMatches [, 2], , drop = FALSE]
+}
+    # For each non-matching name:
+    for(j in 1:nrow(NameMatches)) {
+       ParsimonyTrees <- lapply(ParsimonyTrees, function(x) {x$tip.label[x$tip.label == NameMatches [j, 2]] <- NameMatches [j, 1]; x})
+    }
+      # Ensure list is still a multiphylo object:
+      class(ParsimonyTrees) <- "multiPhylo"
+     RevBayesOutput <- read.table(BayesianTree, header = TRUE, stringsAsFactors = FALSE)
+BayesianTrees <- ape::read.tree(text = RevBayesOutput[, "tree"])
+    OutgroupTaxon <- rownames(Claddis::ReadMorphNexus(mat)$Matrix_1$Matrix)[1]
+    BayesianTrees <- ape::root(BayesianTrees, outgroup = OutgroupTaxon)  
+    
+    BayesianTrees <- ape::read.tree(text = unlist(lapply(BayesianTrees, function(x) paste("(", OutgroupTaxon, ",", gsub(";", ");", ape::write.tree(drop.tip(x, tip = OutgroupTaxon))), sep = ""))))
+    class(ParsimonyTrees) <- "multiPhylo"
+    class(BayesianTrees) <- "multiPhylo"
+    new_trees <- c(BayesianTrees, ParsimonyTrees)
+    class(new_trees) <- "multiPhylo"
+    new_filename <- paste0(BayesianTree, ".nex")
+    ape::write.nexus(new_trees,file = new_filename)
+    }
+  }
+
+
