@@ -121,9 +121,9 @@ congruify <- function (AgeFilePath, ParsimonyTreePath, BayesianTreesPath, NEXUSP
 library(rwty)
 library(dplyr)
 #Make the list of strat files
-files <- list.files(path="Data/StratCongruenceResults/InputTreeResults", pattern="*.log", full.names=TRUE, recursive=FALSE)
+files <- list.files(path="Data/StratCongruenceResults/InputTreeResults", pattern="*.txt", full.names=TRUE, recursive=FALSE)
 #And the list of treefiles
-tre_files <- list.files(path="Data/BayesianTopologies", pattern="*.trees", full.names=TRUE, recursive=FALSE)
+tre_files <- list.files(path="Data/RevBayesOutput", pattern="*.tre", full.names=TRUE, recursive=FALSE)
 mat_files <- list.files(path="Data/NEXUS", pattern="*.nex", full.names=TRUE, recursive=FALSE)
 parsimony_files <- list.files(path="Data/MPTs", pattern="*.tre", full.names=TRUE, recursive=FALSE)
 ages_files <- list.files(path="Data/Ages", pattern="*.txt", full.names=TRUE, recursive=FALSE)
