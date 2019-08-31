@@ -127,6 +127,10 @@ tre_files <- list.files(path="Data/RevBayesOutput", pattern="*.tre", full.names=
 mat_files <- list.files(path="Data/NEXUS", pattern="*.nex", full.names=TRUE, recursive=FALSE)
 parsimony_files <- list.files(path="Data/MPTs", pattern="*.tre", full.names=TRUE, recursive=FALSE)
 ages_files <- list.files(path="Data/Ages", pattern="*.txt", full.names=TRUE, recursive=FALSE)
+uniquefilenames <- gsub(".nex.trees", "", unlist(lapply(as.list(tre_files), function(x) strsplit(x, "/")[[1]][3])))
+mat_files <- unlist(lapply(as.list(uniquefilenames), function(x) mat_files[grep(x, mat_files)]))
+parsimony_files <- unlist(lapply(as.list(uniquefilenames), function(x) parsimony_files[grep(x, parsimony_files)]))
+ages_files <- unlist(lapply(as.list(uniquefilenames), function(x) ages_files[grep(x, ages_files)]))
 #Now make the plots
 mapply(congruify, ages_files, parsimony_files, tre_files, mat_files)
 mapply(custom_plots, files, mat_files, tre_files, parsimony_files)
