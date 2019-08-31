@@ -17,7 +17,7 @@ BayesianFiles <- list.files()
 # For each Rev Bayes file:
 for(i in BayesianFiles) {
   
-  # Print loop positio to screen:
+  # Print loop position to screen:
   cat(i, " ")
   
   # Set workibg directory to Bayesian topology directory:
