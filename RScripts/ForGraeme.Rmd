@@ -9,10 +9,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Run this: 
+## Run this:
 
 ```{r cars}
-custom_treespace <- function (chains, n.points = 100, burnin = 0, fill.color = NA) 
+custom_treespace <- function (chains, n.points = 100, burnin = 0, fill.color = NA)
 {
   chains = check.chains(chains)
   labels = names(chains)
@@ -20,15 +20,17 @@ custom_treespace <- function (chains, n.points = 100, burnin = 0, fill.color = N
   if (!is.na(fill.color)) {
     if (fill.color %in% names(ptable)) {
     }
-    else stop(sprintf("The fill.color name you supplied ('%s') wasn't found in your parameter table", 
+    else stop(sprintf("The fill.color name you supplied ('%s') wasn't found in your parameter table",
                       fill.color))
   }
   chain = chains[[1]]
   step = as.integer((length(chain$trees) - burnin)/n.points)
-  indices = seq(from = burnin + 1, to = length(chain$trees), 
+  indices = seq(from = burnin + 1, to = length(chain$trees),
                 by = step)
+  indices = c(indices, range(length(chain$trees) -5, length(chain$trees)))
+
   trees = lapply(chains, function(x) x[["trees"]][indices])
-  additional = unlist(lapply(length(chain$trees) * (0:(length(chains) - 
+  additional = unlist(lapply(length(chain$trees) * (0:(length(chains) -
                                                          1)), function(x) rep(x, length(indices))))
   ptable = ptable[(indices + additional), ]
   dimensions = 2
@@ -56,7 +58,7 @@ custom_treespace <- function (chains, n.points = 100, burnin = 0, fill.color = N
   points$bayes = ptable$Bayes
   points$MIG = ptable$MIG
 
-  if (!is.na(fill.color)) 
+  if (!is.na(fill.color))
     points[, fill.color] = as.numeric(ptable[[fill.color]])
   return(points)
 }
@@ -133,4 +135,3 @@ combined_trees <- list.files(path="Data/CombinedTrees", pattern="*.nex", full.na
 mapply(congruify, ages_files, parsimony_files, tre_files, mat_files)
 mapply(custom_plots, combined_trees, files)
 ```
-
