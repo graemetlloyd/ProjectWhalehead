@@ -23,6 +23,19 @@ Following Wright et al. (2016) the following filtering was applied:
 2. Text.
 3. Text.
 
+Plus:
+
+1. Removing data sets with polymorphisms.
+2. Removing data sets with molecular components.
+
+## Age data
+
+GRAEME TO ADD.
+
+## Bayesian inference settings
+
+APRIL TO ADD.
+
 ## References
 
 Wright, A. M., Lloyd, G. T. and Hillis, D. M., 2016. Modeling character change heterogeneity in phylogenetic analyses of morphology through the use of priors. Systematic Biology, 65, 602-611.
