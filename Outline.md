@@ -11,6 +11,7 @@ bibliography: ../refs.bib
 
 1) Historical perspective on discrete morphology analyses
   a) Maximum parsimony has typically been used to estimate phylogeny from discrete morphology
+  b) A lot of baggage comes with this that does not strictly translate to Bayesian setting. For example, do not need an outgroup if tip-dating, synapomorphies are not strictly relevant as characters can change state and back again along branches, trees have a sampling frequency, consensus methds are therefore very different, there are no menanigful branch lengths in parsimony etc.
 
 2) How does a Bayesian method differ from parsimony?
   a) Explicit assumption of a model
@@ -39,7 +40,7 @@ bibliography: ../refs.bib
 
 1) How do we summarize the posterior?
   a) Distilling to a point estimate would be misleading
-  b) Random samples give a sense of variation, but lose the data related to proportional representation
+  b) Random samples (e.g. Sansom et al.) give a sense of variation, but lose the data related to proportional representation
   of good solutions
 
 2) What does this mean for stratigraphic congruence - is it higher in Bayesian trees?
