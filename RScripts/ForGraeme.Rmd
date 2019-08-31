@@ -67,17 +67,14 @@ Then This:
 library(tools)
 library(ggplot2)
 
-custom_plots <- function (CombinedTrees, StratFile ) {
+custom_plots <- function (CombinedTrees, StratFile) {
   rwty_obj <- rwty::load.trees(file = CombinedTrees, logfile = StratFile, skip = 0)  
-points = custom_treespace(rwty_obj, 1000)
-pp <- ggplot(points %>%
-             arrange(bayes),
-aes(x = x, y = y, color = points$MIG))
-
-final <- pp + geom_point(aes(size=bayes)) + scale_size(range = c(5,1)) + guides(size = guide_legend(reverse=TRUE)) + scale_colour_gradient(low = "blue", high = "yellow")
-just_file <-file_path_sans_ext(CombinedTrees)
-new_filename <- paste0(just_file, '.pdf')
-ggsave(new_filename, final)
+  points = custom_treespace(rwty_obj, 1000)
+  pp <- ggplot(points %>% arrange(bayes), aes(x = x, y = y, color = points$MIG))
+  final <- pp + geom_point(aes(size=bayes)) + scale_size(range = c(5,1)) + guides(size = guide_legend(reverse=TRUE)) + scale_colour_gradient(low = "blue", high = "yellow")
+  just_file <- file_path_sans_ext(CombinedTrees)
+  new_filename <- gsub("CombinedTrees", "TreeSpacePlots", paste0(just_file, '.pdf'))
+  ggsave(new_filename, final)
 }
 ```
 This is my function to make the tip labels between the parsimony trees and the Bayesian trees congruent. I borrowed heavily from your code, obivously.
@@ -131,8 +128,9 @@ uniquefilenames <- gsub(".nex.trees", "", unlist(lapply(as.list(tre_files), func
 mat_files <- unlist(lapply(as.list(uniquefilenames), function(x) mat_files[grep(x, mat_files)]))
 parsimony_files <- unlist(lapply(as.list(uniquefilenames), function(x) parsimony_files[grep(x, parsimony_files)]))
 ages_files <- unlist(lapply(as.list(uniquefilenames), function(x) ages_files[grep(x, ages_files)]))
+combined_trees <- list.files(path="Data/CombinedTrees", pattern="*.nex", full.names=TRUE, recursive=FALSE)
 #Now make the plots
 mapply(congruify, ages_files, parsimony_files, tre_files, mat_files)
-mapply(custom_plots, files, mat_files, tre_files, parsimony_files)
+mapply(custom_plots, combined_trees, files)
 ```
 
