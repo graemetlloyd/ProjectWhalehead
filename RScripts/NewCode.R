@@ -44,9 +44,6 @@ for(i in RevBayesFiles) {
   # Now reroot properly because ape is useless:
   BayesianTrees <- ape::read.tree(text = unlist(lapply(BayesianTrees, function(x) paste("(", OutgroupTaxon, ",", gsub(";", ");", ape::write.tree(drop.tip(x, tip = OutgroupTaxon))), sep = ""))))
   
-  # Set working directory as Bayesian topologies:
-  setwd(paste(TopDirectory, "/Data/BayesianTopologies", sep = ""))
-  
   # Ste working directory to ages folder:
   setwd("~/Documents/Publications/in prep/Strat congruence - April/ProjectWhalehead/Data/Ages")
   
