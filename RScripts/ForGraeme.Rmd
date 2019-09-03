@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Run this:
 
-```{r cars}
+```{r}
 custom_treespace <- function (chains, n.points = 100, burnin = 0, fill.color = NA)
 {
   chains = check.chains(chains)
@@ -72,7 +72,7 @@ library(ggplot2)
 custom_plots <- function (CombinedTrees, StratFile) {
   rwty_obj <- rwty::load.trees(file = CombinedTrees, logfile = StratFile, skip = 0)  
   points = custom_treespace(rwty_obj, 5000)
-  pp <- ggplot(points %>% arrange(bayes), aes(x = x, y = y, color = points$MIG))
+  pp <- ggplot(points, aes(x = x, y = y, color = points$MIG))
   final <- pp + geom_point(aes(size=bayes)) + scale_size(range = c(5,1)) + guides(size = guide_legend(reverse=TRUE)) + scale_colour_gradient(low = "blue", high = "yellow")
   just_file <- file_path_sans_ext(CombinedTrees)
   new_filename <- gsub("CombinedTrees", "TreeSpacePlots", paste0(just_file, '.pdf'))
