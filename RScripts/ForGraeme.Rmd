@@ -72,6 +72,10 @@ library(ggplot2)
 custom_plots <- function (CombinedTrees, StratFile) {
   rwty_obj <- rwty::load.trees(file = CombinedTrees, logfile = StratFile, skip = 0)  
   points <- custom_treespace(rwty_obj, 500)
+  # Data to write out for Voronoi plotting:
+  dataforvoronoi <- points[, c("x", "y", "bayes", "MIG")]
+  # Write out to Voronoi folder:
+  write.table(dataforvoronoi, paste(gsub("CombinedTrees", "VoronoiData", file_path_sans_ext(CombinedTrees)), ".txt", sep = ""), row.names = FALSE)
   pp <- ggplot(points, aes(x = x, y = y, color = points$MIG))
   final <- pp + geom_point(aes(size=bayes)) + scale_size(range = c(5,1)) + guides(size = guide_legend(reverse=TRUE)) + scale_colour_gradient(low = "blue", high = "yellow") 
   just_file <- file_path_sans_ext(CombinedTrees)
