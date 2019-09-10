@@ -9,20 +9,55 @@ bibliography: ../refs.bib
 
 # Introduction:
 
-1) Phylogenetic analyses of discrete morphological data have traditionally been conducted under the maximum parsimony criterion.
+Inferring the tree of life, and using phylogenetic trees to understand organismal form and function is a prime challenge in biology.
+Phylogenetic trees provide a historical perspective on relationships between taxa, and performing comparative biological studies without a phylogenetic context is misleading (cite Felsenstein).
+While many researchers in comparative biology have moved to using molecular data to estimate phylogenetic trees, fossils provide the only direct evidence for historical trends in many groups.
+Excluding fossils from trees has been demonstrated to bias the inferences we draw from phylogenetic comparative analyses (cite Slater).
+Therefore, how to best include fossils in phylogenetic analyses remains a vital and thriving research topic.
+
+Phylogenetic analyses of discrete morphological data have traditionally been conducted under the maximum parsimony criterion.
 However, in recent times, Bayesian analyses have become more common for estimating phylogenetic trees, as well as more complex analyses, such as divergence time estimation.
+Bayesian methods assume an explicit model of evolution, and allow the researcher to set priors on each parameter in their model.
+In effect, this allows researchers to incorporate prior information about the value of parameters into their analysis.
+The most basic and restrictive model of morphological evolution is the Mk model, proposed in 2001 by Paul Lewis.
+This model assumes equal rates of change between each state at a character.
+In practice, these assumptions are not much different than the basic assumptions of an equal-weights parsimony step matrix.
+However, these methods calculate a rate-based branch length, allowing for the accommodations of multiple changes along a branch.
+More elaborate models that allow for core assumptions of the Mk model have been published and evaluated.
+
+Comparing the results of a Bayesian analysis and a parsimony analysis can be difficult.
+Bayesian methods estimate what is called the _posterior sample_.
+The posterior sample is a set of trees and associated model parameters that is plausible given the data, the model, and the prior.
+Phylogenetic trees are often estimated using Markov-Chain Monte Carlo sampling.
+Under this algorithm, a tree and model parameters are proposed and evaluated given the model and priors.
+In general, if the tree and model parameters have a better score than the previous tree and model parameters, the solution is kept.
+MCMC is considered a memoryless process; that is, the next proposed tree and model parameters is not chosen based on previously-sampled trees.
+A good tree may be visited many times in a phylogenetic estimation.
+In fact, how often a particular tree or set of relationships appears in the posterior sample is considered to be a measure of support for that tree.
+Usually, the researcher will compute a summary tree for publication, though tools now exist to visualize sets of phylogenetic trees.
+
+This is in stark contrast to parsimony.
+The aim of parsimony is to estimate the most parsimonious tree.
+The most parsimonious tree is the one that minimizes the number of character changes in the dataset implied by the tree.
+Under the criterion of maximum parsimony, a tree is proposed, and the changes implied in the morphological character matrix by that tree are counted.
+A tree is considered better than another if it has a lower parsimony score.
+Many datasets will have one tree that minimizes the parsimony score.
+In this case, a point estimate of the phylogeny is typically published by the author.
+However, in some datasets due to either lack of signal or conflicting signal, several most parsimonious trees may be returned.
+In this case, a summary tree is usually created.
+The most common of these is a majority-rule consensus trees, which displays all phylogenetic relationships that are present in more than 50\% of the set of most parsimonious trees.
+
+How to compare a Bayesian posterior sample and a set of most parsimonious trees is a fraught topic.
+There are many aspects of parsimony analyses that are not strictly comparable to Bayesian analyses.
+For example, synapomorphies are interpreted differently in a Bayesian analysis, as multiple changes can occur along a branch.
+Bayesian analyses consider branch lengths (in substitutions per site for an undated tree) to be parameters of the model.
+Therefore, tree summarizations take these values into account, not solely the topology.
+Support values for bipartitions in the tree are calculated as part of a Bayesian estimation, being the number of times that a set of relationships is contained in the posterior sample.
+The assumption is that the sample, not simply the `best` tree, contains vital information.
+
+Formulating a comparison between parsimony and Bayesian trees is difficult.
 
 
-
-Many researchers have attempted to formulate comparisons beween parsimony and likelihood tress.
-  a) Maximum parsimony has typically been used to estimate phylogeny from discrete morphology
-  b) A lot of baggage comes with this that does not strictly translate to Bayesian setting. For example, do not need an outgroup if tip-dating, synapomorphies are not strictly relevant as characters can change state and back again along branches, trees have a sampling frequency, consensus methds are therefore very different, there are no menanigful branch lengths in parsimony etc.
-
-2) How does a Bayesian method differ from parsimony?
-  a) Explicit assumption of a model
-  b) Sample of trees is the goal, not something that sometimes occurs
-    i) How does a posterior sample differ from a set of MPTs? What does this mean for
-    interpretation?
 
 3) How can we evaluate a Bayesian method?
   a) Intrinsic measures: those measures that require a model
