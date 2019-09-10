@@ -55,17 +55,24 @@ Therefore, tree summarizations take these values into account, not solely the to
 Support values for bipartitions in the tree are calculated as part of a Bayesian estimation, being the number of times that a set of relationships is contained in the posterior sample.
 The assumption is that the sample, not simply the `best` tree, contains vital information.
 
-Formulating a comparison between parsimony and Bayesian trees is difficult.
+Because of these differences, formulating a comparison between parsimony and Bayesian trees is difficult.
+Most studies to date have focused on intrinsic comparisons, those comparisons about the tree itself.
+For example, most simulation studies to date have simulated data along a tree.
+Then, from the simulation data, a tree has been estimated under both parsimony and Bayesian methods.
+Finally, a summary tree for each method is computed and compared to the tree under which it was simulated.
+Often, this focuses on the behavior of the researcher, comparing a Bayesian consensus tree to a parsimony consensus tree (self-flagellate).
+Most phylogenetic estimates in published articles are presented as point estimates.
+Because parsimony trees are most commonly published as majority-rule consensus trees, computing this type of summary for both treatments (parsimony and Bayesian) and comparing them is fairly straightforward.
+Comparisons have typically involved tree-based metrics, such as the Robinson-Foulds, which supplies the number of bifurcations that differ between two trees.
+While this approach makes a degree of sense, it also does not include or account for most of the results associated with Bayesian estimation (the posterior sample).
 
-
-
-3) How can we evaluate a Bayesian method?
-  a) Intrinsic measures: those measures that require a model
-    i) Simulation. We can simulate under the model and see if our data look like real data
-    ii) Bayes factor model fitting. Of the models we have, which has the greatest suppoort
-  b) Extrinsic: Measure that compare the estimated tree to some external information
-    i) Stratigraphic congruence
-    ii) What did they do in the Sansom paper?
+Sansom (2017) used stratigraphic congruence to compare parsimony and Bayesian summary trees to asses which analytical method produces trees that better fit the fossil record.
+This is an extrinsic criteria, evaluating how well the tree fits external data.
+Stratigraphic congruence methods (Table One) use various measures to determine how well an estimated tree fits know first and last appearance data for the fossil tips on this tree.
+Sansom estimated trees for empirical datasets under both Maximum Parsimony and Bayesian estimation, computed consensus trees, and calculated stratigraphic fit for each tree.
+This is a novel way to independently verify the fit of the tree to external data (fossil occurrence times).
+In this manuscript, we extend this approach to evaluate the whole posterior sample for stratigraphic fit, and to plot stratigraphic fit of individual trees in the posterior or the set of most parsimonious trees in treespace.
+We conclude that looking at a single summary tree may be misleading, and encourage the use of more sophisticated visual tools, such as RWTY to incorporate the variation in any one metric.
 
 # Methods
 
