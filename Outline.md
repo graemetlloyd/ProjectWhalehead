@@ -77,17 +77,22 @@ We conclude that looking at a single summary tree may be misleading, and encoura
 
 ## Dataset Filtering
 
-Datasets were downloaded from graemetlloyd.com/matr.html. In the repository, there are some datasets that are derived from other datasets. For example, a matrix in the repository may have derivative matrices in which taxon or characters sampling was expanded from. For this study, if there were mutliple dataset derivatives, we chose the largest or most expansive dataset using the same criteria applied by Wright et al. (2016). We then excluded molecular data sets and data sets with polymorphisms or uncertainties.
+Empirical datasets were downloaded from graemetlloyd.com/matr.html.
+In the repository, there are some datasets that are derived from other datasets.
+For example, a matrix in the repository may have derivative matrices in which taxon or characters sampling was expanded from.
+For this study, if there were multiple dataset derivatives, we chose the largest or most expansive dataset using the same criteria applied by Wright et al. (2016).
+We then excluded molecular data sets and data sets with polymorphisms or uncertainties.
+The final set of matrices contained 128 matrices.
 
 ## Phylogenetic Analysis
 
 We analysed each dataset under the Mk model in the software RevBayes.
 We partitioned each dataset according to the number of states per character in order to specify an appropriate _Q_-matrix.
 Among-character rate variation was parameterized according to a Gamma distribution with four discrete categories.
-Branch lenghts were drawn from an exponential distribution.
+Branch lengths were drawn from an exponential distribution.
 Datasets were run for one million generations, and then assessed visually for convergence.
 
-We did not re-estimate maximum parsimony trees for the data matrices. (Oh, I totally did do this. But in theory they are the same.)
+We did not re-estimate maximum parsimony trees for the data matrices. (Oh, I totally did do this. But in theory they are the same.) (Can I have you fill in the details of what you did, in that case?)
 For these datasets, we re-used the maximum parsimony trees published by the original study authors.
 
 ## Stratigraphic Congruence
@@ -114,6 +119,22 @@ The full set of code and data used are available at: github.com/graemetlloyd/Pro
 
 # Results
 
+For direct comparability with Sansom et al (2017), we made boxplots of the distributions of several stratigraphic congruence measures
+We made these figures comparing the posterior sample and the set of most parsimonious trees for each dataset, and each stratigraphic congruence metric shown on Table One.
+One such boxplot can be seen in Fig. 1.
+The spread of stratigraphic congruence metrics is much higher in the Bayesian analysis.
+For most metrics, the median of the parsimony sample is lower than the median of the Bayesian sample.
+However, in most instances the stratigraphic congruence of the most parsimonious tree or set of trees is contained within the quartiles of the  boxplot.
+
+We also visualized these data as treespace plots.
+An example treespace plot can be seen in Fig. 2, and the full set of treespace plots is available in the supplemental material.
+These multi-dimensinal scaling graphs demonstrate that the Bayesian posterior samples contain many more trees, including many more trees that are substantially different from one another, that the parsimony estimations do.
+In most estimations, the posterior sample contains the parsimony trees, in addition to other solutions plausible under the model.
+As shown on Fig. 2, it is very possible in both Bayesian and maximum parsimony estimation to have topologies with good stratigraphic fit plotted near trees with poor stratigraphic fit.
+This indicates that in some treespaces, there may be little topological difference between a tree that is quite good with respect to stratigraphic fit and a tree with poor stratigraphic fit.
+Much as in the boxplots, the treespace plots largely indicate that the parsimony trees fall within the range of solutions explored in a Bayesian search. 
+
+
 
 # Discussion
 
@@ -135,4 +156,3 @@ Cobbett, A., Wilkinson, M. and Wills, M. A., 2007. Fossils impact as hard as liv
 Koch, N. M. and Parry, L. A., in review. Death is on our side: paleontological data drastically modify phylogenetic hypotheses. https://www.biorxiv.org/content/10.1101/723882v1
 
 Wright, A. M., Lloyd, G. T. and Hillis, D. M., 2016. Modeling character change heterogeneity in phylogenetic analyses of morphology through the use of priors. Systematic Biology, 65, 602-611.
-
