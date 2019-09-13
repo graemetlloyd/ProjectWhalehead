@@ -169,10 +169,48 @@ The points in this graphic show that topologically similar trees can have wildly
 For this dataset, it does not appear that certain regions of treespace produce better stratigraphic congruence.
 This is in contrast to Fig. 4 (maybe Demar_2013), in which some areas of treespace clearly contain trees that have better fit to the stratigraphic record.
 
+## Stratigraphic Congruence and optimality criterion
 
-2) What does this mean for stratigraphic congruence - is it higher in Bayesian trees?
+This is an all together murkier question when the fullness of the posterior sample is considered.
+A table of averages for Yates (2003) and Demar (2013) is provided on Table Two.
+As can be seen on this table for both the Demar (2013) and Yates (2003) datasets, some average metrics are better for the Bayesian posterior sample, some for the set of most parsimonious trees.
 
-3) Plea for scientists coding reproducible figures and taking a clear look at variation in their data.
+However, in Fig. 2, (boxplot + violin plot of Demar, perhaps?) we show a dataset from Demar et al (2013).
+The treespace for this dataset can be seen in Fig. 4.
+This is a highly structured treespace: because Bayesian MCMC samples in proportion to the posterior probability, we can infer from the shape of this treespace visualization that there are two peaks to this distribution.
+There are three most-parisimonious trees; two are sampled from one peak with poor stratigraphic fit, one is sampled from the peak with fairly good stratigraphic fit.
+In this case, averaging is unlikely to produce a value that represents tree space accurately: the average in this case is likely to be a value that actually doesn't belong to a tree that was sampled in the analysis at all.
+
+In the case of the Yates (2003) dataset, treespace is sampled much more evenly.
+In this case, taking an average is likely to represent the sample a bit better.
+Even so, the boxplots in Fig. 1 demonstrate that the mean and variance for the parsimony estimates are almost wholly subsumed in the Bayesian posterior sample.
+This is largely expected: the Bayesian posterior sample encompasses all trees sampled in the analysis (typically thinned by some proportion as they are exported from the tree estimation software).
+The set of most parsimonious trees contains a sample of the best trees according to an optimality criterion.
+Assuming both estimation criteria are using the same data to sample the same treespace, we would expect that averaging among the best trees should produce better stratigraphic congruence.
+However, it appears in practice that averaging among only the best trees does not help parsimony much at all  (Fig. 1, Fig. 3, Table Two, Sansom et al. Fig. 1).
+
+If stratigraphic congruence is better in trees produced by one optimality criterion than another is perhaps the wrong question.
+A better question to ask may be "How can researchers explore and quantify variation in their posterior samples?"
+In writing this manuscript, we used and modified a set of tools available in the R programming language.
+These tools, such as the package `RWTY`, enabled us to read in many large posterior samples, and to calculate treespace plots across over 100 empirical datasets.
+The code and data available for this are freely available on GitHub.
+
+
+
+
+Table Two
+
+|Tree |SRL | MIG |  GMax | GMin | SCI | RCI |
+|-----|-----|-------|------|-----|----|-----|
+| Demar - Bayesian |  14.2 |  219 | 255 | 72.1 | 0.622 | -1437 |
+| Demar - Parsimony | 14.2 |  197 | 255 | 72.1 |  0.746 |  -1284 |
+
+|Tree | SRL | MIG |  GMax | GMin | SCI | RCI |
+|-----|-----|-------|------|-----|-----|-----|
+| Yates - Bayesian |  137 |  178 | 341 | 28.5 | 0.643 | -30.1 |
+| Yates - Parsimony | 137 |  149|  341 | 28.5 |  0.803 |  -8.46 |
+
+
 
 # References
 
