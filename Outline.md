@@ -82,8 +82,7 @@ Empirical datasets were downloaded from graemetlloyd.com/matr.html, the same sta
 We initially excluded any data sets that were molecular, phenetic, ontogenetic or meta-analytical as these do not represent data sets intended for morphological phylogenetic inference (our focus here).
 In the repository, and more broadly amongst morphological phylogenetics, many datasets are derived from older datasets with little or no modification.
 For example, a matrix in the repository may have derivative matrices in which taxon or characters sampling was expanded from (see Figure S1 of Hartman et al. 2019 for an excellent illustration of the how complex this issue can become).
-For this study, if there were multiple dataset derivatives, we chose the largest or most expansive dataset using the same criteria applied by Wright et al. (2016) employing the approriate metadata available in the XML files associated with each data set.
-We also excluded data sets with polymorphisms or uncertainties [because RevBayes no likey?].
+For this study, if there were multiple dataset derivatives, we chose the largest or most expansive dataset using the same criteria applied by Wright et al. (2016) employing the appropriate metadata available in the XML files associated with each data set.
 The final matrices contained 128 data sets.
 
 ## Phylogenetic Analysis
@@ -139,7 +138,7 @@ These multi-dimensional scaling graphs demonstrate that the Bayesian posterior s
 In most estimations, the posterior sample contains the parsimony trees, in addition to other solutions plausible under the model.
 As shown on Fig. 2, it is very possible in both Bayesian and maximum parsimony estimation to have topologies with good stratigraphic fit plotted near trees with poor stratigraphic fit.
 This indicates that in some treespaces, there may be little topological difference between a tree that is quite good with respect to stratigraphic fit and a tree with poor stratigraphic fit.
-In other words, the landscapes of stratigraphic congruence is generally highly volatile - something boxplots fail to capture. 
+In other words, the landscapes of stratigraphic congruence is generally highly volatile - something boxplots fail to capture.
 As in the boxplots, the treespace plots largely indicate that the parsimony trees fall within the range of solutions explored in a Bayesian search.
 
 # Discussion
@@ -177,29 +176,37 @@ This is in contrast to Fig. 4 (maybe Demar_2013), in which some areas of treespa
 
 ## Stratigraphic Congruence and optimality criterion
 
-This is an all together murkier question when the fullness of the posterior sample is considered.
+Which analytical method produces better stratigraphic congruences is an all together murkier question when the fullness of the posterior sample is considered.
 A table of averages for Yates (2003) and Demar (2013) is provided on Table Two.
 As can be seen on this table for both the Demar (2013) and Yates (2003) datasets, some average metrics are better for the Bayesian posterior sample, some for the set of most parsimonious trees.
+Overall, 54 of 128 datasets had lower average SCI using Bayesian methods (Table S1).
+36 had better SCI values under parsimony, and in 38 datasets the values were identical.
+On the other hand, for the RCI, 62 datasets had better average scores under parsimony.
 
-However, in Fig. 2, (boxplot + violin plot of Demar, perhaps?) we show a dataset from Demar et al (2013).
+An average may not be providing a good accounting of the variation in the results for each dataset.
+In Fig. 2, (boxplot + violin plot of Demar, perhaps?) we show a dataset from Demar et al (2013).
 The treespace for this dataset can be seen in Fig. 4.
-This is a highly structured treespace: because Bayesian MCMC samples in proportion to the posterior probability, we can infer from the shape of this treespace visualization that there are two peaks to this distribution.
+This is a highly structured treespace: because Bayesian MCMC samples in proportion to the posterior probability, we can infer from the shape of this treespace visualization that there are two peaks to this distribution that contained fairly good trees.
 There are three most-parisimonious trees; two are sampled from one peak with poor stratigraphic fit, one is sampled from the peak with fairly good stratigraphic fit.
-In this case, averaging is unlikely to produce a value that represents tree space accurately: the average in this case is likely to be a value that actually doesn't belong to a tree that was sampled in the analysis at all.
+In this case, averaging is unlikely to produce a value that represents either peak adequately,a and the average in this case may be a value that doesn't belong to a tree that was sampled in the analysis at all.
+
 
 In the case of the Yates (2003) dataset, treespace is sampled much more evenly.
 In this case, taking an average is likely to represent the sample a bit better.
-Even so, the boxplots in Fig. 1 demonstrate that the mean and variance for the parsimony estimates are almost wholly subsumed in the Bayesian posterior sample.
+Even so, there are a number of problems with comparing means.
+As shown in the boxplots of Fig. 1, the mean and variance for the parsimony estimates are almost wholly subsumed in the Bayesian posterior sample.
 This is largely expected: the Bayesian posterior sample encompasses all trees sampled in the analysis (typically thinned by some proportion as they are exported from the tree estimation software).
 The set of most parsimonious trees contains a sample of the best trees according to an optimality criterion.
 Assuming both estimation criteria are using the same data to sample the same treespace, we would expect that averaging among the best trees should produce better stratigraphic congruence.
-However, it appears in practice that averaging among only the best trees does not help parsimony much at all  (Fig. 1, Fig. 3, Table Two, Sansom et al. Fig. 1).
+However, looking across all the datasets, only a slight improvement is seen from this biased averaging (Table S1, Sansom et al. Fig. 1).
 
-If stratigraphic congruence is better in trees produced by one optimality criterion than another is perhaps the wrong question.
-A better question to ask may be "How can researchers explore and quantify variation in their posterior samples?"
+Which analytical method produces better stratigraphic congruence is the wrong question.
+A better question to ask may be "How can researchers explore and quantify variation in their sets of solutions?"
 In writing this manuscript, we used and modified a set of tools available in the R programming language.
-These tools, such as the package `RWTY`, enabled us to read in many large posterior samples, and to calculate treespace plots across over 100 empirical datasets.
+These tools, such as the package `RWTY`, enabled us to read in many large posterior samples, and to calculate treespace plots across 128 empirical datasets.
 The code and data available for this are freely available on GitHub.
+We would like to close this manuscript by noting that the tools to perform complex formatting and subsetting datasets, including large ones such as a Bayesian posterior sample, are more accessible than ever.
+We look forward to many years of interesting analyses about how different methods explore and sample phylogenetic tree space.
 
 
 
