@@ -62,7 +62,7 @@ Then, from the simulation data, a tree has been estimated under both parsimony a
 Finally, a summary tree for each method is computed and compared to the tree under which it was simulated.
 Often, this focuses on the behavior of the researcher, comparing a Bayesian consensus tree to a parsimony consensus tree (self-flagellate).
 Most phylogenetic estimates in published articles are presented as point estimates.
-Because parsimony trees are most commonly published as majority-rule [or strict?] consensus trees, computing this type of summary for both treatments (parsimony and Bayesian) and comparing them is fairly straightforward.
+Because parsimony trees are most commonly published as majority-rule or strict consensus trees, computing this type of summary for both treatments (parsimony and Bayesian) and comparing them is fairly straightforward.
 Comparisons have typically involved tree-based metrics, such as the Robinson-Foulds, which supplies the number of bifurcations that differ between two trees.
 While this approach makes a degree of sense [shade: cast], it also does not include or account for most of the results associated with Bayesian estimation (the posterior sample).
 
@@ -95,7 +95,7 @@ For the Bayesian approach we analysed each dataset under the Mk model in the sof
 We partitioned each dataset according to the number of states per character in order to specify an appropriate _Q_-matrix.
 Among-character rate variation was parameterized according to a Gamma distribution with four discrete categories.
 Branch lengths were drawn from an exponential distribution.
-Datasets were run for one million generations, and then assessed visually for convergence.
+Datasets were run for one million generations, and then assessed visually for convergence using Tracer.
 
 Maximum Parsimony trees were re-estimated for each data matrix using TNT (Goloboff and Catalano 2016).
 Implicit enumeration was used where there were 24 or fewer tips.
@@ -134,14 +134,22 @@ The spread of stratigraphic congruence metrics is much higher in the Bayesian an
 For most metrics, the median of the parsimony sample is lower than the median of the Bayesian sample.
 However, in most instances the stratigraphic congruence of the most parsimonious tree or set of trees is contained within the quartiles of the boxplot.
 
+![](Figures/Fig1Labelled.pdf)
+
+> Fig. 1: Plots showing Minimum Implied Gap score (MIG) for the posterior sample and set of most parsimnonious trees for the Yates (2003) dataset. Panel A shows boxplots of the distributios of MIG scores, as in Sansom (2018). Panel B shows the same data, but as a violin plot with points overlain. Panel C shows a treespace visualization, with points colored by MIG score. Large points indicate parsimony trees.
+
 We also visualized these data as treespace plots.
-An example treespace plot can be seen in Fig. 2, and the full set of treespace plots is available in the supplemental material.
+An example treespace plot can be seen in Fig. 1c, and the full set of treespace plots is available in the supplemental material.
 These multi-dimensional scaling graphs demonstrate that the Bayesian posterior samples contain many more trees, including many more trees that are substantially different from one another, than the parsimony estimations do.
 In most estimations, the posterior sample contains the parsimony trees, in addition to other solutions plausible under the model.
-As shown on Fig. 2, it is very possible (and even common) in both Bayesian and maximum parsimony estimation to have topologies with good stratigraphic fit plotted near trees with poor stratigraphic fit (and for dissimilar trees to have similar or even identical stratigraphic fits).
+As shown on Fig. 1c, it is very possible (and even common) in both Bayesian and maximum parsimony estimation to have topologies with good stratigraphic fit plotted near trees with poor stratigraphic fit (and for dissimilar trees to have similar or even identical stratigraphic fits).
 This indicates that in some treespaces, there may be little topological difference between a tree that is quite good with respect to stratigraphic fit and a tree with poor stratigraphic fit.
 In other words, the landscapes of stratigraphic congruence is generally highly volatile - something boxplots fail to capture.
 As in the boxplots, the treespace plots largely indicate that the parsimony trees fall within the range of solutions explored in a Bayesian search.
+
+![](Figures/Fig2Labelled.pdf)
+
+> Fig. 2: Plots showing Minimum Implied Gap score (MIG) for the posterior sample and set of most parsimnonious trees for the Demar (2013) dataset. Plot types and labels are the same as in Fig. 1. In contrast to Fig. 1, there are defined regions of treespace in which trees with better MIG scores are found.
 
 # Discussion
 
@@ -152,7 +160,7 @@ Rather, it is to examine solutions and outcomes that are plausible given the mod
 This is particularly important in phylogenetics, where we are estimating lineage divergences that occurred tens or hundreds of millions of years ago.
 We do this from scarce, and likely biased data, using models that may or may not adequately capture reality.
 To responsibly present a solution under these conditions must mean incorporating uncertainty in that solution.
-It is prudent to avoid using a single point estimate summary of a posterior sample. [NOICE!]
+It is prudent to avoid using a single point estimate summary of a posterior sample. 
 
 The authors of this work are not immune to using a point estimate of topology from a posterior sample to compare to a point estimate of a parsimony topology (see Wright and Hillis 2014).  
 But the properties of a Bayesian analysis are different than a parsimony analysis.
@@ -170,18 +178,18 @@ But they can also fail to approximate the true distribution of the posterior, pa
 However, it is also not reasonable for researchers to examine every single tree in a posterior sample.
 How can a researcher draw reasonable conclusions from their posterior sample?
 Over the past five years, modern and open-source treespace visualization software has become available.
-As demonstrated in Fig. 3 (treespace, I guess?), treespace visualizations show the distance between trees in the sample, and enable researchers to color points by other factors (formally generating so-called tree "landscapes"; St John 2017).
-As can be seen in Fig. 3, both the Bayesian and parsimony analyses predominantly sampled two islands of tree space.
+As demonstrated in Fig. 1c (a treespace plot made from the posterior sample estimated from the Yates (2003) dataset), treespace visualizations show the distance between trees in the sample, and enable researchers to color points by other factors (formally generating so-called tree "landscapes"; St John 2017).
+As can be seen in Fig. 1c, both the Bayesian and parsimony analyses predominantly sampled two islands of tree space.
 The points in this graphic show that topologically similar trees can have wildly different Minimum Implied Gap scores.
 For this dataset, it does not appear that certain regions of treespace produce better stratigraphic congruence.
-This is in contrast to Fig. 4 (maybe Demar_2013), in which some areas of treespace clearly contain trees that have better fit to the stratigraphic record.
+This is in contrast to Fig. 2c (a treespace plot made from the posterior sample estimated from the Demar (2013) dataset), in which some areas of treespace clearly contain trees that have better fit to the stratigraphic record.
 
 ## Stratigraphic Congruence and optimality criterion
 
 Which analytical method produces better stratigraphic congruences is an all together murkier question when the fullness of the posterior sample is considered.
 A table of averages for Yates (2003) and Demar (2013) is provided on Table Two.
 As can be seen on this table for both the Demar (2013) and Yates (2003) datasets, some average metrics are better for the Bayesian posterior sample, some for the set of most parsimonious trees.
-Overall, 54 of 128 datasets had lower average SCI using Bayesian methods (Table S1). [So this section is I guess a somewhat random accounting of the strat congruence metrics. The "big four" are probably SCI, MSM, RCI and GER. I dislike SCI as it treats the data as discrete rather than continuous so all gaps are "equal" when really they aren't. The other three are all just driven by MIG and so this would be my preferred metric, even though it isn't strictly a metric.]
+Overall, 54 of 128 datasets had lower average SCI using Bayesian methods (Table S1). [So this section is I guess a somewhat random accounting of the strat congruence metrics. The "big four" are probably SCI, MSM, RCI and GER. I dislike SCI as it treats the data as discrete rather than continuous so all gaps are "equal" when really they aren't. The other three are all just driven by MIG and so this would be my preferred metric, even though it isn't strictly a metric.][#AMW: can you write this in to the discussion? You know SC metrics much better than I]
 36 had better SCI values under parsimony, and in 38 datasets the values were identical.
 On the other hand, for the RCI, 62 datasets had better average scores under parsimony.
 
@@ -206,7 +214,7 @@ A better question to ask may be "How can researchers explore and quantify variat
 Here we argue a key but underappreciated visualization tool (treespace) may be especially useful.
 Implementations of such tools have been in place for well over a decade (Hillis et al. 2005), but we are unaware of them being used in any published analysis of samples of trees produced from morphological data.
 We also note that we see many different "kinds" of treespace across the data sets examined here.
-For example, single or multiple-tree islands, smooth or volatile gradients, parsimony samples enevloped by Bayesian samples, or parsimony and Bayesian samples occupying different parts of the space.
+For example, single or multiple-tree islands, smooth or volatile gradients, parsimony samples enveloped by Bayesian samples, or parsimony and Bayesian samples occupying different parts of the space.
 
 In writing this manuscript, we used and modified a set of tools available in the R programming language. [This seems like a swerve so made it a separate paragraph. Might want a header as well though - Conclusion?]
 These tools, such as the package `RWTY`, enabled us to read in many large posterior samples, and to calculate treespace plots across 128 empirical datasets.
