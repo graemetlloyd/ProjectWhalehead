@@ -1,6 +1,6 @@
 # Violin Plots
 
-files <- list.files(path = "Data/StratCongruenceResults/InputTreeResults", pattern = "*.txt", full.names = TRUE, recursive = FALSE)
+files <- list.files(path = "Data/StratCongruenceResults/InputTreeResults/Yates_2003a.txt", pattern = "*.txt", full.names = TRUE, recursive = FALSE)
 
 makeViolins <- function(x) {
   fi <- read.table(x, header = TRUE, sep = " ")

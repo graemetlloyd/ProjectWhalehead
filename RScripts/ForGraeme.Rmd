@@ -76,11 +76,12 @@ custom_plots <- function (CombinedTrees, StratFile) {
   dataforvoronoi <- points[, c("x", "y", "bayes", "MIG")]
   # Write out to Voronoi folder:
   write.table(dataforvoronoi, paste(gsub("CombinedTrees", "VoronoiData", file_path_sans_ext(CombinedTrees)), ".txt", sep = ""), row.names = FALSE)
-  pp <- ggplot(points, aes(x = x, y = y, color = points$MIG))
-  final <- pp + geom_point(aes(size=bayes)) + scale_size(range = c(5,1)) + guides(size = guide_legend(reverse=TRUE)) + scale_colour_gradient(low = "blue", high = "yellow") 
+ pp <- ggplot(points, aes(x = x, y = y, color = points$MIG))
+final<- pp + geom_point(aes(size=bayes)) + scale_size(range = c(5,1), guide = FALSE)  +   scale_colour_gradient(low = "blue", high = "yellow", guide = guide_colorbar(title = "MIG"))
   just_file <- file_path_sans_ext(CombinedTrees)
   new_filename <- gsub("CombinedTrees", "TreeSpacePlots", paste0(just_file, '.pdf'))
   ggsave(new_filename, final)
+  return(final)
 }
 ```
 This is my function to make the tip labels between the parsimony trees and the Bayesian trees congruent. I borrowed heavily from your code, obivously.
