@@ -200,12 +200,6 @@ As can be seen from Table Two, sometimes the MIG favours the Bayesian posterior 
 Overall, 47 of 128 datasets (36.7%) had lower average MIG using Bayesian methods (Table S1).
 However, for 120 of 128 datasets (93.8%) the lowest MIG tree belonged to the Bayesian sample and for 127 of 128 (99.2%) datasets the Bayesian sample included the highest MIG tree.
 
-
-#Code I used to do this, the output of which could be used to form the Table S1 output:
-#setwd("~/Documents/Publications/in prep/Strat congruence - April/ProjectWhalehead/Data/StratCongruenceResults/InputTreeResults")
-#MIGSummary <- do.call(rbind, lapply(as.list(list.files()), function(x) {y <- read.table(x); c(BayesMeanMIG = mean(y[y[, "Bayes"] == 1, "MIG"]), ParsimonyMeanMIG = mean(y[y[, "Bayes"] == 0, "MIG"]), BayesMinMIG = min(y[y[, "Bayes"] == 1, "MIG"]), ParsimonyMinMIG = min(y[y[, "Bayes"] == 0, "MIG"]), BayesMaxMIG = max(y[y[, "Bayes"] == 1, "MIG"]), ParsimonyMaxMIG = max(y[y[, "Bayes"] == 0, "MIG"]))}))
-
-
 An average may not be providing a good accounting of the variation in the results for each dataset.
 In Fig. 2A and 2B, we show a dataset from Demar et al (2013).
 The treespace for this dataset can be seen in Fig. 2C.
