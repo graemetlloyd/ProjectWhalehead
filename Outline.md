@@ -2,7 +2,7 @@
 title: "Bayesian Analyses In Phylogenetic Paleontology: Interpreting the Posterior Sample"
 output: html_document
 author:
-- Graeme T. LLoyd
+- Graeme T. Lloyd
 - April M. Wright
 bibliography: ../refs.bib
 ---
