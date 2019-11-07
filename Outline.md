@@ -72,7 +72,7 @@ While this approach makes a degree of sense, it also does not include or account
 An underutilised comparative tool between trees is their stratigraphic congruence - how well they match the order of appearance of taxa in the fossil record.
 Sansom et al (2017) used stratigraphic congruence to compare parsimony and Bayesian summary trees to assess which analytical method produces trees that best fit the fossil record.
 The most attractive feature of this approach is that it employs extrinsic criteria, evaluating how well the tree fits data external to that used to infer the tree.
-Stratigraphic congruence methods (Table One) use various measures to determine how well an estimated tree fits first and last appearance data for the fossil tips on this tree.
+Stratigraphic congruence methods (Table 1) use various measures to determine how well an estimated tree fits first and last appearance data for the fossil tips on this tree.
 Sansom et al. estimated trees for empirical datasets under both Maximum Parsimony and Bayesian estimation, computed consensus trees, and calculated stratigraphic fit for a sample of 500 trees from the posterior, then averaged those stratigraphic congruences.
 This is a novel way to independently compare the fit of trees produced under different optimality criteria, although previously it has been used to compare competing hypotheses of relationships (Brochu and Norell 2000).
 In this manuscript, we extend this approach to evaluate the whole posterior sample for stratigraphic fit and, critically, plot stratigraphic fit of individual trees in the posterior or the set of most parsimonious trees in "treespace" (sensu Hillis et al. 2005).
@@ -134,7 +134,7 @@ The full set of code and data used are available at: github.com/graemetlloyd/Pro
 # Results
 
 For direct comparison with Sansom et al. (2018), we made boxplots of the distributions of several stratigraphic congruence measures (Supplementary Figures SX-SZ?).
-We made these figures comparing the posterior sample and the set of most parsimonious trees for each dataset, and each stratigraphic congruence metric shown on Table One.
+We made these figures comparing the posterior sample and the set of most parsimonious trees for each dataset, and each stratigraphic congruence metric shown on Table 1.
 Note that a major difference between a Bayesian sample and a parsimony sample is that the former can include duplicate trees (those visited multiple times by the MCMC, whereas a parsimony analysis only returns unique topolog(ies)).
 One such boxplot can be seen in Fig. 1A.
 The spread of stratigraphic congruence metrics is much higher in the Bayesian analysis and this is typical of the majority of data sets.
@@ -157,15 +157,6 @@ As in the boxplots, the treespace plots largely indicate that the parsimony tree
 ![](Figures/Fig2Labelled.pdf)
 
 > Fig. 2: Plots showing Minimum Implied Gap score (MIG) for the posterior sample and set of most parsimonious trees for the Demar (2013) dataset. Plot types and labels are the same as in Fig. 1. In contrast to Fig. 1, there are defined regions of treespace in which trees with better MIG scores are found.
-
-| Tree              | Mean MIG |  Max MIG | Min MIG | 
-|-------------------|----------|----------|---------|
-| Demar - Bayesian  | 219      | 248      | 177     |
-| Demar - Parsimony | 197      | 255      | 161     |
-| Yates - Bayesian  | 149      | 302      | 57      |
-| Yates - Parsimony | 178      | 305      | 128     |
-
-> Table Two: Summary of the MIG values for the two figured example data sets. Note that this illustrates that neither Bayesian nor parsimony consistently has the best fit (lowest MIG), but that Bayesian approaches generally have larger variance (and range) as they typically represent larger samples of treespace.
 
 # Discussion
 
@@ -203,12 +194,21 @@ This is in contrast to Fig. 2C (a treespace plot made from the posterior sample 
 ## Stratigraphic congruence and optimality criterion
 
 Which analytical method is most congruent with stratigraphy is an all together murkier question when the fullness of the posterior sample is considered.
-A table of averages for Yates (2003) and Demar (2013) is provided in Table Two.
+A table of averages for Yates (2003) and Demar (2013) is provided in Table 2.
 Here we limit our consideration to just the MIG metric, as this is both a simple way to capture the key difference (total implied missing history in millions of years) and is the primary variable driving three of the four other metrics (GER, MSM*, and RCI).
 The other (SCI) is not favoured here as it treats all implied gaps in the record the same regardless of their duration.
-As can be seen from Table Two, sometimes the MIG favours the Bayesian posterior sample, sometimes the set of most parsimonious trees.
+As can be seen from Table 2, sometimes the MIG favours the Bayesian posterior sample, sometimes the set of most parsimonious trees.
 Overall, 47 of 128 datasets (36.7%) had lower average MIG using Bayesian methods (Table S1).
 However, for 120 of 128 datasets (93.8%) the lowest MIG tree belonged to the Bayesian sample and for 127 of 128 (99.2%) datasets the Bayesian sample included the highest MIG tree.
+
+| Tree              | Mean MIG |  Max MIG | Min MIG | 
+|-------------------|----------|----------|---------|
+| Demar - Bayesian  | 219      | 248      | 177     |
+| Demar - Parsimony | 197      | 255      | 161     |
+| Yates - Bayesian  | 149      | 302      | 57      |
+| Yates - Parsimony | 178      | 305      | 128     |
+
+> Table 2: Summary of the MIG values for the two figured example data sets. Note that this illustrates that neither Bayesian nor parsimony inferred trees consistently have the best fit (lowest MIG), contra Sansom et al. (2017).
 
 An average may not be providing a good accounting of the variation in the results for each dataset.
 In Fig. 2A and 2B, we show a dataset from Demar et al (2013).
@@ -235,9 +235,11 @@ For example, single or multiple-tree islands, smooth or volatile gradients of st
 
 # Conclusion
 
-In writing this manuscript it was not our goal to settle the "parsimony versus Bayesian" argument, rather it is to present am underutilised set of tools already available in the R programming language that can better help .
+In writing this manuscript we have shown that "parsimony versus Bayesian" is 
 
+it was not our goal to settle the  argument, rather it is to present am underutilised set of tools already available in the R programming language that can better help .
 
+Test (@fenner2012a).
 
 
 In writing this manuscript, we used and modified a set of tools already available in the R programming language. 
@@ -253,6 +255,11 @@ We look forward to many years of interesting analyses about how different method
 
 
 # References
+
+
+
+
+
 
 Bell, M. A. and Lloyd, G. T., 2015. strap: an R package for plotting phylogenies against stratigraphy and assessing their stratigraphic congruence. Palaeontology, 58, 379-389.
 
@@ -309,3 +316,23 @@ Wills, M. A. 1999a. Congruence between phylogeny and stratigraphy: randomization
 Will, M. A., Barrett, P. M. and Heathcote, J. F. 2008. The modified Gap Excess Ratio (GER*) and the stratigraphic congruence of dinosaur phylogenies. Systematic Biology, 57, 891–904.
 
 Wright, A. M., Lloyd, G. T. and Hillis, D. M., 2016. Modeling character change heterogeneity in phylogenetic analyses of morphology through the use of priors. Systematic Biology, 65, 602-611.
+
+---
+references:
+- id: fenner2012a
+title: One-click science marketing
+author:
+- family: Fenner
+given: Martin
+container-title: Nature Materials
+volume: 11
+URL: 'http://dx.doi.org/10.1038/nmat3283'
+DOI: 10.1038/nmat3283
+issue: 4
+publisher: Nature Publishing Group
+page: 261-263
+type: article-journal
+issued:
+year: 2012
+month: 3
+---
