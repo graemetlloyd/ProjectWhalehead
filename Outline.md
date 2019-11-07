@@ -9,7 +9,7 @@ bibliography: ../refs.bib
 
 # Introduction:
 
-Inferring the tree of life, and using phylogenetic trees to understand organismal form and function is a prime challenge in biology.
+Inferring the tree of life, and using phylogenetic trees to understand organismal form and function, is a prime challenge in biology.
 Phylogenetic trees provide a historical perspective on relationships between taxa, and performing comparative biological studies without a phylogenetic context is misleading (Felsenstein 1985).
 While many researchers in comparative biology have moved to using molecular data to estimate phylogenetic trees, fossils remain the sole source of character data for many extinct groups.
 Fossils provide the only direct evidence for historical trends in many groups (Cobbett et al. 2007; Koch and Parry in review).
@@ -65,7 +65,7 @@ Finally, a summary tree for each method is computed and compared to the tree und
 Often, this focuses on the behavior of the researcher, comparing a Bayesian consensus tree to a parsimony consensus tree (self-flagellate).
 Most phylogenetic estimates in published articles are presented as point estimates.
 Because parsimony trees are most commonly published as majority-rule or strict consensus trees, computing this type of summary for both treatments (parsimony and Bayesian) and comparing them is fairly straightforward.
-(Although it is worth noting that a topology can appear multiple times in a Bayesian sample but never more than oncce in a parsimony sample.)
+(Although it is worth noting that a topology can appear multiple times in a Bayesian sample but never more than once in a parsimony sample.)
 Comparisons have typically involved tree-based metrics, such as the Robinson-Foulds (Robinson and Foulds 1981), which supplies the number of bifurcations that differ between two trees.
 While this approach makes a degree of sense, it also does not include or account for most of the results associated with Bayesian estimation (the posterior sample).
 
@@ -112,14 +112,15 @@ We calculated stratigraphic congruence values for each tree in the Bayesian post
 For each dataset, we used the `PaleobiologyDBOccurrenceQuerier` function in the `metatree` R package (github.com/graemetlloyd/metatree) to query the Paleobiology Database for minimum and maximum ages of each tip in the analysis.
 Using the R package `strap` (Bell and Lloyd 2015), we calculated several stratigraphic congruence metrics: Minimum Implied Gap (MIG), Stratigraphic Consistency Index (SCI), Relative Completeness Index (RCI), Gap Excess Ratio (GER), Manhattan Stratigraphic Measure (MSM*), and Wills' modifications of GER (GERt and GER*). An explanation of these metrics can be seen in Table 1.
 
-
 | Metric | Reference(s) | Meaning | Range |
 |--------|--------------|---------|-------|
-| Stratigraphic consistency index (SCI) | Huelsenbeck 1994 | Proportion of nodes for which the oldest descendent of that node is younger than the oldest descendent of that node's ancestor| 0 to 1, with one being perfectly consistent |
-| Minimum Implied Gap (MIG) | Norell 1992; Norell and Novacek 1992 | The sum of the branch lengths without terminal tip ranges | Positive numbers in millions of years |
-| Relative Completeness Index (RCI) | Benton and Storrs 1994 | MIG score proportional to the total length of tip intervals | All real numbers |
-| Manhattan Stratigraphic Measure (MSM*) | Siddall 1998; Pol and Norell 2001 | MIG for the most stratigraphically consistent possible tree divided by the actual MIG | 0 to 1, with one being the most consistent |
-| Gap Excess Ratio (GER) | Wills 1999; WIlls et al. 2008 | MIG minus the best possible stratigraphic fit, scaled by the contrast between the best and worst fit values | 0 to 1, with one being the most consistent |
+| Stratigraphic Consistency Index (SCI) | Huelsenbeck 1994 | Proportion of nodes for which the oldest descendent of that node is younger than the oldest descendent of that node's ancestor | 0 to 1, with one being perfectly consistent |
+| Minimum Implied Gap (MIG) | Norell 1992; Norell and Novacek 1992 | The sum of the branch lengths excluding tip durations | Positive numbers in millions of years |
+| Relative Completeness Index (RCI) | Benton and Storrs 1994 | MIG score proportional to the summed length of tip durations | All real numbers |
+| Manhattan Stratigraphic Measure (MSM*) | Siddall 1998; Pol and Norell 2001 | MIG for the maximally stratigraphically consistent possible tree divided by the actual MIG | 0 to 1, with one being the most consistent |
+| Gap Excess Ratio (GER) | Wills 1999; Wills et al. 2008 | MIG minus the best possible stratigraphic fit, scaled by the contrast between the best and worst fit values | 0 to 1, with one being the most consistent |
+
+> Table 1: - Caption.
 
 For each set of topologies and stratigraphic congruence results, we plotted a treespace plot in the R package `RWTY`.
 `RWTY` calculates the topological differences between the trees in the posterior sample using the Robinson-Foulds metric.
