@@ -120,7 +120,7 @@ Using the R package `strap` (Bell and Lloyd 2015), we calculated several stratig
 | Manhattan Stratigraphic Measure (MSM*) | Siddall 1998; Pol and Norell 2001 | MIG for the maximally stratigraphically consistent possible tree divided by the actual MIG | 0 to 1, with one being the most consistent |
 | Gap Excess Ratio (GER) | Wills 1999; Wills et al. 2008 | MIG minus the best possible stratigraphic fit, scaled by the contrast between the best and worst fit values | 0 to 1, with one being the most consistent |
 
-> Table 1: - Caption.
+> Table 1: - Summary of the common stratigraphic congruence metrics used. Here we prefer the MIG as our primary cmparative metric as it both captures absolute fit to the fossil record and is the primary driver of three other metrics (RCI, MSM, GER).
 
 For each set of topologies and stratigraphic congruence results, we plotted a treespace plot in the R package `RWTY`.
 `RWTY` calculates the topological differences between the trees in the posterior sample using the Robinson-Foulds metric.
@@ -158,6 +158,15 @@ As in the boxplots, the treespace plots largely indicate that the parsimony tree
 
 > Fig. 2: Plots showing Minimum Implied Gap score (MIG) for the posterior sample and set of most parsimonious trees for the Demar (2013) dataset. Plot types and labels are the same as in Fig. 1. In contrast to Fig. 1, there are defined regions of treespace in which trees with better MIG scores are found.
 
+| Tree              | Mean MIG |  Max MIG | Min MIG | 
+|-------------------|----------|----------|---------|
+| Demar - Bayesian  | 219      | 248      | 177     |
+| Demar - Parsimony | 197      | 255      | 161     |
+| Yates - Bayesian  | 149      | 302      | 57      |
+| Yates - Parsimony | 178      | 305      | 128     |
+
+> Table Two: Summary of the MIG values for the two figured example data sets. Note that this illustrates that neither Bayesian nor parsimony consistently has the best fit (lowest MIG), but that Bayesian approaches generally have larger variance (and range) as they typically represent larger samples of treespace.
+
 # Discussion
 
 ## Summarizing a posterior sample
@@ -167,7 +176,7 @@ Rather, it is to examine solutions and outcomes that are plausible given the mod
 This is particularly important in phylogenetics, where we are estimating lineage divergences that occurred tens or hundreds of millions of years ago.
 We do this from scarce, and likely biased data, using models that may or may not adequately capture reality.
 To responsibly present a solution under these conditions must mean incorporating uncertainty in that solution.
-It is prudent to avoid using a single point estimate summary of a posterior sample, whether a summary tree or an average value computed across several trees. [HARD AGREE ON ALL OF THIS]
+It is prudent to avoid using a single point estimate summary of a posterior sample, whether a summary tree or an average value computed across several trees.
 
 The authors of this work are not immune to using a point estimate of topology from a posterior sample to compare to a point estimate of a parsimony topology (see Wright and Hillis 2014).  
 But the properties of a Bayesian analysis are different than a parsimony analysis.
@@ -226,6 +235,11 @@ For example, single or multiple-tree islands, smooth or volatile gradients of st
 
 # Conclusion
 
+In writing this manuscript it was not our goal to settle the "parsimony versus Bayesian" argument, rather it is to present am underutilised set of tools already available in the R programming language that can better help .
+
+
+
+
 In writing this manuscript, we used and modified a set of tools already available in the R programming language. 
 These tools, such as the package `RWTY`, enabled us to read in many large posterior samples, and to calculate treespace plots across 128 empirical datasets.
 The code and data available for this are freely available on GitHub.
@@ -235,14 +249,6 @@ We look forward to many years of interesting analyses about how different method
 
 
 
-Table Two 
-
-|Tree | Mean MIG   |  Max MIG | Min MIG | 
-|-----|------------|----------|---------|
-| Demar - Bayesian |  219     |    248  |  177 
-| Demar - Parsimony |  197 |    255 |    161 
-| Yates - Bayesian  | 149  |    302 |    57 
-| Yates - Parsimony | 178  | 305 | 128 |
 
 
 
