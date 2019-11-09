@@ -2,29 +2,29 @@
 title: "Bayesian Analyses In Phylogenetic Paleontology: Interpreting the Posterior Sample"
 output: html_document
 author:
-- Graeme T. LLoyd
+- Graeme T. Lloyd
 - April M. Wright
-bibliography: ../refs.bib
+bibliography: refs.bib
 ---
 
 # Introduction:
 
-Inferring the tree of life, and using phylogenetic trees to understand organismal form and function is a prime challenge in biology.
-Phylogenetic trees provide a historical perspective on relationships between taxa, and performing comparative biological studies without a phylogenetic context is misleading (Felsenstein 1985).
+Inferring the tree of life, and using phylogenetic trees to understand organismal form and function, is a primary challenge of biology.
+Phylogenetic trees provide a historical perspective on relationships between taxa, and performing comparative biological studies without a phylogenetic context is misleading [@felsenstein1985a].
 While many researchers in comparative biology have moved to using molecular data to estimate phylogenetic trees, fossils remain the sole source of character data for many extinct groups.
-Fossils provide the only direct evidence for historical trends in many groups (Cobbett et al. 2007; Koch and Parry in review).
-Excluding fossils from trees has been demonstrated to bias the inferences we draw from phylogenetic comparative analyses (Slater et al. 2012).
+Fossils provide the only direct evidence for historical trends in many groups [@cobbett2007; @koch2019].
+Excluding fossils from trees has been demonstrated to bias the inferences we draw from phylogenetic comparative analyses [@slater2012].
 Therefore, how to best include fossils in phylogenetic analyses remains a vital and thriving research topic.
 
 Phylogenetic analyses of discrete morphological data have traditionally been conducted under the maximum parsimony criterion, but Bayesian approaches are increasingly being employed instead.
-In part this is because Bayesian analyses allow not just estimation of topology, but more complex analyses, such as divergence time estimation.
+In part this is because Bayesian implementations allow not just estimation of topology, but more complex analyses, such as divergence time estimation.
 Bayesian methods assume an explicit model of evolution, and allow the researcher to set priors on each parameter in their model.
 In effect, this allows researchers to incorporate prior information about the value of parameters into their analysis.
-The most basic and restrictive model of morphological evolution is the Mk model, proposed in 2001 by Paul Lewis (Lewis 2001).
+The most basic and restrictive model of morphological evolution is the Mk model [@lewis2001].
 This model assumes equal rates of change between each state at a character.
 In practice, these assumptions are not much different than the basic assumptions of an equal-weights parsimony step matrix.
 However, these methods calculate a rate-based branch length in expected substitutions per site, allowing for the accommodation of multiple changes along a branch (e.g., a `0` state to a `1` state and back again), something parsimony cannot do.
-More elaborate models that allow for relaxation of the core assumptions of the Mk model have been published and evaluated (Nylander et al. 2004; Wright et al. 2016; OTHERS?).
+More elaborate models that allow for relaxation of the core assumptions of the Mk model have been published and evaluated [@Nylander2004; @wright2016].
 
 Comparing the results of a Bayesian analysis and a parsimony analysis can be difficult.
 Bayesian methods estimate what is called the _posterior sample_.
@@ -53,9 +53,9 @@ How to compare a Bayesian posterior sample and a set of most parsimonious trees 
 There are many aspects of parsimony analyses that are not strictly comparable to Bayesian analyses.
 For example, synapomorphies are interpreted differently in a Bayesian analysis, as multiple changes can occur along a branch.
 Bayesian analyses consider branch lengths (in substitutions per site for an undated tree) to be parameters of the model.
-Therefore, tree summarizations take these values into account (Bouckaert et al. 2019; Puttick????), not solely the topology.
+Therefore, tree summarizations take these values into account [@beast2] Puttick????), not solely the topology.
 Support values for bipartitions in the tree are calculated as part of a Bayesian estimation, being the number of times that a set of relationships is contained in the posterior sample.
-The assumption is that the sample, not simply the `best` tree, contains vital information.
+The assumption is that the sample, not simply the "best" tree, contains vital information.
 
 Because of these differences, formulating a fair comparison between parsimony and Bayesian trees is difficult.
 Most studies to date have focused on intrinsic comparisons, those comparisons about the tree itself.
@@ -64,45 +64,45 @@ Then, from the simulation data, a tree has been estimated under both parsimony a
 Finally, a summary tree for each method is computed and compared to the tree under which it was simulated.
 Often, this focuses on the behavior of the researcher, comparing a Bayesian consensus tree to a parsimony consensus tree (self-flagellate).
 Most phylogenetic estimates in published articles are presented as point estimates.
-Because parsimony trees are most commonly published as majority-rule or strict consensus trees, computing this type of summary for both treatments (parsimony and Bayesian) and comparing them based on a point estimate is fairly straightforward.
-(Although it is worth noting that a topology can appear multiple times in a Bayesian sample but never more than oncce in a parsimony sample.)
-Comparisons have typically involved tree-based metrics, such as the Robinson-Foulds (Robinson and Foulds 1981), which supplies the number of bifurcations that differ between two trees.
+Because parsimony trees are most commonly published as majority-rule or strict consensus trees, computing this type of summary for both treatments (parsimony and Bayesian) and comparing them is fairly straightforward.
+Although it is worth noting that a topology can appear multiple times in a Bayesian sample but never more than once in a parsimony sample.
+Comparisons have typically involved tree-based metrics, such as the Robinson-Foulds [@robinson1979; @robinson1981], which supplies the number of bifurcations that differ between two trees.
 While this approach makes a degree of sense, it also does not include or account for most of the results associated with Bayesian estimation (the posterior sample).
 
 An underutilised comparative tool between trees is their stratigraphic congruence - how well they match the order of appearance of taxa in the fossil record.
-Sansom et al (2017) used stratigraphic congruence to compare parsimony and Bayesian summary trees to assess which analytical method produces trees that best fit the fossil record.
+Sansom et al. (2018) used stratigraphic congruence to compare parsimony and Bayesian summary trees to assess which analytical method produces trees that best fit the fossil record.
 The most attractive feature of this approach is that it employs extrinsic criteria, evaluating how well the tree fits data external to that used to infer the tree.
-Stratigraphic congruence methods (Table One) use various measures to determine how well an estimated tree fits first and last appearance data for the fossil tips on this tree.
+Stratigraphic congruence methods (Table 1) use various measures to determine how well an estimated tree fits first and last appearance data for the fossil tips on this tree.
 Sansom et al. estimated trees for empirical datasets under both Maximum Parsimony and Bayesian estimation, computed consensus trees, and calculated stratigraphic fit for a sample of 500 trees from the posterior, then averaged those stratigraphic congruences.
-This is a novel way to independently compare the fit of trees produced under different optimality criteria, although previously it has been used to compare competing hypotheses of relationships (Brochu and Norell 2000).
-In this manuscript, we extend this approach to evaluate the whole posterior sample for stratigraphic fit and, critically, plot stratigraphic fit of individual trees in the posterior or the set of most parsimonious trees in "treespace" (sensu Hillis et al. 2005).
-We conclude that averaging a posterior sample to a summary statistic [is ?????], and encourage the use of more sophisticated visual tools, such as RWTY (Warren et al. 2017) to incorporate the variation in any one metric.
+This is a novel way to independently compare the fit of trees produced under different optimality criteria, although previously it has been used to compare competing hypotheses of relationships [@brochu2000].
+In this manuscript, we extend this approach to evaluate the whole posterior sample for stratigraphic fit and, critically, plot stratigraphic fit of individual trees in the posterior or the set of most parsimonious trees in "treespace" [@Hillis2005].
+We conclude that averaging a posterior sample to a summary statistic is an oversimplification, and encourage the use of more sophisticated visual tools, such as RWTY [@Warren2016] to incorporate the variation in any one metric.
 
 # Methods
 
 ## Dataset Filtering
 
-Empirical datasets were downloaded from graemetlloyd.com/matr.html, the same starting repository used by Sansom et al (2017).
+Empirical datasets were downloaded from graemetlloyd.com/matr.html, the same starting repository used by Sansom et al. (2018).
 We initially excluded any data sets that were molecular, phenetic, ontogenetic or meta-analytical as these do not represent data sets intended for morphological phylogenetic inference (our focus here).
 We additionally removed data sets with polymorphic or inapplicable characters as these are currently not well dealt with by Bayesian implementations.
 In the repository, and more broadly amongst morphological phylogenetics, many datasets are derived from older datasets with little or no modification.
-For example, a matrix in the repository may have derivative matrices in which taxon or characters sampling was expanded from (see Figure S1 of Hartman et al. 2019 for an excellent illustration of how complicated this issue can become).
-For this study, if there were multiple dataset derivatives, we chose the largest or most expansive dataset using the same criteria applied by Wright et al. (2016) and the appropriate metadata available in the XML files associated with each data set (Lloyd et al. 2016).
-The same XML files contain taxonomic reconciliations - links between OTU names used in the trees with taxa entered into the Paleobiology Database, the source used for our (and Sansom's) age data.
-Using the API (Peters and McClennen 2015) we further filtered the data down to just those where all taxa are both reconciled and have age data available in the database (i.e., at least one fossil occurrence is attributable to each OTU).
-The final data set comprised 128 different data sets.
+For example, a matrix in the repository may have derivative matrices in which taxon or characters sampling was expanded from (see Figure S1 of [@hartman2019] for an excellent illustration of how complicated this issue can become).
+For this study, if there were multiple dataset derivatives, we chose the largest or most expansive dataset using the same criteria applied by Wright et al. (2016) and the appropriate metadata available in the XML files associated with each data set [@lloyd2016].
+The same XML files contain taxonomic reconciliations - links between OTU names used in the trees with taxa entered into the Paleobiology Database, the source used for our (and [@sansom2018]) age data.
+Using the API [@peters2016] we further filtered the data down to just those where all taxa are both reconciled and have age data available in the database (i.e., at least one fossil occurrence is attributable to each OTU).
+The final pool comprised 128 different data sets.
 
 ## Phylogenetic Analysis
 
 Each data set was analysed under both Maximum Parsimony and Bayesian criteria.
 
-For the Bayesian approach we analysed each dataset under the Mk model in the software RevBayes [CITE?].
+For the Bayesian approach we analysed each dataset under the Mk model in the software RevBayes [@Hohna2014, @Hohna2016].
 We partitioned each dataset according to the number of states per character in order to specify an appropriate _Q_-matrix.
 Among-character rate variation was parameterized according to a Gamma distribution with four discrete categories.
 Branch lengths were drawn from an exponential distribution.
 Datasets were run for one million generations, and then assessed visually for convergence using Tracer.
 
-Maximum Parsimony trees were re-estimated for each data matrix using TNT (Goloboff and Catalano 2016).
+Maximum Parsimony trees were re-estimated for each data matrix using TNT [@goloboff2016].
 Implicit enumeration was used where there were 24 or fewer tips.
 For larger tip counts 20 replicates of new technology searches followed by a round of tree bisection-reconnection were applied with maxtreees capped at 100,000.
 
@@ -110,21 +110,22 @@ For larger tip counts 20 replicates of new technology searches followed by a rou
 
 We calculated stratigraphic congruence values for each tree in the Bayesian posterior sample, and each most parsimonious tree in the dataset.
 For each dataset, we used the `PaleobiologyDBOccurrenceQuerier` function in the `metatree` R package (github.com/graemetlloyd/metatree) to query the Paleobiology Database for minimum and maximum ages of each tip in the analysis.
-Using the R package `strap` (Bell and Lloyd 2015), we calculated several stratigraphic congruence metrics: Minimum Implied Gap (MIG), Stratigraphic Consistency Index (SCI), Relative Completeness Index (RCI), Gap Excess Ratio (GER), Manhattan Stratigraphic Measure (MSM*), and Wills' modifications of GER (GERt and GER*). An explanation of these metrics can be seen in Table 1.
-
+Using the R package `strap` [@bell2015], we calculated several stratigraphic congruence metrics: Minimum Implied Gap (MIG), Stratigraphic Consistency Index (SCI), Relative Completeness Index (RCI), Gap Excess Ratio (GER), Manhattan Stratigraphic Measure (MSM*), and Wills' modifications of GER (GERt and GER*). An explanation of these metrics can be seen in Table 1.
 
 | Metric | Reference(s) | Meaning | Range |
 |--------|--------------|---------|-------|
-| Stratigraphic consistency index (SCI) | Huelsenbeck 1994 | Proportion of nodes for which the oldest descendent of that node is younger than the oldest descendent of that node's ancestor| 0 to 1, with one being perfectly consistent |
-| Minimum Implied Gap (MIG) | Norell 1992; Norell and Novacek 1992 | The sum of the branch lengths without terminal tip ranges | Positive numbers in millions of years |
-| Relative Completeness Index (RCI) | Benton and Storrs 1994 | MIG score proportional to the total length of tip intervals | All real numbers |
-| Manhattan Stratigraphic Measure (MSM*) | Siddall 1998; Pol and Norell 2001 | MIG for the most stratigraphically consistent possible tree divided by the actual MIG | 0 to 1, with one being the most consistent |
-| Gap Excess Ratio (GER) | Wills 1999; WIlls et al. 2008 | MIG minus the best possible stratigraphic fit, scaled by the contrast between the best and worst fit values | 0 to 1, with one being the most consistent |
+| Stratigraphic Consistency Index (SCI) | [@huelsenbeck1994] | Proportion of nodes for which the oldest descendent of that node is younger than the oldest descendent of that node's ancestor | 0 to 1, with one being perfectly consistent |
+| Minimum Implied Gap (MIG) | [@norell1992a; @norell1992 | The sum of the branch lengths excluding tip durations | Positive numbers in millions of years |
+| Relative Completeness Index (RCI) | [@benton1994] | MIG score proportional to the summed length of tip durations | All real numbers |
+| Manhattan Stratigraphic Measure (MSM*) | [@siddall1998stratigraphic; @pol2001comments | MIG for the maximally stratigraphically consistent possible tree divided by the actual MIG | 0 to 1, with one being the most consistent |
+| Gap Excess Ratio (GER) | [@wills1999congruence; @wills2008modified] | MIG minus the best possible stratigraphic fit, scaled by the contrast between the best and worst fit values | 0 to 1, with one being the most consistent |
+
+> Table 1: - Summary of the common stratigraphic congruence metrics used. Here we prefer the MIG as our primary cmparative metric as it both captures absolute fit to the fossil record and is the primary driver of three other metrics (RCI, MSM, GER).
 
 For each set of topologies and stratigraphic congruence results, we plotted a treespace plot in the R package `RWTY`.
 `RWTY` calculates the topological differences between the trees in the posterior sample using the Robinson-Foulds metric.
 This metric calculates the number of splits that are on one tree, but not the other.
-Then, `RWTY` uses a multi-dimensional scaling algorithm (Gower 1966) to plot these differences to 2-D space.
+Then, `RWTY` uses a multi-dimensional scaling algorithm [@gower1966] to plot these differences to 2-D space.
 We modified `RWTY` to color points according to their stratigraphic consistency score.
 We visualized the set of most parsimonious trees and the Bayesian posterior sample in the same treespace plots.
 
@@ -133,7 +134,7 @@ The full set of code and data used are available at: github.com/graemetlloyd/Pro
 # Results
 
 For direct comparison with Sansom et al. (2018), we made boxplots of the distributions of several stratigraphic congruence measures (Supplementary Figures SX-SZ?).
-We made these figures comparing the posterior sample and the set of most parsimonious trees for each dataset, and each stratigraphic congruence metric shown on Table One.
+We made these figures comparing the posterior sample and the set of most parsimonious trees for each dataset, and each stratigraphic congruence metric shown on Table 1.
 Note that a major difference between a Bayesian sample and a parsimony sample is that the former can include duplicate trees (those visited multiple times by the MCMC, whereas a parsimony analysis only returns unique topolog(ies)).
 One such boxplot can be seen in Fig. 1A.
 The spread of stratigraphic congruence metrics is much higher in the Bayesian analysis and this is typical of the majority of data sets.
@@ -166,7 +167,8 @@ Rather, it is to examine solutions and outcomes that are plausible given the mod
 This is particularly important in phylogenetics, where we are estimating lineage divergences that occurred tens or hundreds of millions of years ago.
 We do this from scarce, and likely biased data, using models that may or may not adequately capture reality.
 To responsibly present a solution under these conditions must mean incorporating uncertainty in that solution.
-It is prudent to avoid using a single point estimate summary of a posterior sample, whether a summary tree or an average value computed across several trees. 
+It is prudent to avoid using a single point estimate summary of a posterior sample, whether a summary tree or an average value computed across several trees.
+
 
 The authors of this work are not immune to using a point estimate of topology from a posterior sample to compare to a point estimate of a parsimony topology (see Wright and Hillis 2014).  
 In some cases, this is a pragmatic choice, given that consensus summaries are common lin the literature.
@@ -185,21 +187,30 @@ But they can also fail to approximate the true distribution of the posterior, pa
 However, it is also not reasonable for researchers to examine every single tree in a posterior sample.
 How can a researcher draw reasonable conclusions from their posterior sample?
 Over the past five years, modern and open-source treespace visualization software has become available.
-As demonstrated in Fig. 1C (a treespace plot made from the posterior sample estimated from the Yates (2003) dataset), treespace visualizations show the distance between trees in the sample, and enable researchers to color points by other factors (formally generating so-called tree "landscapes"; St John 2017).
+As demonstrated in Fig. 1C (a treespace plot made from the posterior sample estimated from the Yates (2003) dataset), treespace visualizations show the distance between trees in the sample, and enable researchers to color points by other factors (formally generating so-called tree "landscapes"; [@st2016]).
 As can be seen in Fig. 1C, both the Bayesian and parsimony analyses predominantly sampled two islands of tree space.
 The points in this graphic show that topologically similar trees can have wildly different Minimum Implied Gap scores.
 For this dataset, it does not appear that certain regions of treespace produce better stratigraphic congruence.
-This is in contrast to Fig. 2C (a treespace plot made from the posterior sample estimated from the Demar (2013) dataset), in which some areas of treespace clearly contain trees that have better fit to the stratigraphic record.
+This is in contrast to Fig. 2C (a treespace plot made from the posterior sample estimated from the [@demar2013] dataset), in which some areas of treespace clearly contain trees that have better fit to the stratigraphic record.
 
 ## Stratigraphic congruence and optimality criterion
 
 Which analytical method is most congruent with stratigraphy is an all together murkier question when the fullness of the posterior sample is considered.
-A table of averages for Yates (2003) and Demar (2013) is provided in Table Two.
+A table of averages for Yates (2003) and Demar (2013) is provided in Table 2.
 Here we limit our consideration to just the MIG metric, as this is both a simple way to capture the key difference (total implied missing history in millions of years) and is the primary variable driving three of the four other metrics (GER, MSM*, and RCI).
 The other (SCI) is not favoured here as it treats all implied gaps in the record the same regardless of their duration.
-As can be seen from Table Two, sometimes the MIG favours the Bayesian posterior sample, sometimes the set of most parsimonious trees.
+As can be seen from Table 2, sometimes the MIG favours the Bayesian posterior sample, sometimes the set of most parsimonious trees.
 Overall, 47 of 128 datasets (36.7%) had lower average MIG using Bayesian methods (Table S1).
 However, for 120 of 128 datasets (93.8%) the lowest MIG tree belonged to the Bayesian sample and for 127 of 128 (99.2%) datasets the Bayesian sample included the highest MIG tree.
+
+| Tree              | Mean MIG |  Max MIG | Min MIG |
+|-------------------|----------|----------|---------|
+| Demar - Bayesian  | 219      | 248      | 177     |
+| Demar - Parsimony | 197      | 255      | 161     |
+| Yates - Bayesian  | 149      | 302      | 57      |
+| Yates - Parsimony | 178      | 305      | 128     |
+
+> Table 2: Summary of the MIG values for the two figured example data sets. Note that this illustrates that neither Bayesian nor parsimony inferred trees consistently have the best fit (lowest MIG), contra Sansom et al. (2018).
 
 An average may not be providing a good accounting of the variation in the results for each dataset.
 In Fig. 2A and 2B, we show a dataset from Demar et al (2013).
@@ -215,7 +226,7 @@ As shown in the boxplots of Fig. 1, the mean and variance for the parsimony esti
 This is largely expected: the Bayesian posterior sample encompasses all trees sampled in the analysis (typically thinned by some proportion as they are exported from the tree estimation software).
 The set of most parsimonious trees contains a sample of the best trees according to an optimality criterion (fewest implied evolutionary steps).
 Assuming both estimation criteria are using the same data to sample the same treespace, we would expect that averaging among the best trees should produce better stratigraphic congruence.
-However, looking across all the datasets, only a slight improvement is seen from this biased averaging (Table S1, Sansom et al. Fig. 1).
+However, looking across all the datasets, only a slight improvement is seen from this biased averaging (Table S1, Sansom et al. 2018, their Fig. 1).
 
 Which analytical method produces better stratigraphic congruence is the wrong question.
 A better question to ask may be "How can researchers explore and quantify variation in their sets of solutions?".
@@ -223,86 +234,21 @@ Here we argue a key but underappreciated visualization tool (treespace) may be e
 Implementations of such tools have been in place for well over a decade (Hillis et al. 2005), but we are unaware of them being used in any published analysis of samples of trees produced from morphological data.
 We also note that we see many different "kinds" of treespace across the data sets examined here.
 For example, single or multiple-tree islands, smooth or volatile gradients of straigraphic congruence, parsimony samples enveloped by Bayesian samples, or parsimony and Bayesian samples occupying different parts of the space.
-#AMW: I'm not sure how to wrap-up at this point, but it seems like you were driving at something?
 
+
+In this manuscript we have shown that "parsimony versus Bayesian" comparisons do not have a simple outcome that is consistent across all empirical data sets.
+Instead, we present a modified version of an underutilised set of tools already available in the R programming language that can better help workers visualise and understand large posterior samples, either on their own or in the context of maximum parsimony trees.
+In particular, we urge the exploration of treespace visualisations to better understand the output from phylogenetic inference.
+We show that these tools reveal a huge variety of outcomes in the occupation, shape and landscape of such spaces.
+It is our expectation that increased application of these approaches will reveal new and interesting
 
 # Conclusion
 
 
-In writing this manuscript, we used and modified a set of tools already available in the R programming language. 
+In writing this manuscript, we used and modified a set of tools already available in the R programming language.
 These tools, such as the package `RWTY`, enabled us to read in many large posterior samples, and to calculate treespace plots across 128 empirical datasets.
 The code and data available for this are freely available on GitHub.
 We would like to close this manuscript by noting that the tools to perform complex formatting and subsetting datasets, including large ones such as a Bayesian posterior sample, are more accessible than ever.
 We look forward to many years of interesting analyses about how different methods explore and sample phylogenetic tree space.
 
-
-
-
-Table Two 
-
-|Tree | Mean MIG   |  Max MIG | Min MIG | 
-|-----|------------|----------|---------|
-| Demar - Bayesian |  219     |    248  |  177 
-| Demar - Parsimony |  197 |    255 |    161 
-| Yates - Bayesian  | 149  |    302 |    57 
-| Yates - Parsimony | 178  | 305 | 128 |
-
-
-
 # References
-
-Bell, M. A. and Lloyd, G. T., 2015. strap: an R package for plotting phylogenies against stratigraphy and assessing their stratigraphic congruence. Palaeontology, 58, 379-389.
-
-Benton, M. J. and Storrs, G. W., 1994. Testing the quality of the fossil record: palaeontological knowledge is improving. Geology, 22, 111-114.
-
-Bouckaert, R., Vaughan, T. G., Barido-Sottani, J., Duchêne, S., Fourment, M., Gavryushkina, A., Heled, J., Jones, G., Kühnert, D., De Maio, N., Matschiner, M., Mendes, F. K., Müller, N. F., Ogilvie, H. A., du Plessis, L., Popinga, A., Rambaut, A., Rasmussen, D., Siveroni, I., Suchard, M. A., Wu, C.-H., Xie, D., Zhang, C., Stadler, T. and Drummond, A. J. 2019. BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis. PLoS Computional Biology, 15, e1006650.
-
-Brochu, C. A. and Norell, M. A., 2000. Temporal congruence and the origin of birds. Journal of Vertebrate Paleontology, 20, 197-200.
-
-Cobbett, A., Wilkinson, M. and Wills, M. A., 2007. Fossils impact as hard as living taxa in parsimony analyses of morphology. Systematic Biology, 56, 753-766.
-
-Felsenstein, J., 1985. Phylogenies and the comparative method. American Naturalist, 125, 1-15.
-
-Goloboff, P. A. and Catalano, S. A., 2016. TNT version 1.5, including a full implementation of phylogenetic morphometrics. Cladistics, 32, 221-238.
-
-Gower, J. C., 1966. Some distance properties of latent root and vector methods used in multivariate analysis. Biometrika, 53, 325–328.
-
-Hartman, S., Mortimer, M., Wahl, W. R., Lomax, D. R., Lippincott, J. and Lovelace, D. M., 2019. A new paravian dinosaur from the Late Jurassic of North America supports a late acquisition of avian flight. PeerJ, 7, e7247.
-
-Hillis, D. M., Heath, T. A. and St John, K., 2005. Analysis and visualization of tree space. Systematic Biology, 54, 471–482.
-
-Huelsenbeck, J. P., 1994. Comparing the stratigraphic record to estimates of phylogeny. Paleobiology, 20, 470-483.
-
-Koch, N. M. and Parry, L. A., in review. Death is on our side: paleontological data drastically modify phylogenetic hypotheses. https://www.biorxiv.org/content/10.1101/723882v1
-
-Lewis, P. O., 2001. A likelihood approach to estimating phylogeny from discrete morphological character data. Systematic Biology, 50, 913-925.
-
-Lloyd, G. T., Bapst, D. W., Friedman, M. and Davis, K. E., 2016. Probabilistic divergence time estimation without branch lengths: dating the origins of dinosaurs, avian flight, and crown birds. Biology Letters, 12, 20160609.
-
-Norell, M. A. 1992. Taxic origin and temporal diversity: the effect of phylogeny. 89–118. In Novacek, M. J. and Wheeler, Q. D. (eds). Extinction and phylogeny. Columbia University Press, New York, 253 pp.
-
-Norell, M. A. and Novacek, M. J. 1992. Congruence between superpositional and phylogenetic patterns: comparing cladistic patterns with fossil records. Cladistics, 8, 319–337.
-
-Nylander, J. A., Ronquist, F., Huelsenbeck, J. P., Nieves-Aldrey, J. L., 2004. Bayesian phylogenetic analysis of combined data. Systematic Biology, 53, 47-67.
-
-Peters, S. E. and McClennen, M., 2015. The Paleobiology Database application programming interface. Paleobiology, 42, 1-7.
-
-Pol, D. and Norell, M. A. 2001. Comments on the Manhattan Stratigraphic Measure. Cladistics, 17, 285–289.
-
-Robinson, D. F. and Foulds L. R. 1981. Comparison of phylogenetic trees. Mathematical Biosciences, 53, 131–147.
-
-Sansom, R. S., Choate, P. G., Keating, J. N. and Randle, E., 2018. Parsimony, not Bayesian analysis, recovers more stratigraphically congruent phylogenetic trees. Biology Letters, 14, [????].
-
-Siddall, M. E. 1998. Stratigraphic fit a proposed solution. Cladistics, 14, 201–208.
-
-Slater, G. J., Harmon, L. J. and Alfaro, M. E., 2012. Integrating fossil with molecular phylogenies improves inference of trait evolution. Evolution, 66, 3931-3944.
-
-St. John, K., 2017. The shape of phylogenetic treespace. Systematic Biology, 66, e83-e94.
-
-Warren, D. L., Geneva, A. J. and Lanfear, R., 2017. RWTY (R We There Yet): an R package for examining convergence of Bayesian phylogenetic analyses. Molecular Biology and Evolution, 34, 1016-1020.
-
-Wills, M. A. 1999a. Congruence between phylogeny and stratigraphy: randomization tests and the Gap Excess Ratio. Systematic Biology, 48, 559–580.
-
-Will, M. A., Barrett, P. M. and Heathcote, J. F. 2008. The modified Gap Excess Ratio (GER*) and the stratigraphic congruence of dinosaur phylogenies. Systematic Biology, 57, 891–904.
-
-Wright, A. M., Lloyd, G. T. and Hillis, D. M., 2016. Modeling character change heterogeneity in phylogenetic analyses of morphology through the use of priors. Systematic Biology, 65, 602-611.
