@@ -16,20 +16,20 @@ Fossils provide the only direct evidence for historical trends in many groups (C
 Excluding fossils from trees has been demonstrated to bias the inferences we draw from phylogenetic comparative analyses (Slater et al. 2012).
 Therefore, how to best include fossils in phylogenetic analyses remains a vital and thriving research topic.
 
-Phylogenetic analyses of discrete morphological data have traditionally been conducted under the maximum parsimony criterion, but Bayesian apporaches are increasingly being employed instead.
+Phylogenetic analyses of discrete morphological data have traditionally been conducted under the maximum parsimony criterion, but Bayesian approaches are increasingly being employed instead.
 In part this is because Bayesian analyses allow not just estimation of topology, but more complex analyses, such as divergence time estimation.
 Bayesian methods assume an explicit model of evolution, and allow the researcher to set priors on each parameter in their model.
 In effect, this allows researchers to incorporate prior information about the value of parameters into their analysis.
 The most basic and restrictive model of morphological evolution is the Mk model, proposed in 2001 by Paul Lewis (Lewis 2001).
 This model assumes equal rates of change between each state at a character.
 In practice, these assumptions are not much different than the basic assumptions of an equal-weights parsimony step matrix.
-However, these methods calculate a rate-based branch length in expected substitutions per site, allowing for the accommodation of multiple changes along a branch (e.g., a `0` state to a `1` state and back), something parsimony cannot do.
+However, these methods calculate a rate-based branch length in expected substitutions per site, allowing for the accommodation of multiple changes along a branch (e.g., a `0` state to a `1` state and back again), something parsimony cannot do.
 More elaborate models that allow for relaxation of the core assumptions of the Mk model have been published and evaluated (Nylander et al. 2004; Wright et al. 2016; OTHERS?).
 
 Comparing the results of a Bayesian analysis and a parsimony analysis can be difficult.
 Bayesian methods estimate what is called the _posterior sample_.
-The posterior sample is a set of trees and associated model parameters that is plausible given the data, the model, and the prior.
-Phylogenetic trees are often estimated using Markov-Chain Monte Carlo (MCMC) sampling.
+The posterior sample is a set of trees and associated model parameters that is plausible given the data, the model, and any priors.
+Phylogenetic trees are often estimated using Markov-Chain Monte Carlo (MCMC) sampling (cite Metropolis).
 Under this algorithm, a tree and model parameters are proposed and evaluated given the model and priors.
 In general, if the tree and model parameters have a better score than the previous tree and model parameters, the new solution is kept.
 MCMC is considered a memoryless process; that is, the next proposed tree and model parameters is not chosen based on previously-sampled trees.
@@ -64,7 +64,7 @@ Then, from the simulation data, a tree has been estimated under both parsimony a
 Finally, a summary tree for each method is computed and compared to the tree under which it was simulated.
 Often, this focuses on the behavior of the researcher, comparing a Bayesian consensus tree to a parsimony consensus tree (self-flagellate).
 Most phylogenetic estimates in published articles are presented as point estimates.
-Because parsimony trees are most commonly published as majority-rule or strict consensus trees, computing this type of summary for both treatments (parsimony and Bayesian) and comparing them is fairly straightforward.
+Because parsimony trees are most commonly published as majority-rule or strict consensus trees, computing this type of summary for both treatments (parsimony and Bayesian) and comparing them based on a point estimate is fairly straightforward.
 (Although it is worth noting that a topology can appear multiple times in a Bayesian sample but never more than oncce in a parsimony sample.)
 Comparisons have typically involved tree-based metrics, such as the Robinson-Foulds (Robinson and Foulds 1981), which supplies the number of bifurcations that differ between two trees.
 While this approach makes a degree of sense, it also does not include or account for most of the results associated with Bayesian estimation (the posterior sample).
@@ -166,9 +166,10 @@ Rather, it is to examine solutions and outcomes that are plausible given the mod
 This is particularly important in phylogenetics, where we are estimating lineage divergences that occurred tens or hundreds of millions of years ago.
 We do this from scarce, and likely biased data, using models that may or may not adequately capture reality.
 To responsibly present a solution under these conditions must mean incorporating uncertainty in that solution.
-It is prudent to avoid using a single point estimate summary of a posterior sample, whether a summary tree or an average value computed across several trees. [HARD AGREE ON ALL OF THIS]
+It is prudent to avoid using a single point estimate summary of a posterior sample, whether a summary tree or an average value computed across several trees. 
 
 The authors of this work are not immune to using a point estimate of topology from a posterior sample to compare to a point estimate of a parsimony topology (see Wright and Hillis 2014).  
+In some cases, this is a pragmatic choice, given that consensus summaries are common lin the literature.
 But the properties of a Bayesian analysis are different than a parsimony analysis.
 A Bayesian analysis represents solutions that are plausible under a model.
 A parsimony analysis, on the other hand, pre-filters trees by whether or not they are the best under the maximum parsimony criterion.
@@ -200,12 +201,6 @@ As can be seen from Table Two, sometimes the MIG favours the Bayesian posterior 
 Overall, 47 of 128 datasets (36.7%) had lower average MIG using Bayesian methods (Table S1).
 However, for 120 of 128 datasets (93.8%) the lowest MIG tree belonged to the Bayesian sample and for 127 of 128 (99.2%) datasets the Bayesian sample included the highest MIG tree.
 
-
-#Code I used to do this, the output of which could be used to form the Table S1 output:
-#setwd("~/Documents/Publications/in prep/Strat congruence - April/ProjectWhalehead/Data/StratCongruenceResults/InputTreeResults")
-#MIGSummary <- do.call(rbind, lapply(as.list(list.files()), function(x) {y <- read.table(x); c(BayesMeanMIG = mean(y[y[, "Bayes"] == 1, "MIG"]), ParsimonyMeanMIG = mean(y[y[, "Bayes"] == 0, "MIG"]), BayesMinMIG = min(y[y[, "Bayes"] == 1, "MIG"]), ParsimonyMinMIG = min(y[y[, "Bayes"] == 0, "MIG"]), BayesMaxMIG = max(y[y[, "Bayes"] == 1, "MIG"]), ParsimonyMaxMIG = max(y[y[, "Bayes"] == 0, "MIG"]))}))
-
-
 An average may not be providing a good accounting of the variation in the results for each dataset.
 In Fig. 2A and 2B, we show a dataset from Demar et al (2013).
 The treespace for this dataset can be seen in Fig. 2C.
@@ -228,8 +223,11 @@ Here we argue a key but underappreciated visualization tool (treespace) may be e
 Implementations of such tools have been in place for well over a decade (Hillis et al. 2005), but we are unaware of them being used in any published analysis of samples of trees produced from morphological data.
 We also note that we see many different "kinds" of treespace across the data sets examined here.
 For example, single or multiple-tree islands, smooth or volatile gradients of straigraphic congruence, parsimony samples enveloped by Bayesian samples, or parsimony and Bayesian samples occupying different parts of the space.
+#AMW: I'm not sure how to wrap-up at this point, but it seems like you were driving at something?
+
 
 # Conclusion
+
 
 In writing this manuscript, we used and modified a set of tools already available in the R programming language. 
 These tools, such as the package `RWTY`, enabled us to read in many large posterior samples, and to calculate treespace plots across 128 empirical datasets.
