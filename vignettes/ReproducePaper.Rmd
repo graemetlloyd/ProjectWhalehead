@@ -5,15 +5,19 @@ date: "11/11/2019"
 output: html_document
 ---
 
+Before you begin, install the package with:
 
+```{r}
+devtools::install_github("graemetlloyd/ProjectWhalehead")
+```
 
-First, you will make sure all the tips have both data and metadata. If they do, you will get ages from PBDB.
+To reproduce the paper, you will make sure all the tips have both data and metadata. If they do, you will get ages from PBDB.
 
 ```{r}
 Whalehead::build_ages("data/NEXUS/", "Data/XML/", "Data/Ages")
 ```
 
- Then, you will check the datasets to make sure all the tips have names and those names can be synchronized across data sources. Also, disregard any sets with missing tip ages.
+Then, you will check the datasets to make sure all the tips have names and those names can be synchronized across data sources. Also, disregard any sets with missing tip ages.
 
 
 ```{r}
@@ -61,4 +65,3 @@ library(rwty)
 dir.create("data/TreeSpacePlots/")
 custom_plots(CombinedTrees = "data/CombinedTrees/Aguirre-Fernandez_etal_2009a.nex", StratFile ="data/StratCongruenceResults/Aguirre-Fernandez_etal_2009a.txt", ext_columns = c("MIG", "Bayes"))
 ```
-
