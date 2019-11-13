@@ -1,0 +1,14 @@
+Package: Whalehead
+Type: Package
+Title: Code and data required to reproduce Wright and Lloyd 2019.
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: treedata.table combines a phylogenetic tree with a data.frame to generate a treedata.table object. This object can then be used to simultaneously manipulate the tree and the data.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+Suggests:
+  knitr
+RoxygenNote: 6.1.1
