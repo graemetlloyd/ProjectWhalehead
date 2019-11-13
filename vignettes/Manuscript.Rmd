@@ -4,7 +4,7 @@ output: html_document
 author:
 - Graeme T. Lloyd
 - April M. Wright
-bibliography: refs.bib
+bibliography: ../refs.bib
 ---
 
 # Introduction:
