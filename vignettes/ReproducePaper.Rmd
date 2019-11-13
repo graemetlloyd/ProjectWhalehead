@@ -5,6 +5,8 @@ date: "11/11/2019"
 output: html_document
 ---
 
+
+
 First, you will make sure all the tips have both data and metadata. If they do, you will get ages from PBDB.
 
 ```{r}
@@ -59,3 +61,4 @@ library(rwty)
 dir.create("data/TreeSpacePlots/")
 custom_plots(CombinedTrees = "data/CombinedTrees/Aguirre-Fernandez_etal_2009a.nex", StratFile ="data/StratCongruenceResults/Aguirre-Fernandez_etal_2009a.txt", ext_columns = c("MIG", "Bayes"))
 ```
+
