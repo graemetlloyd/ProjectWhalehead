@@ -5,6 +5,11 @@ date: "11/11/2019"
 output: html_document
 ---
 
+```{r setup, include=FALSE, echo=FALSE}
+require("knitr")
+opts_knit$set(root.dir = "../")
+```
+
 Before you begin, install the package with:
 
 ```{r}
@@ -14,10 +19,13 @@ devtools::install_github("graemetlloyd/claddis")
 
 ```
 
-```{r}
+Now, we'll load libraries and ensure we're in the right place (`getwd` should return "ProjectWhalehead"'s location on your machine).
+
+```{r knitr::root.dir = "../"}
 library(Whalehead)
 library(metatree)
 library(Claddis)
+getwd()
 ```
 
 
