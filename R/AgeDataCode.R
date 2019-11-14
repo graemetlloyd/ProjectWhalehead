@@ -46,7 +46,7 @@ build_ages <- function(data_path, xml_path, out_path){
   }
   
   # Get updated (reconciled) reconciliation numbers:
-  UpdatedReconNumbers <- unname(unlist(lapply(as.list(unlist(ReconNumbers)), function(x) {y <- PaleobiologyDBTaxaQuerier(x, original = FALSE)[, c("OriginalTaxonNo", "ResolvedTaxonNo")]; gsub("txn:|var:", "", y[!is.na(y)][1])})))
+  UpdatedReconNumbers <- unname(unlist(lapply(as.list(unlist(ReconNumbers)), function(x) {y <- metatree::PaleobiologyDBTaxaQuerier(x, original = FALSE)[, c("OriginalTaxonNo", "ResolvedTaxonNo")]; gsub("txn:|var:", "", y[!is.na(y)][1])})))
   
   # Build new lists from recon numbers:
   UpdatedReconNumbersList <- OTUNamesList <- ReconNumbers
