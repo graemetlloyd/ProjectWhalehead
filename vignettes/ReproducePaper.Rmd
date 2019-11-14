@@ -18,11 +18,6 @@ devtools::install_github("graemetlloyd/metatree")
 devtools::install_github("graemetlloyd/Claddis")
 ```
 
-<<<<<<< HEAD
-And make sure your working directory is set to the root directory of the data.
-
-First, you will make sure all the tips have both data and metadata. If they do, you will get ages from PBDB.
-=======
 Now, we'll load libraries and ensure we're in the right place (`getwd` should return "ProjectWhalehead"'s location on your machine).
 
 ```{r knitr::root.dir = "../"}
@@ -49,7 +44,7 @@ remove_missing_tips("../Data/XML")
 We have included the scripts to estimate phylogenetic trees from the data. This is time-intensive and we will not reproduce this analysis in this notebook. We will skip straight to making the stratigraphic congruence output.
 
 ```{r pressure, echo=FALSE}
-make_strat_congruence("../Data/CombinedTrees/", "../Data/NEXUS/", "../Data/Ages/", "../Data/MPTS/", "revbayes_output", "parisimony_out")
+make_strat_congruence("../Data/RevBayesOutput/", "../Data/NEXUS/", "../Data/Ages/", "../Data/MPTS/", "revbayes_output", "parsimony_out")
 ```
 
 Next, we can summarize the data in a few ways.  To make table two:
