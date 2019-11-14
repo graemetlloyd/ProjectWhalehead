@@ -16,7 +16,6 @@ Before you begin, install the package with:
 devtools::install_github("graemetlloyd/ProjectWhalehead")
 devtools::install_github("graemetlloyd/metatree")
 devtools::install_github("graemetlloyd/Claddis")
-
 ```
 
 <<<<<<< HEAD
@@ -35,7 +34,6 @@ getwd()
 
 
 To reproduce the paper, you will make sure all the tips have both data and metadata. If they do, you will get ages from PBDB.
->>>>>>> 5e1191d500c253bd6740ad10998cc481411100d6
 
 ```{r}
 Whalehead::build_ages("../Data/NEXUS/", "../Data/XML/", "../Data/Ages")
@@ -43,13 +41,10 @@ Whalehead::build_ages("../Data/NEXUS/", "../Data/XML/", "../Data/Ages")
 
 Then, you will check the datasets to make sure all the tips have names and those names can be synchronized across data sources. Also, disregard any sets with missing tip ages.
 
-
 ```{r}
 remove_unreconciled("../Data/XML")
 remove_missing_tips("../Data/XML")
 ```
-
-
 
 We have included the scripts to estimate phylogenetic trees from the data. This is time-intensive and we will not reproduce this analysis in this notebook. We will skip straight to making the stratigraphic congruence output.
 
@@ -70,17 +65,14 @@ Or your could summarize all of the files at once:
 summarize_medians(user.path = "data/StratCongruenceResults/")
 ```
 
-
 Or make violin and box plots of them:
 
 ```{r}
-
 files <- list.files(path = user.path, pattern = "*.txt", full.names = TRUE, recursive = FALSE)
 dir.create("ViolinPlots")
 lapply(files, makeViolins)
 dir.create("boxPlots")
 lapply(files, makeBoxplot)
-
 ```
 
 Finally, you can make our custom treespace visuals. These are compute intensive, so only one is shown here.
