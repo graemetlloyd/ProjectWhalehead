@@ -8,6 +8,19 @@
 #' @export make_strat_congruence
 
 make_strat_congruence <- function(RevBayesFiles, NexusFiles, AgeFiles, ParsimonyFiles, RB_output, Parsimony_output) {
+  
+  RevBayesFiles <- "../Data/RevBayesOutput/"
+  NexusFiles <- "../Data/NEXUS/"
+  AgeFiles <- "../Data/Ages/"
+  ParsimonyFiles <- "../Data/MPTS/"
+  RB_output <- "revbayes_output"
+  Parsimony_output <- "parsimony_out"
+  
+  StartDirectory <- getwd()
+  setwd("../")
+  TopDirectory <- getwd()
+  setwd(StartDirectory)
+  
   # Find all Rev bayes files there:
   RBTrees <- list.files(RevBayesFiles, full.names = TRUE)
 
@@ -20,7 +33,7 @@ make_strat_congruence <- function(RevBayesFiles, NexusFiles, AgeFiles, Parsimony
   RevBayesOutput <- read.table(i, header = TRUE, stringsAsFactors = FALSE)
   
   # Set working directory as NEXUS data:
-  setwd(paste(TopDirectory, NexusFiles, sep = ""))
+  setwd(paste(TopDirectory, gsub("../", "/", NexusFiles, fixed = TRUE), sep = ""))
   
   # Read in outgroup taxon:
   OutgroupTaxon <- rownames(Claddis::ReadMorphNexus(gsub(".trees", "", i, fixed = TRUE))$Matrix_1$Matrix)[1]
