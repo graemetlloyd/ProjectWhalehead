@@ -1,6 +1,6 @@
 #' Create treespace ordination including extra columns.
 #' 
-#' This function will take list of rwty.chains objects and produce a matrix of ordinations in treespace based on Robinson-Foulds Distance. The points can be colored and sized by extra columns listed in the `ext_columns` argument.
+#' This function will take list of rwty.chains objects and produce a matrix of ordinations in treespace based on Robinson-Foulds Distance. The points can be colored and sized by extra columns listed in the `ext_columns` argument. This function is from Dan Warren and Rob Lanfear's `RWTY` package.
 #'
 #' @param chains A list of one or more rwty.chain objects
 #' @param burnin The number of samples to remove from the start of the chain as burnin

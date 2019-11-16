@@ -70,7 +70,7 @@ dir.create("boxPlots")
 lapply(files, makeBoxplot)
 ```
 
-Finally, you can make our custom treespace visuals. These are compute intensive, so only one is shown here.
+Finally, you can make our custom treespace visuals. These are compute intensive, so only one is shown here. The functions to do this are modified from the R package `RWTY` and depend on RWTY being installed.
 
 ```{r}
 library(rwty)

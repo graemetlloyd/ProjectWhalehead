@@ -1,6 +1,6 @@
 #' Create treespace ordination including extra columns.
 #' 
-#' This function will take list of rwty.chains objects and produce a matrix of ordinations in treespace based on Robinson-Foulds Distance. The points can be colored and sized by extra columns listed in the `ext_columns` argument.
+#' This function will take list of rwty.chains objects and produce a matrix of ordinations in treespace based on Robinson-Foulds Distance. The points can be colored and sized by extra columns listed in the `ext_columns` argument. This function is modified from the `RWTY` package.
 #'
 #' @param CombinedTrees A list of all the parsimony and Bayesian trees you'd like to plot
 #' @param StratFile The logfile containing your stratigraphic congrunence values. Should contain a column to indicate if the tree is Bayesian or not.
