@@ -8,7 +8,7 @@ Project Whalehead (arbitrarily named for the shoebill genus) is a GitHub reposit
 
 
 * Data
- * RevBayesOutput MISSING
+** RevBayesOutput MISSING
 * Ages
 * Figures
 * R
