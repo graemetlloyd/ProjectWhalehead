@@ -1,6 +1,6 @@
 ---
 title: "Bayesian Analyses In Phylogenetic Paleontology: Interpreting the Posterior Sample"
-output: html_document
+output:   redoc::redoc
 author:
 - Graeme T. Lloyd
 - April M. Wright
@@ -9,7 +9,7 @@ bibliography: refs.bib
 
 # Introduction:
 
-Inferring the tree of life and using phylogenetic trees to understand organismal form and function is a primary challenge of biology.
+Inferring the tree of life and using phylogenetic trees to understand organismal form and function are primary challenges of biology.
 Phylogenetic trees provide a historical perspective on relationships between taxa, and performing comparative biological studies without a phylogenetic context is misleading [@felsenstein1985a].
 While many researchers in comparative biology have moved to using molecular data to estimate phylogenetic trees, fossils remain the sole source of character data for many extinct groups.
 Fossils provide the only direct evidence for historical trends in many groups [@cobbett2007; @koch2019].
@@ -19,7 +19,7 @@ Therefore, how to best include fossils in phylogenetic analyses remains a vital 
 Phylogenetic analyses of discrete morphological data have traditionally been conducted under the maximum parsimony criterion, but Bayesian approaches are increasingly being employed instead.
 In part this is because Bayesian implementations allow not just estimation of topology, but more complex analyses, such as divergence time estimation.
 Bayesian methods assume an explicit model of evolution, and allow the researcher to set priors on each parameter in their model.
-In effect, this allows researchers to incorporate prior information about the value of parameters into their analysis.
+In effect, this allows researchers to incorporate prior information and/or intuition about the value of parameters into their analysis.
 The most basic and restrictive model of morphological evolution is the Mk model [@lewis2001].
 This model assumes equal rates of change between each state at a character.
 In practice, these assumptions are not much different than the basic assumptions of an equal-weights parsimony step matrix.
@@ -31,7 +31,7 @@ Bayesian methods estimate what is called the _posterior sample_.
 The posterior sample is a set of trees and associated model parameters that are plausible given the data, the model, and any priors.
 Phylogenetic trees are often estimated using Markov-Chain Monte Carlo (MCMC) sampling [@Metropolis1953; @Hastings1970].
 Under this algorithm, a tree and model parameters are proposed and evaluated given the model and priors.
-In general, if the tree and model parameters have a better score than the previous tree and model parameters, the new solution is kept.
+In general, if the tree and model parameters have a better likelihood score than the previous tree and model parameters, the new solution is kept.
 MCMC is considered a memoryless process; that is, the next proposed tree and model parameters is not chosen based on previously-sampled trees.
 A good tree may therefore be visited many times in a Bayesian estimation.
 In fact, how often a particular tree or set of relationships appears in the posterior sample is considered to be a measure of support for that tree.
@@ -216,7 +216,7 @@ In Fig. 2A and 2B, we show a dataset from Demar et al (2013).
 The treespace for this dataset can be seen in Fig. 2C.
 This is a highly structured treespace: because Bayesian MCMC samples in proportion to the posterior probability, we can infer from the shape of this treespace visualization that there are two peaks to this distribution that contained fairly good trees.
 There are three most-parisimonious trees; two are sampled from one peak with poor stratigraphic fit, one is sampled from the peak with fairly good stratigraphic fit.
-In this case, averaging is unlikely to produce a value that represents either peak adequately, and the average in this case is a value that doesn't belong to a tree that was sampled in the analysis at all.
+In this case, averaging is unlikely to produce a value that represents either peak adequately, and the average in this case is a value that does not belong to a tree that was sampled in the analysis at all.
 
 In the case of the Yates (2003) dataset, treespace is sampled much more evenly.
 In this case, taking an average is likely to represent the sample better.
