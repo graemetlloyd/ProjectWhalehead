@@ -1,5 +1,30 @@
 # Project Whalehead
 
+## Introduction
+
+Project Whalehead (arbitrarily named for the shoebill genus) is a GitHub repository for a project comparing phylogenetic outputs of Bayesian and parsimony analysis of morphological character matrices using stratigraphic congruence metrics. The authors are April Wright and Graeme Lloyd and the repository also serves as supplementary information for the published version.
+
+## What is here?
+
+
+* Data
+ * RevBayesOutput MISSING
+* Ages
+* Figures
+* R
+* man
+* rb_scripts
+* vignettes
+* DESCRIPTION
+* NAMESPACE
+* Outline.md
+* README.md
+* TableS1.md
+* refs.bib
+
+
+
+
 ## Data sources
 
 Primary data source: [graemetlloyd.com](http://www.graemetlloyd.com/matr.html) (as at 05/07/19).
