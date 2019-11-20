@@ -26,11 +26,6 @@ Below is a summary of the contents:
 * vignettes (Vignettes for replicating analysis)
 * DESCRIPTION (R package file for replicating study)
 * NAMESPACE (R package file for replicating study)
-* Outline.md (Markdown file containg draft version of manuscript)
 * README.md (This file)
 * TableS1.md (Supplementary Table 1 summarising full results for each data set)
-* refs.bib (BibTex file containing references for draft version of manuscript)
-
-## More details
-
-See the draft manuscript (Outline.md).
+* refs.bib (BibTex file containing references cited)
