@@ -74,6 +74,15 @@ Finally, you can make our custom treespace visuals. These are compute intensive,
 
 ```{r}
 library(rwty)
-dir.create("data/TreeSpacePlots/")
-custom_plots(CombinedTrees = "data/CombinedTrees/Aguirre-Fernandez_etal_2009a.nex", StratFile ="data/StratCongruenceResults/Aguirre-Fernandez_etal_2009a.txt", ext_columns = c("MIG", "Bayes"))
+#dir.create("data/TreeSpacePlots/")
+trees  <- list.files(path = "Data/CombinedTrees", pattern = "*.nex", full.names = TRUE, recursive = FALSE)
+strats  <- list.files(path = "Data/StratCongruenceResults/InputTreeResults", pattern = "*.txt", full.names = TRUE, recursive = FALSE)
+
+for (i in 1:length(trees)){
+  print(trees[i])
+  print(strats[i])
+  custom_plots(CombinedTrees = trees[i], StratFile =  strats[i], ext_columns = c("MIG", "Bayes"))
+}
+
+# custom_plots(CombinedTrees = "Data/CombinedTrees/Aguirre-Fernandez_etal_2009a.nex", StratFile =  "Data/StratCongruenceResults/InputTreeResults/Aguirre-Fernandez_etal_2009a.txt", ext_columns = c("MIG", "Bayes"))
 ```
