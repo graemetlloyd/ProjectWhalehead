@@ -16,10 +16,9 @@ custom_plots <- function (CombinedTrees, StratFile, ext_columns = c("MIG", "Baye
   points <- custom_treespace(rwty_obj, ext_columns = ext_columns)
   color_col <- ext_columns[1]
   size_column <- ext_columns[2]
-  pp <- ggplot(points, aes(x = x, y = y, color = points$MIG))
-  final<- pp + geom_point(aes(size=points$Bayes)) + scale_size(range = c(5,1), guide = FALSE)  + scale_colour_gradient(low = "blue", high = "yellow", guide = guide_colorbar(title = "MIG"))
+  final<- ggplot(data = points, aes(x, y, colour=points$MIG, alpha = points$Bayes)) + geom_point(aes(size = points$Bayes)) +  scale_size(range = c(5,1))  + scale_alpha(range = c(1, .5))+ scale_colour_gradient(low = "blue", high = "yellow")
   just_file <- tools::file_path_sans_ext(CombinedTrees)
-  new_filename <- gsub("CombinedTrees", "TreeSpacePlots", paste0(just_file, '.pdf'))
+   new_filename <- gsub("CombinedTrees", "TreeSpaceSPRPlots", paste0(just_file, '.pdf'))
   ggsave(new_filename, final)
   return(final)
 } 

@@ -1,4 +1,4 @@
-#' Create treespace ordination including extra columns.
+#' Create space ordination including extra columns.
 #' 
 #' This function will take list of rwty.chains objects and produce a matrix of ordinations in treespace based on Robinson-Foulds Distance. The points can be colored and sized by extra columns listed in the `ext_columns` argument. This function is from Dan Warren and Rob Lanfear's `RWTY` package.
 #'
@@ -11,7 +11,7 @@
 #'
 #' @export custom_treespace
 
-custom_treespace <- function (chains, n.points = 100, burnin = 0, fill.color = NA, ext_columns = NULL)
+custom_treespace <- function (chains, n.points = 1000, burnin = 0, fill.color = NA, ext_columns = NULL)
 {
   chains = check.chains(chains)
   labels = names(chains)
