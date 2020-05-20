@@ -1,7 +1,7 @@
-Create space ordination including extra columns.
+#' Create space ordination including extra columns.
 #' 
 #' This function will take list of rwty.chains objects and produce a matrix of ordinations in treespace based on Robinson-Foulds Distance. The points can be colored and sized by extra columns listed in the `ext_columns` argument. This function is from Dan Warren and Rob Lanfear's `RWTY` package.
-#'
+#' 
 #' @param chains A list of one or more rwty.chain objects
 #' @param burnin The number of samples to remove from the start of the chain as burnin
 #' @param n.points The number of points on each plot
@@ -46,14 +46,19 @@ custom_treespace_kmeans <- function(name, chains, n.points = 1000, burnin = 0, f
       glanced = map(kclust, glance),
       augmented = map(kclust, augment, d)
     )
-  clusterings <- kclusts %>%
-    unnest(glanced, .drop = TRUE)
-  q <- ggplot(clusterings, aes(k, tot.withinss)) +
-    geom_line()
   
+  #clusterings <- kclusts %>%
+  #  unnest(glanced, .drop = TRUE)
+  #print(clusterings)
+  assignments <- kclusts %>% 
+    unnest(augmented)
+  print(assignments)
+  p1 <- ggplot(assignments, aes(X1, X2)) +
+    geom_point(aes(color = .cluster)) + 
+    facet_wrap(~ k)
   just_names <- strsplit(name, split = '/')[[1]][-1][2]
   n <- just_names[[1]][length(just_names[[1]])] 
   print(n)
   new_filename <- paste0("kMeans/",n, '.pdf')
-  ggsave(new_filename, q)
+  ggsave(new_filename, p1)
 }

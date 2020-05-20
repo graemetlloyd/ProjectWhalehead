@@ -4,6 +4,19 @@
 
 Project Whalehead (arbitrarily named for the shoebill genus) is a GitHub repository for a project comparing phylogenetic outputs of Bayesian and parsimony analysis of morphological character matrices using stratigraphic congruence metrics. The authors are [April Wright](https://github.com/wrightaprilm) and [Graeme Lloyd](https://github.com/graemetlloyd) and this repository also serves as supplementary information for the final published version.
 
+## tl;dr of the paper:
+
+The aim of a Bayesian analysis is not a single point estimate of a
+solution. Rather, it is to examine solutions and outcomes that are
+plausible given the model and the data. This is particularly important
+in phylogenetics, where we are estimating lineage divergences that
+occurred tens or hundreds of millions of years ago. We do this from
+scarce, and likely biased data, using models that may or may not
+adequately capture reality. To responsibly present a solution under
+these conditions must mean incorporating uncertainty in that solution.
+It is prudent to avoid using a single point estimate summary of a
+posterior sample
+
 ## What is here?
 
 Below is a summary of the contents:

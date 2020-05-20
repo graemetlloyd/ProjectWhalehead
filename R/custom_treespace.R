@@ -31,7 +31,7 @@ custom_treespace <- function (chains, n.points = 1000, burnin = 0, fill.color = 
   additional = unlist(lapply(length(chain$trees) * (0:(length(chains) -
                                                          1)), function(x) rep(x, length(indices))))
   ptable = ptable[(indices + additional), ]
-  dimensions = 2
+  dimensions = 3
   alltrees = trees[[1]]
   if (length(trees) > 1) {
     for (i in 2:length(trees)) {
@@ -39,6 +39,8 @@ custom_treespace <- function (chains, n.points = 1000, burnin = 0, fill.color = 
     }
   }
   d <- tree.dist.matrix(alltrees)
+  print("Dist Mat:")
+  print(d)
   if (sum(d) == 0) {
     x <- rep(0, length(alltrees))
     y <- rep(0, length(alltrees))
@@ -48,8 +50,10 @@ custom_treespace <- function (chains, n.points = 1000, burnin = 0, fill.color = 
     mds <- cmdscale(d, k = dimensions)
   }
   points <- as.data.frame(mds)
+  print("Points:")
+  print(points)
   row.names(points) <- seq(nrow(points))
-  names(points) <- c("x", "y")
+  names(points) <- c("x", "y", "z")
   points$chain = ptable$chain
   points$sample = ptable$sample
   points$generation = ptable$generation
@@ -60,7 +64,7 @@ custom_treespace <- function (chains, n.points = 1000, burnin = 0, fill.color = 
     }
   }
   else if (length(ext_columns) == 1 ){
-    points$ext = ptable$ext_columns 
+    points$ext = ptable$ext_columns
   }
   
   if (!is.na(fill.color))
