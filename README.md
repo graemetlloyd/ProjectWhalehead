@@ -12,8 +12,8 @@ Below is a summary of the contents:
     - Ages (Tip age text files generated for each data set primarily using calls to the Paleobiology Database API)
     - Boxplots (Boxplots showing the distribution of stratigraphic congruence metrics for Bayesian and parsimony trees calculated in the strap R package for each data set)
     - Combined trees (The combined Bayesian and parsimony trees in NEXUS format)
-    - kMeans_MIG (APRIL)
-    - kMeansTreespace (APRIL)
+    - kMeans_MIG
+    - kMeansTreespace
     - MIGDifferences (Bivariate plots showing distance in MDS space verus difference in MIG for just the first 2 MDS axes and for all MDS axes)
     - MPTs (The most parsimonious trees generated from TNT searches for each data set in Newick format)
     - NEXUS (The original morphological character matrix in NEXUS format as taken from graemetlloyd.com)
