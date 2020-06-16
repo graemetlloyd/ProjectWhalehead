@@ -20,7 +20,8 @@ Environment Building, Leeds, LS2 9JT, UK; graemetlloyd\@gmail.com
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-**Abstract**: Establishing hypotheses of relationships is a critical
+## Abstract: 
+Establishing hypotheses of relationships is a critical
 prerequisite for any macroevolutionary analysis, but different
 approaches exist for achieving this goal. Amongst palaeontologists using
 morphological data the Bayesian approach is increasingly preferred over
@@ -38,9 +39,8 @@ complex variety of topological landscapes. We conclude by arguing that
 treespaces should become a standard exploratory tool in phylogenetic
 analysis.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-INTRODUCTION
+## INTRODUCTION:
 
 Inferring the tree of life and using phylogenetic trees to understand
 organismal form and function are primary challenges of biology.
@@ -180,10 +180,9 @@ posterior sample to a summary statistic is an oversimplification, and
 encourage the use of more sophisticated visual tools, such as RWTY
 (Warren *et al.* 2017) to incorporate the variation in any one metric.
 
-MATERIALS AND METHODS
+## MATERIALS AND METHODS
 
-*Dataset Filtering*
--------------------
+### Dataset Filtering
 
 Empirical datasets were downloaded from graemetlloyd.com/matr.html, the
 same starting repository used by Sansom *et al.* (2018). We initially
@@ -210,8 +209,7 @@ and have age data available in the database (i.e., at least one fossil
 occurrence is attributable to each OTU). The final pool comprised 128
 different data sets (Lloyd and Wright 2020).
 
-*Phylogenetic Analysis*
------------------------
+### Phylogenetic Analysis
 
 Each data set was analyzed under both Maximum Parsimony and Bayesian
 criteria.
@@ -324,13 +322,12 @@ solutions explored in a Bayesian search. It should be noted, however,
 that some appearance of volatility can be due to the compression from
 multiple axes of variation down to 2 dimensions (Lloyd and Wright 2020).
 
-DISCUSSION
+## DISCUSSION
 
 
--
 
-*Summarizing a posterior sample*
---------------------------------
+
+### Summarizing a posterior sample
 
 The aim of a Bayesian analysis is not a single point estimate of a
 solution. Rather, it is to examine solutions and outcomes that are
@@ -409,8 +406,7 @@ scores. Therefore, we did a set of estimates comparing the MDS distances
 generally should not inhibit the use of treespace plots as an
 exploratory tool.
 
-*Stratigraphic congruence and optimality criterion*
----------------------------------------------------
+### Stratigraphic congruence and optimality criterion
 
 Which analytical method is most congruent with stratigraphy is an
 altogether murkier question when the fullness of the posterior sample is
@@ -480,7 +476,7 @@ into a bivariate plot---but the diversity of the observed landscapes
 certainly suggests further investigation of many of these patterns is
 warranted.
 
-CONCLUSION
+## CONCLUSION
 
 In this manuscript we have shown that "parsimony versus Bayesian"
 comparisons do not have a simple outcome that is consistent across all
@@ -497,7 +493,7 @@ average researcher and we look forward to many years of interesting
 analyses about how different methods explore and sample phylogenetic
 treespace.
 
-ACKNOWLEDGMENTS
+## ACKNOWLEDGMENTS
 
 The authors would like to thank Andrew Smith, Sally Thomas and two
 anonymous reviewers for suggestions that helped improve the manuscript.
@@ -505,16 +501,16 @@ GTL would like to thank Mike Foote, Jen Hoyal Cuthill, Laura Soul, Emma
 Randle and Katherine St. John for discussions and inspiration. AMW was
 supported by an Institutional Development Award (IDeA) from the National
 Institute of General Medical Sciences of the National Institutes of
-Health \[P20 GM103424-17\].
+Health P20-GM103424-17.
 
 DATA ARCHIVING STATEMENT
 
 Data for this study are available in the Dryad Digital Repository:
-https://doi.org/10.5061/dryad.zs7h44j4w \[please note that the data for
+https://doi.org/10.5061/dryad.zs7h44j4w Please note that the data for
 this paper are not yet published and this temporary link should not be
-shared without the express permission of the author\] \[Referees can
+shared without the express permission of the author. Referees can
 also consult our GitHub repository:
-https://github.com/graemetlloyd/ProjectWhalehead\]
+https://github.com/graemetlloyd/ProjectWhalehead
 
 REFERENCES
 
@@ -688,7 +684,7 @@ REFERENCES
 
 FIGURE CAPTIONS AND TABLES
 
-![](../Figures/Fig1.pdf)
+![](../Figures/Fig1.png)
 
 **FIG. 1.** Plots showing Minimum Implied Gap score (MIG) for the
 posterior sample and set of most parsimonious trees for the Yates (2003)
@@ -697,14 +693,14 @@ Sansom *et al.* (2018). Panel B shows the same data, but as a violin
 plot with points overlain. Panel C shows a treespace visualization, with
 points colored by MIG score. Large points indicate parsimony trees.
 
-![](../Figures/Fig3.pdf)
+![](../Figures/Fig3.png)
 
 **FIG. 2.** Plots showing Minimum Implied Gap score (MIG) for the
 posterior sample and set of most parsimonious trees for the Demar (2013)
 dataset. Plot types and labels are the same as in Fig. 1. In contrast to
 Fig. 1, there are defined regions of treespace in which trees with
 better MIG scores are found.
-![](../Figures/Fig2.pdf)
+![](../Figures/Fig2.png)
 
 
 **FIG. 3.** Interpolated tree "landscape" (sensu St John 2016) in 3D
