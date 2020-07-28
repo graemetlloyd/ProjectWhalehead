@@ -19,7 +19,7 @@ posterior sample
 
 ## What is here?
 
-A talk from #SBE2020 by April Wright describing the paper can be seen [here](https://graemetlloyd.github.io/ProjectWhalehead/talks/SBE.html)
+A talk from #SBE2020 by April Wright describing the paper can be seen [here](https://graemetlloyd.github.io/ProjectWhalehead/articles/02_SBE.html#/)
 
 Below is a summary of the contents:
 
