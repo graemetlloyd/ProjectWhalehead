@@ -9,35 +9,65 @@ output:
     pandoc_args: [ "--slide-level", "2" ]
     theme: solarized
     fig_width: 6
-    fig_height: 5
+    fig_height: 4
     reveal_options:
       slideNumber: true
       previewLinks: true
+      height: 800
+
 ---
 
 
 
 Bayesian Phylogenetics
 ========================================================
-Estimate combinations of the tree topology + model parameters that are plausible given a phylogenetic model
+Estimate combinations of the tree topology +  parameters that are plausible given a phylogenetic model and data
+
+Bayesian Phylogenetics
+========================================================
+Estimate combinations of the tree topology +  parameters that are plausible given a phylogenetic model and data
+
+
+![](images/Trip.png)
+
+Bayesian Phylogenetics
+========================================================
+Estimate combinations of the tree topology +  parameters that are plausible given a phylogenetic model and data
+
+![](images/BayesTheorem.png)
+
+Bayesian Phylogenetics
+========================================================
+Estimate combinations of the tree topology +  parameters that are plausible given a phylogenetic model and data
+
+![](images/FullModel.png)
 
 
 Bayesian Phylogenetics
 ========================================================
-Estimate combinations of the tree topology + model parameters that are plausible given a phylogenetic model
+Estimate combinations of the tree topology +  parameters that are plausible given a phylogenetic model and data
+
+![](images/Mcmc.png)
+
+Bayesian Phylogenetics
+========================================================
+Estimate combinations of the tree topology +  parameters that are plausible given a phylogenetic model and data
+
 
 + Solutions are visited in proportion to how likely they are
 
 Bayesian Phylogenetics
 ========================================================
-Estimate combinations of the tree topology + model parameters that are plausible given a phylogenetic model
+Estimate combinations of the tree topology +  parameters that are plausible given a phylogenetic model and data
+
 
 + Solutions are visited in proportion to how likely they are
 + A good tree will be visited many times
 
 Bayesian Phylogenetics
 ========================================================
-Estimate combinations of the tree topology + model parameters that are plausible given a phylogenetic model
+Estimate combinations of the tree topology +  parameters that are plausible given a phylogenetic model and data
+
 
 + Solutions are visited in proportion to how likely they are
 + A good tree will be visited many times
@@ -131,7 +161,9 @@ The best thing we can be is humble
 Phylogenetic data
 ========================================================
 
-The best thing we can be is humble **and that means becoming friendly with uncertainty**
+The best thing we can be is humble  
+
+**and that means becoming friendly with uncertainty**
 
 
 So how do we think about the posterior?
@@ -227,7 +259,7 @@ Methods
 ========================================================
 
 + Estimated parsimony trees (TNT, Goloboff and Catalano 2016) and Bayesian trees
-(Hoehna et al 2016) for 127 published paleontological matrices
+(Höhna et al 2016) for 127 published paleontological matrices
 
 + Calculated stratigraphic congruence for all equally-parsimonious trees and the Bayesian
 posterior sample in the R package Strap (Bell and Lloyd 2015)
@@ -295,7 +327,7 @@ Results
 
 Example dataset: Yates (2003)  
 
-![](images/YatesA.png)
+![](images/YatesA.png){width=.75}
 
 Results
 ========================================================
@@ -310,7 +342,7 @@ Results
 ========================================================
 
 Example dataset: Demar 2013
-![](images/DemarA.png)
+![](images/DemarA.png){width=.75}
 
 Results
 ========================================================
@@ -378,5 +410,5 @@ To Dan Warren and Rob Lanfear for the endlessly hackable RWTY software
 And to my co-author and partner in crime, Dr. Graeme Lloyd
 
 
-![](images/forest.png)
+![](images/url.png)
 

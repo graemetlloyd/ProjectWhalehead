@@ -19,6 +19,8 @@ posterior sample
 
 ## What is here?
 
+A talk from #SBE2020 by April Wright describing the paper can be seen [here](https://graemetlloyd.github.io/ProjectWhalehead/talks/SBE.html)
+
 Below is a summary of the contents:
 
 * Data (Folder containing the data used)
