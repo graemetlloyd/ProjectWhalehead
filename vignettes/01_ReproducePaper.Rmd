@@ -16,6 +16,7 @@ Before you begin, install the package with:
 devtools::install_github("graemetlloyd/ProjectWhalehead")
 devtools::install_github("graemetlloyd/metatree")
 devtools::install_github("graemetlloyd/Claddis")
+devtools::install_github("graemetlloyd/hypRspace")
 ```
 
 Now, we'll load libraries and ensure we're in the right place (`getwd` should return "ProjectWhalehead"'s location on your machine).
