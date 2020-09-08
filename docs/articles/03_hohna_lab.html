@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="April Wright, Southeastern Louisiana University" />
+  <meta name="dcterms.date" content="2020-09-10" />
+  <title>Lab Visit: INTERPRETING THE POSTERIOR SAMPLE</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="03_hohna_lab_files/reveal.js-3.3.0.1/css/reveal.css"/>
+
+
+
+<link rel="stylesheet" href="03_hohna_lab_files/reveal.js-3.3.0.1/css/theme/solarized.css" id="theme">
+
+
+  <!-- some tweaks to reveal css -->
+  <style type="text/css">
+    .reveal h1 { font-size: 2.0em; }
+    .reveal h2 { font-size: 1.5em;  }
+    .reveal h3 { font-size: 1.25em;	}
+    .reveal h4 { font-size: 1em;	}
+
+    .reveal .slides>section,
+    .reveal .slides>section>section {
+      padding: 0px 0px;
+    }
+
+
+
+    .reveal table {
+      border-width: 1px;
+      border-spacing: 2px;
+      border-style: dotted;
+      border-color: gray;
+      border-collapse: collapse;
+      font-size: 0.7em;
+    }
+
+    .reveal table th {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      font-weight: bold;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+    .reveal table td {
+      border-width: 1px;
+      padding-left: 10px;
+      padding-right: 25px;
+      border-style: dotted;
+      border-color: gray;
+    }
+
+
+  </style>
+
+    <style type="text/css">code{white-space: pre;}</style>
+
+
+<!-- Printing and PDF exports -->
+<script id="paper-css" type="application/dynamic-css">
+
+/* Default Print Stylesheet Template
+   by Rob Glazebrook of CSSnewbie.com
+   Last Updated: June 4, 2008
+
+   Feel free (nay, compelled) to edit, append, and
+   manipulate this file as you see fit. */
+
+
+@media print {
+
+	/* SECTION 1: Set default width, margin, float, and
+	   background. This prevents elements from extending
+	   beyond the edge of the printed page, and prevents
+	   unnecessary background images from printing */
+	html {
+		background: #fff;
+		width: auto;
+		height: auto;
+		overflow: visible;
+	}
+	body {
+		background: #fff;
+		font-size: 20pt;
+		width: auto;
+		height: auto;
+		border: 0;
+		margin: 0 5%;
+		padding: 0;
+		overflow: visible;
+		float: none !important;
+	}
+
+	/* SECTION 2: Remove any elements not needed in print.
+	   This would include navigation, ads, sidebars, etc. */
+	.nestedarrow,
+	.controls,
+	.fork-reveal,
+	.share-reveal,
+	.state-background,
+	.reveal .progress,
+	.reveal .backgrounds {
+		display: none !important;
+	}
+
+	/* SECTION 3: Set body font face, size, and color.
+	   Consider using a serif font for readability. */
+	body, p, td, li, div {
+		font-size: 20pt!important;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		color: #000;
+	}
+
+	/* SECTION 4: Set heading font face, sizes, and color.
+	   Differentiate your headings from your body text.
+	   Perhaps use a large sans-serif for distinction. */
+	h1,h2,h3,h4,h5,h6 {
+		color: #000!important;
+		height: auto;
+		line-height: normal;
+		font-family: Georgia, "Times New Roman", Times, serif !important;
+		text-shadow: 0 0 0 #000 !important;
+		text-align: left;
+		letter-spacing: normal;
+	}
+	/* Need to reduce the size of the fonts for printing */
+	h1 { font-size: 28pt !important;  }
+	h2 { font-size: 24pt !important; }
+	h3 { font-size: 22pt !important; }
+	h4 { font-size: 22pt !important; font-variant: small-caps; }
+	h5 { font-size: 21pt !important; }
+	h6 { font-size: 20pt !important; font-style: italic; }
+
+	/* SECTION 5: Make hyperlinks more usable.
+	   Ensure links are underlined, and consider appending
+	   the URL to the end of the link for usability. */
+	a:link,
+	a:visited {
+		color: #000 !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+	/*
+	.reveal a:link:after,
+	.reveal a:visited:after {
+		content: " (" attr(href) ") ";
+		color: #222 !important;
+		font-size: 90%;
+	}
+	*/
+
+
+	/* SECTION 6: more reveal.js specific additions by @skypanther */
+	ul, ol, div, p {
+		visibility: visible;
+		position: static;
+		width: auto;
+		height: auto;
+		display: block;
+		overflow: visible;
+		margin: 0;
+		text-align: left !important;
+	}
+	.reveal pre,
+	.reveal table {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.reveal pre code {
+		padding: 20px;
+		border: 1px solid #ddd;
+	}
+	.reveal blockquote {
+		margin: 20px 0;
+	}
+	.reveal .slides {
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 0 !important;
+		zoom: 1 !important;
+
+		overflow: visible !important;
+		display: block !important;
+
+		text-align: left !important;
+		-webkit-perspective: none;
+		   -moz-perspective: none;
+		    -ms-perspective: none;
+		        perspective: none;
+
+		-webkit-perspective-origin: 50% 50%;
+		   -moz-perspective-origin: 50% 50%;
+		    -ms-perspective-origin: 50% 50%;
+		        perspective-origin: 50% 50%;
+	}
+	.reveal .slides section {
+		visibility: visible !important;
+		position: static !important;
+		width: auto !important;
+		height: auto !important;
+		display: block !important;
+		overflow: visible !important;
+
+		left: 0 !important;
+		top: 0 !important;
+		margin-left: 0 !important;
+		margin-top: 0 !important;
+		padding: 60px 20px !important;
+		z-index: auto !important;
+
+		opacity: 1 !important;
+
+		page-break-after: always !important;
+
+		-webkit-transform-style: flat !important;
+		   -moz-transform-style: flat !important;
+		    -ms-transform-style: flat !important;
+		        transform-style: flat !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+
+		-webkit-transition: none !important;
+		   -moz-transition: none !important;
+		    -ms-transition: none !important;
+		        transition: none !important;
+	}
+	.reveal .slides section.stack {
+		padding: 0 !important;
+	}
+	.reveal section:last-of-type {
+		page-break-after: avoid !important;
+	}
+	.reveal section .fragment {
+		opacity: 1 !important;
+		visibility: visible !important;
+
+		-webkit-transform: none !important;
+		   -moz-transform: none !important;
+		    -ms-transform: none !important;
+		        transform: none !important;
+	}
+	.reveal section img {
+		display: block;
+		margin: 15px 0px;
+		background: rgba(255,255,255,1);
+		border: 1px solid #666;
+		box-shadow: none;
+	}
+
+	.reveal section small {
+		font-size: 0.8em;
+	}
+
+}  
+</script>
+
+
+<script id="pdf-css" type="application/dynamic-css">
+    
+/**
+ * This stylesheet is used to print reveal.js
+ * presentations to PDF.
+ *
+ * https://github.com/hakimel/reveal.js#pdf-export
+ */
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+
+body {
+	margin: 0 auto !important;
+	border: 0;
+	padding: 0;
+	float: none !important;
+	overflow: visible;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+}
+
+/* Remove any elements not needed in print. */
+.nestedarrow,
+.reveal .controls,
+.reveal .progress,
+.reveal .playback,
+.reveal.overview,
+.fork-reveal,
+.share-reveal,
+.state-background {
+	display: none !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 0 0 #000 !important;
+}
+
+.reveal pre code {
+	overflow: hidden !important;
+	font-family: Courier, 'Courier New', monospace !important;
+}
+
+ul, ol, div, p {
+	visibility: visible;
+	position: static;
+	width: auto;
+	height: auto;
+	display: block;
+	overflow: visible;
+	margin: auto;
+}
+.reveal {
+	width: auto !important;
+	height: auto !important;
+	overflow: hidden !important;
+}
+.reveal .slides {
+	position: static;
+	width: 100%;
+	height: auto;
+
+	left: auto;
+	top: auto;
+	margin: 0 !important;
+	padding: 0 !important;
+
+	overflow: visible;
+	display: block;
+
+	-webkit-perspective: none;
+	   -moz-perspective: none;
+	    -ms-perspective: none;
+	        perspective: none;
+
+	-webkit-perspective-origin: 50% 50%; /* there isn't a none/auto value but 50-50 is the default */
+	   -moz-perspective-origin: 50% 50%;
+	    -ms-perspective-origin: 50% 50%;
+	        perspective-origin: 50% 50%;
+}
+
+.reveal .slides section {
+	page-break-after: always !important;
+
+	visibility: visible !important;
+	position: relative !important;
+	display: block !important;
+	position: relative !important;
+
+	margin: 0 !important;
+	padding: 0 !important;
+	box-sizing: border-box !important;
+	min-height: 1px;
+
+	opacity: 1 !important;
+
+	-webkit-transform-style: flat !important;
+	   -moz-transform-style: flat !important;
+	    -ms-transform-style: flat !important;
+	        transform-style: flat !important;
+
+	-webkit-transform: none !important;
+	   -moz-transform: none !important;
+	    -ms-transform: none !important;
+	        transform: none !important;
+}
+
+.reveal section.stack {
+	margin: 0 !important;
+	padding: 0 !important;
+	page-break-after: avoid !important;
+	height: auto !important;
+	min-height: auto !important;
+}
+
+.reveal img {
+	box-shadow: none;
+}
+
+.reveal .roll {
+	overflow: visible;
+	line-height: 1em;
+}
+
+/* Slide backgrounds are placed inside of their slide when exporting to PDF */
+.reveal section .slide-background {
+	display: block !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+/* All elements should be above the slide-background */
+.reveal section>* {
+	position: relative;
+	z-index: 1;
+}
+
+/* Display slide speaker notes when 'showNotes' is enabled */
+.reveal .speaker-notes-pdf {
+	display: block;
+	width: 100%;
+	max-height: none;
+	left: auto;
+	top: auto;
+	z-index: 100;
+}
+
+/* Display slide numbers when 'slideNumber' is enabled */
+.reveal .slide-number-pdf {
+	display: block;
+	position: absolute;
+	font-size: 14px;
+}
+
+</script>
+
+
+<script>
+var style = document.createElement( 'style' );
+style.type = 'text/css';
+var style_script_id = window.location.search.match( /print-pdf/gi ) ? 'pdf-css' : 'paper-css';
+var style_script = document.getElementById(style_script_id).text;
+style.innerHTML = style_script;
+document.getElementsByTagName('head')[0].appendChild(style);
+</script>
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Lab Visit: INTERPRETING THE POSTERIOR SAMPLE</h1>
+    <h2 class="author">April Wright, Southeastern Louisiana University</h2>
+    <h3 class="date">September 10, 2020</h3>
+</section>
+
+<section id="talk-slides-etc." class="title-slide slide level1"><h1>Talk slides, etc.</h1><p><a href="https://graemetlloyd.github.io/ProjectWhalehead/" class="uri">https://graemetlloyd.github.io/ProjectWhalehead/</a></p></section>
+<section id="where-did-this-manuscript-come-from" class="title-slide slide level1"><h1>Where did this manuscript come from?</h1><p><img data-src="images/Sansom2018.png" /></p></section>
+<section id="sansom-et-al.-2018" class="title-slide slide level1"><h1>Sansom et al. 2018</h1><p>Comparison between Bayesian and parsimony trees using measures of <em>stratigraphic congruence</em></p></section>
+<section id="sansom-et-al.-2018-1" class="title-slide slide level1"><h1>Sansom et al. 2018</h1><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 37%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>Meaning</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Stratigraphic Consistency Index (SCI)</td>
+<td>Proportion of nodes for which the oldest descendent of that node is younger than the oldest descendent of that node’s ancestor</td>
+<td>0 to 1, with one being perfectly consistent</td>
+</tr>
+<tr class="even">
+<td>Minimum Implied Gap (MIG)</td>
+<td>The sum of the branch lengths excluding tip durations</td>
+<td>Positive numbers in millions of years</td>
+</tr>
+<tr class="odd">
+<td>Relative Completeness Index (RCI)</td>
+<td>MIG score proportional to the summed length of tip durations</td>
+<td>All real numbers</td>
+</tr>
+<tr class="even">
+<td>Manhattan Stratigraphic Measure (MSM*)</td>
+<td>MIG for the maximally stratigraphically consistent possible tree divided by the actual MIG</td>
+<td>0 to 1, with one being the most consistent</td>
+</tr>
+<tr class="odd">
+<td>Gap Excess Ratio (GER)</td>
+<td>MIG minus the best possible stratigraphic fit, scaled by the contrast between the best and worst fit values</td>
+<td>0 to 1, with one being the most consistent</td>
+</tr>
+</tbody>
+</table></section>
+<section id="sansom-et-al.-2018-2" class="title-slide slide level1"><h1>Sansom et al. 2018</h1><p>This was a neat idea</p>
+<ul>
+<li>Stratigraphic congruence has been used to compare between competing hypotheses of topology</li>
+</ul></section>
+<section id="sansom-et-al.-2018-3" class="title-slide slide level1"><h1>Sansom et al. 2018</h1><p>Compared the most parsimonious set to 500 trees from the Bayesian posterior sample</p>
+<p><img data-src="images/Sansom.png" /></p></section>
+<section id="bayesian-phylogenetics" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>We’ve been stuck in this modality of Bayesian vs. parsimony for a long time.</p>
+<p>It is not exciting.</p></section>
+<section id="bayesian-phylogenetics-1" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>We’ve been stuck in this modality of Bayesian vs. parsimony for a long time.</p>
+<p>It is not exciting.</p>
+<p><img data-src="images/Wright2014.png" /></p></section>
+<section id="bayesian-phylogenetics-2" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>We’ve been stuck in this modality of Bayesian vs. parsimony for a long time.</p>
+<p>Bayesian morphological phylogenetics with the Mk model performs well enough</p>
+<p><img data-src="images/Wright1a.png" /></p></section>
+<section id="bayesian-phylogenetics-3" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>We’ve been stuck in this modality of Bayesian vs. parsimony for a long time.</p>
+<p>Bayesian phylogenetics estimates combinations of the tree topology + parameters that are plausible given a phylogenetic model and data</p>
+<p><img data-src="images/FullModel.png" /></p></section>
+<section id="bayesian-phylogenetics-4" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>Estimate combinations of the tree topology + parameters that are plausible given a phylogenetic model and data</p>
+<ul>
+<li>Solutions are visited in proportion to how likely they are</li>
+</ul></section>
+<section id="bayesian-phylogenetics-5" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>Estimate combinations of the tree topology + parameters that are plausible given a phylogenetic model and data</p>
+<ul>
+<li>Solutions are visited in proportion to how likely they are</li>
+<li>A good tree will be visited many times</li>
+</ul></section>
+<section id="bayesian-phylogenetics-6" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>Estimate combinations of the tree topology + parameters that are plausible given a phylogenetic model and data</p>
+<ul>
+<li>Solutions are visited in proportion to how likely they are</li>
+<li>A good tree will be visited many times</li>
+<li><strong>The distribution of solutions is information</strong></li>
+</ul></section>
+<section id="a-forest-or-a-tree" class="title-slide slide level1"><h1>A forest or a tree</h1><p><img data-src="images/forest.png" /></p></section>
+<section id="a-forest-or-a-tree-1" class="title-slide slide level1"><h1>A forest or a tree</h1><p><img data-src="images/MLP.png" /></p></section>
+<section id="a-forest-or-a-tree-2" class="title-slide slide level1"><h1>A forest or a tree</h1><p><img data-src="images/Bayes1.png" /></p></section>
+<section id="a-forest-or-a-tree-3" class="title-slide slide level1"><h1>A forest or a tree</h1><p><img data-src="images/Bayes.png" /></p></section>
+<section id="a-forest-or-a-tree-4" class="title-slide slide level1"><h1>A forest or a tree</h1><p>“We’ve replaced a maximum likelihood tree with the median or a distribution – is that better?” ~ Joëlle Barido-Sottani</p>
+<p><img data-src="images/Sansom.png" /></p></section>
+<section id="treeset-visualizations" class="title-slide slide level1"><h1>Treeset visualizations</h1><p>We wanted to show practitioners, who may or may not be very tech-savvy, how to easily make more sense of the posterior sample</p></section>
+<section id="treeset-visualizations-1" class="title-slide slide level1"><h1>Treeset visualizations</h1><p>Graphics that display trees in 2-D space based on their proximity to one another <img data-src="images/rwty.png" /></p></section>
+<section id="methods" class="title-slide slide level1"><h1>Methods</h1><ul>
+<li>Estimated parsimony trees (TNT, Goloboff and Catalano 2016) and Bayesian trees (Höhna et al 2016) for 127 published paleontological matrices</li>
+</ul></section>
+<section id="methods-1" class="title-slide slide level1"><h1>Methods</h1><ul>
+<li><p>Estimated parsimony trees (TNT, Goloboff and Catalano 2016) and Bayesian trees (Höhna et al 2016) for 127 published paleontological matrices</p></li>
+<li><p>Calculated stratigraphic congruence for all equally-parsimonious trees and the Bayesian posterior sample in the R package Strap (Bell and Lloyd 2015)</p></li>
+</ul></section>
+<section id="methods-2" class="title-slide slide level1"><h1>Methods</h1><ul>
+<li><p>Estimated parsimony trees (TNT, Goloboff and Catalano 2016) and Bayesian trees (Höhna et al 2016) for 127 published paleontological matrices</p></li>
+<li><p>Calculated stratigraphic congruence for all equally-parsimonious trees and the Bayesian posterior sample in the R package Strap (Bell and Lloyd 2015)</p></li>
+<li><p>Modified the RWTY (Warren, Geneva and Lanfear 2017) to color points in the treespace by MIG score</p></li>
+</ul></section>
+<section id="methods-3" class="title-slide slide level1"><h1>Methods</h1><ul>
+<li><p>Estimated parsimony trees (TNT, Goloboff and Catalano 2016) and Bayesian trees (Höhna et al 2016) for 127 published paleontological matrices</p></li>
+<li><p>Calculated stratigraphic congruence for all equally-parsimonious trees and the Bayesian posterior sample in the R package Strap (Bell and Lloyd 2015)</p></li>
+<li><p>Modified the RWTY (Warren, Geneva and Lanfear 2017) to color points in the treespace by MIG score</p></li>
+<li><p>Also calculated some basic summary tables across the datasets using tidyverse</p></li>
+</ul></section>
+<section id="results" class="title-slide slide level1"><h1>Results</h1><ul>
+<li>63% of datasets had the highest <em>average</em> stratigraphic congruence with parsimony</li>
+</ul></section>
+<section id="results-1" class="title-slide slide level1"><h1>Results</h1><ul>
+<li>63% of datasets had the highest <em>average</em> stratigraphic congruence with parsimony</li>
+<li>In 94% of datasets the highest stratigraphic congruence value was observed in the Bayesian posterior sample</li>
+</ul></section>
+<section id="results-2" class="title-slide slide level1"><h1>Results</h1><ul>
+<li>63% of datasets had the highest <em>average</em> stratigraphic congruence with parsimony</li>
+<li>In 94% of datasets the highest stratigraphic congruence value was observed in the Bayesian posterior sample</li>
+<li>In 99% of datasets the lowest stratigraphic congruence was found in the Bayesian posterior sample</li>
+</ul></section>
+<section id="results-3" class="title-slide slide level1"><h1>Results</h1><ul>
+<li>63% of datasets had the highest <em>average</em> stratigraphic congruence with parsimony</li>
+<li>In 94% of datasets the highest stratigraphic congruence value was observed in the Bayesian posterior sample</li>
+<li>In 99% of datasets the lowest stratigraphic congruence was found in the Bayesian posterior sample</li>
+</ul></section>
+<section id="results-4" class="title-slide slide level1"><h1>Results</h1><p>Example dataset: Yates (2003)</p>
+<p><img data-src="images/YatesA.png" /></p></section>
+<section id="results-5" class="title-slide slide level1"><h1>Results</h1><p>Example dataset: Yates (2003)</p>
+<p><img data-src="images/YatesC.png" /></p></section>
+<section id="results-6" class="title-slide slide level1"><h1>Results</h1><p>Example dataset: Demar 2013 <img data-src="images/DemarA.png" /></p></section>
+<section id="results-7" class="title-slide slide level1"><h1>Results</h1><p>Example dataset: Demar 2013 <img data-src="images/DemarC.png" /></p></section>
+<section id="summary" class="title-slide slide level1"><h1>Summary</h1><p>Bayesian methods estimate a sample of solutions</p></section>
+<section id="summary-1" class="title-slide slide level1"><h1>Summary</h1><p>Bayesian methods estimate a sample of solutions</p>
+<p>Unlike other methods, the distribution itself may be important</p></section>
+<section id="summary-2" class="title-slide slide level1"><h1>Summary</h1><p>Bayesian methods estimate a sample of solutions</p>
+<p>Unlike other methods, the distribution itself may be important</p>
+<p>Looking at the full distribution of trees can provide us with information that one solution itself may not</p></section>
+<section id="summary-3" class="title-slide slide level1"><h1>Summary</h1><p>We shouldn’t be asking “Is Bayes or parsimony better?”</p></section>
+<section id="summary-4" class="title-slide slide level1"><h1>Summary</h1><p>We shouldn’t be asking “Is Bayes or parsimony better?”</p>
+<p>We should instead be looking for ways to comfortably visualize variation in large datasets</p></section>
+<section id="summary-5" class="title-slide slide level1"><h1>Summary</h1><p>We shouldn’t be asking “Is Bayes or parsimony better?”</p>
+<p>We should instead be looking for ways to comfortably visualize variation in large datasets</p>
+<p>Treespace visualizations provide an easy and intuitive way to do this</p></section>
+<section id="thank-you" class="title-slide slide level1"><h1>Thank You!</h1><p>A sincere thank you to Sebastian for inviting me!</p>
+<p>To Dan Warren and Rob Lanfear for the endlessly hackable RWTY software</p>
+<p>And to my co-author and partner in crime, Dr. Graeme Lloyd</p>
+<p><img data-src="images/url.png" /></p></section>
+    </div>
+  </div>
+
+  <script src="03_hohna_lab_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="03_hohna_lab_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // Display the page number of the current slide
+        slideNumber: true,
+        // Push each slide change to the browser history
+        history: true,
+        // Vertical centering of slides
+        center: false,
+        // Opens links in an iframe preview overlay
+        previewLinks: true,
+        // Transition style
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+        height: 800,
+
+
+
+        // Optional reveal.js plugins
+        dependencies: [
+        ]
+      });
+    </script>
+  <!-- dynamically load mathjax for compatibility with self-contained -->
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
+<script>
+  (function() {
+    if (window.jQuery) {
+      Reveal.addEventListener( 'slidechanged', function(event) {  
+        window.jQuery(event.previousSlide).trigger('hidden');
+        window.jQuery(event.currentSlide).trigger('shown');
+      });
+    }
+  })();
+</script>
+
+
+  </body>
+</html>
