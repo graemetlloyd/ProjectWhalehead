@@ -62,6 +62,9 @@
     <li>
       <a href="../articles/02_SBE.html">BAYESIAN ANALYSES IN PHYLOGENETIC PALAEONTOLOGY: INTERPRETING THE POSTERIOR SAMPLE</a>
     </li>
+    <li>
+      <a href="../articles/03_hohna_lab.html">Lab Visit: INTERPRETING THE POSTERIOR SAMPLE</a>
+    </li>
   </ul>
 </li>
       </ul>
@@ -93,24 +96,25 @@
 <p>Before you begin, install the package with:</p>
 <div class="sourceCode" id="cb1"><html><body><pre class="r"><span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/remote-reexports.html">install_github</a></span>(<span class="st">"graemetlloyd/ProjectWhalehead"</span>)
 <span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/remote-reexports.html">install_github</a></span>(<span class="st">"graemetlloyd/metatree"</span>)
-<span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/remote-reexports.html">install_github</a></span>(<span class="st">"graemetlloyd/Claddis"</span>)</pre></body></html></div>
+<span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/remote-reexports.html">install_github</a></span>(<span class="st">"graemetlloyd/Claddis"</span>)
+<span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/remote-reexports.html">install_github</a></span>(<span class="st">"graemetlloyd/hypRspace"</span>)</pre></body></html></div>
 <p>Now, we’ll load libraries and ensure we’re in the right place (<code>getwd</code> should return “ProjectWhalehead”’s location on your machine).</p>
 <div class="sourceCode" id="cb2"><html><body><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">Whalehead</span>)
 <span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">metatree</span>)
 <span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">Claddis</span>)
 <span class="fu"><a href="https://rdrr.io/r/base/getwd.html">getwd</a></span>()</pre></body></html></div>
 <p>To reproduce the paper, you will make sure all the tips have both data and metadata. If they do, you will get ages from PBDB.</p>
-<div class="sourceCode" id="cb3"><html><body><pre class="r"><span class="kw pkg">Whalehead</span><span class="kw ns">::</span><span class="fu"><a href="../reference/build_ages.html">build_ages</a></span>(<span class="st">"../Data/NEXUS/"</span>, <span class="st">"../Data/XML/"</span>, <span class="st">"../Data/Ages"</span>)</pre></body></html></div>
+<div class="sourceCode" id="cb3"><html><body><pre class="r"><span class="kw pkg">Whalehead</span><span class="kw ns">::</span><span class="fu"><a href="../reference/build_ages.html">build_ages</a></span>(<span class="st">"Data/NEXUS/"</span>, <span class="st">"Data/XML/"</span>, <span class="st">"Data/Ages"</span>)</pre></body></html></div>
 <p>Then, you will check the datasets to make sure all the tips have names and those names can be synchronized across data sources. Also, disregard any sets with missing tip ages.</p>
-<div class="sourceCode" id="cb4"><html><body><pre class="r"><span class="fu"><a href="../reference/remove_unreconciled.html">remove_unreconciled</a></span>(<span class="st">"../Data/XML"</span>)
-<span class="fu"><a href="../reference/remove_missing_tips.html">remove_missing_tips</a></span>(<span class="st">"../Data/XML"</span>)</pre></body></html></div>
+<div class="sourceCode" id="cb4"><html><body><pre class="r"><span class="fu"><a href="../reference/remove_unreconciled.html">remove_unreconciled</a></span>(<span class="st">"Data/XML"</span>)
+<span class="fu"><a href="../reference/remove_missing_tips.html">remove_missing_tips</a></span>(<span class="st">"Data/XML"</span>)</pre></body></html></div>
 <p>We have included the scripts to estimate phylogenetic trees from the data. This is time-intensive and we will not reproduce this analysis in this notebook. We will skip straight to making the stratigraphic congruence output.</p>
-<div class="sourceCode" id="cb5"><html><body><pre class="r"><span class="fu"><a href="../reference/make_strat_congruence.html">make_strat_congruence</a></span>(<span class="st">"../Data/RevBayesOutput/"</span>, <span class="st">"../Data/NEXUS/"</span>, <span class="st">"../Data/Ages/"</span>, <span class="st">"../Data/MPTS/"</span>, <span class="st">"revbayes_output"</span>, <span class="st">"parsimony_out"</span>)</pre></body></html></div>
+<div class="sourceCode" id="cb5"><html><body><pre class="r"><span class="fu"><a href="../reference/make_strat_congruence.html">make_strat_congruence</a></span>(<span class="st">"Data/RevBayesOutput/"</span>, <span class="st">"Data/NEXUS/"</span>, <span class="st">"Data/Ages/"</span>, <span class="st">"Data/MPTS/"</span>, <span class="st">"revbayes_output"</span>, <span class="st">"parsimony_out"</span>)</pre></body></html></div>
 <p>Next, we can summarize the data in a few ways. To make table two:</p>
-<div class="sourceCode" id="cb6"><html><body><pre class="r"><span class="no">fi</span> <span class="kw">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.files.html">list.files</a></span>(<span class="st">"data/StratCongruenceResults/"</span>)
+<div class="sourceCode" id="cb6"><html><body><pre class="r"><span class="no">fi</span> <span class="kw">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.files.html">list.files</a></span>(<span class="st">"Data/StratCongruenceResults/"</span>)
 <span class="fu"><a href="https://rdrr.io/r/base/lapply.html">sapply</a></span>(<span class="no">fi</span>, <span class="no">summary_stat</span>)</pre></body></html></div>
 <p>Or your could summarize all of the files at once:</p>
-<div class="sourceCode" id="cb7"><html><body><pre class="r"><span class="fu"><a href="../reference/summarize_medians.html">summarize_medians</a></span>(<span class="kw">user.path</span> <span class="kw">=</span> <span class="st">"data/StratCongruenceResults/"</span>)</pre></body></html></div>
+<div class="sourceCode" id="cb7"><html><body><pre class="r"><span class="fu"><a href="../reference/summarize_medians.html">summarize_medians</a></span>(<span class="kw">user.path</span> <span class="kw">=</span> <span class="st">"Data/StratCongruenceResults/"</span>)</pre></body></html></div>
 <p>Or make violin and box plots of them:</p>
 <div class="sourceCode" id="cb8"><html><body><pre class="r"><span class="no">files</span> <span class="kw">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.files.html">list.files</a></span>(<span class="kw">path</span> <span class="kw">=</span> <span class="no">user.path</span>, <span class="kw">pattern</span> <span class="kw">=</span> <span class="st">"*.txt"</span>, <span class="kw">full.names</span> <span class="kw">=</span> <span class="fl">TRUE</span>, <span class="kw">recursive</span> <span class="kw">=</span> <span class="fl">FALSE</span>)
 <span class="fu"><a href="https://rdrr.io/r/base/files2.html">dir.create</a></span>(<span class="st">"ViolinPlots"</span>)
