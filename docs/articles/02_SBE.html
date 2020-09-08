@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="April Wright, Southeastern Louisiana University" />
-  <meta name="dcterms.date" content="2020-07-28" />
-  <title>BAYESIAN ANALYSES IN PHYLOGENETIC PALAEONTOLOGY: INTERPRETING THE POSTERIOR SAMPLE</title>
+  <meta name="dcterms.date" content="2020-09-10" />
+  <title>Lab Visit: INTERPRETING THE POSTERIOR SAMPLE</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="SBE_files/reveal.js-3.3.0.1/css/reveal.css"/>
+  <link rel="stylesheet" href="03_hohna_lab_files/reveal.js-3.3.0.1/css/reveal.css"/>
 
 
 
-<link rel="stylesheet" href="SBE_files/reveal.js-3.3.0.1/css/theme/solarized.css" id="theme">
+<link rel="stylesheet" href="03_hohna_lab_files/reveal.js-3.3.0.1/css/theme/solarized.css" id="theme">
 
 
   <!-- some tweaks to reveal css -->
@@ -450,228 +450,112 @@ document.getElementsByTagName('head')[0].appendChild(style);
     <div class="slides">
 
 <section>
-    <h1 class="title">BAYESIAN ANALYSES IN PHYLOGENETIC PALAEONTOLOGY: INTERPRETING THE POSTERIOR SAMPLE</h1>
+    <h1 class="title">Lab Visit: INTERPRETING THE POSTERIOR SAMPLE</h1>
     <h2 class="author">April Wright, Southeastern Louisiana University</h2>
-    <h3 class="date">July 28, 2020</h3>
+    <h3 class="date">September 10, 2020</h3>
 </section>
 
-<section id="talk-slides-etc." class="title-slide slide level1"><h1>Talk slides, etc.</h1><p><a href="https://bit.ly/3hx80oi" class="uri">https://bit.ly/3hx80oi</a></p></section>
-<section id="bayesian-phylogenetics" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>Estimate combinations of the tree topology + parameters that are plausible given a phylogenetic model and data</p></section>
-<section id="bayesian-phylogenetics-1" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>Estimate combinations of the tree topology + parameters that are plausible given a phylogenetic model and data</p>
-<p><img data-src="images/Trip.png" /></p></section>
-<section id="bayesian-phylogenetics-2" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>Estimate combinations of the tree topology + parameters that are plausible given a phylogenetic model and data</p>
-<p><img data-src="images/BayesTheorem.png" /></p></section>
-<section id="bayesian-phylogenetics-3" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>Estimate combinations of the tree topology + parameters that are plausible given a phylogenetic model and data</p>
+<section id="talk-slides-etc." class="title-slide slide level1"><h1>Talk slides, etc.</h1><p><a href="https://graemetlloyd.github.io/ProjectWhalehead/" class="uri">https://graemetlloyd.github.io/ProjectWhalehead/</a></p></section>
+<section id="where-did-this-manuscript-come-from" class="title-slide slide level1"><h1>Where did this manuscript come from?</h1><p><img data-src="images/Sansom2018.png" /></p></section>
+<section id="sansom-et-al.-2018" class="title-slide slide level1"><h1>Sansom et al. 2018</h1><p>Comparison between Bayesian and parsimony trees using measures of <em>stratigraphic congruence</em></p></section>
+<section id="sansom-et-al.-2018-1" class="title-slide slide level1"><h1>Sansom et al. 2018</h1><table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 37%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Metric</th>
+<th>Meaning</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Stratigraphic Consistency Index (SCI)</td>
+<td>Proportion of nodes for which the oldest descendent of that node is younger than the oldest descendent of that node’s ancestor</td>
+<td>0 to 1, with one being perfectly consistent</td>
+</tr>
+<tr class="even">
+<td>Minimum Implied Gap (MIG)</td>
+<td>The sum of the branch lengths excluding tip durations</td>
+<td>Positive numbers in millions of years</td>
+</tr>
+<tr class="odd">
+<td>Relative Completeness Index (RCI)</td>
+<td>MIG score proportional to the summed length of tip durations</td>
+<td>All real numbers</td>
+</tr>
+<tr class="even">
+<td>Manhattan Stratigraphic Measure (MSM*)</td>
+<td>MIG for the maximally stratigraphically consistent possible tree divided by the actual MIG</td>
+<td>0 to 1, with one being the most consistent</td>
+</tr>
+<tr class="odd">
+<td>Gap Excess Ratio (GER)</td>
+<td>MIG minus the best possible stratigraphic fit, scaled by the contrast between the best and worst fit values</td>
+<td>0 to 1, with one being the most consistent</td>
+</tr>
+</tbody>
+</table></section>
+<section id="sansom-et-al.-2018-2" class="title-slide slide level1"><h1>Sansom et al. 2018</h1><p>This was a neat idea</p>
+<ul>
+<li>Stratigraphic congruence has been used to compare between competing hypotheses of topology</li>
+</ul></section>
+<section id="sansom-et-al.-2018-3" class="title-slide slide level1"><h1>Sansom et al. 2018</h1><p>Compared the most parsimonious set to 500 trees from the Bayesian posterior sample</p>
+<p><img data-src="images/Sansom.png" /></p></section>
+<section id="bayesian-phylogenetics" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>We’ve been stuck in this modality of Bayesian vs. parsimony for a long time.</p>
+<p>It is not exciting.</p></section>
+<section id="bayesian-phylogenetics-1" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>We’ve been stuck in this modality of Bayesian vs. parsimony for a long time.</p>
+<p>It is not exciting.</p>
+<p><img data-src="images/Wright2014.png" /></p></section>
+<section id="bayesian-phylogenetics-2" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>We’ve been stuck in this modality of Bayesian vs. parsimony for a long time.</p>
+<p>Bayesian morphological phylogenetics with the Mk model performs well enough</p>
+<p><img data-src="images/Wright1a.png" /></p></section>
+<section id="bayesian-phylogenetics-3" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>We’ve been stuck in this modality of Bayesian vs. parsimony for a long time.</p>
+<p>Bayesian phylogenetics estimates combinations of the tree topology + parameters that are plausible given a phylogenetic model and data</p>
 <p><img data-src="images/FullModel.png" /></p></section>
 <section id="bayesian-phylogenetics-4" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>Estimate combinations of the tree topology + parameters that are plausible given a phylogenetic model and data</p>
-<p><img data-src="images/Mcmc.png" /></p></section>
+<ul>
+<li>Solutions are visited in proportion to how likely they are</li>
+</ul></section>
 <section id="bayesian-phylogenetics-5" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>Estimate combinations of the tree topology + parameters that are plausible given a phylogenetic model and data</p>
 <ul>
 <li>Solutions are visited in proportion to how likely they are</li>
+<li>A good tree will be visited many times</li>
 </ul></section>
 <section id="bayesian-phylogenetics-6" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>Estimate combinations of the tree topology + parameters that are plausible given a phylogenetic model and data</p>
 <ul>
 <li>Solutions are visited in proportion to how likely they are</li>
 <li>A good tree will be visited many times</li>
-</ul></section>
-<section id="bayesian-phylogenetics-7" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>Estimate combinations of the tree topology + parameters that are plausible given a phylogenetic model and data</p>
-<ul>
-<li>Solutions are visited in proportion to how likely they are</li>
-<li>A good tree will be visited many times</li>
 <li><strong>The distribution of solutions is information</strong></li>
 </ul></section>
-<section id="bayesian-phylogenetics-8" class="title-slide slide level1"><h1>Bayesian Phylogenetics</h1><p>This is a contrast with other methods</p></section>
 <section id="a-forest-or-a-tree" class="title-slide slide level1"><h1>A forest or a tree</h1><p><img data-src="images/forest.png" /></p></section>
 <section id="a-forest-or-a-tree-1" class="title-slide slide level1"><h1>A forest or a tree</h1><p><img data-src="images/MLP.png" /></p></section>
 <section id="a-forest-or-a-tree-2" class="title-slide slide level1"><h1>A forest or a tree</h1><p><img data-src="images/Bayes1.png" /></p></section>
 <section id="a-forest-or-a-tree-3" class="title-slide slide level1"><h1>A forest or a tree</h1><p><img data-src="images/Bayes.png" /></p></section>
-<section id="what-is-a-phylogeny" class="title-slide slide level1"><h1>What is a phylogeny?</h1><ul>
-<li>A hypothesis about relationships between the tips of the tree</li>
-</ul></section>
-<section id="what-is-a-phylogeny-1" class="title-slide slide level1"><h1>What is a phylogeny?</h1><ul>
-<li>A hypothesis about relationships between the tips of the tree</li>
-<li>Which means we’re estimating divergences that occurred millions of years ago</li>
-</ul></section>
-<section id="what-is-a-phylogeny-2" class="title-slide slide level1"><h1>What is a phylogeny?</h1><ul>
-<li>A hypothesis about relationships between the tips of the tree</li>
-<li>Which means we’re estimating divergences that occurred millions of years ago</li>
-<li>In contemporary methods, such as the fossilized birth-death, we may be estimating values for a lot of parameters</li>
-</ul></section>
-<section id="phylogenetic-data" class="title-slide slide level1"><h1>Phylogenetic data</h1><ul>
-<li>In our best-sampled groups, we often have patchy species and locus coverage</li>
-</ul></section>
-<section id="phylogenetic-data-1" class="title-slide slide level1"><h1>Phylogenetic data</h1><ul>
-<li>In our best-sampled groups, we often have patchy species and locus coverage</li>
-<li>In the fossil record, we might hope to be able to sample a miniscule fragment of paleodiversity</li>
-</ul></section>
-<section id="phylogenetic-data-2" class="title-slide slide level1"><h1>Phylogenetic data</h1><ul>
-<li>In our best-sampled groups, we often have patchy species and locus coverage</li>
-<li>In the fossil record, we might hope to be able to sample a miniscule fragment of paleodiversity
-<ul>
-<li>With known biases, such as hard parts fossilization, or fossilization associated with life history or ecology traits</li>
-</ul></li>
-</ul></section>
-<section id="phylogenetic-data-3" class="title-slide slide level1"><h1>Phylogenetic data</h1><ul>
-<li>In our best-sampled groups, we often have patchy species and locus coverage</li>
-<li>In the fossil record, we might hope to be able to sample a miniscule fragment of paleodiversity
-<ul>
-<li>With known biases, such as hard parts fossilization, or fossilization associated with life history or ecology traits</li>
-</ul></li>
-</ul></section>
-<section id="phylogenetic-data-4" class="title-slide slide level1"><h1>Phylogenetic data</h1><p>Ultimately, we are often estimating long-ago events from biased and scarce data.</p></section>
-<section id="phylogenetic-data-5" class="title-slide slide level1"><h1>Phylogenetic data</h1><p>The best thing we can be is humble</p></section>
-<section id="phylogenetic-data-6" class="title-slide slide level1"><h1>Phylogenetic data</h1><p>The best thing we can be is humble</p>
-<p><strong>and that means becoming friendly with uncertainty</strong></p></section>
-<section id="so-how-do-we-think-about-the-posterior" class="title-slide slide level1"><h1>So how do we think about the posterior?</h1><p>In 2018, Sansom et al. did a comparison between Bayesian and parsimony trees using measures of stratigraphic congruence <img data-src="images/Sansom.png" /></p></section>
-<section id="so-how-do-we-think-about-the-posterior-1" class="title-slide slide level1"><h1>So how do we think about the posterior?</h1><p>Concluded parsimony trees have better stratigraphic congruence <img data-src="images/Sansom.png" /></p></section>
-<section id="so-how-do-we-think-about-the-posterior-2" class="title-slide slide level1"><h1>So how do we think about the posterior?</h1><p>There are many ways to measure stratigraphic congruence</p>
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 37%" />
-<col style="width: 29%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Metric</th>
-<th>Meaning</th>
-<th>Range</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Stratigraphic Consistency Index (SCI)</td>
-<td>Proportion of nodes for which the oldest descendent of that node is younger than the oldest descendent of that node’s ancestor</td>
-<td>0 to 1, with one being perfectly consistent</td>
-</tr>
-<tr class="even">
-<td>Minimum Implied Gap (MIG)</td>
-<td>The sum of the branch lengths excluding tip durations</td>
-<td>Positive numbers in millions of years</td>
-</tr>
-<tr class="odd">
-<td>Relative Completeness Index (RCI)</td>
-<td>MIG score proportional to the summed length of tip durations</td>
-<td>All real numbers</td>
-</tr>
-<tr class="even">
-<td>Manhattan Stratigraphic Measure (MSM*)</td>
-<td>MIG for the maximally stratigraphically consistent possible tree divided by the actual MIG</td>
-<td>0 to 1, with one being the most consistent</td>
-</tr>
-<tr class="odd">
-<td>Gap Excess Ratio (GER)</td>
-<td>MIG minus the best possible stratigraphic fit, scaled by the contrast between the best and worst fit values</td>
-<td>0 to 1, with one being the most consistent</td>
-</tr>
-</tbody>
-</table></section>
-<section id="so-how-do-we-think-about-the-posterior-3" class="title-slide slide level1"><h1>So how do we think about the posterior?</h1><p>These metrics quantify how consistent a phylogeny is with the rock record</p>
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 37%" />
-<col style="width: 29%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Metric</th>
-<th>Meaning</th>
-<th>Range</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Stratigraphic Consistency Index (SCI)</td>
-<td>Proportion of nodes for which the oldest descendent of that node is younger than the oldest descendent of that node’s ancestor</td>
-<td>0 to 1, with one being perfectly consistent</td>
-</tr>
-<tr class="even">
-<td>Minimum Implied Gap (MIG)</td>
-<td>The sum of the branch lengths excluding tip durations</td>
-<td>Positive numbers in millions of years</td>
-</tr>
-<tr class="odd">
-<td>Relative Completeness Index (RCI)</td>
-<td>MIG score proportional to the summed length of tip durations</td>
-<td>All real numbers</td>
-</tr>
-<tr class="even">
-<td>Manhattan Stratigraphic Measure (MSM*)</td>
-<td>MIG for the maximally stratigraphically consistent possible tree divided by the actual MIG</td>
-<td>0 to 1, with one being the most consistent</td>
-</tr>
-<tr class="odd">
-<td>Gap Excess Ratio (GER)</td>
-<td>MIG minus the best possible stratigraphic fit, scaled by the contrast between the best and worst fit values</td>
-<td>0 to 1, with one being the most consistent</td>
-</tr>
-</tbody>
-</table></section>
-<section id="so-how-do-we-think-about-the-posterior-4" class="title-slide slide level1"><h1>So how do we think about the posterior?</h1><p>These metrics quantify how consistent a phylogeny is with the rock record</p>
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 37%" />
-<col style="width: 29%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Metric</th>
-<th>Meaning</th>
-<th>Range</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Stratigraphic Consistency Index (SCI)</td>
-<td>Proportion of nodes for which the oldest descendent of that node is younger than the oldest descendent of that node’s ancestor</td>
-<td>0 to 1, with one being perfectly consistent</td>
-</tr>
-<tr class="even">
-<td><strong>Minimum Implied Gap (MIG)</strong></td>
-<td>The sum of the branch lengths excluding tip durations</td>
-<td>Positive numbers in millions of years</td>
-</tr>
-<tr class="odd">
-<td>Relative Completeness Index (RCI)</td>
-<td>MIG score proportional to the summed length of tip durations</td>
-<td>All real numbers</td>
-</tr>
-<tr class="even">
-<td>Manhattan Stratigraphic Measure (MSM*)</td>
-<td>MIG for the maximally stratigraphically consistent possible tree divided by the actual MIG</td>
-<td>0 to 1, with one being the most consistent</td>
-</tr>
-<tr class="odd">
-<td>Gap Excess Ratio (GER)</td>
-<td>MIG minus the best possible stratigraphic fit, scaled by the contrast between the best and worst fit values</td>
-<td>0 to 1, with one being the most consistent</td>
-</tr>
-</tbody>
-</table></section>
-<section id="so-how-do-we-think-about-the-posterior-5" class="title-slide slide level1"><h1>So how do we think about the posterior?</h1><p>Sansom et al. took 500 samples from the posterior and compared those with the most parsimonious tree <img data-src="images/Sansom.png" /></p></section>
-<section id="so-how-do-we-think-about-the-posterior-6" class="title-slide slide level1"><h1>So how do we think about the posterior?</h1><p>But is there more information in the posterior than a random sample can show us? <img data-src="images/MIG.png" /></p></section>
-<section id="treeset-visualizations" class="title-slide slide level1"><h1>Treeset visualizations</h1><p>Graphics that display trees in 2-D space based on their proximity to one another <img data-src="images/rwty.png" /></p></section>
-<section id="treeset-visualizations-1" class="title-slide slide level1"><h1>Treeset visualizations</h1><p>Could these be a valuable tool for looking at the posterior sample?</p></section>
-<section id="treeset-visualizations-2" class="title-slide slide level1"><h1>Treeset visualizations</h1><p>Is this how we see our forest? <img data-src="images/Bayes.png" /></p></section>
+<section id="a-forest-or-a-tree-4" class="title-slide slide level1"><h1>A forest or a tree</h1><p>“We’ve replaced a maximum likelihood tree with the median or a distribution – is that better?” ~ Joëlle Barido-Sottani</p>
+<p><img data-src="images/Sansom.png" /></p></section>
+<section id="treeset-visualizations" class="title-slide slide level1"><h1>Treeset visualizations</h1><p>We wanted to show practitioners, who may or may not be very tech-savvy, how to easily make more sense of the posterior sample</p></section>
+<section id="treeset-visualizations-1" class="title-slide slide level1"><h1>Treeset visualizations</h1><p>Graphics that display trees in 2-D space based on their proximity to one another <img data-src="images/rwty.png" /></p></section>
 <section id="methods" class="title-slide slide level1"><h1>Methods</h1><ul>
-<li>Estimated parsimony trees (TNT, Goloboff and Catalano 2016) and Bayesian trees (Hoehna et al 2016) for 127 published paleontological matrices</li>
+<li>Estimated parsimony trees (TNT, Goloboff and Catalano 2016) and Bayesian trees (Höhna et al 2016) for 127 published paleontological matrices</li>
 </ul></section>
 <section id="methods-1" class="title-slide slide level1"><h1>Methods</h1><ul>
 <li><p>Estimated parsimony trees (TNT, Goloboff and Catalano 2016) and Bayesian trees (Höhna et al 2016) for 127 published paleontological matrices</p></li>
 <li><p>Calculated stratigraphic congruence for all equally-parsimonious trees and the Bayesian posterior sample in the R package Strap (Bell and Lloyd 2015)</p></li>
 </ul></section>
 <section id="methods-2" class="title-slide slide level1"><h1>Methods</h1><ul>
-<li><p>Estimated parsimony trees (TNT, Goloboff and Catalano 2016) and Bayesian trees (Hoehna et al 2016) for 127 published paleontological matrices</p></li>
+<li><p>Estimated parsimony trees (TNT, Goloboff and Catalano 2016) and Bayesian trees (Höhna et al 2016) for 127 published paleontological matrices</p></li>
 <li><p>Calculated stratigraphic congruence for all equally-parsimonious trees and the Bayesian posterior sample in the R package Strap (Bell and Lloyd 2015)</p></li>
 <li><p>Modified the RWTY (Warren, Geneva and Lanfear 2017) to color points in the treespace by MIG score</p></li>
 </ul></section>
 <section id="methods-3" class="title-slide slide level1"><h1>Methods</h1><ul>
-<li><p>Estimated parsimony trees (TNT, Goloboff and Catalano 2016) and Bayesian trees (Hoehna et al 2016) for 127 published paleontological matrices</p></li>
+<li><p>Estimated parsimony trees (TNT, Goloboff and Catalano 2016) and Bayesian trees (Höhna et al 2016) for 127 published paleontological matrices</p></li>
 <li><p>Calculated stratigraphic congruence for all equally-parsimonious trees and the Bayesian posterior sample in the R package Strap (Bell and Lloyd 2015)</p></li>
 <li><p>Modified the RWTY (Warren, Geneva and Lanfear 2017) to color points in the treespace by MIG score</p></li>
-<li><p>Also calculated some basic summary tables across thee datasets using tidyverse</p></li>
+<li><p>Also calculated some basic summary tables across the datasets using tidyverse</p></li>
 </ul></section>
 <section id="results" class="title-slide slide level1"><h1>Results</h1><ul>
 <li>63% of datasets had the highest <em>average</em> stratigraphic congruence with parsimony</li>
@@ -708,15 +592,15 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <section id="summary-5" class="title-slide slide level1"><h1>Summary</h1><p>We shouldn’t be asking “Is Bayes or parsimony better?”</p>
 <p>We should instead be looking for ways to comfortably visualize variation in large datasets</p>
 <p>Treespace visualizations provide an easy and intuitive way to do this</p></section>
-<section id="thank-you" class="title-slide slide level1"><h1>Thank You!</h1><p>A sincere thank you to the organizers of this excellent event!</p>
+<section id="thank-you" class="title-slide slide level1"><h1>Thank You!</h1><p>A sincere thank you to Sebastian for inviting me!</p>
 <p>To Dan Warren and Rob Lanfear for the endlessly hackable RWTY software</p>
 <p>And to my co-author and partner in crime, Dr. Graeme Lloyd</p>
 <p><img data-src="images/url.png" /></p></section>
     </div>
   </div>
 
-  <script src="SBE_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
-  <script src="SBE_files/reveal.js-3.3.0.1/js/reveal.js"></script>
+  <script src="03_hohna_lab_files/reveal.js-3.3.0.1/lib/js/head.min.js"></script>
+  <script src="03_hohna_lab_files/reveal.js-3.3.0.1/js/reveal.js"></script>
 
   <script>
 
